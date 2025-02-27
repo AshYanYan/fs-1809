@@ -1,0 +1,51 @@
+Display Name,Org ID,Report Type,Template ID
+PROD PA,,,
+Select Health SUPD/SPC 2024,211661fd-540e-4855-9b0c-861a6a765603,PCP_WH,557f0fc9-1cf6-4481-aea5-5d6b806417ef
+BSCA RxAMR V1 2024,2eb90723-0f9c-4ab2-9042-861f0945dd34,PCP_WH,edf38774-280a-4226-b45d-ff1eef3c59ec
+Q4 2024 Medicaid,b144f12a-efb5-439c-8e40-074357ff3a57,PCP_WH,a1db6c1c-2087-45eb-96f0-3063ca39e991
+Q4 2024 Medicare,b144f12a-efb5-439c-8e40-074357ff3a57,PCP_WH,a1db6c1c-2087-45eb-96f0-3063ca39e991
+Connecticut Department of Public Health 2024 Q4,749c513f-2f39-4776-b2a7-b655c0e613bc,PCP_WH,f4bef20f-ccd8-47fb-8fe4-e82a2bbb21cd
+Idaho Department of Health and Welfare 2024 Q4,3efa9ebf-5f0b-4525-8498-585b0312ad09,PCP_WH,1e3785a2-a8c9-4425-aacb-61ee40b543a4
+Pennsylvania Department of Health 2024 Q4,1a7fe0fc-334c-4f0e-b0f8-63220f1053c1,PCP_WH,bac2bcde-c30c-4a5e-a3f7-cd16a542a0e7
+Michigan Department of Health and Human Services 2024 Q4,001a5179-2a06-44ec-9728-89f1aa1c8361,PCP_WH,75d2992c-e186-4419-8288-8507b1a81025
+Healthfirst Deprescribing,03f0d4ab-847e-46b7-a9e3-094971e409af,PCP_WH,f72ec609-4e92-4221-9d0e-ad354bec0038
+Healthfirst HIV Deprescribing,03f0d4ab-847e-46b7-a9e3-094971e409af,PCP_WH,f72ec609-4e92-4221-9d0e-ad354bec0038
+VNS A1C 2024,50dbdb93-8dd4-4dfb-9ff3-4f2cf81e1cb4,PCP_WH,f9067bba-dad2-4b09-bcc5-a6c63a66a054
+VNS BCS 2024,50dbdb93-8dd4-4dfb-9ff3-4f2cf81e1cb4,PCP_WH,f9067bba-dad2-4b09-bcc5-a6c63a66a054
+VNS CBP 2024,50dbdb93-8dd4-4dfb-9ff3-4f2cf81e1cb4,PCP_WH,f9067bba-dad2-4b09-bcc5-a6c63a66a054
+VNS COL 2024,50dbdb93-8dd4-4dfb-9ff3-4f2cf81e1cb4,PCP_WH,f9067bba-dad2-4b09-bcc5-a6c63a66a054
+VNS SPC 2024,50dbdb93-8dd4-4dfb-9ff3-4f2cf81e1cb4,PCP_WH,f9067bba-dad2-4b09-bcc5-a6c63a66a054
+VNS SUPD 2024,50dbdb93-8dd4-4dfb-9ff3-4f2cf81e1cb4,PCP_WH,f9067bba-dad2-4b09-bcc5-a6c63a66a054
+Poly-ACH 2024 Needs Monitoring,b8bb0b52-57b5-4064-8148-4f8c030e32d0,PCP_WH,2c107c34-ad60-47b2-a66c-501c10e9ae56
+Poly-ACH 2024 At Risk,b8bb0b52-57b5-4064-8148-4f8c030e32d0,PCP_WH,2c107c34-ad60-47b2-a66c-501c10e9ae56
+Elderplan Medicare 2024 Q4,64b6f903-43d7-46ba-b979-5670d0b6fd33,PCP_WH,a759d768-51bd-49d2-a3ee-7ec697b9403f
+,,,
+PROD TMR (Old script),,,
+BSC Outreach ,392144ef-b374-4876-b4d3-e9c1d598a183,PCP_QUAL_ADH,1d8b99d2-c2ed-460c-9ef7-81c18cbf7359
+BSC SPC,392144ef-b374-4876-b4d3-e9c1d598a183,PCP_QUAL_SPC,ac947eef-e39b-40b6-9a04-84cd8d384d8a
+BSC SUPD,392144ef-b374-4876-b4d3-e9c1d598a183,PCP_QUAL_SUPD,b0e53476-2f55-42e6-8f66-833b52926a33
+Cambia OMW,7467cca5-137a-403f-af85-b18c4f4777eb,PCP_QUAL_OMW,fa5c3e49-7956-4786-a772-e58b8813aa8f
+Cambia SPC,7467cca5-137a-403f-af85-b18c4f4777eb,PCP_QUAL_SPC,8a3ab0a3-e536-4158-93c8-e93ce0a16c9b
+Cambia SUPD,7467cca5-137a-403f-af85-b18c4f4777eb,PCP_QUAL_SUPD,592e8fc2-fd94-4420-86f8-9307cbf465eb
+Excellus SPC/SUPD,58f44d49-4865-4882-ad4d-35f95c411ddb,PCP_QUAL_ADH,dbd65b42-5ae6-46bc-abf0-a91debd3e29a
+Priority Health SUPD,5d725507-5250-4557-a867-5cf806ecdea7,PCP_QUAL_ADH,e2563980-6e21-4c8c-a301-e0bab7eb71cb
+Scan SPC,664ce4ab-205e-47f3-8f79-3750540e9d08,PCP_QUAL_SPC,eab7a2e6-ecfd-46dc-82f4-7a2980a15085
+Scan SUPD,664ce4ab-205e-47f3-8f79-3750540e9d08,PCP_QUAL_SUPD,429727d9-129c-4411-9d25-96acc343f4b1
+,,,
+DEV Templates,,,
+Test old Campaign 2020,2c360add-a115-4059-a756-ffe9b0c84c03,,a57d9c30-a182-4349-aecc-ec3268c99151
+Test PPOK-Arine Q3-Q4 2023,2c360add-a115-4059-a756-ffe9b0c84c03,,ac014e7d-55f1-49b1-931c-e86635e97fca
+Test DEV BCBS VT,73029688-cf63-4d32-b37e-9ad3226148eb,,0244182e-f82c-454b-9d4c-f10a622757d4
+VNS PartC 2024 - Test,309be605-c684-4bb4-94e3-e39abaa83a96,PCP_WH,6cb2b8a9-3c77-403c-a5f9-f53d1e4004b4
+Test Campaign 4,2c360add-a115-4059-a756-ffe9b0c84c03,,6e7f4623-01b7-47a3-843d-cf11f8a7d970
+2022 Campaign,b9ef5680-cb4f-4f2c-a993-bd18fe88ec88,,2022_campaign
+Test DEV Select Health,2c360add-a115-4059-a756-ffe9b0c84c03,,e78d4c70-5900-4255-93f5-ccbcd1ff4b0e
+Test DEV ElderPlan,64b6f903-43d7-46ba-b979-5670d0b6fd33,,e086fbac-e62e-4d64-b4d1-4c0a09a7af09
+2023 Campaign,b9ef5680-cb4f-4f2c-a993-bd18fe88ec88,,2023_campaign
+UHC - Test Campaign,31b751a6-13b7-4e4e-9e6f-961b8680feb6,,62995a91-abb8-406e-b392-975839e4ecae
+Test Campaign 1,2c360add-a115-4059-a756-ffe9b0c84c03,,9e5b04e2-aa52-4383-8658-7e773199ad65
+Michigan Department of Health and Human Services 2024 Q2,001a5179-2a06-44ec-9728-89f1aa1c8361,PCP_WH,9891b7c3-f98d-4709-bf10-5b59b97a9256
+Prescriber Analytics Demo Campaign,37000d7c-c44e-4e75-b164-6643d3c46ccb,,be51979f-d8e0-4d9a-9c00-7b9355983f87
+Test Campaign 3,2c360add-a115-4059-a756-ffe9b0c84c03,,10a0994b-cb5f-4c76-99f0-d861ac52538e
+Test DEV CareOregon,b8bb0b52-57b5-4064-8148-4f8c030e32d0,,3a53e93f-aead-4da5-a140-a2948abdfaa5
+Test DEV Healthfirst-Resonate,03f0d4ab-847e-46b7-a9e3-094971e409af,,1e3e3c97-719b-444a-aaa8-a4d8500fe31e
