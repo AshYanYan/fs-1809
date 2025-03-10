@@ -68,12 +68,29 @@ def find_org_templates_referenced_in(pdf_templates):
     for pdf_template in pdf_templates:
         flattened_pdf_template = flatten(pdf_template, enumerate_types=(list,))
         for path, value in flattened_pdf_template.items():
-            if referenced_in_show_for(path) or referenced_in_hide_for(path):
-                yield before_colon(str(value)), pdf_template["id"]
-            elif referenced_in_string_replacements(path):
-                yield before_colon(
-                    str(path[path.index("string_replacements") + 1])
-                ), pdf_template["id"]
+            yield from check_reference(path, value)
+
+
+def check_reference(path, value):
+    reference_checkers = {
+        "show_for": {
+            "check_reference": lambda p: p[-2] == "show_for" and isinstance(p[-1], int),
+            "get_org_template": lambda _, v: before_colon(str(v)),
+        },
+        "hide_for": {
+            "check_reference": lambda p: p[-2] == "hide_for" and isinstance(p[-1], int),
+            "get_org_template": lambda _, v: before_colon(str(v)),
+        },
+        "string_replacements": {
+            "check_reference": lambda p: "string_replacements" in p,
+            "get_org_template": lambda p, _: before_colon(
+                str(p[p.index("string_replacements") + 1])
+            ),
+        },
+    }
+    for reference_checker in reference_checkers.values():
+        if reference_checker["check_reference"](path):
+            yield reference_checker["get_org_template"](path, value), pdf_template["id"]
 
 
 def referenced_in_show_for(path):
