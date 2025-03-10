@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
 import csv
+from collections import defaultdict
+from itertools import groupby
+from operator import itemgetter
 import json
 from pathlib import Path
 from pprint import pprint
@@ -40,13 +43,63 @@ pdf_template_ids = set(pdf_template_by_id.keys())
 # here we compile a data structure(s) that will tell us which
 # pdf template id's contain an orgTemplate as a key
 # listed under one of "show_for, hide_for, or strings_replacement"
-org_template_pdf_template_sets: dict[str, set] = {}
-pdf_template_id2name: dict[str, str] = {}
+org_template_pdf_template_sets: dict[str, set] = defaultdict(set)
+# create a pdf template id to name lookup dictionary
+pdf_template_id2name = {
+    pdf_template["id"]: pdf_template["name"] for pdf_template in pdf_templates
+}
 
+
+def find_org_templates_referenced(pdf_templates):
+    get_org_template = itemgetter(0)
+    return {
+        org_template: set(pdf_template_id[1] for pdf_template_id in pdf_template_ids)
+        for org_template, pdf_template_ids in groupby(
+            sorted(
+                find_org_templates_referenced_in(pdf_templates), key=get_org_template
+            ),
+            get_org_template,
+        )
+    }
+
+
+def find_org_templates_referenced_in(pdf_templates):
+    for pdf_template in pdf_templates:
+        flattened_pdf_template = flatten(pdf_template, enumerate_types=(list,))
+        for path, value in flattened_pdf_template.items():
+            if referenced_in_show_for(path) or referenced_in_hide_for(path):
+                yield before_colon(str(value)), pdf_template["id"]
+            elif referenced_in_string_replacements(path):
+                yield before_colon(
+                    str(path[path.index("string_replacements") + 1])
+                ), pdf_template["id"]
+
+
+def referenced_in_show_for(path):
+    return path[-2] == "show_for" and isinstance(path[-1], int)
+
+
+def referenced_in_hide_for(path):
+    return path[-2] == "hide_for" and isinstance(path[-1], int)
+
+
+def referenced_in_string_replacements(path):
+    return "string_replacements" in path
+
+
+def before_colon(input_str):
+    return input_str.split(":")[0]
+
+
+# check each template and return the ones with show_for, hide_for, and string_replacements
+# return all the found_org_template -> id
+# for each template
+# 1. we flatten it
+# 2. we check whether it has 'show_for', 'hide_for', 'string_replacments'
+# 3. if they do, then return the corresponding value, which is an org template
 for pdf_template in pdf_templates:
     pdf_template_id = pdf_template["id"]
     pdf_template_name = pdf_template["name"]
-    pdf_template_id2name[pdf_template_id] = pdf_template_name
     flattened_pdf_template = flatten(pdf_template, enumerate_types=(list,))
 
     for path, value in flattened_pdf_template.items():
@@ -60,7 +113,7 @@ for pdf_template in pdf_templates:
 
             found_org_template = found_org_template.split(":")[0]
 
-            org_template_pdf_template_sets.setdefault(found_org_template, set()).add(pdf_template_id)
+            org_template_pdf_template_sets[found_org_template].add(pdf_template_id)
 
 # Scaffolding for csv file
 fieldnames = [
@@ -120,8 +173,8 @@ for org in orgs:
                 "Organization ID": f"{org_id}",
             }
         )
-    
-    with open('template-org-mapping.csv', mode='r') as file:
+
+    with open("template-org-mapping.csv", mode="r") as file:
         csv_reader = csv.reader(file)
         header = next(csv_reader)
 
@@ -144,7 +197,7 @@ for org in orgs:
                     }
                 )
 
-    with open(welcome_sdl_letters2, mode='r') as file:
+    with open(welcome_sdl_letters2, mode="r") as file:
         csv_reader = csv.reader(file)
         header = next(csv_reader)
 
