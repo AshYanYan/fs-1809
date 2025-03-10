@@ -52,8 +52,9 @@ pdf_template_id2name = {
 
 def find_org_templates_referenced(pdf_templates):
     get_org_template = itemgetter(0)
+    get_pdf_template_id = itemgetter(1)
     return {
-        org_template: set(pdf_template_id[1] for pdf_template_id in pdf_template_ids)
+        org_template: set(map(get_pdf_template_id, pdf_template_ids))
         for org_template, pdf_template_ids in groupby(
             sorted(
                 find_org_templates_referenced_in(pdf_templates), key=get_org_template
