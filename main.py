@@ -68,10 +68,10 @@ def find_org_templates_referenced_in(pdf_templates):
     for pdf_template in pdf_templates:
         flattened_pdf_template = flatten(pdf_template, enumerate_types=(list,))
         for path, value in flattened_pdf_template.items():
-            yield from check_reference(path, value)
+            yield from check_reference(path, value, pdf_template["id"])
 
 
-def check_reference(path, value):
+def check_reference(path, value, pdf_template_id):
     reference_checkers = {
         "show_for": {
             "check_reference": lambda p: p[-2] == "show_for" and isinstance(p[-1], int),
@@ -90,7 +90,7 @@ def check_reference(path, value):
     }
     for reference_checker in reference_checkers.values():
         if reference_checker["check_reference"](path):
-            yield reference_checker["get_org_template"](path, value), pdf_template["id"]
+            yield reference_checker["get_org_template"](path, value), pdf_template_id
 
 
 def referenced_in_show_for(path):
@@ -115,23 +115,7 @@ def before_colon(input_str):
 # 1. we flatten it
 # 2. we check whether it has 'show_for', 'hide_for', 'string_replacments'
 # 3. if they do, then return the corresponding value, which is an org template
-for pdf_template in pdf_templates:
-    pdf_template_id = pdf_template["id"]
-    pdf_template_name = pdf_template["name"]
-    flattened_pdf_template = flatten(pdf_template, enumerate_types=(list,))
-
-    for path, value in flattened_pdf_template.items():
-        if len(path) > 2:
-            if path[-2] in ("show_for", "hide_for") and isinstance(path[-1], int):
-                found_org_template = str(value)
-            elif "string_replacements" in path:
-                found_org_template = str(path[path.index("string_replacements") + 1])
-            else:
-                continue
-
-            found_org_template = found_org_template.split(":")[0]
-
-            org_template_pdf_template_sets[found_org_template].add(pdf_template_id)
+org_template_pdf_template_sets = find_org_templates_referenced(pdf_templates)
 
 # Scaffolding for csv file
 fieldnames = [
