@@ -1,0 +1,450 @@
+{
+    "created": "2025-02-24T23:50:06Z",
+    "id": "6ba573f5-37b7-4f67-8e8e-74f242557967",
+    "managed": false,
+    "name": "Welcome_MTM_Healthfirst",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 54,
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 40,
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 240,
+                    "x": 72,
+                    "y": 690
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "1121-24",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "1121-24_CH",
+                            "Spanish": "1121-24_SP"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 72,
+                    "y": 18
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Y0147_RXM25_09 1121-24_C",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "Y0147_RXM25_09 1121-24_CH",
+                            "Spanish": "Y0147_RXM25_09 1121-24_SP"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "rightIndent": 80,
+                        "text_alignment": "center"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},<br/><br/>We\u2019re pleased to welcome you into our <b>Medication Therapy Management (MTM)</b> program, a part of your Healthfirst Medicare Advantage plan. You\u2019ve automatically qualified for this program based on the number of medications you take for your various health conditions. <b><i>There is no cost to participate.</i></b> One of our pharmacists will call you in the next few weeks. They\u2019ll have a list of your prescription medications and can easily review them with you and answer any questions.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u89aa\u611b\u7684 {patient_full_name}:<br/><br/>\u6211\u5011\u8aa0\u9080\u60a8\u52a0\u5165\u6211\u5011\u7684\u6cbb\u7642\u7528\u85e5\u7ba1\u7406(Medication Therapy Management\uff0c\u7c21\u7a31MTM) \u8a08\u5283\uff0c\u9019\u662f\u7b2c\u4e00\u4fdd\u5065\u8001\u4eba\u91ab\u7642\u4fdd\u96aaMedicare Advantage\u8a08\u5283\u7684\u4e00\u90e8\u4efd\u3002\u57fa\u65bc\u60a8\u56e0\u591a\u7a2e\u5065\u5eb7\u72c0\u6cc1\u800c\u4f7f\u7528\u7684\u85e5\u7269\u7a2e\u985e\u6578\u91cf\uff0c\u60a8\u81ea\u52d5\u7b26\u5408\u8a72\u8a08\u5283\u7684\u8cc7\u683c\u3002\u53c3\u52a0\u8a72\u8a08\u5283\u662f\u514d\u8cbb\u7684\u3002\u6211\u5011\u7684\u85e5\u5291\u5e2b\u5c07\u5728\u63a5\u4e0b\u4f86\u7684\u5e7e\u9031\u5167\u81f4\u96fb\u60a8\u3002\u85e5\u5291\u5e2b\u6709\u60a8\u8655\u65b9\u85e5\u7269\u7684\u5217\u8868\uff0c\u80fd\u8207\u60a8\u4e00\u540c\u5be9\u67e5\u85e5\u7269\u4e26\u56de\u7b54\u4efb\u4f55\u7591\u554f\u3002",
+                            "Spanish": "Estimado(a) {patient_full_name},<br/><br/>Nos complace darle la bienvenida a nuestro programa de <b>manejo de terapias con medicamentos (MTM)</b>, una parte de su plan Medicare Advantage. Usted califica autom\u00e1ticamente para este programa por la cantidad de medicamentos que toma para sus diversas afecciones de salud. <b><i>Participar no tiene costo</i></b>. Nuestro personal de farmacia le llamar\u00e1 en las pr\u00f3ximas semanas. El personal de farmacia tendr\u00e1 una lista de sus medicamentos recetados y f\u00e1cilmente podr\u00e1n revisarlos con usted y responder cualquier pregunta."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What can MTM do for you?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u6cbb\u7642\u7528\u85e5\u7ba1\u7406\u5c0d\u60a8\u6709\u4f55\u5e6b\u52a9\uff1f",
+                            "Spanish": "<b>\u00bfQu\u00e9 puede hacer por usted el programa MTM?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ListHeaderText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Address any questions about or problems with your medications",
+                        "Address any concerns you have, such as cost concerns, side effects, or drug interactions",
+                        "Provide advice on how to get the most benefit from the medications you take",
+                        "Provide guidance on topics to discuss with your provider"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u89e3\u6c7a\u85e5\u7269\u76f8\u95dc\u7591\u554f\u6216\u554f\u984c",
+                                "\u89e3\u6c7a\u60a8\u7684\u7591\u616e\uff0c\u4f8b\u5982\u8cbb\u7528\u554f\u984c\u3001\u526f\u4f5c\u7528\u6216\u85e5\u7269\u76f8\u4e92\u4f5c\u7528",
+                                "\u5728\u5982\u4f55\u5145\u5206\u5229\u7528\u60a8\u4f7f\u7528\u7684\u85e5\u7269\u65b9\u9762\u63d0\u4f9b\u5efa\u8b70",
+                                "\u5728\u8207\u670d\u52d9\u63d0\u4f9b\u8005\u8a0e\u8ad6\u7684\u4e3b\u984c\u65b9\u9762\u63d0\u4f9b\u6307\u5c0e"
+                            ],
+                            "Spanish": [
+                                "Responder sus preguntas y abordar cualquier problema en relaci\u00f3n con sus medicamentos",
+                                "Abordar cualquier inquietud que usted tenga, como las preocupaciones sobre costos, efectos secundarios o interacciones entre medicamentos",
+                                "Proporcionar consejos sobre c\u00f3mo obtener el m\u00e1ximo beneficio de los medicamentos que toma",
+                                "Proporcionar orientaci\u00f3n sobre los temas a discutir con sus proveedores"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8,
+                        "start": "\u2022"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36,
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What do you receive when participating?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b>\u60a8\u5728\u53c3\u52a0\u5f8c\u6703\u600e\u6a23\uff1f</b>",
+                            "Spanish": "<b>\u00bfQu\u00e9 recibe al participar?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ListHeaderText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Access to a licensed pharmacist who will review all your prescription and over-the-counter medications",
+                        "A To-Do List of the pharmacist\u2019s recommendations to review with your provider",
+                        "A Personal Medication List to track the medications you take and why they\u2019re used"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u6301\u6709\u57f7\u7167\u7684\u85e5\u5291\u5e2b\u6703\u5be9\u67e5\u60a8\u6240\u6709\u7684\u8655\u65b9\u85e5\u7269\u548c\u81ea\u9078\u85e5\u7269",
+                                "\u7372\u5f97\u85e5\u5291\u5e2b\u5efa\u8b70\u7684\u5f85\u8fa6\u4e8b\u9805\u5217\u8868\uff0c\u4f9b\u60a8\u8207\u670d\u52d9\u63d0\u4f9b\u8005\u4e00\u540c\u67e5\u770b",
+                                "\u7372\u5f97\u500b\u4eba\u85e5\u7269\u5217\u8868\uff0c\u4ee5\u8a18\u9304\u60a8\u4f7f\u7528\u7684\u85e5\u7269\u4ee5\u53ca\u4f7f\u7528\u539f\u56e0"
+                            ],
+                            "Spanish": [
+                                "Acceso a personal de farmacia con licencia que revisar\u00e1 todos sus medicamentos recetados y de venta libre",
+                                "Una lista de tareas pendientes con las recomendaciones del personal de farmacia para revisar con su proveedor\u00a0",
+                                "Una lista personal de medicamentos para hacer seguimiento de los medicamentos que toma y conocer para qu\u00e9 se usan"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8,
+                        "start": "\u2022"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36,
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Get started now!</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b>\u73fe\u5728\u5c31\u958b\u59cb\uff01</b>",
+                            "Spanish": "<b>Comience ahora mismo.</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "One of our pharmacists will call you in the next few weeks. If you want to get started now, call 844-450-5721 (TTY 711), {hotline_hours} to schedule your comprehensive medication review.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u6211\u5011\u7684\u85e5\u5291\u5e2b\u5c07\u5728\u63a5\u4e0b\u4f86\u7684\u5e7e\u9031\u5167\u81f4\u96fb\u60a8\u3002\u5982\u679c\u60a8\u5e0c\u671b\u73fe\u5728\u5c31\u958b\u59cb\uff0c\u8acb\u81f4\u96fb\u5b89\u6392\u5168\u9762\u7528\u85e5\u5be9\u67e5\uff0c\u96fb\u8a71\u865f\u78bc\u662f 844-450-5721 (\u807d\u529b\u8a9e\u8a00\u6b98\u969c\u670d\u52d9\u5c08\u7ddaTTY 711), {hotline_hours}.",
+                            "Spanish": "Nuestro personal de farmacia le llamar\u00e1 en las pr\u00f3ximas semanas. Si quiere comenzar ahora, llame para programar una revisi\u00f3n integral de sus medicamentos al 844-450-5721 (TTY 711), {hotline_hours}."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Don't want to participate?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b>\u4e0d\u5e0c\u671b\u53c3\u52a0\uff1f</b>",
+                            "Spanish": "<b>\u00bfNo quiere participar?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Participation is optional. If you do not wish to participate, call us toll-free at 844-450-5721 (TTY 711), {hotline_hours}. You may continue to receive calls throughout the year until a formal request has been processed. If you remain a member of a {hotline_name} Medicare Advantage plan, you can rejoin the program at any time. You may be offered MTM services again next year if you continue to qualify for the program.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u662f\u5426\u53c3\u52a0\u7531\u60a8\u81ea\u884c\u9078\u64c7\u6c7a\u5b9a\u3002\u5982\u679c\u60a8\u4e0d\u5e0c\u671b\u53c3\u52a0\uff0c\u8acb\u81f4\u96fb\u514d\u8cbb\u96fb\u8a71\u806f\u7d61\u6211\u5011\uff0c\u96fb\u8a71\u865f\u78bc\u662f844-450-5721 (\u807d\u529b\u8a9e\u8a00\u6b98\u969c\u670d\u52d9\u5c08\u7ddaTTY 711), {hotline_hours}\u3002\u60a8\u5728\u5e74\u5ea6\u671f\u9593\u53ef\u80fd\u6703\u7e7c\u7e8c\u6536\u5230\u96fb\u8a71\uff0c\u76f4\u5230\u6b63\u5f0f\u8981\u6c42\u7372\u5f97\u8655\u7406\u3002\u5982\u679c\u60a8\u4ecd\u662f\u7b2c\u4e00\u4fdd\u5065\u8001\u4eba\u91ab\u7642\u4fdd\u96aaMedicare Advantage\u8a08\u5283\u6703\u54e1\uff0c\u60a8\u96a8\u6642\u90fd\u53ef\u4ee5\u91cd\u65b0\u53c3\u52a0\u8a72\u8a08\u5283\u3002\u5982\u679c\u60a8\u7e7c\u7e8c\u7b26\u5408\u8a72\u8a08\u5283\u7684\u8cc7\u683c\uff0c\u4e0b\u4e00\u5e74\u53ef\u80fd\u6703\u518d\u6b21\u5411\u60a8\u63d0\u4f9b\u6cbb\u7642\u7528\u85e5\u7ba1\u7406\u670d\u52d9\u3002",
+                            "Spanish": "La participaci\u00f3n es opcional. Si no quiere participar, ll\u00e1menos al n\u00famero gratuito 844-450-5721 (TTY 711), {hotline_hours}. Es posible que siga recibiendo llamadas durante todo el a\u00f1o hasta que se haya procesado la solicitud formal. Si contin\u00faa siendo miembro de un plan Medicare Advantage de Healthfirst, se puede reincorporar al programa en cualquier momento. Es posible que le ofrezcan servicios MTM de nuevo el pr\u00f3ximo a\u00f1o si contin\u00faa calificando para el programa."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<br/>Thank you for choosing {hotline_name}.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b>\u8b1d\u8b1d\u60a8\u9078\u64c7\u7b2c\u4e00\u4fdd\u5065\u3002</b>",
+                            "Spanish": "<br/>Gracias por elegir a {hotline_name}."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "pagebreak": {
+                    "show_for": [
+                        "healthfirst"
+                    ]
+                }
+            },
+            {
+                "spacer": {
+                    "height": 450,
+                    "show_for": [
+                        "healthfirst"
+                    ],
+                    "width": 612
+                }
+            },
+            {
+                "paragraph": {
+                    "height": 50,
+                    "show_for": [
+                        "healthfirst"
+                    ],
+                    "string": "Coverage is provided by Healthfirst Health Plan, Inc., Healthfirst PHSP, Inc., and/or Healthfirst Insurance Company, Inc. (together, \u201cHealthfirst\u201d). Plans contain exclusions and limitations. Healthfirst complies with applicable Federal civil rights laws and does not discriminate on the basis of race, color, national origin, age, disability, or sex. ATENCI\u00d3N: si habla espa\u00f1ol, tiene a su disposici\u00f3n servicios gratuitos de asistencia ling\u00fc\u00edstica. Llame al 1-866-305-0408 (TTY 1-888-867-4132). \u6ce8\u610f\uff1a\u5982\u679c\u60a8\u4f7f\u7528\u7e41\u9ad4\u4e2d\u6587\uff0c\u60a8\u53ef\u4ee5\u514d\u8cbb\u7372\u5f97\u8a9e\u8a00\u63f4\u52a9\u670d\u52d9\u3002\u8acb\u81f4\u96fb 1-866-305-0408 (TTY 1-888-542-3821).",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u627f\u4fdd\u7531\u7b2c\u4e00\u4fdd\u5065\u5065\u4fdd\u8a08\u5283\u516c\u53f8\uff08Healthfirst Health Plan, Inc.\uff09\uff0c\u7b2c\u4e00\u4fdd\u5065 PHSP \u516c\u53f8\uff08Healthfirst PHSP, Inc.\uff09\u8207\uff0f\u6216\u7b2c\u4e00\u4fdd\u5065\u4fdd\u96aa\u516c\u53f8\uff08Healthfirst Insurance Company, Inc.\uff09\uff08\u7d71\u7a31\u70ba\u300c\u7b2c\u4e00\u4fdd\u5065\u300d \uff08Healthfirst\uff09\u200b\u63d0\u200b\u4f9b\u3002\u200b\u8a08\u200b\u5283\u200b\u542b\u200b\u6709\u200b\u4e0d\u200b\u4e88\u200b\u627f\u200b\u4fdd\u200b\u548c\u200b\u9650\u200b\u5236\u200b\u4e8b\u200b\u9805\u3002\u200b\u7b2c\u200b\u4e00\u200b\u4fdd\u200b\u5065\u200b\u9075\u200b\u5b88\u200b\u9069\u200b\u7528\u200b\u7684\u200b\u806f\u200b\u90a6\u200b\u6c11\u200b\u6b0a\u200b\u6cd5\u200b\u5f8b\u200b\u898f\u200b\u5b9a\u200b\uff0c\u200b\u4e0d\u200b\u56e0\u200b\u7a2e\u200b\u65cf\u200b\uff0c\u819a\u200b\u8272\uff0c\u200b\u6c11\u200b\u65cf\u200b\u8840\u200b\u7d71\u200b\uff0c\u200b\u5e74\u200b\u9f61\u200b\uff0c\u200b\u6b98\u200b\u969c\u200b\u6216\u200b\u6027\u200b\u5225\u200b\u800c\u200b\u6b67\u200b\u8996\u200b\u4efb\u200b\u4f55\u200b\u4eba\u200b\u3002\u200bATTENTION: If you speak English, language assistance services, free of charge, are available to you. Call 1-866-305-0408 (TTY 1-888-542-3821). ATENCI\u00d3N: si habla espa\u00f1ol, tiene a su disposici\u00f3n servicios gratuitos de asistencia ling\u00fc\u00edstica. Llame al 1-866-305-0408 (TTY 1-888-867-4132).",
+                            "Spanish": "Healthfirst Health Plan, Inc., Healthfirst PHSP, Inc. o Healthfirst Insurance Company, Inc. (en forma conjunta, \u201cHealthfirst\u201d) proporciona la cobertura. Los planes contienen exclusiones y limitaciones. Healthfirst cumple con las leyes federales de derechos civiles aplicables y no discrimina por motivos de raza, color, nacionalidad, edad, discapacidad o sexo. ATTENTION: If you speak English, language assistance services, free of charge, are available to you. Call 1-866-305-0408 (TTY 1-888-542-3821). \u200b\u6ce8\u200b\u610f\u200b\uff1a\u200b\u5982\u200b\u679c\u200b\u60a8\u200b\u4f7f\u200b\u7528\u200b\u7e41\u200b\u9ad4\u200b\u4e2d\u200b\u6587\u200b\uff0c\u200b\u60a8\u200b\u53ef\u200b\u4ee5\u200b\u514d\u200b\u8cbb\u200b\u7372\u200b\u5f97\u200b\u8a9e\u200b\u8a00\u200b\u63f4\u200b\u52a9\u200b\u670d\u200b\u52d9\u200b\u3002\u200b\u8acb\u200b\u81f4\u200b\u96fb\u200b 1-866-305-0408 (TTY 1-888-542-3821)."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 460
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 35,
+                    "x": 36,
+                    "y": 760
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "10 Vantage Point Dr, Ste 1<br/>Rochester, NY 14624",
+                    "text_style": {
+                        "parent_style": "AddressText"
+                    },
+                    "width": 250,
+                    "x": 36,
+                    "y": 615
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "<b>Health and wellness or prevention information.</b>",
+                    "text_style": {
+                        "parent_style": "FeatureText"
+                    },
+                    "width": 540,
+                    "x": 72,
+                    "y": 668
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 72,
+                "right": 72,
+                "top": 144
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DisclaimerText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 8,
+                    "leading": 9,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FeatureText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 9,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "HeaderText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 11,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 2,
+                    "spaceBefore": 11,
+                    "text_alignment": "left"
+                },
+                "ListHeaderText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 11,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 4,
+                    "spaceBefore": 11,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 11,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 6,
+                    "spaceBefore": 2,
+                    "text_alignment": "left"
+                },
+                "PullOutText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 14,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-03-27T19:59:54"
+}

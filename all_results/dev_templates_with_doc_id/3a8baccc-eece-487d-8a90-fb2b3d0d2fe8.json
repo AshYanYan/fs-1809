@@ -1,0 +1,393 @@
+{
+    "created": "2025-03-20T10:24:48Z",
+    "id": "3a8baccc-eece-487d-8a90-fb2b3d0d2fe8",
+    "name": "PCP_TMR_MVP_HEALTH",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 36,
+                    "y": 758
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "DOCID-{doc_id}",
+                    "text_style": {
+                        "fontSize": 9,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 220,
+                    "x": 360,
+                    "y": 27
+                }
+            },
+            {
+                "text": {
+                    "height": 40,
+                    "string": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 360,
+                    "y": 718
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Health benefit plans are issued or administered by MVP Health Plan, Inc.; MVP Health Insurance Company; MVP Select Care, Inc.; and MVP Health Services Corp., operating subsidiaries of MVP Health Care, Inc. Not all plans available in all states and counties.<br/>This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 38,
+                    "y": 112
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Re: Medication Management Program for Patient: {patient_full_name} (DOB: {patient_date_birth})</b><br/>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {provider_full_name}:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "MVP Health Care<sup>\u00ae</sup> (MVP) is committed to continued collaboration to better serve our Members, your patients. As part of that commitment, MVP performed a targeted medication review for your patient on {letter_date}. I have summarized the issues identified and my recommendations in the below table. Please call <b>1-866-942-7754</b> (TTY: 711), Monday-Friday from 8:30 am-5 pm Eastern Time with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at 1-844-865-0243.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "5.4841%",
+                        "50.882%",
+                        "27.78%",
+                        "15.8539%"
+                    ],
+                    "data_source": "provider_recommendations",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Assessment",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Recommendation",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Implement? (Y/N)",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Please send any new prescriptions directly to the Member\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The Member\u2019s preferred pharmacy is:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacy_name}<br/>{pharmacy_street}<br/>{pharmacy_city_state_zip}<br/>Phone: {pharmacy_phone}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Please fax us back this form at 1-844-865-0243 and indicate whether you plan to implement the recommendations. Additionally, if there are any other comments or important notes about the Member's health, please note here:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "spaceBefore": 21
+                }
+            },
+            {
+                "line": {
+                    "spaceBefore": 21
+                }
+            },
+            {
+                "line": {
+                    "spaceBefore": 21
+                }
+            },
+            {
+                "line": {
+                    "spaceBefore": 21
+                }
+            },
+            {
+                "line": {
+                    "spaceAfter": 20,
+                    "spaceBefore": 21
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "For additional information on the MVP MTM Program, vist <b>mvphealthcare.com/MTMP</b>. If you have any questions, please contact us via:",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 10
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Telephone: <b>1-866-942-7754</b>",
+                        "Email: <b>RxAdvisor@mvphealthcare.com</b>"
+                    ],
+                    "list_attributes": {
+                        "bulletFontName": "Times-New-Roman-normal",
+                        "bulletType": "bullet",
+                        "start": "\u25cf"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 40,
+                        "spaceAfter": 10,
+                        "spaceBefore": 1.5
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We appreciate your collaboration in providing high-quality healthcare for our Members.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 36,
+                    "y": 758
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "DOCID-{doc_id}",
+                    "text_style": {
+                        "fontSize": 9,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 220,
+                    "x": 360,
+                    "y": 27
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Health benefit plans are issued or administered by MVP Health Plan, Inc.; MVP Health Insurance Company; MVP Select Care, Inc.; and MVP Health Services Corp., operating subsidiaries of MVP Health Care, Inc. Not all plans available in all states and counties.<br/>This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 38,
+                    "y": 112
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 120,
+                "left": 36,
+                "right": 36,
+                "top": 84
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": false
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 20,
+                    "spaceBefore": 8,
+                    "text_alignment": "left"
+                },
+                "SignatureText": {
+                    "fontName": "Lucida-Handwriting-normal",
+                    "fontSize": 16,
+                    "spaceAfter": 20,
+                    "spaceBefore": 20,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-03-24T16:44:35"
+}

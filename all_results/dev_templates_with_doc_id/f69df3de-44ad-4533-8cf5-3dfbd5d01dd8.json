@@ -1,0 +1,529 @@
+{
+    "created": "2023-01-25T15:47:30Z",
+    "id": "f69df3de-44ad-4533-8cf5-3dfbd5d01dd8",
+    "managed": true,
+    "name": "MAP_QUAL",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "x": 576,
+                    "y": 770
+                }
+            },
+            {
+                "text": {
+                    "height": 42,
+                    "string": "<font color = '#007489'><b>Medication Action Plan (cont.)</b><br/><br/><b>Name:</b></font> {patient_full_name}",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<font color = '#007489'><b>Plan de acci\u00f3n de medicaci\u00f3n (cont.)</b><br/><br/><b>Nombre:</b></font> {patient_full_name} "
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 42,
+                    "y": 720
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "molina"
+                    ],
+                    "string": "If you have any questions about your action plan, call {hotline_name} toll free at {hotline_phone}, {hotline_hours}",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si tiene alguna pregunta sobre su plan de acci\u00f3n, llame a {hotline_name} al n\u00famero gratuito {hotline_phone}, de {hotline_hours}"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "DocIDText",
+                        "text_alignment": "center"
+                    },
+                    "width": 400,
+                    "x": 100,
+                    "y": 60
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "bcbsvt"
+                    ],
+                    "string": "<b>If you have any questions about your action plan, you can call {hotline_name} toll free at  {hotline_phone} {hotline_hours} or email at info@arine.io anytime.</b>",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "center"
+                    },
+                    "width": 500,
+                    "x": 60,
+                    "y": 80
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "bcbsvt"
+                    ],
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "DocIDText",
+                        "text_alignment": "center"
+                    },
+                    "width": 500,
+                    "x": 60,
+                    "y": 55
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "molina"
+                    ],
+                    "string": "{patient_letter_approval_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 75,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<font color = '#007489'>Medication Action Plan</font>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<font color = '#007489'>Plan de acci\u00f3n de medicaci\u00f3n</font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "Heading1Text"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<font color = '#007489'><b>Name:</b></font> {patient_full_name} &nbsp;&nbsp; <font color = '#007489'><b>DOB:</b></font> {patient_date_birth} ",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<font color = '#007489'><b>Nombre:</b></font> {patient_full_name} &nbsp;&nbsp; <font color = '#007489'><b>Fecha de nacimiento:</b></font> {patient_date_birth} "
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "This action plan is a summary of our discussion on {cmr_date}. It will help you get the best results from your medications. Have this action plan with you when you talk with your doctors, pharmacists, and other health care providers in your care team. Share this with your family or caregivers too.",
+                    "string_replacements": {
+                        "bcbsvt": {
+                            "English": "This action plan is a summary of a review of your medications on {cmr_date}. It will help you get the best results from your medications. Have this action plan with you when you talk with your doctors, pharmacists, and other healthcare providers in your care team. Share this with your family or caregivers too."
+                        },
+                        "default": {
+                            "Spanish": "Este plan de acci\u00f3n es un resumen de nuestra conversaci\u00f3n del {cmr_date}. Le ayudar\u00e1 a obtener los mejores resultados de sus medicamentos. Tenga este plan de acci\u00f3n con usted cuando hable con sus m\u00e9dicos, farmac\u00e9uticos y otros proveedores de atenci\u00f3n m\u00e9dica de su equipo de atenci\u00f3n. Comparta esto tambi\u00e9n con su familia o cuidadores."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 12
+                    }
+                }
+            },
+            {
+                "multitable": {
+                    "column_widths": [
+                        360,
+                        180
+                    ],
+                    "data_source": "patient_todo_list_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 12,
+                    "table_alignment": "left",
+                    "table_footer": [
+                        {
+                            "string": "<font color = '#007489'><b>My notes:</b></font><br/><br/><br/><br/><br/>",
+                            "string_replacements": {
+                                "default": {
+                                    "Spanish": "<font color = '#007489'><b>Mis notas:</b></font><br/><br/><br/><br/><br/>"
+                                }
+                            }
+                        }
+                    ],
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "What we talked about:",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "De qu\u00e9 hablamos:"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "What I should do:",
+                                "string_replacements": {
+                                    "bcbsvt": {
+                                        "English": "What I need to do:",
+                                        "Spanish": "Lo que debo hacer:"
+                                    },
+                                    "default": {
+                                        "Spanish": "Lo que debo hacer:"
+                                    },
+                                    "molina": {
+                                        "English": "What I need to do:"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    2
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    6
+                                ]
+                            }
+                        },
+                        {
+                            "ROWBACKGROUNDS": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    2
+                                ],
+                                "value": [
+                                    [
+                                        "#EFEFEF",
+                                        "white"
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    0,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#39a2d9"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    1,
+                                    0
+                                ],
+                                "value": [
+                                    "#6884c5"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    -1
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "molina",
+                        "bcbsvt"
+                    ],
+                    "string": "If you want to talk about this letter or any of the other materials, you can call {hotline_name} member services at {hotline_phone} and ask for a pharmacist to call you back. We are available {hotline_hours}. We look forward to working with you to help you be as healthy as possible.",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 12
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 35,
+                    "x": 576,
+                    "y": 770
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "molina"
+                    ],
+                    "string": "If you have any questions about your action plan, call {hotline_name} toll free at {hotline_phone}, {hotline_hours}",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Si tiene alguna pregunta sobre su plan de acci\u00f3n, llame a {hotline_name} al n\u00famero gratuito {hotline_phone}, de {hotline_hours}"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "DocIDText",
+                        "text_alignment": "center"
+                    },
+                    "width": 400,
+                    "x": 100,
+                    "y": 60
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "bcbsvt"
+                    ],
+                    "string": "<b>If you have any questions about your action plan, you can call {hotline_name} toll free at  {hotline_phone} {hotline_hours} or email at info@arine.io anytime.</b>",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "center"
+                    },
+                    "width": 500,
+                    "x": 60,
+                    "y": 80
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "bcbsvt"
+                    ],
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "DocIDText",
+                        "text_alignment": "center"
+                    },
+                    "width": 500,
+                    "x": 60,
+                    "y": 55
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "molina"
+                    ],
+                    "string": "{patient_letter_approval_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 75,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 96,
+                "left": 36,
+                "right": 36,
+                "top": 84
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {},
+            "force_language": "English"
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "DocIDText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "text_alignment": "right"
+                },
+                "Heading1Text": {
+                    "color": "blue",
+                    "fontName": "Lato-normal",
+                    "fontSize": 25,
+                    "parent_style": "Heading1",
+                    "spaceAfter": 16
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "textColor": "white"
+                }
+            }
+        }
+    },
+    "updated": "2025-03-26T23:48:13"
+}

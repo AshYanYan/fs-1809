@@ -1,0 +1,185 @@
+{
+    "created": "2025-04-02T23:53:22Z",
+    "id": "3a3b9f0e-cd69-4fa5-87e8-264e1e775166",
+    "managed": false,
+    "name": "CL_HRHC_MDX",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "height": 16,
+                    "storage": {
+                        "path": "org_logo/mdx-hawaii/2025-03-20/mdx-arine-lockup-hi-res-cropped.png",
+                        "type": "s3"
+                    },
+                    "width": 190,
+                    "x": 382,
+                    "y": 750
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText"
+                    },
+                    "width": 200,
+                    "x": 390,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 18
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 18
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{hotline_name}, on behalf of your health plan, has partnered with Arine to help ensure that you are on the most effective medications for managing your health conditions. A review of your medications was done on {review_date}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 12
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "This letter includes a summary of the review and has an action plan (Medication Action Plan) and medication list (Personal Medication List). <b>The action plan has steps you should take to help you get the best results from your medications. The medication list will help you keep track of your medications and how to use them the right way.</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 12
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Have your action plan and medication list with you when you talk with your doctors, pharmacists, and other health care providers.",
+                        "Ask your doctors, pharmacists, and other health care providers to update the action plan and medication list at every visit.",
+                        "Take your medication list with you if you go to the hospital.",
+                        "Give a copy of the action plan and medication list to your family or caregivers."
+                    ],
+                    "list_attributes": {
+                        "bulletFontSize": 14,
+                        "bulletType": "bullet",
+                        "leftIndent": 24,
+                        "spaceAfter": 12,
+                        "spaceBefore": 12
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you want to talk about this letter or any of the other materials, you can call the pharmacist line toll free at {hotline_phone} {hotline_hours}. We look forward to working with you to help you be as healthy as possible.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Warmly,",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 18
+                    }
+                }
+            },
+            {
+                "signature": {
+                    "filename": "{pharmacist_signature}",
+                    "height": 45,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 17,
+                        "leading": 17,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_job_title}<br/>{pharmacist_credentialed_name}<br/> Arine, in partnership with MDX Hawaii",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 84,
+                "left": 72,
+                "right": 72,
+                "top": 72
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Times-New-Roman-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "DocIDText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "text_alignment": "right"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-04-07T22:58:37"
+}

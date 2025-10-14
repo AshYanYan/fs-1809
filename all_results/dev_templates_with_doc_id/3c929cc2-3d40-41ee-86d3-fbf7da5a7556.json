@@ -1,0 +1,419 @@
+{
+    "created": "2023-06-01T23:34:28Z",
+    "id": "3c929cc2-3d40-41ee-86d3-fbf7da5a7556",
+    "managed": false,
+    "name": "SDL_MTM_priority",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "ignore_large_font": true,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 9,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 358,
+                    "y": 18
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<b>How to Safely Dispose of Unused Prescription Medications</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b><u>\u5b89\u5168\u8655\u7406\u8655\u65b9\u85e5</u></b>",
+                            "Spanish": "<b>C\u00f3mo desechar de manera segura los medicamentos recetados no utilizados</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Storing your medications safely and disposing of the ones you no longer need can make a difference when it comes to preventing medication injuries. It can also prevent medications from getting into the wrong hands.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u8acb\u5b89\u5168\u5730\u5b58\u653e\u85e5\u7269\u4e26\u8655\u7406\u6389\u60a8\u4e0d\u518d\u9700\u8981\u7684\u85e5\u7269\uff0c\u9019\u6a23\u505a\u4e0d\u50c5\u53ef\u4ee5\u6709\u6548\u907f\u514d\u85e5\u7269\u50b7\u5bb3\uff0c\u9084\u80fd\u9632\u6b62\u85e5\u7269\u843d\u5165\u58de\u4eba\u4e4b\u624b\u3002",
+                            "Spanish": "Almacenar sus medicamentos de manera segura y desechar los que ya no necesita puede hacer una diferencia en la prevenci\u00f3n de lesiones causadas por medicamentos. Tambi\u00e9n puede evitar que los medicamentos caigan en las manos equivocadas."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>How do you store medications safely?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b>\u5982\u4f55\u5b89\u5168\u5730\u5b58\u653e\u85e5\u7269:</b>",
+                            "Spanish": "<b>\u00bfC\u00f3mo se almacenan los medicamentos de manera segura</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Make sure your medications are stored in their original container and the cap is on tight.",
+                        "Place your medications in a safe location and never leave them in an unsecured place, such as the kitchen counter.",
+                        "Store your medications where children cannot see or reach them."
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u78ba\u4fdd\u60a8\u7684\u85e5\u7269\u5b58\u653e\u5728\u539f\u4f86\u7684\u5bb9\u5668\u4e2d\uff0c\u4e26\u4e14\u84cb\u7dca\u4e86\u84cb\u5b50\u3002",
+                                "\u5c07\u85e5\u7269\u653e\u5728\u5b89\u5168\u7684\u5730\u65b9\uff0c\u800c\u5207\u52ff\u5c07\u5176\u653e\u5728\u6c92\u6709\u5b89\u5168\u4fdd\u969c\u7684\u5730\u65b9\uff0c\u5982\u5eda\u623f\u6ac3\u6aaf\u3002",
+                                "\u5c07\u85e5\u7269\u5b58\u653e\u5728\u5152\u7ae5\u770b\u4e0d\u5230\u6216\u5920\u4e0d\u8457\u7684\u5730\u65b9\u3002"
+                            ],
+                            "Spanish": [
+                                "Conserve los medicamentos en sus envases originales con la tapa bien cerrada.",
+                                "Coloque los medicamentos en un lugar seguro y no los deje nunca en un lugar que no sea seguro, como la encimera de la cocina.",
+                                "Guarde los medicamentos en un sitio donde los ni\u00f1os no puedan verlos ni alcanzarlos."
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 0,
+                        "spaceBefore": 0
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>How do you dispose of medications safely?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b>\u5982\u4f55\u5b89\u5168\u5730\u8655\u7406\u85e5\u7269:</b>",
+                            "Spanish": "<b>\u00bfC\u00f3mo puede deshacerse de los medicamentos de forma segura?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Dispose of medications you no longer use or have expired as soon as possible. This will prevent you and others from accidentally taking medications you no longer need."
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u76e1\u5feb\u8655\u7406\u60a8\u4e0d\u518d\u4f7f\u7528\u6216\u904e\u671f\u7684\u85e5\u7269\u3002\u9019\u5c07\u9632\u6b62\u60a8\u548c\u5176\u4ed6\u4eba\u610f\u5916\u5730\u670d\u7528\u60a8\u4e0d\u518d\u9700\u8981\u7684\u85e5\u7269\u3002"
+                            ],
+                            "Spanish": [
+                                "Deseche los medicamentos que ya no usa o que est\u00e1n vencidos lo antes posible. Esto evitar\u00e1 que usted u otras personas tomen accidentalmente medicamentos que ya no necesitan."
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What drug take back programs are near you?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b>\u60a8\u9644\u8fd1\u7684\u85e5\u7269\u56de\u6536\u8a08\u5283:</b>",
+                            "Spanish": "<b>\u00bfQue programas de devoluci\u00f3n de medicamentos est\u00e1n cerca de su domicilio?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "The preferred way of disposing unused controlled medications is to bring them to community take-back sites near you.",
+                        "Before bringing your medications to take-back sites, use a marker to cover any personal information, such as your name or prescription number. Two medication take-back sites in your community are:"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u8655\u7406\u672a\u4f7f\u7528\u7684\u53d7\u7ba1\u5236\u85e5\u7269\u7684\u9996\u9078\u65b9\u5f0f\u662f\u5c07\u5b83\u5011\u5e36\u5230\u60a8\u9644\u8fd1\u7684\u793e\u5340\u56de\u6536\u9ede\u3002",
+                                "\u5728\u5c07\u85e5\u7269\u5e36\u5230\u56de\u6536\u9ede\u4e4b\u524d\uff0c\u8acb\u4f7f\u7528\u8a18\u865f\u7b46\u5857\u62b9\u6389\u4efb\u4f55\u500b\u4eba\u8cc7\u8a0a\uff0c\u4f8b\u5982\u60a8\u7684\u59d3\u540d\u6216\u8655\u65b9\u865f\u3002\u60a8\u6240\u5728\u793e\u5340\u7684\u5169\u500b\u85e5\u7269\u56de\u6536\u9ede\u662f:"
+                            ],
+                            "Spanish": [
+                                "La mejor forma de desechar los medicamentos controlados sin usar es llevarlos a los sitios de devoluci\u00f3n de la comunidad cerca de su domicilio.",
+                                "Antes de llevar sus medicamentos a los sitios de devoluci\u00f3n, cubra con un marcador cualquier informaci\u00f3n personal, como su nombre o n\u00famero de receta. Los siguientes son dos sitios de devoluci\u00f3n de medicamentos en su comunidad:"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 0,
+                        "spaceBefore": 0
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "10%",
+                        "40%",
+                        "40%",
+                        "10%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_items": [
+                        [
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": "{patient_disposal_sites[0]}"
+                            },
+                            {
+                                "string": "{patient_disposal_sites[1]}"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "The US Drug Enforcement Administration (DEA) allows unused prescription medications to be mailed back to pharmacies or other authorized sites using packages made available at pharmacies or other drug disposal sites. Contact your local pharmacy prior to mailing unused medications.",
+                        "Other medication collection sites in your area and information about medication disposal may be found at the websites below:<br/>&nbsp &nbsp &nbsp o &nbsp &nbsp &nbsp Visit <a href='https://www.deatakeback.com'><strong><em>deatakeback.com</em></strong></a>  for information about medication disposal. <br/>&nbsp &nbsp &nbsp o &nbsp &nbsp &nbsp Visit <a href='https://bit.ly/3guWP4x'><strong><em>bit.ly/3guWP4x</em></strong></a> for a list medication drop-off locations."
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u7f8e\u570b\u7ddd\u6bd2\u7f72 (Drug Enforcement Administration, DEA) \u5141\u8a31\u60a8\u4f7f\u7528\u85e5\u623f\u6216\u5176\u4ed6\u85e5\u7269\u8655\u7406\u9ede\u63d0\u4f9b\u7684\u5305\u88dd\uff0c\u5c07\u672a\u4f7f\u7528\u7684\u8655\u65b9\u85e5\u90f5\u5bc4\u56de\u85e5\u623f\u6216\u5176\u4ed6\u6388\u6b0a\u9ede\u3002\u5728\u90f5\u5bc4\u672a\u4f7f\u7528\u7684\u85e5\u7269\u524d\uff0c\u8acb\u806f\u7d61\u60a8\u7576\u5730\u7684 \u85e5\u623f\u3002",
+                                "\u60a8\u53ef\u5728\u4ee5\u4e0b\u7db2\u7ad9\u627e\u5230\u60a8\u6240\u5728\u5730\u5340\u7684\u5176\u4ed6\u85e5\u7269\u6536\u96c6\u9ede\u548c\u6709\u95dc\u85e5\u7269\u8655\u7406\u7684\u8cc7\u8a0a:<br/><b>o</b> &nbsp &nbsp &nbsp \u6709\u95dc\u85e5\u7269\u56de\u6536\u7684\u8cc7\u8a0a: <u>https://www.deatakeback.com/</u> <br/><b>o</b> &nbsp &nbsp &nbsp \u60a8\u9644\u8fd1\u7684\u5176\u4ed6\u56de\u6536\u9ede: <u>https://apps2.deadiversion.usdoj.gov/pubdispsearch/spring/main?execution=e2s1</u>"
+                            ],
+                            "Spanish": [
+                                "La Administraci\u00f3n para el Control de Drogas (Drug Enforcement Administration, DEA) de los EE.\u00a0UU. permite que los medicamentos con receta sin usar se devuelvan por correo a las farmacias u otros sitios autorizados utilizando paquetes disponibles en las farmacias u otros sitios para la eliminaci\u00f3n de medicamentos. Comun\u00edquese con su farmacia local antes de enviar por correo los medicamentos sin usar.",
+                                "Puede encontrar otros sitios de recolecci\u00f3n de medicamentos en su \u00e1rea e informaci\u00f3n sobre c\u00f3mo desechar los medicamentos en los siguientes sitios web:<br/>&nbsp &nbsp &nbsp o &nbsp &nbsp &nbsp Visite <a href='https://www.deatakeback.com'><strong><em>deatakeback.com</em></strong></a> para obtener informaci\u00f3n sobre el desecho de medicamentos. <br/>&nbsp &nbsp &nbsp o &nbsp &nbsp &nbsp Visite <a href='https://bit.ly/3guWP4x'><strong><em>bit.ly/3guWP4x</em></strong></a> para ver una lista de ubicaciones para dejar medicamentos."
+                            ]
+                        },
+                        "priority_health": {
+                            "English": [
+                                "The US Drug Enforcement Administration (DEA) allows unused prescription medications to be mailed back to pharmacies or other authorized sites using packages made available at pharmacies or other drug disposal sites. Contact your local pharmacy prior to mailing unused medications.",
+                                "Other medication collection sites in your area and information about medication disposal may be found at the websites below:<br/>&nbsp &nbsp &nbsp o &nbsp &nbsp &nbsp Visit <a href='https://www.deatakeback.com'><strong><em>deatakeback.com</em></strong></a>  for information about medication disposal. <br/>&nbsp &nbsp &nbsp o &nbsp &nbsp &nbsp Visit <a href='https://bit.ly/3guWP4x'><strong><em>bit.ly/3guWP4x</em></strong></a> for a list medication drop-off locations."
+                            ],
+                            "Spanish": [
+                                "La Administraci\u00f3n para el Control de Drogas (Drug Enforcement Administration, DEA) de los EE.\u00a0UU. permite que los medicamentos con receta sin usar se devuelvan por correo a las farmacias u otros sitios autorizados utilizando paquetes disponibles en las farmacias u otros sitios para la eliminaci\u00f3n de medicamentos. Comun\u00edquese con su farmacia local antes de enviar por correo los medicamentos sin usar.",
+                                "Puede encontrar otros sitios de recolecci\u00f3n de medicamentos en su \u00e1rea e informaci\u00f3n sobre c\u00f3mo desechar los medicamentos en los siguientes sitios web:<br/>&nbsp &nbsp &nbsp o &nbsp &nbsp &nbsp Visite <a href='https://www.deatakeback.com'><strong><em>deatakeback.com</em></strong></a> para informaci\u00f3n sobre el desecho de medicamentos. <br/>&nbsp &nbsp &nbsp o &nbsp &nbsp &nbsp Visite <a href='https://bit.ly/3guWP4x'><strong><em>bit.ly/3guWP4x</em></strong></a> para ver una lista de ubicaciones para dejar medicamentos."
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 0,
+                        "spaceBefore": 0
+                    },
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What other ways can you dispose of medications?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b>\u5176\u4ed6\u85e5\u7269\u8655\u7406\u65b9\u6cd5:</b>",
+                            "Spanish": "<b>\u00bfQu\u00e9 otras formas hay para deshacerse de los medicamentos?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Remove the medications from their original containers and mix them with something undesirable, such as used coffee grounds, dirt, or cat litter.",
+                        "Put the mixture in something you can close, such as a zip-lock bag, to prevent the medicine from spilling out. Then throw the container in the trash.",
+                        "Some prescription medications may be safely flushed. Please visit <a href='https://bit.ly/3TmFnO2'><strong><em> bit.ly/3TmFnO2 </em></strong></a> for a list of flushable medications.",
+                        "If you have any questions about your medications, ask your provider or pharmacist."
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u5f9e\u539f\u4f86\u7684\u5bb9\u5668\u4e2d\u53d6\u51fa\u85e5\u7269\uff0c\u5c07\u5176\u8207\u4e0d\u9700\u8981\u7684\u6771\u897f\u6df7\u5408\uff0c\u5982\u7528\u904e\u7684\u5496\u5561\u6e23\u3001\u6ce5\u571f\u6216\u8c93\u7802\u3002",
+                                "\u5c07\u6df7\u5408\u7269\u653e\u5165\u53ef\u4ee5\u5c01\u9589\u7684\u5bb9\u5668(\u4f8b\u5982\u4e00\u500b\u62c9\u93c8\u888b)\u5167\uff0c\u4ee5\u9632\u6b62\u85e5\u7269\u6ea2\u51fa\u3002\u7136\u5f8c\u5c07\u5bb9\u5668\u6254\u9032 \u5783\u573e\u6876\u3002",
+                                "\u67d0\u4e9b\u8655\u65b9\u85e5\u53ef\u4ee5\u5b89\u5168\u5730\u6c96\u8d70\u3002\u8acb\u700f\u89bd <u>https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know/drug-disposal-fdas-flush-list-certain-medicines</u> \u67e5\u770b\u53ef\u6c96\u8d70\u7684\u85e5\u7269\u6e05\u55ae\u3002",
+                                "\u5982\u679c\u60a8\u5c0d\u85e5\u7269\u6709\u4efb\u4f55\u7591\u554f\uff0c\u8acb\u8aee\u8a62\u60a8\u7684\u91ab\u751f\u6216\u85e5\u5291\u5e2b\u3002"
+                            ],
+                            "Spanish": [
+                                "Retire los medicamentos de sus envases originales y m\u00e9zclelos con alguna sustancia desagradable, como granos de caf\u00e9 usados, tierra o arena sanitaria para gatos.",
+                                "Coloque la mezcla en alg\u00fan contenedor que pueda cerrar como una bolsa con cierre herm\u00e9tico, para evitar que el medicamento se derrame. Luego, tire el recipiente a la basura.",
+                                "Algunos medicamentos recetados pueden desecharse por el inodoro de manera segura. Ingrese en link <u>https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know/drug-disposal-fdas-flush-list-certain-medicines</u> para obtener un listado de los medicamentos que se pueden desechar por el inodoro.",
+                                "Si tiene alguna pregunta sobre sus medicamentos, consulte a su proveedor o farmac\u00e9utico."
+                            ]
+                        },
+                        "priority_health": {
+                            "English": [
+                                "Remove the medications from their original containers and mix them with something undesirable, such as used coffee grounds, dirt, or cat litter.",
+                                "Put the mixture in something you can close, such as a zip-lock bag, to prevent the medicine from spilling out. Then throw the container in the trash.",
+                                "Some prescription medications may be safely flushed. Please visit <a href='https://bit.ly/3TmFnO2'><strong><em> bit.ly/3TmFnO2 </em></strong></a> for a list of flushable medications.",
+                                "If you have any questions about your medications, ask your provider or pharmacist."
+                            ],
+                            "Spanish": [
+                                "Retire los medicamentos de sus envases originales y m\u00e9zclelos con alguna sustancia desagradable, como granos de caf\u00e9 usados, tierra o arena sanitaria para gatos.",
+                                "Coloque la mezcla en alg\u00fan contenedor que pueda cerrar como una bolsa con cierre herm\u00e9tico, para evitar que el medicamento se derrame. Luego, tire el recipiente a la basura.",
+                                "Algunos medicamentos recetados pueden desecharse por el inodoro de manera segura. Ingrese a <a href='https://bit.ly/3TmFnO2'><strong><em>bit.ly/3TmFnO2</em></strong></a> para obtener un listado de los medicamentos que se pueden desechar por el inodoro.",
+                                "Si tiene alguna pregunta sobre sus medicamentos, consulte a su proveedor o farmac\u00e9utico."
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 0,
+                        "spaceBefore": 0
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "For additional information on the safe disposal of medications, please visit <a href='https://bit.ly/43wQSds'><strong><em> bit.ly/43wQSds </em></strong></a> or contact your local pharmacy or police department.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5982\u9700\u7372\u53d6\u6709\u95dc\u5b89\u5168\u8655\u7406\u85e5\u7269\u7684\u5176\u4ed6\u8cc7\u8a0a\uff0c\u8acb\u806f\u7d61\u60a8\u7576\u5730\u7684\u85e5\u5e97\u3001\u8b66\u7f72\uff0c\u6216\u700f\u89bd: <u>www.hhs.gov/opioids/prevention/safely-dispose-drugs/index.html</u>",
+                            "Spanish": "Para obtener m\u00e1s informaci\u00f3n sobre la eliminaci\u00f3n segura de los medicamentos, comun\u00edquese con su farmacia local, con el departamento de polic\u00eda o ingrese en: <u>www.hhs.gov/opioids/prevention/safely-dispose-drugs/index.html</u>"
+                        },
+                        "priority_health": {
+                            "English": "For additional information on the safe disposal of medications, please visit <a href='https://bit.ly/43wQSds'><strong><em> bit.ly/43wQSds </em></strong></a> or contact your local pharmacy or police department.",
+                            "Spanish": "Para obtener m\u00e1s informaci\u00f3n sobre la eliminaci\u00f3n segura de los medicamentos, ingrese a <a href='https://bit.ly/3TKrglA'><em> bit.ly/3TKrglA </em></a> o comun\u00edquese con su farmacia local, o con el departamento de la polic\u00eda."
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 50,
+                "right": 50,
+                "top": 84
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 10,
+                    "spaceBefore": 10,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-02T05:38:16"
+}

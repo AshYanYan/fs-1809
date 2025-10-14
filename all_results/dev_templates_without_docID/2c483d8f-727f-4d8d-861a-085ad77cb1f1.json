@@ -1,0 +1,33 @@
+{
+    "created": "2023-03-16T19:07:03Z",
+    "id": "2c483d8f-727f-4d8d-861a-085ad77cb1f1",
+    "name": "New test template",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": null,
+                "left": null,
+                "right": null,
+                "top": null
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "show": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {}
+        }
+    },
+    "updated": "2023-03-16T19:07:03"
+}

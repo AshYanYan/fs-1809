@@ -1,0 +1,33 @@
+{
+    "created": "2023-04-21T11:33:33Z",
+    "id": "c7be7c03-2d16-451f-a5ad-ce888a4bf771",
+    "name": "New Template 21/04 /2",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": null,
+                "left": null,
+                "right": null,
+                "top": null
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "show": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {}
+        }
+    },
+    "updated": "2023-04-21T11:33:33"
+}

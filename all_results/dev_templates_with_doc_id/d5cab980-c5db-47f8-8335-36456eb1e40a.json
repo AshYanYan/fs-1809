@@ -1,0 +1,324 @@
+{
+    "created": "2024-01-24T21:30:41Z",
+    "id": "d5cab980-c5db-47f8-8335-36456eb1e40a",
+    "name": "SDL_MTM_english_icare",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<u><b>Safe Disposal of Prescription Medications</b></u>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 16,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Storing your medications safely and disposing of the ones you no longer need can make a difference when it comes to preventing medication injuries. It can also prevent medications from getting into the wrong hands.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b><u>How to Store Medications Safely:</u></b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Make sure your medications are stored in their original container and the cap is on tight.",
+                        "Place your medications in a safe location and never leave it in an unsecured place, such as the kitchen counter.",
+                        "Store your medications where children cannot see or reach them."
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b><u>How to Dispose of Medications Safely:</u></b>",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Dispose of medications you no longer use or are expired as soon as possible. This will prevent you and others from accidentally taking medications you no longer need."
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b><u>Drug Take Back Programs Near You:</u></b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "The preferred way of disposing unused controlled medications is to bring them to community take-back sites near you.",
+                        "Before bringing your medications to take-back sites, use a marker to cover any personal information, such as your name or prescription number. Two medication take-back sites in your community are:"
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "10%",
+                        "40%",
+                        "40%",
+                        "10%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_items": [
+                        [
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": "{patient_disposal_sites[0]}"
+                            },
+                            {
+                                "string": "{patient_disposal_sites[1]}"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "The US Drug Enforcement Administration (DEA) allows unused prescription medications to be mailed back to pharmacies or other authorized sites using packages made available at pharmacies or other drug disposal sites. Contact your local pharmacy prior to mailing unused medications.",
+                        "Other medication collection sites in your area and information about medication disposal may be found at the websites below:<br/><b>o</b> &nbsp &nbsp &nbsp Information regarding drug take back: <a href='https://www.deatakeback.com/'><u>https://www.deatakeback.com/</u></a> <br/><b>o</b> &nbsp &nbsp &nbsp Additional take-back sites near you: <a href='https://apps2.deadiversion.usdoj.gov/pubdispsearch/spring/main?execution=e2s1'><u>https://apps2.deadiversion.usdoj.gov/pubdispsearch/spring/main?execution=e2s1</u></a>"
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b><u>Other Ways to Dispose of Medications:</u></b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Remove the medications from their original containers and mix them with something undesirable, such as used coffee grounds, dirt, or cat litter.",
+                        "Put the mixture in something you can close, such as a zip-lock bag, to prevent the medicine from spilling out. Then throw the container in the trash.",
+                        "Some prescription medications may be safely flushed. Please visit <a href='https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know/drug-disposal-fdas- flush-list-certain-medicines'><u> https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know/drug-disposal-fdas- flush-list-certain-medicines </u></a> for a list of flushable medications.",
+                        "If you have any questions about your medications, ask your doctor or pharmacist."
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceBefore": 14
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "For additional information on the safe disposal of medications, please contact your local pharmacy, police department or visit: <a href='www.hhs.gov/opioids/prevention/safely-dispose-drugs/index.html'><u>  www.hhs.gov/opioids/prevention/safely-dispose-drugs/index.html </u></a>",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 576,
+                    "y": 760
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 40,
+                "left": 36,
+                "right": 36,
+                "top": 66
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "FooterText": {
+                    "fontName": "Lato-italic",
+                    "fontSize": 8,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 11,
+                    "textColor": "gray"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 13,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 14,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2024-01-24T21:30:41"
+}

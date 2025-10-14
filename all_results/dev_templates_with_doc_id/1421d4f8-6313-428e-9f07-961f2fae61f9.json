@@ -1,0 +1,1174 @@
+{
+    "created": "2025-03-16T00:56:19Z",
+    "id": "1421d4f8-6313-428e-9f07-961f2fae61f9",
+    "managed": true,
+    "name": "PCP DMP Claim Edit (POT) (ESI 2025)",
+    "program": "DMP",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "sw",
+                    "filename": "{org_logo}",
+                    "height": 36,
+                    "x": 36,
+                    "y": 720
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 31
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "spacer": {
+                    "height": 18
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        48,
+                        200,
+                        48,
+                        200
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 18,
+                    "table_alignment": "center",
+                    "table_items": [
+                        [
+                            {
+                                "string": "<b>To:</b>"
+                            },
+                            {
+                                "string": "{event_data_dmp_provider_first_last_name}"
+                            },
+                            {
+                                "string": "<b>From:</b>"
+                            },
+                            {
+                                "string": "OPIOID CASE MANAGEMENT"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<b>Fax:</b>"
+                            },
+                            {
+                                "string": "{event_data_dmp_provider_fax}"
+                            },
+                            {
+                                "string": "<b>Date:</b>"
+                            },
+                            {
+                                "string": "{prep_date_mmddyyyy}"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<b>Phone:</b>"
+                            },
+                            {
+                                "string": "{event_data_dmp_provider_phone}"
+                            },
+                            {
+                                "string": "<b>CC:</b>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<b>Re:</b>"
+                            },
+                            {
+                                "string": "<font color='#FF0000'><i>Medicare Drug Management Program</i></font>"
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    12
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "A medication review was conducted for your patient(s). Please see the attached recommendations. This service was provided through a clinical program as part of the patient\u2019s prescription drug plan.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Please note:</b> Recommendations are based on limited information. <u><i>Information available includes medications from claims data and may not reflect current therapies. If we spoke with your patient, additional information was obtained via patient report.</i></u>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<i>We recognize that pharmacy-claims data do not allow us to fully understand your patient\u2019s goals of therapy, nor do they allow us to fully evaluate every clinical scenario. This information is provided in an effort to help you work with your patient and does not replace your clinical judgment.</i>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>To Physicians in New York State:</b> If a prescription was included for your convenience, it does not meet Board of Pharmacy requirements for your state. Please use a serialized, official New York prescription form and fax directly to the patient\u2019s dispensing pharmacy.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "To speak with us, please call 1-636-335-5397.",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 36,
+                        "spaceBefore": 36,
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        536
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "center",
+                    "table_items": [
+                        [
+                            {
+                                "string": "<i>Information on the attached page(s) is protected health information and subject to all privacy and security regulations under HIPAA.</i>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<b>Confidentiality Notice: This fax transmission contains confidential information belonging to the sender that is legally privileged and should not be seen by unauthorized persons. This information is intended for the use of the individual or entity named above. The authorized recipient of this information is prohibited from disclosing this information to any other party. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution or action taken in reliance on the contents of this document is strictly prohibited. If you have received this fax in error, please notify the sender immediately to arrange the return of this document.</b>"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    10
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    10
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    10
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    10
+                                ]
+                            }
+                        },
+                        {
+                            "ROUNDEDCORNERS": {
+                                "value": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    4,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1.5,
+                                    "white"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Provider Communication: Request for Prescription Change or Information</b>",
+                    "text_style": {
+                        "parent_style": "TitleText",
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Express Scripts<br/>1 Express Way, St. Louis, MO 63121<br/>Phone: 1-636-335-5397 Fax: 1-833-263-1963",
+                    "text_style": {
+                        "parent_style": "SmallParagraphText",
+                        "spaceAfter": 18,
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Date:</b> {prep_date_mmddyyyy}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        54,
+                        318,
+                        72,
+                        96
+                    ],
+                    "data_source": "table_items",
+                    "keepWithNext": true,
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "InformationTableText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "InformationTableText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "InformationTableText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "InformationTableText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 0,
+                    "table_alignment": "center",
+                    "table_items": [
+                        [
+                            {
+                                "string": "<para align='center'><font color='#FFFFFF'><b>Prescriber Information</b></font></para>"
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<b>Name:</b>"
+                            },
+                            {
+                                "string": "{event_data_dmp_provider_first_last_name}"
+                            },
+                            {
+                                "string": "<b>NPI/DEA#:</b>"
+                            },
+                            {
+                                "string": "{event_data_dmp_provider_npi}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": []
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    0.5,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        54,
+                        72,
+                        72,
+                        72,
+                        42,
+                        76,
+                        44,
+                        108
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "InformationTableText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "InformationTableText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "InformationTableText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "InformationTableText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "InformationTableText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "InformationTableText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "InformationTableText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "InformationTableText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 18,
+                    "table_alignment": "center",
+                    "table_items": [
+                        [
+                            {
+                                "string": "<para align='center'><font color='#FFFFFF'><b>Patient Information</b></font></para>"
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<b>Name:</b>"
+                            },
+                            {
+                                "string": "{event_data_dmp_patient_full_name}"
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": "<b>DOB:</b>"
+                            },
+                            {
+                                "string": "{event_data_dmp_patient_birth_date}"
+                            },
+                            {
+                                "string": "<b>Plan:</b>"
+                            },
+                            {
+                                "string": "[patient_org.report.reportPlanDisplayName]"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<b>Address:</b>"
+                            },
+                            {
+                                "string": "{event_data_dmp_patient_full_long_address}"
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": "<b>Phone:</b>"
+                            },
+                            {
+                                "string": "{event_data_dmp_patient_phone}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": []
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    3,
+                                    1
+                                ],
+                                "start": [
+                                    1,
+                                    1
+                                ],
+                                "value": []
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    5,
+                                    2
+                                ],
+                                "start": [
+                                    1,
+                                    2
+                                ],
+                                "value": []
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    0.5,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Prescription claims were reviewed for your patient and we would like to bring the following to your attention:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        350,
+                        190
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "InformationTableText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "InformationTableText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 18,
+                    "table_alignment": "center",
+                    "table_items": [
+                        [
+                            {
+                                "string": "<b>Alert Name: TD - Opioid Case Management - Claim Edit</b>"
+                            },
+                            {
+                                "string": "<b>Clinician:  Opioid Monitoring System</b>"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "ROUNDEDCORNERS": {
+                                "value": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    6
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    12
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    6
+                                ]
+                            }
+                        },
+                        {
+                            "LINEABOVE": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBELOW": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We have reviewed your patient's opioid usage and have determined, through a result of a recent medical necessity review regarding cumulative dosage of opioid medications being prescribed, that {report_parameters__variables__lock_in_free_text_opioid_lock_in_details__value} is appropriate and medically necessary for your patient.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__lock_in_free_text_pos_claim_edit_details__exclude",
+                    "string": "{report_parameters__variables__lock_in_free_text_pos_claim_edit_details__value}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Your patient has also been notified by a letter sent on {report_parameters__variables__lock_in_free_text_letter_send__value} of this review and the associated limitation decision.  You or your patient may appeal this decision by calling {report_parameters__variables__lock_in_free_text_health_plan_phone_number__value}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you have any questions or concerns, or you need additional information for use in your treatment of this patient, please contact us at 1-636-335-5397, Monday through Friday, 10am-6pm Eastern, excluding company holidays.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "<b>To implement a medication change, please follow up with your patient. If needed, send a new prescription to your patient's dispensing pharmacy.</b>",
+                    "text_style": {
+                        "leftIndent": 60,
+                        "parent_style": "ParagraphText",
+                        "rightIndent": 60,
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>If you have questions, please call 1-636-335-5397.</b>",
+                    "text_style": {
+                        "leftIndent": 60,
+                        "parent_style": "ParagraphText",
+                        "rightIndent": 60,
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "keepWithNext": true,
+                    "width": "100%"
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "<b><i>Information on this form is protected health information and subject to all privacy and security regulations under HIPAA.</i></b>",
+                    "text_style": {
+                        "parent_style": "SmallParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "sw",
+                    "filename": "{org_logo}",
+                    "height": 36,
+                    "x": 36,
+                    "y": 720
+                }
+            },
+            {
+                "text": {
+                    "height": 72,
+                    "string": "1 Express Way<br/>St. Louis, MO 63121<br/>Phone: 1-636-335-5397<br/>Fax: 1-833-263-1963",
+                    "text_style": {
+                        "parent_style": "AddressText"
+                    },
+                    "width": 270,
+                    "x": 306,
+                    "y": 684
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 31
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 30,
+                "right": 30,
+                "top": 90
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Calibri-normal",
+                "font_size": 10,
+                "show": true,
+                "skip_cover_page": null,
+                "y": 30
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 11,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DisclaimerText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FeatureText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 11,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 9,
+                    "leading": 11,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "HeaderText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 15,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 2,
+                    "spaceBefore": 11,
+                    "text_alignment": "left"
+                },
+                "InformationTableText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 10,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "spaceBefore": 2,
+                    "text_alignment": "left"
+                },
+                "ListHeaderText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 4,
+                    "spaceBefore": 11,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "spaceBefore": 2,
+                    "text_alignment": "left"
+                },
+                "PullOutText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 14,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "SmallParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "spaceBefore": 2,
+                    "text_alignment": "left"
+                },
+                "TitleText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 15,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 2,
+                    "spaceBefore": 11,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-02-21T23:50:19"
+}

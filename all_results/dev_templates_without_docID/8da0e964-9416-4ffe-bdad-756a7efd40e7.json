@@ -1,0 +1,52 @@
+{
+    "created": "2023-04-28T21:16:35Z",
+    "id": "8da0e964-9416-4ffe-bdad-756a7efd40e7",
+    "name": "test-create-template",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [
+            {
+                "spacer": {}
+            },
+            {},
+            {
+                "multitable": {
+                    "data_source": "table_items",
+                    "row_template": []
+                }
+            },
+            {
+                "signature": {
+                    "filename": "",
+                    "string": "test"
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": null,
+                "left": null,
+                "right": null,
+                "top": null
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": null,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {}
+        }
+    },
+    "updated": "2023-09-07T21:17:38"
+}

@@ -1,0 +1,251 @@
+{
+    "created": "2025-04-02T22:31:36Z",
+    "id": "1d0983ff-9e58-4084-b9ef-3204b7f9f3ce",
+    "managed": true,
+    "name": "CL_HRHC_general",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "sw",
+                    "filename": "{org_logo}",
+                    "width": 160,
+                    "x": 225,
+                    "y": 730
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText"
+                    },
+                    "width": 200,
+                    "x": 340,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 18
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 18
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Thank you for working with {hotline_name} to make sure your medicines are helping you feel better and are taken safely. We reviewed your medications on {review_date}.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 12
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "This letter has your action plan (Medication Action Plan) and medication list (Personal Medication List). The action plan has steps you should take to help you get the best results from your medications. The medication list will help you keep track of your medications and make sure you take them the right way.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 12
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Have your action plan and medication list with you when you talk with your doctors, pharmacists, and other health care providers.",
+                        "Ask your doctors, pharmacists, and other health care providers to update the action plan and medication list every time you have a medication change and at every visit.",
+                        "With every medication change, have your doctor send in a new prescription to your pharmacy.",
+                        "Take your medication list with you if you go to the hospital.",
+                        "Give a copy of the action plan and medication list to your family or caregivers."
+                    ],
+                    "list_attributes": {
+                        "bulletFontSize": 14,
+                        "bulletType": "bullet",
+                        "leftIndent": 24,
+                        "spaceAfter": 12,
+                        "spaceBefore": 12
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you want to talk about this letter or any of the other materials, you can call {hotline_name} member services at {hotline_phone} and ask for a pharmacist to call you back. We are available {hotline_hours}. From October 1-March 31, we are available 7 days a week, 8:00 am - 8:00 pm. We look forward to working with you to help you be as healthy as possible.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Thank you for choosing {hotline_name}.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 18
+                    }
+                }
+            },
+            {
+                "signature": {
+                    "filename": "{pharmacist_signature}",
+                    "height": 45,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 17,
+                        "leading": 17,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_job_title}<br/>{hotline_name}",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 35,
+                    "x": 72,
+                    "y": 750
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{org_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 72,
+                    "y": 600
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 350,
+                    "x": 110,
+                    "y": 560
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText"
+                    },
+                    "width": 200,
+                    "x": 340,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 84,
+                "left": 72,
+                "right": 72,
+                "top": 72
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Times-New-Roman-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "DocIDText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "text_alignment": "right"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-04-02T23:51:47"
+}

@@ -1,0 +1,36 @@
+{
+    "created": "2025-01-29T20:54:49Z",
+    "id": "dd40d8d2-9d6e-43c1-af17-0c96fa2a648e",
+    "managed": false,
+    "name": "zain-dev-test-pdf-template",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 54,
+                "left": 36,
+                "right": 36,
+                "top": 108
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": null,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {}
+        }
+    },
+    "updated": "2025-01-29T21:04:48"
+}

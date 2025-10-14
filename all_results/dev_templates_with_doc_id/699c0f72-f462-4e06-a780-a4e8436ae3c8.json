@@ -1,0 +1,1398 @@
+{
+    "created": "2025-04-29T04:51:32Z",
+    "id": "699c0f72-f462-4e06-a780-a4e8436ae3c8",
+    "managed": false,
+    "name": "PML_MTM_IEHP",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 12,
+                    "ignore_large_font": true,
+                    "string": "Medication List for {patient_full_name}, DOB: {patient_date_birth}",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "{patient_full_name} \u85e5\u200b\u7269\u200b\u6e05\u200b\u55ae\u200b\uff0c\u200b\u51fa\u200b\u751f\u200b\u65e5\u200b\u671f\u200b {patient_date_birth}",
+                            "Spanish": "Lista de medicamentos para {patient_full_name}, fecha de nacimiento: {patient_date_birth}",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'>Danh S\u00e1ch Thu\u1ed1c cho {patient_full_name}, DOB: {patient_date_birth}</font>"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Arial-normal",
+                        "fontSize": 12,
+                        "text_alignment": "right"
+                    },
+                    "width": 648,
+                    "x": 72,
+                    "y": 580
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 720,
+                    "x_start": 72,
+                    "y_end": 60,
+                    "y_start": 60
+                }
+            },
+            {
+                "text": {
+                    "height": 7,
+                    "ignore_large_font": true,
+                    "string": "Form CMS-10396 (Expires: 12/27)",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "CMS-10396 \u8868\u683c (\u5230\u671f\u65e5\u671f\uff1a12/27)",
+                            "Spanish": "Formulario CMS-10396 (Vencimiento: diciembre de 2027)",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'>Bi\u1ec3u m\u1eabu CMS-10396 (H\u1ebft h\u1ea1n: 12/27)</font>"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 7,
+                        "text_alignment": "left"
+                    },
+                    "width": 250,
+                    "x": 72,
+                    "y": 50
+                }
+            },
+            {
+                "text": {
+                    "height": 7,
+                    "ignore_large_font": true,
+                    "string": "Form Approved OMB No. 0938-1154",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u8868\u683c\u6279\u51c6 OMB \u7de8\u865f 0938-1154",
+                            "Spanish": "Formulario aprobado por la OMB N\u00b0 0938-1154",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'>M\u1eabu \u0110\u01b0\u1ee3c Ph\u00ea Duy\u1ec7t s\u1ed1 OMB 0938-1154</font>"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 7,
+                        "text_alignment": "right"
+                    },
+                    "width": 300,
+                    "x": 420,
+                    "y": 50
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "ignore_large_font": true,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Arial-normal",
+                        "fontSize": 9,
+                        "text_alignment": "right"
+                    },
+                    "width": 300,
+                    "x": 420,
+                    "y": 24
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "Medication List",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u85e5\u200b\u7269\u200b\u6e05\u200b\u55ae\u200b",
+                            "Spanish": "Lista de medicamentos",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'>Danh S\u00e1ch Thu\u1ed1c</font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "Heading1Text"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        467
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        36
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 14,
+                                    "leading": 16,
+                                    "leftIndent": -6,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 9,
+                    "spaceBefore": 9,
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "Prepared on: {cmr_date_mmddyyyy}",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u6587\u200b\u4ef6\u200b\u6e96\u200b\u5099\u200b\u65e5\u200b\u671f\u200b: {cmr_date_localized}",
+                                        "Spanish": "Preparado el: {cmr_date_localized}",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>\u0110\u01b0\u1ee3c chu\u1ea9n b\u1ecb v\u00e0o: {cmr_date_localized}</font>"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        50,
+                        400
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        38,
+                        38
+                    ],
+                    "row_template": [
+                        {
+                            "image": {
+                                "alignment": "left",
+                                "height": 32
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 12,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 9,
+                    "spaceBefore": 9,
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "filename": "/images/lightbulb.png"
+                            },
+                            {
+                                "string": "Bring your Medication List when you go to the doctor, hospital, or emergency room. And, share it with your family or caregivers.",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u7576\u200b\u60a8\u200b\u524d\u200b\u5f80\u200b\u91ab\u200b\u751f\u200b\u8655\u200b\u3001\u200b\u91ab\u200b\u9662\u200b\u6216\u200b\u6025\u200b\u8a3a\u200b\u5ba4\u200b\u5c31\u200b\u8a3a\u200b\u6642\u200b\uff0c\u200b\u8acb\u200b\u651c\u200b\u5e36\u200b\u60a8\u200b\u7684\u200b\u85e5\u200b\u7269\u200b\u6e05\u200b\u55ae\u200b\u3002\u200b\u8acb\u200b\u548c\u200b\u60a8\u200b\u7684\u200b\u5bb6\u200b\u4eba\u200b\u6216\u200b\u7167\u200b\u9867\u200b\u8005\u200b\u5206\u200b\u4eab\u200b\u9019\u200b\u4efd\u200b\u6e05\u200b\u55ae\u200b\u3002\u200b",
+                                        "Spanish": "Lleve su lista de medicamentos cuando vaya al m\u00e9dico, al hospital o a la sala de emergencias. Y comp\u00e1rtala con su familia o cuidadores.",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>Mang theo Danh S\u00e1ch Thu\u1ed1c c\u1ee7a qu\u00fd v\u1ecb khi qu\u00fd v\u1ecb \u0111i g\u1eb7p b\u00e1c s\u0129, c\u0169ng nh\u01b0 \u0111\u1ebfn b\u1ec7nh vi\u1ec7n ho\u1eb7c ph\u00f2ng c\u1ea5p c\u1ee9u. \u0110\u1ed3ng th\u1eddi, h\u00e3y chia s\u1ebb danh s\u00e1ch \u0111\u00f3 v\u1edbi gia \u0111\u00ecnh ho\u1eb7c nh\u1eefng ng\u01b0\u1eddi ch\u0103m s\u00f3c c\u1ee7a qu\u00fd v\u1ecb.</font>"
+                                    }
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "filename": "/images/pencil.png"
+                            },
+                            {
+                                "string": "Note any changes to how you take your medications. Cross out medications when you no longer use them.",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u60a8\u200b\u7684\u200b\u670d\u200b\u85e5\u200b\u65b9\u200b\u5f0f\u200b\u82e5\u200b\u6709\u200b\u4efb\u200b\u4f55\u200b\u6539\u200b\u8b8a\u200b\uff0c\u200b\u8acb\u200b\u8a18\u200b\u9304\u200b\u4e0b\u200b\u4f86\u200b\u3002\u200b\u5c07\u200b\u60a8\u200b\u4e0d\u200b\u518d\u200b\u4f7f\u200b\u7528\u200b\u7684\u200b\u85e5\u200b\u7269\u200b\u5283\u200b\u6389\u200b",
+                                        "Spanish": "Anote cualquier cambio en la forma de tomar sus medicamentos. Tache los medicamentos que ya no usa.",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>Ghi l\u1ea1i b\u1ea5t k\u1ef3 thay \u0111\u1ed5i n\u00e0o \u0111\u1ed1i v\u1edbi c\u00e1ch qu\u00fd v\u1ecb d\u00f9ng thu\u1ed1c. G\u1ea1ch b\u1ecf c\u00e1c lo\u1ea1i thu\u1ed1c khi qu\u00fd v\u1ecb kh\u00f4ng c\u00f2n s\u1eed d\u1ee5ng.</font>"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        178,
+                        216,
+                        134,
+                        120
+                    ],
+                    "data_source": "patient_mtm_meds",
+                    "row_heights": [
+                        6,
+                        54,
+                        null
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontName": "Arial-bold",
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 9,
+                    "spaceBefore": 9,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Medication",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u85e5\u200b\u7269\u200b",
+                                        "Spanish": "Medicamento",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>Thu\u1ed1c</font>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "How I take it",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u670d\u200b\u7528\u200b\u65b9\u200b\u5f0f\u200b",
+                                        "Spanish": "C\u00f3mo lo tomo",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>C\u00e1ch t\u00f4i d\u00f9ng thu\u1ed1c</font>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Why I use it",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u4f7f\u200b\u7528\u200b\u539f\u200b\u56e0\u200b",
+                                        "Spanish": "Por qu\u00e9 lo uso",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>T\u1ea1i sao t\u00f4i d\u00f9ng thu\u1ed1c</font>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Prescriber",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u8655\u200b\u65b9\u200b\u5e2b",
+                                        "Spanish": "Profesional que emiti\u00f3 la receta m\u00e9dica",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>B\u00e1c s\u0129 k\u00ea toa</font>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    6
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    6
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    6
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    3
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "INNERGRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ],
+                    "top_border": true
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        50,
+                        400
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        40
+                    ],
+                    "row_template": [
+                        {
+                            "image": {
+                                "height": 32
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 12,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 9,
+                    "spaceBefore": 9,
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "filename": "/images/pencil.png"
+                            },
+                            {
+                                "string": "Add new medications, over-the-counter drugs, herbals, vitamins, or minerals in the blank rows below.",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u8acb\u200b\u200b\u65bc\u200b\u4e0b\u200b\u65b9\u200b\u7a7a\u200b\u767d\u200b\u5217\u200b\u65b0\u200b\u589e\u200b\u65b0\u200b\u7684\u200b\u85e5\u200b\u7269\u200b\u3001\u200b\u975e\u200b\u8655\u200b\u65b9\u200b\u85e5\u200b\u7269\u200b\u3001\u200b\u8349\u200b\u85e5\u200b\u3001\u200b\u7dad\u200b\u4ed6\u200b\u547d\u200b\u6216\u200b\u7926\u200b\u7269\u200b\u8cea\u200b\u3002\u200b",
+                                        "Spanish": "Agregue los nuevos medicamentos, medicamentos de venta sin receta, medicamentos herbales, vitaminas o minerales en las casillas en blanco a continuaci\u00f3n.",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>Th\u00eam thu\u1ed1c m\u1edbi, thu\u1ed1c kh\u00f4ng theo toa, th\u1ea3o m\u1ed9c, vitamin ho\u1eb7c kho\u00e1ng ch\u1ea5t trong c\u00e1c h\u00e0ng tr\u1ed1ng b\u00ean d\u01b0\u1edbi.</font>"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        178,
+                        215,
+                        134,
+                        120
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        6,
+                        54,
+                        27,
+                        27,
+                        27
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontName": "Arial-bold",
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 9,
+                    "spaceBefore": 9,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Medication",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u85e5\u200b\u7269\u200b",
+                                        "Spanish": "Medicamento",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>Thu\u1ed1c</font>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "How I take it",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u670d\u200b\u7528\u200b\u65b9\u200b\u5f0f\u200b",
+                                        "Spanish": "C\u00f3mo lo tomo",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>C\u00e1ch t\u00f4i d\u00f9ng thu\u1ed1c</font>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Why I use it",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u4f7f\u200b\u7528\u200b\u539f\u200b\u56e0\u200b",
+                                        "Spanish": "Por qu\u00e9 lo uso",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>T\u1ea1i sao t\u00f4i d\u00f9ng thu\u1ed1c</font>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Prescriber",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u8655\u200b\u65b9\u200b\u5e2b\u200b",
+                                        "Spanish": "Profesional que emiti\u00f3 la receta m\u00e9dica",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>B\u00e1c s\u0129 k\u00ea toa</font>"
+                                    }
+                                },
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [
+                        [],
+                        [],
+                        []
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "INNERGRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ],
+                    "top_border": true
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        14,
+                        634
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        32,
+                        36
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 14,
+                                    "leading": 14,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 18,
+                    "spaceBefore": 18,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "image": {
+                                "filename": "/images/exclamationpoint.png",
+                                "height": 20
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "<b>Allergies:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u904e\u200b\u654f\u200b\uff1a\u200b",
+                                        "Spanish": "Alergias:",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>D\u1ecb \u1ee9ng</font>"
+                                    }
+                                },
+                                "text_style": {
+                                    "leading": 20,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [
+                        [
+                            {
+                                "string": "{patient_allergies}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1,
+                                    1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEABOVE": {
+                                "end": [
+                                    1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    2,
+                                    "#787878"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        14,
+                        634
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        32,
+                        36
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 14,
+                                    "leading": 14,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 18,
+                    "spaceBefore": 18,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "image": {
+                                "filename": "/images/exclamationpoint.png",
+                                "height": 20
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "<b>Side effects I have had:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u6211\u200b\u66fe\u200b\u51fa\u200b\u73fe\u200b\u904e\u200b\u7684\u200b\u526f\u200b\u4f5c\u200b\u7528\u200b\uff1a\u200b",
+                                        "Spanish": "Efectos secundarios que he tenido:",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>C\u00e1c t\u00e1c d\u1ee5ng ph\u1ee5 t\u00f4i \u0111\u00e3 g\u1eb7p ph\u1ea3i:</font>"
+                                    }
+                                },
+                                "text_style": {
+                                    "leading": 20,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [
+                        [
+                            {
+                                "string": "{patient_allergies_side_effects}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1,
+                                    1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEABOVE": {
+                                "end": [
+                                    1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    2,
+                                    "#787878"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        14,
+                        634
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        32,
+                        56
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 14,
+                                    "leading": 14,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 18,
+                    "spaceBefore": 18,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "image": {
+                                "filename": "/images/exclamationpoint.png",
+                                "height": 20
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "<b>Other information:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u5176\u200b\u4ed6\u200b\u8cc7\u200b\u8a0a\u200b\uff1a\u200b",
+                                        "Spanish": "Otra informaci\u00f3n:",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>Th\u00f4ng tin kh\u00e1c:</font>"
+                                    }
+                                },
+                                "text_style": {
+                                    "leading": 20,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [
+                        []
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1,
+                                    1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEABOVE": {
+                                "end": [
+                                    1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    2,
+                                    "#787878"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        48,
+                        600
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        4,
+                        44
+                    ],
+                    "row_template": [
+                        {
+                            "image": {
+                                "height": 32
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 18,
+                    "spaceBefore": 18,
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "filename": "/images/pencil.png"
+                            },
+                            {
+                                "string": "<b>My notes and questions:</b>",
+                                "string_replacements": {
+                                    "default": {
+                                        "Chinese": "\u6211\u200b\u7684\u200b\u8a3b\u200b\u8a18\u200b\u548c\u200b\u554f\u200b\u984c\u200b\uff1a\u200b",
+                                        "Spanish": "Mis notas y preguntas:",
+                                        "Vietnamese": "<font fontname='Arial-Unicode-normal'>C\u00e1c ghi ch\u00fa c\u1ee7a t\u00f4i v\u00e0 c\u00e2u h\u1ecfi:</font>"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "TOPPADDING": {
+                                "end": [
+                                    -1,
+                                    1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    6
+                                ]
+                            }
+                        }
+                    ],
+                    "top_border": true
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 66,
+                "right": 66,
+                "top": 42
+            },
+            "orientation": "landscape",
+            "pagination": {
+                "font_name": "Arial-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {
+                "letter_date": {
+                    "English": {
+                        "format_string": "%B %-d, %Y",
+                        "locale": "en_US.UTF-8"
+                    },
+                    "Spanish": {
+                        "format_string": "%-d de %B de %Y",
+                        "locale": "es_ES.UTF-8"
+                    }
+                }
+            }
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "Heading1Text": {
+                    "fontName": "Arial-normal",
+                    "parent_style": "Heading1"
+                },
+                "ParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 14,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12
+                },
+                "TableHeaderText": {
+                    "fontName": "Arial-bold",
+                    "fontSize": 13,
+                    "leading": 15,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-24T20:38:27"
+}

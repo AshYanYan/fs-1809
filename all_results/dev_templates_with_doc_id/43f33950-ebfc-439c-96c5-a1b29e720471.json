@@ -1,0 +1,379 @@
+{
+    "created": "2025-03-05T23:29:16Z",
+    "id": "43f33950-ebfc-439c-96c5-a1b29e720471",
+    "managed": false,
+    "name": "Welcome_MTM_MVP",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 50,
+                    "x": 36,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 40,
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 240,
+                    "x": 36,
+                    "y": 648
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Y0051_0303_C",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "rightIndent": 80,
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},<br/><br/>Thank you for choosing MVP Health Care\u00ae (MVP). As part of your {hotline_name} Medicare plan, we're pleased to welcome you into our Medication Therapy Management (MTM) program. You are automatically qualified for this important program based on the number of medications you take, the health conditions you are living with, and your annual prescription costs. <b><i>There is no cost to participate</i></b>.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Estimado(a) {patient_full_name},<br/><br/>Gracias por elegir MVP Health Care\u00ae (MVP). Como parte de su plan Medicare de MVP, nos complace darle la bienvenida a nuestro programa de Administraci\u00f3n de Terapia de Medicamentos (Medication Therapy Management, MTM). Usted califica autom\u00e1ticamente para este importante programa en funci\u00f3n de la cantidad de medicamentos que toma, las afecciones m\u00e9dicas con las que vive y los costos anuales de sus medicamentos recetados. <b>No hay costo por participar</b>."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What can MTM do for you?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<b>\u00bfQu\u00e9 puede hacer MTM por usted?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ListHeaderText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Address any questions or problems you have about your medications",
+                        "Address any concerns you have, such as cost issues, side effects or drug interactions",
+                        "Provide advice on how to get the most benefit from the drugs you take",
+                        "Provide guidance on topics to discuss with your provider"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Spanish": [
+                                "Abordar cualquier pregunta o problema que tenga sobre sus medicamentos",
+                                "Abordar cualquier inquietud que tenga, como problemas de costos, efectos secundarios o interacciones farmacol\u00f3gicas",
+                                "Brindar consejos sobre c\u00f3mo obtener el m\u00e1ximo beneficio de los f\u00e1rmacos que toma",
+                                "Brindar orientaci\u00f3n sobre temas para analizar con su proveedor"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8,
+                        "start": "\u2022"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36,
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What do you receive when participating?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<b>\u00bfQu\u00e9 recibe cuando participa?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ListHeaderText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Access to a licensed pharmacist who will review all your prescription and over-the-counter medications",
+                        "A to-do list of the pharmacist\u2019s recommendations to review with your provider",
+                        "A Personal Medication List to track the medications you take and why you take them"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Spanish": [
+                                "Acceso a un farmac\u00e9utico autorizado que revisar\u00e1 todos sus medicamentos recetados y de venta libre",
+                                "Una lista de tareas de las recomendaciones del farmac\u00e9utico para revisar con su proveedor",
+                                "Una Lista Personal de medicamentos para llevar un registro de los medicamentos que toma y por qu\u00e9 los toma"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8,
+                        "start": "\u2022"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36,
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Want to participate? Get started now!</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<b>\u00bfDesea participar? \u00a1Comience ahora!</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "To schedule your comprehensive medication review please call <b>{hotline_phone}</b>, {hotline_hours}. Members can also email <b>RxAdvisor@mvphealthcare.com</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Para programar su revisi\u00f3n integral de medicamentos, llame al <b>{hotline_phone}</b>, de lunes a viernes, de 8:30 am a 5:00 pm, hora del este. Los afiliados tambi\u00e9n pueden enviar un correo electr\u00f3nico a <b>RxAdvisor@mvphealthcare.com</b>."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Don't want to participate?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<b>\u00bfNo desea participar?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Participation is optional. If you do not wish to participate, please call <b>{hotline_phone}</b>. You may continue to receive calls throughout the year until a formal request has been processed. If you remain an {hotline_name} Medicare member, you can rejoin the program at any time. You may be offered MTM services again next year if you continue to qualify for the program.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "La participaci\u00f3n es opcional. Si no desea participar, llame al <b>{hotline_phone}</b>. Puede continuar recibiendo llamadas durante todo el a\u00f1o hasta que se haya procesado una solicitud formal. Si sigue siendo afiliado de MVP Medicare, puede volver a unirse al programa en cualquier momento. Es posible que se le vuelvan a ofrecer servicios de MTM el pr\u00f3ximo a\u00f1o si contin\u00faa calificando para el programa."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<br/>Thank you for trusting {hotline_name} with your health care needs.<br/><br/>Sincerely,",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<br/>Gracias por confiar en {hotline_name} para sus necesidades de atenci\u00f3n m\u00e9dica.<br/><br/>Atentamente,"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "MVP Health Plan, Inc.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 45,
+                    "x": 36,
+                    "y": 760
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "10 Vantage Point Dr, Ste 1,<br/>Rochester, NY 14624",
+                    "text_style": {
+                        "parent_style": "AddressText"
+                    },
+                    "width": 250,
+                    "x": 36,
+                    "y": 615
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "<b>Health and wellness or prevention information.</b>",
+                    "text_style": {
+                        "parent_style": "FeatureText"
+                    },
+                    "width": 540,
+                    "x": 72,
+                    "y": 668
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 30,
+                "right": 30,
+                "top": 144
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DisclaimerText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 8,
+                    "leading": 9,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FeatureText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 9,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "HeaderText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 11,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 2,
+                    "spaceBefore": 11,
+                    "text_alignment": "left"
+                },
+                "ListHeaderText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 11,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 4,
+                    "spaceBefore": 11,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 11,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 6,
+                    "spaceBefore": 2,
+                    "text_alignment": "left"
+                },
+                "PullOutText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 14,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-15T20:00:40"
+}

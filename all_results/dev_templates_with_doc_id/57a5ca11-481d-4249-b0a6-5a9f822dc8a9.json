@@ -1,0 +1,506 @@
+{
+    "created": "2023-06-05T20:47:37Z",
+    "id": "57a5ca11-481d-4249-b0a6-5a9f822dc8a9",
+    "managed": true,
+    "name": "PCP_TDL_HRHC_general",
+    "program": "HRHC",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>(DOB: {patient_date_birth})",
+                    "string_replacements": {
+                        "vivahealth": {
+                            "English": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 746
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "hide_for": [
+                        "mdx"
+                    ],
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 19,
+                    "show_for": [
+                        "mdx"
+                    ],
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 65
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "kaiser"
+                    ],
+                    "string": "Medication Therapy Management Program for Patient: <b>{patient_full_name} (DOB: {patient_date_birth})</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "kaiser"
+                    ],
+                    "string": "Medication Management Program for Patient: <b>{patient_full_name} (DOB: {patient_date_birth})</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {provider_full_name}:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "mdx"
+                    ],
+                    "string": "MDX Hawaii has partnered with Arine to help optimize the medication regimen for your high-risk patients. This collaboration is designed to complement your practice by offering clinical pharmacist support and providing personalized medication recommendations tailored to each patient\u2019s unique needs. <br/> <br/> I am a pharmacist from Arine. On {cmr_date}, I spoke with your patient to perform a medication consultation. I have summarized the issues identified and my recommendations in the table below. <br/> <br/> Please call {hotline_phone} (TTY Call 711) with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "bcbsvt"
+                    ],
+                    "string": "I am a {hotline_name} pharmacist. On {cmr_date}, I spoke with your patient to perform a medication consultation. I have summarized the issues identified and my recommendations in the below table and provided an up-to-date medication list. Please call {hotline_phone} (TTY users call 711) with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "vivahealth"
+                    ],
+                    "string": "I am a clinical pharmacist working on behalf of {hotline_name}. On {cmr_date}, I spoke with your patient to perform a medication consultation. I have summarized the issues identified and my recommendations in the below table.<br/><br/><b>Action Requested</b><br/>Please review the information provided and indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}. If you have any questions regarding this letter, please do not hesitate to contact {hotline_name} via the toll free Provider Services number: 1-800-294-7780 or local number: 205-558-7474, from 8 a.m. to 5 p.m., Monday - Friday.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "kaiser"
+                    ],
+                    "string": "I am a {hotline_name} Health Plan pharmacist. On {cmr_date}, I spoke with your patient to perform a medication consultation. I have summarized the issues identified and my recommendations in the below table. Please call {hotline_phone}, {hotline_hours} with any questions.<br/><br/>Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "6%",
+                        "60%",
+                        "32%",
+                        "20%"
+                    ],
+                    "data_source": "provider_recommendations",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Assessment",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Recommendation",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Implement?<br/>(Y/N)",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "ROWBACKGROUNDS": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#FFFFFF",
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "display_condition": "pharmacy_name",
+                    "string": "Please send any updated prescriptions to the patient\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The patient\u2019s preferred pharmacy is:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "pharmacy_name",
+                    "string": "{pharmacy_name}<br/>{pharmacy_street}<br/>{pharmacy_city_state_zip}<br/>Phone: {pharmacy_phone}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Please leave any other comments here about the recommendations or important notes about the patient\u2019s health and fax us the form at {hotline_fax}:",
+                    "string_replacements": {
+                        "villagemd": {
+                            "English": "Please leave any other comments here about the recommendations or important notes about the patient\u2019s health:"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 25
+                    }
+                }
+            },
+            {
+                "line": {
+                    "width": "100%"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "width": "100%"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "width": "100%"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "width": "100%"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "width": "100%"
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We appreciate working with you to provide high-quality healthcare for our patients.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "leading": 18,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Pharmacist<br/>{pharmacist_credentialed_name}<br/>{hotline_name}<br/>Phone: {pharmacist_phone}<br/>Fax: {pharmacist_fax}",
+                    "string_replacements": {
+                        "kaiser": {
+                            "English": "Pharmacist<br/>{pharmacist_credentialed_name}<br/>Kaiser Foundation Health Plan of Washington<br/>Phone: {pharmacist_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "mdx": {
+                            "English": "Pharmacist<br/>{pharmacist_credentialed_name}<br/>Arine, in partnership with MDX Hawaii<br/>Phone: {pharmacist_phone} (TTY Call 711) <br/>Fax: {hotline_fax}"
+                        },
+                        "villagemd": {
+                            "English": "Pharmacist<br/>{pharmacist_credentialed_name}<br/>{hotline_name}<br/>Phone: {pharmacist_phone}"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "hide_for": [
+                        "mdx"
+                    ],
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 19,
+                    "show_for": [
+                        "mdx"
+                    ],
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 65
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 84,
+                "left": 36,
+                "right": 36,
+                "top": 108
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "DocIDText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "text_alignment": "right"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 14,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-04-18T01:01:34"
+}

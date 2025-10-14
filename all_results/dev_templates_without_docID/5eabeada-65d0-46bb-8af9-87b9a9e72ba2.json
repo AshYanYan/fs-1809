@@ -1,0 +1,523 @@
+{
+    "created": "2023-09-26T23:32:50Z",
+    "id": "5eabeada-65d0-46bb-8af9-87b9a9e72ba2",
+    "managed": true,
+    "name": "PCP_ADH_QUAL_HEALTHFIRST",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 250,
+                    "x": 36,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Coverage is provided by Healthfirst Health Plan, Inc. or Healthfirst Insurance Company, Inc.",
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8
+                    },
+                    "width": 170,
+                    "x": 36,
+                    "y": 50
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "0048-24",
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 20
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 576,
+                    "x_start": 36,
+                    "y_end": 60,
+                    "y_start": 60
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Medication Management Program for Patient: <b>{patient_full_name} (DOB: {patient_date_birth})</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {provider_prefix} {provider_full_name}:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "user_org_flag_is_arine",
+                    "string": "I am a clinical care team member from Healthfirst. On {review_date}, I reviewed your patient's case. I have summarized my assessment and recommendations in the table below.<br/><br/><b>Action Requested</b><br/>Please review the information provided. Indicate in the last column whether you plan to implement the recommendations and fax us the form at 646-677-3387. Please call 844-347-2955 with any questions.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "user_org_flag_is_arine",
+                    "string": "I am a clinical care team member working on behalf of Healthfirst. On {review_date}, I reviewed your patient's case. I have summarized my assessment and recommendations in the table below.<br/><br/><b>Action Requested</b><br/>Please review the information provided. Indicate in the last column whether you plan to implement the recommendations and fax us the form at 833-263-1963. Please call 844-650-0300 with any questions.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "6%",
+                        "52%",
+                        "27%",
+                        "15%"
+                    ],
+                    "data_source": "provider_recommendations",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Assessment",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Recommendation",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Implement? (Y/N)",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#666666"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "pharmacy_name",
+                    "string": "Please send any updated medication prescriptions to the patient\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The patient\u2019s preferred pharmacy is:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "pharmacy_name",
+                    "string": "{pharmacy_name}<br/>{pharmacy_street}<br/>{pharmacy_city_state_zip}<br/>Phone: {pharmacy_phone}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "10%",
+                        "90%"
+                    ],
+                    "data_source": "table_items",
+                    "display_condition": "provider_summary",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceBefore": 12,
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<b>Note:</b>"
+                            },
+                            {
+                                "string": "{provider_summary}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#666666"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "user_org_flag_is_arine",
+                    "keepWithNext": true,
+                    "string": "Please leave any other comments here about the recommendations or important notes about the patient\u2019s health and fax us the form at 646-677-3387:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "user_org_flag_is_arine",
+                    "keepWithNext": true,
+                    "string": "Please leave any other comments here about the recommendations or important notes about the patient\u2019s health and fax us the form at 833-263-1963:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "color": "#666666",
+                    "keepWithNext": true
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15,
+                    "keepWithNext": true
+                }
+            },
+            {
+                "line": {
+                    "color": "#666666",
+                    "keepWithNext": true
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15,
+                    "keepWithNext": true
+                }
+            },
+            {
+                "line": {
+                    "color": "#666666",
+                    "keepWithNext": true
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15,
+                    "keepWithNext": true
+                }
+            },
+            {
+                "line": {
+                    "color": "#666666",
+                    "keepWithNext": true
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15,
+                    "keepWithNext": true
+                }
+            },
+            {
+                "line": {
+                    "color": "#666666",
+                    "keepWithNext": true
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15,
+                    "keepWithNext": true
+                }
+            },
+            {
+                "line": {
+                    "color": "#666666"
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "We appreciate working with you to provide high-quality healthcare for our patients.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "spacer": {
+                    "height": 30,
+                    "keepWithNext": true
+                }
+            },
+            {
+                "signature": {
+                    "filename": "{pharmacist_signature}",
+                    "height": 50,
+                    "keepWithNext": true,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "leading": 18,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "user_org_flag_is_arine",
+                    "string": "Clinical Support<br/>{pharmacist_credentialed_name}<br/>Phone: 844-347-2955<br/>Fax: 646-677-3387",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "user_org_flag_is_arine",
+                    "string": "Clinical Support<br/>On Behalf of Healthfirst<br/>Phone: 844-650-0300<br/>Fax: 833-263-1963",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 38,
+                    "x": 36,
+                    "y": 764
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Coverage is provided by Healthfirst Health Plan, Inc. or Healthfirst Insurance Company, Inc.",
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8
+                    },
+                    "width": 170,
+                    "x": 36,
+                    "y": 50
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "0048-24",
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 20
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 576,
+                    "x_start": 36,
+                    "y_end": 60,
+                    "y_start": 60
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 36,
+                "right": 36,
+                "top": 84
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 16,
+                    "spaceBefore": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-04-11T20:46:33"
+}

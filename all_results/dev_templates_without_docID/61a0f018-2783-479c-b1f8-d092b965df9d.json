@@ -1,0 +1,35 @@
+{
+    "created": "2023-10-10T09:52:55Z",
+    "id": "61a0f018-2783-479c-b1f8-d092b965df9d",
+    "name": "testTemplate10 52",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 36,
+                "right": 36,
+                "top": 108
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": null,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {}
+        }
+    },
+    "updated": "2023-10-10T09:52:55"
+}

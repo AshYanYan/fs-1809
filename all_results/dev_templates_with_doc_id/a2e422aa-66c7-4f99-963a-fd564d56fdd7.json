@@ -1,0 +1,544 @@
+{
+    "created": "2023-05-30T18:09:05Z",
+    "id": "a2e422aa-66c7-4f99-963a-fd564d56fdd7",
+    "managed": true,
+    "name": "PCP_PML_HRHC_general",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "hide_for": [
+                        "hmsa"
+                    ],
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "height": 40,
+                    "show_for": [
+                        "hmsa"
+                    ],
+                    "storage": {
+                        "path": "org_logo/hmsa/2025-03-10/hmsa_uhp_dkicp_combined.png",
+                        "type": "s3"
+                    },
+                    "x": 580,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "hide_for": [
+                        "hmsa"
+                    ],
+                    "string": "<b>Patient\u2019s Medication Summary</b><br/><br/><b>Name:</b> {patient_full_name} (DOB: {patient_date_birth})",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 350,
+                    "x": 36,
+                    "y": 700
+                }
+            },
+            {
+                "text": {
+                    "anchor": "center",
+                    "height": 10,
+                    "show_for": [
+                        "hmsa"
+                    ],
+                    "string": "<b>Patient Medication Summary</b>",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 235,
+                    "y": 700
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "hmsa"
+                    ],
+                    "string": "<b>Name:</b> {patient_full_name} (DOB: {patient_date_birth})",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 350,
+                    "x": 36,
+                    "y": 672
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "<b>Date of Review: {cmr_date}</b>",
+                    "string_replacements": {
+                        "hmsa": {
+                            "English": "<b>Date of review: {cmr_date}</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 672
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {
+                        "hmsa": {
+                            "English": "This communication contains confidential and protected health information. It's intended only for the use of the addressee. If you've received this communication in error, please notify the sender immediately and destroy this document."
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 65
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<b>Medication Allergies: {patient_allergies}</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        120,
+                        120,
+                        98,
+                        98,
+                        109
+                    ],
+                    "data_source": "patient_meds",
+                    "hide_for": [
+                        "hmsa"
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_footer": [
+                        {
+                            "string": "Please note: this list includes patient-reported information. Please verify this list for accuracy.<br/>"
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        }
+                    ],
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Medication Name & Dosage",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Directions",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Indication",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Prescriber",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Notes",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "CENTER"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    -1
+                                ]
+                            }
+                        },
+                        {
+                            "ROWBACKGROUNDS": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#FFFFFF",
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        120,
+                        120,
+                        98,
+                        98,
+                        109
+                    ],
+                    "data_source": "patient_meds",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "hmsa"
+                    ],
+                    "table_alignment": "left",
+                    "table_footer": [
+                        {
+                            "string": "This list includes patient-reported information. Please verify this list for accuracy.<br/>"
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        }
+                    ],
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Medication Name & Dosage",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Directions",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Indication",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Prescriber",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Notes",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "CENTER"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    -1
+                                ]
+                            }
+                        },
+                        {
+                            "ROWBACKGROUNDS": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#FFFFFF",
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "hmsa"
+                    ],
+                    "string": "University Health Partners is an independent company providing Medication Therapy Management Program services on behalf of HMSA.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 31,
+                "right": 31,
+                "top": 128
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-07T17:00:11"
+}

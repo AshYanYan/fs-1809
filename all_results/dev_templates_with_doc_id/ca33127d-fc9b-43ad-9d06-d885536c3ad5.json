@@ -1,0 +1,256 @@
+{
+    "created": "2023-11-08T21:01:37Z",
+    "id": "ca33127d-fc9b-43ad-9d06-d885536c3ad5",
+    "name": "Welcome_MTM_aloha",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 32,
+                    "x": 72,
+                    "y": 755
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "string": "{arine_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 75,
+                    "y": 700
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{patient_mailing_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 110,
+                    "y": 560
+                }
+            },
+            {
+                "text": {
+                    "height": 30,
+                    "string": "AlohaCare Advantage Plus/AlohaCare Advantage (HMO D-SNP) is an HMO D-SNP with a Medicare contract and a contract with the Hawai`i Medicaid Program. Enrollment in AlohaCare Advantage Plus/AlohaCare Advantage depends on contract renewal.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontName": "Calibri",
+                        "fontSize": 9,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "center"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 36
+                }
+            },
+            {
+                "text": {
+                    "height": 0,
+                    "string": "H5969_002_MTM0032401_C<br/>H5969_003_MTM0032401_C",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontName": "Calibri",
+                        "fontSize": 9,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 36
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},<br/><br/> As part of your <b>{hotline_name} </b>Medicare plan, we\u2019re pleased to welcome you into our Medication Therapy Management (MTM) program. Because you meet the program criteria based on the number of medications you take, the number of health conditions you have, and your annual prescription costs, you\u2019ve automatically qualified for this important program. <b><i>There is no cost to participate.</i></b>",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What can MTM do for you?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<b>\u00bfQu\u00e9 puede hacer MTM por usted?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 13,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Address any questions or problems you have about your medications",
+                        "Address any concerns you have, such as cost issues, side effects or drug interactions",
+                        "Provide advice on how to get the most benefit from the drugs you take",
+                        "Provide guidance on topics to discuss with your provider"
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What do you receive when participating?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<b>\u00bfQu\u00e9 recibe al participar?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 13,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Access to a pharmacist who will review all your prescription and over-the-counter medications",
+                        "A To-Do-List that will help you get the best results from your medications",
+                        "A Personal Medication List to keep track of the medications you\u2019re taking and why"
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Want to participate? Get started now!</b>",
+                    "text_style": {
+                        "fontSize": 13,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "To schedule your comprehensive medication review call <b>1-808-269-7071</b>.",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Participation is optional. If you do not wish to participate, call AlohaCare Pharmacy at <b>(1-844-269-7071, TTY/TDD 1-877-447-5990)</b>, Monday through Friday from 8 AM to 5 PM Hawaii Time. You may continue to receive calls throughout the year until a formal request has been processed. If you remain an AlohaCare Medicare member, you can rejoin the program at anytime. You may be offered MTM services again next year if you continue to qualify for the program.<br/><br/>We look forward to helping you live a healthier life.<br/>Sincerely,<br/><br/>{hotline_name}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 48,
+                "left": 36,
+                "right": 36,
+                "top": 200
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 8,
+                    "spaceBefore": 8,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2024-01-22T18:24:48"
+}

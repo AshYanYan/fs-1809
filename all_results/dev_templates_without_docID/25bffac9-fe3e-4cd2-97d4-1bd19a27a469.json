@@ -1,0 +1,1082 @@
+{
+    "created": "2023-12-05T19:45:29Z",
+    "id": "25bffac9-fe3e-4cd2-97d4-1bd19a27a469",
+    "managed": true,
+    "name": "PCP_TOC",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "x": 36,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 30,
+                    "string": "Humana Medication Clinic<br/>595 Market St., STE 2550<br/>San Francisco, CA 94102<br/>",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 150,
+                    "x": 426,
+                    "y": 726
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "<b>Patient name:</b> {patient_full_name} <b>Patient date of birth: </b>{patient_date_birth}<br/><font size=8> &nbsp &nbsp 220502ALL0523 GHHLXM8EN</font>",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 400,
+                    "x": 36,
+                    "y": 30
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "Post-Discharge Medication Action Plan",
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>{patient_full_name}</b><br/><br/>Humana\u2019s medication management clinic reviewed your patient\u2019s medications after their hospital stay. Please note that the clinic was unable to include the patient in this review. We recommend following up with the patient before taking any action on the information below to ensure accuracy.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Patient information",
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Patient name: {patient_full_name}<br/>Patient date of birth: {patient_date_birth}<br/> Primary care physician: {pcp_full_name}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Discharge information",
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Discharge date: {humana_discharge_date}<br/>Discharge facility: {discharge_facility}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Medication Reconciliation Post-Discharge (MRP) information",
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "MRP date: {review_date}<br/>MRP completed with: No patient present<br/> MRP completed by: {pharmacist_name}, {pharmacist_credentials}<br/>MRP cosigned by: ",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "columns": {
+                    "column_style": [
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        },
+                        {
+                            "NOSPLIT": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ]
+                            }
+                        }
+                    ],
+                    "content": [
+                        {
+                            "elements": [
+                                {
+                                    "list": {
+                                        "items": "drp_assessment_list_items",
+                                        "list_attributes": {
+                                            "bulletType": "bullet"
+                                        },
+                                        "text_style": {
+                                            "parent_style": "ParagraphText"
+                                        }
+                                    }
+                                },
+                                {
+                                    "paragraph": {
+                                        "string": "Please insert this document in the patient\u2019s electronic medical record for compliance with Centers for Medicare & Medicaid Services audit requirements.<br/>",
+                                        "text_style": {
+                                            "parent_style": "ParagraphText"
+                                        }
+                                    }
+                                }
+                            ],
+                            "header": {
+                                "paragraph": {
+                                    "string": "Attention provider:<br/>",
+                                    "text_style": {
+                                        "parent_style": "HeaderText"
+                                    }
+                                }
+                            },
+                            "width": 508
+                        }
+                    ],
+                    "spaceAfter": 0,
+                    "spaceBefore": 24
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "253",
+                        "253"
+                    ],
+                    "data_source": "provider_meds_by_status",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "center",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Provider",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Reference",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ROWBACKGROUNDS": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#EDEDED",
+                                    "#CCCCCC"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#666666"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Overall summary - for provider</b> <br/>",
+                    "text_style": {
+                        "keepWithNext": 1,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{provider_summary}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Allergies<br/><br/>",
+                    "text_style": {
+                        "keepWithNext": 1,
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "40%",
+                        "60%"
+                    ],
+                    "data_source": "patient_allergies_list",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Allergen",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Reaction",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "line": {
+                    "spaceBefore": 30,
+                    "spceeAfter": 30,
+                    "width": "100%"
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "The medication list and recommendations were created by reconciling the discharge summary discharge medications with the patient\u2019s pharmacy fill and claim history. The undersigned clinical pharmacist has reviewed the final list.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>NEW</b> medications recently prescribed<br/><br/>",
+                    "text_style": {
+                        "keepWithNext": 1,
+                        "parent_style": "HeaderTextNonBold"
+                    }
+                }
+            },
+            {
+                "loop": {
+                    "data": {
+                        "iterate_over": "patient_new_meds"
+                    },
+                    "elements": [
+                        {
+                            "table": {
+                                "column_widths": [
+                                    "25%",
+                                    "75%"
+                                ],
+                                "data_source": "table_items",
+                                "row_template": [
+                                    {
+                                        "paragraph": {
+                                            "text_style": {
+                                                "parent_style": "ParagraphText"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "paragraph": {
+                                            "text_style": {
+                                                "parent_style": "ParagraphText"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "spaceAfter": 12,
+                                "table_alignment": "left",
+                                "table_items": [
+                                    [
+                                        {
+                                            "string": "<b>Medication</b>"
+                                        },
+                                        {
+                                            "string": "<b>{medication}</b>"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Instructions</b>"
+                                        },
+                                        {
+                                            "string": "{instructions}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Taken For</b>"
+                                        },
+                                        {
+                                            "string": "{taken_for}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Medication problem</b>"
+                                        },
+                                        {
+                                            "string": "{medication_problem}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Recommendation for provider</b>"
+                                        },
+                                        {
+                                            "string": "{provider_recommendation}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Provider Name</b>"
+                                        },
+                                        {
+                                            "string": "{provider_name}"
+                                        }
+                                    ]
+                                ],
+                                "table_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "GRID": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#666666"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "BACKGROUND": {
+                                            "end": [
+                                                1,
+                                                0
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "#BABABA"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "NOSPLIT": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>CHANGE</b> how you are taking the following medications<br/><br/>",
+                    "text_style": {
+                        "keepWithNext": 1,
+                        "parent_style": "HeaderTextNonBold"
+                    }
+                }
+            },
+            {
+                "loop": {
+                    "data": {
+                        "iterate_over": "patient_change_meds"
+                    },
+                    "elements": [
+                        {
+                            "table": {
+                                "column_widths": [
+                                    "25%",
+                                    "75%"
+                                ],
+                                "data_source": "table_items",
+                                "row_template": [
+                                    {
+                                        "paragraph": {
+                                            "text_style": {
+                                                "parent_style": "ParagraphText"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "paragraph": {
+                                            "text_style": {
+                                                "parent_style": "ParagraphText"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "spaceAfter": 12,
+                                "table_alignment": "left",
+                                "table_items": [
+                                    [
+                                        {
+                                            "string": "<b>Medication</b>"
+                                        },
+                                        {
+                                            "string": "<b>{medication}</b>"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Instructions</b>"
+                                        },
+                                        {
+                                            "string": "{instructions}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Taken For</b>"
+                                        },
+                                        {
+                                            "string": "{taken_for}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Medication problem</b>"
+                                        },
+                                        {
+                                            "string": "{medication_problem}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Recommendation for provider</b>"
+                                        },
+                                        {
+                                            "string": "{provider_recommendation}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Provider Name</b>"
+                                        },
+                                        {
+                                            "string": "{provider_name}"
+                                        }
+                                    ]
+                                ],
+                                "table_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "GRID": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#666666"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "BACKGROUND": {
+                                            "end": [
+                                                1,
+                                                0
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "#BABABA"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "NOSPLIT": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>STOP</b> taking the following medications<br/><br/>",
+                    "text_style": {
+                        "keepWithNext": 1,
+                        "parent_style": "HeaderTextNonBold"
+                    }
+                }
+            },
+            {
+                "loop": {
+                    "data": {
+                        "iterate_over": "patient_stop_meds"
+                    },
+                    "elements": [
+                        {
+                            "table": {
+                                "column_widths": [
+                                    "25%",
+                                    "75%"
+                                ],
+                                "data_source": "table_items",
+                                "row_template": [
+                                    {
+                                        "paragraph": {
+                                            "text_style": {
+                                                "parent_style": "ParagraphText"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "paragraph": {
+                                            "text_style": {
+                                                "parent_style": "ParagraphText"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "spaceAfter": 12,
+                                "table_alignment": "left",
+                                "table_items": [
+                                    [
+                                        {
+                                            "string": "<b>Medication</b>"
+                                        },
+                                        {
+                                            "string": "<b>{medication}</b>"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Instructions</b>"
+                                        },
+                                        {
+                                            "string": "{instructions}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Taken For</b>"
+                                        },
+                                        {
+                                            "string": "{taken_for}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Medication problem</b>"
+                                        },
+                                        {
+                                            "string": "{medication_problem}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Recommendation for provider</b>"
+                                        },
+                                        {
+                                            "string": "{provider_recommendation}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Provider Name</b>"
+                                        },
+                                        {
+                                            "string": "{provider_name}"
+                                        }
+                                    ]
+                                ],
+                                "table_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "GRID": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#666666"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "BACKGROUND": {
+                                            "end": [
+                                                1,
+                                                0
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "#BABABA"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "NOSPLIT": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>CONTINUE</b> taking the following medications<br/><br/>",
+                    "text_style": {
+                        "keepWithNext": 1,
+                        "parent_style": "HeaderTextNonBold"
+                    }
+                }
+            },
+            {
+                "loop": {
+                    "data": {
+                        "iterate_over": "patient_continue_meds"
+                    },
+                    "elements": [
+                        {
+                            "table": {
+                                "column_widths": [
+                                    "25%",
+                                    "75%"
+                                ],
+                                "data_source": "table_items",
+                                "row_template": [
+                                    {
+                                        "paragraph": {
+                                            "text_style": {
+                                                "parent_style": "ParagraphText"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "paragraph": {
+                                            "text_style": {
+                                                "parent_style": "ParagraphText"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "spaceAfter": 12,
+                                "table_alignment": "left",
+                                "table_items": [
+                                    [
+                                        {
+                                            "string": "<b>Medication</b>"
+                                        },
+                                        {
+                                            "string": "<b>{medication}</b>"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Instructions</b>"
+                                        },
+                                        {
+                                            "string": "{instructions}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Taken For</b>"
+                                        },
+                                        {
+                                            "string": "{taken_for}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Medication problem</b>"
+                                        },
+                                        {
+                                            "string": "{medication_problem}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Recommendation for provider</b>"
+                                        },
+                                        {
+                                            "string": "{provider_recommendation}"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "string": "<b>Provider Name</b>"
+                                        },
+                                        {
+                                            "string": "{provider_name}"
+                                        }
+                                    ]
+                                ],
+                                "table_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "GRID": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#666666"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "BACKGROUND": {
+                                            "end": [
+                                                1,
+                                                0
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "#BABABA"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "NOSPLIT": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "line": {
+                    "spaceAfter": 30,
+                    "spaceBefore": 30,
+                    "width": "100%"
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Contact information for providers:</b> <br/> If you need to speak to our Clinical Pharmacy team, you may call us at <b>(833) 274-6379</b>, Monday - Friday, 9 a.m. - 9 p.m., Eastern Time.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 36,
+                "left": 36,
+                "right": 36,
+                "top": 108
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": null,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "HeaderText": {
+                    "fontName": "Calibri-bold",
+                    "fontSize": 14,
+                    "leading": 12,
+                    "parent_style": "BodyText"
+                },
+                "HeaderTextNonBold": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 14,
+                    "leading": 12,
+                    "parent_style": "BodyText"
+                },
+                "ParagraphText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 12,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 16,
+                    "spaceBefore": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Calibri-bold",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2023-12-12T20:39:43"
+}

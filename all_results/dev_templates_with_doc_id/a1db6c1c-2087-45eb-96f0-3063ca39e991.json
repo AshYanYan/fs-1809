@@ -1,0 +1,467 @@
+{
+    "created": "2023-04-05T14:30:42Z",
+    "id": "a1db6c1c-2087-45eb-96f0-3063ca39e991",
+    "name": "Alohacare_PA_cover_letter",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "DOCID-{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{provider_full_name}<br />{provider_address}",
+                    "text_style": {
+                        "parent_style": "BiggerText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{prep_date}",
+                    "text_style": {
+                        "parent_style": "BiggerText",
+                        "text_alignment": "right"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<i>Re: Medication Opportunity - ALERT</i>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-bold",
+                        "parent_style": "BiggerText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {provider_full_name},",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Alohacare is committed to ensuring our members receive integrated and high-quality care. Our approach integrates the management of behavioral, pharmacy and physical health care benefits. We have implemented a Quality Improvement Program to collaborate and assist you in providing safe, appropriate, and cost-effective care to patients. As part of this program, drug utilization algorithms based on evidence-based guidelines are utilized to identify any potential medication-related concerns.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>This letter has been generated because we have identified a member-specific quality opportunity. Please review the information at the top of each page and the corresponding patient list to determine if a change in therapy can be made.</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "A clinical pharmacist may contact you to schedule a consultation and explain how the information can be used to support your prescribing decisions and help reduce the risks of adverse effects. You may also request a personal consultation, provide feedback, or request additional data by contacting your dedicated pharmacist at 808-973-7418",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "All patients listed in this document have received a paid prescription with your national identification number (NPI) identified as the prescriber. Please be aware some of these patients may have received a prescription from you at a different site of service as this mailing is directed to the address primarily associated with your DEA.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "The enclosed information is derived from pharmacy and medical claims data; however, additional claims paid by cash or other insurance will not be listed. If you receive information you believe to be inaccurate, please contact our toll-free number at 808-973-7418 and destroy the information in a confidential manner.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "signature": {
+                    "height": 50,
+                    "string": "Hanh Bannister",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "leading": 18,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Hanh Bannister, Pharm.D., MBA <br/> Alohacare Quality Improvement Program",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "loop": {
+                    "data": {
+                        "iterate_over": "drps"
+                    },
+                    "elements": [
+                        {
+                            "paragraph": {
+                                "string": "{drp_title}",
+                                "text_style": {
+                                    "parent_style": "Heading1Text",
+                                    "textColor": "#00a89e",
+                                    "text_alignment": "center"
+                                }
+                            }
+                        },
+                        {
+                            "columns": {
+                                "column_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "LINEBELOW": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#000000"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "content": [
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_assessment_list_items",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u00b0"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "ParagraphText",
+                                                        "spaceAfter": 0
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "list": {
+                                                    "items": "drp_assessment_notes",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "list_item_attributes": {
+                                                        "value": "*"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceBefore": 20
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "{drp_assessment_title}:",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234
+                                    },
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_recommendation_list_items",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u00b0"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "ParagraphText",
+                                                        "spaceAfter": 0
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "{drp_recommendation_title}:",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234
+                                    }
+                                ],
+                                "spaceBefore": 24
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "{drp_references_title}:",
+                                "text_style": {
+                                    "parent_style": "FooterText"
+                                }
+                            }
+                        },
+                        {
+                            "list": {
+                                "items": "drp_references_list_items",
+                                "list_attributes": {
+                                    "bulletFontSize": 8,
+                                    "bulletFormat": "%s.",
+                                    "bulletType": "1"
+                                },
+                                "text_style": {
+                                    "parent_style": "FooterText"
+                                }
+                            }
+                        },
+                        {
+                            "spacer": {
+                                "height": 5
+                            }
+                        },
+                        {
+                            "chart": {
+                                "chart_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "MIDDLE"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "GRID": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#000000"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "BACKGROUND": {
+                                            "end": [
+                                                -1,
+                                                0
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "#EDEDED"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "chart_type_source": "drp_patient_table_type",
+                                "column_widths_source": "drp_patient_table_column_widths",
+                                "content_source": "drp_patient_table_content",
+                                "content_template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "TableBodyText"
+                                        }
+                                    }
+                                },
+                                "header_template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "TableHeaderText",
+                                            "text_alignment": "center"
+                                        }
+                                    }
+                                },
+                                "headers_source": "drp_patient_table_headers",
+                                "spaceBefore": 12
+                            }
+                        }
+                    ],
+                    "separators": [
+                        {
+                            "pagebreak": {}
+                        }
+                    ]
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "DOCID-{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "/images/alohacare_logo.png",
+                    "height": 30,
+                    "x": 540,
+                    "y": 776
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 52,
+                "right": 52,
+                "top": 72
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Calibri-normal",
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "BiggerText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 12,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14
+                },
+                "ColumnsHeaderText": {
+                    "fontName": "Calibri-bold",
+                    "fontSize": 11,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14
+                },
+                "FooterText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 9,
+                    "leading": 9,
+                    "parent_style": "BodyText"
+                },
+                "HeaderText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 8,
+                    "leading": 8,
+                    "parent_style": "BodyText"
+                },
+                "Heading1Text": {
+                    "fontName": "Calibri-normal",
+                    "parent_style": "Heading1"
+                },
+                "ParagraphText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 11,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14
+                },
+                "TableBodyText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 9,
+                    "leading": 9,
+                    "parent_style": "BodyText"
+                },
+                "TableHeaderText": {
+                    "fontName": "Calibri-bold",
+                    "fontSize": 9,
+                    "leading": 9,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2023-09-21T23:03:12"
+}

@@ -1,0 +1,249 @@
+{
+    "created": "2024-05-10T16:06:30Z",
+    "id": "c84a5a2c-9007-460a-9986-9678341609be",
+    "name": "Welcome_MTM_peoplecare",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 70,
+                    "x": 84,
+                    "y": 758
+                }
+            },
+            {
+                "text": {
+                    "height": 40,
+                    "string": "<font name='Symbol-normal'>&#8805;</font><font name='Symbol-normal'>&#8805;</font><font name='Symbol-normal'>&#8805;</font><font name='Symbol-normal'>&#8805;</font><font name='Symbol-normal'>&#8805;</font><font name='Symbol-normal'>&#8805;</font>165 Court Street<br/>Rochester, NY 14647",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 150,
+                    "x": 270,
+                    "y": 718
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id} <font name='Symbol-normal'>&#8805;</font>",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},<br/><br/> As part of your ABC Health Plan, we would like to welcome you into our Medication Therapy Management (MTM) program. Because you meet the program criteria based on the number of medications you take, the number of health conditions you have, and your annual prescription costs, you\u2019ve automatically qualified for this important program. <b>There is no cost to participate.</b>",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What can MTM do for you?</b>",
+                    "text_style": {
+                        "fontSize": 13,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Address any questions or problems you have about your medications",
+                        "Address any concerns you have, such as cost issues, side effects or drug interactions",
+                        "Provide advice on how to get the most benefit from the drugs you take",
+                        "Provide guidance on topics to discuss with your provider"
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What do you receive when participating?</b>",
+                    "text_style": {
+                        "fontSize": 13,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Access to a licensed pharmacist who will review all your prescription and over-the-counter medications",
+                        "A To-Do List of the pharmacist\u2019s recommendations to review with your provider",
+                        "A Personal Medication List to track the medications you take and why they\u2019re used",
+                        "Information regarding Safe Disposal of Prescription Medications"
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Want to participate? Get started now!</b>",
+                    "text_style": {
+                        "fontSize": 13,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "To schedule your comprehensive medication review call {hotline_phone}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<font size = 13><b>Don\u2019t want to participate?</b></font><br/><br/> Participation is optional. If you do not wish to participate, call Customer Service toll-free at {hotline_phone} (TTY users should call 711), or email us at mtm@abchealthplan.org, seven days a week from 8am-11pm EST. You may continue to receive calls throughout the year until a formal request has been processed. If you remain an ABC Health Plan member, you can rejoin the program at any time. You may be offered MTM services again next year if you continue to qualify for the program.<br/><br/> We look forward to helping you live a healthier life. <br/><br/>Sincerely,<br/><br/> ABC Health Plan",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 84,
+                    "y": 758
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "MTM2024-00101",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    },
+                    "width": 200,
+                    "x": 20,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 48,
+                "left": 84,
+                "right": 84,
+                "top": 84
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 8,
+                    "spaceBefore": 8,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2024-05-10T16:06:30"
+}

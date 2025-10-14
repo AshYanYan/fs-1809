@@ -1,0 +1,253 @@
+{
+    "created": "2023-01-25T15:47:30Z",
+    "id": "7afe3ae9-fc09-4049-a64f-ca4bee4a8004",
+    "name": "UHC_CL",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 480,
+                    "y": 730
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 25
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "string_replacements": {
+                        "scan": {
+                            "Spanish": "Saludo {patient_full_name},"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 25
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Thank you for talking with me on {review_date} about your health and medications.",
+                    "string_replacements": {
+                        "scan": {
+                            "Spanish": ""
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 20
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "This letter includes an action plan (Medication Action Plan) and medication list (Personal Medication List). The action plan has steps you should take to help you get the best results from your medications. The medication list will help you keep track of your medications and how to use them the right way.",
+                    "string_replacements": {
+                        "scan": {
+                            "Spanish": ""
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 18
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Have your action plan and medication list with you when you talk with your doctors, pharmacists, and other health care providers.",
+                        "Ask your doctors, pharmacists, and other healthcare providers to update the action plan and medication list at every visit.",
+                        "Take your medication list with you if you go to the hospital.",
+                        "Give a copy of the action plan and medication list to your family or caregivers."
+                    ],
+                    "items_replacements": {
+                        "scan": {
+                            "Spanish": []
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletFontSize": 14,
+                        "bulletType": "bullet",
+                        "leftIndent": 24,
+                        "spaceAfter": 24,
+                        "spaceBefore": 24
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you want to talk about this letter or any of the other materials, you can reach us toll free at {hotline_phone} {hotline_hours} - we look forward to working with you to help you be as healthy as possible.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Warmly,",
+                    "string_replacements": {
+                        "scan": {
+                            "Spanish": "Muchas gracias por su atenci\u00f3n,"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 25
+                    }
+                }
+            },
+            {
+                "signature": {
+                    "filename": "{pharmacist_signature}",
+                    "height": 45,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 17,
+                        "leading": 17,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Pharmacist<br/>{pharmacist_name}<br/>BCPS<br/>Phone: {hotline_phone}",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 72,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{arine_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 72,
+                    "y": 600
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 110,
+                    "y": 560
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 100,
+                "left": 72,
+                "right": 72,
+                "top": 54
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Times-New-Roman-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 14,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2023-08-17T05:13:39"
+}

@@ -1,0 +1,383 @@
+{
+    "created": "2025-01-14T18:43:38Z",
+    "id": "4d594b6b-9319-43db-b15d-b92eb390adc3",
+    "managed": false,
+    "name": "Welcome_MTM_Viva",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 36,
+                    "string": "VIVA HEALTH complies with applicable Federal civil rights laws and does not discriminate on the basis of race, color, national origin, age, disability, or sex. ATENCI\u00d3N: si habla espa\u00f1ol, tiene a su disposici\u00f3n servicios gratuitos de asistencia lingu\u0308\u00edstica. Llame al 1-800-633-1542 (TTY: 711). \u6ce8\u610f\uff1a\u5982\u679c\u60a8\u4f7f \u7528\u7e41\u9ad4\u4e2d\u6587\uff0c\u60a8\u53ef\u4ee5\u514d\u8cbb\u7372\u5f97\u8a9e\u8a00\u63f4\u52a9\u670d\u52d9. \u8acb\u81f4\u96fb 1-800-633-1542 (TTY: 711).",
+                    "text_style": {
+                        "leftIndent": 20,
+                        "parent_style": "DisclaimerText",
+                        "rightIndent": 20,
+                        "text_alignment": "center"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 36
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "H0154_mcdoc4292A_C_07/25/2024",
+                    "text_style": {
+                        "parent_style": "FooterIdText",
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "FooterIdText",
+                        "rightIndent": 80,
+                        "text_alignment": "center"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "image": {
+                    "filename": "{org_logo}",
+                    "height": 38
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "AddressText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{conversation_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},<br/><br/>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Your {hotline_name} pharmacy team cares about you. We want to help you stay as safe and healthy as you can. One way we do that is by making sure the drugs your provider prescribes are working well with any over-the-counter drugs, vitamins, or supplements you may be taking.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We\u2019ve partnered with Arine to offer the Medication Therapy Management (MTM) program to select members. You qualify for this program based on the number of drugs you are prescribed, your health conditions, and your yearly drug costs. <b>There is no cost to you to participate the MTM program.</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What can the MTM program do for you?</b>",
+                    "text_style": {
+                        "parent_style": "ListHeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "The MTM program connects you with a specially trained pharmacist or nurse to talk about the medicines you take. The MTM program will offer you an opportunity to\u2026",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Go over your current list of drugs to see how your prescription and over-the-counter drugs, vitamins, and supplements may affect each other",
+                        "Ask if any of the drugs you take make you feel bad. If they do, you can talk about other drugs that may work better for you or things you can do to feel better.",
+                        "Talk about the best way to take each of your drugs so they help you the most",
+                        "Show you ways to help lower your prescription drug costs"
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8,
+                        "start": "\u2022"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36,
+                        "spaceAfter": 1,
+                        "spaceBefore": 1
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What do you get for participating in the MTM program?</b>",
+                    "text_style": {
+                        "parent_style": "ListHeaderText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Access to a licensed pharmacist or nurse who will review all your prescription and over-the-counter medications",
+                        "A full list of all prescription drugs and over-the-counter items you are taking that you can share with all your providers the next time you see them"
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8,
+                        "start": "\u2022"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36,
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Want to participate? Get started now!</b>",
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "To set up your full medication review call 1-833-282-5783.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Don\u2019t want to participate?</b>",
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We think joining this program will help you stay as healthy as possible, but if you do not wish to join, call 1-833-282-5783 or call {hotline_name} Member Service toll-free at 1-800-633-1542. TTY users, dial 711. They can take your call 7 days a week, 8am - 8pm, October 1 - March 31. From April 1 - September 30, they are open Monday - Friday, 8am - 8pm.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We look forward to helping you live a healthier life.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>{hotline_name}</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 35,
+                    "x": 45,
+                    "y": 760
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "10 Vantage Point Dr, Ste 1<br/>Rochester, NY 14624",
+                    "text_style": {
+                        "parent_style": "AddressText"
+                    },
+                    "width": 250,
+                    "x": 45,
+                    "y": 615
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "<b>Health and wellness or prevention information.</b>",
+                    "text_style": {
+                        "parent_style": "FeatureText"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 668
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 30,
+                "right": 30,
+                "top": 30
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Calibri-normal",
+                "font_size": 11,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DisclaimerText": {
+                    "fontName": "Arial-Unicode-normal",
+                    "fontSize": 8,
+                    "leading": 9,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FeatureText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 12,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterIdText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 10,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterPlanText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 11,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "HeaderText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 6,
+                    "spaceBefore": 14,
+                    "text_alignment": "left"
+                },
+                "ListHeaderText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 6,
+                    "spaceBefore": 14,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 6,
+                    "spaceBefore": 2,
+                    "text_alignment": "left"
+                },
+                "PullOutText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 14,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-02-19T03:11:16"
+}

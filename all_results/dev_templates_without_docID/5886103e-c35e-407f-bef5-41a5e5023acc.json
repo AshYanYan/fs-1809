@@ -1,0 +1,60 @@
+{
+    "created": "2023-04-06T15:35:20Z",
+    "id": "5886103e-c35e-407f-bef5-41a5e5023acc",
+    "name": "dax-test-create-mtm-template",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 0,
+                    "string": "",
+                    "width": 0,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            {
+                "image": {
+                    "filename": "abc",
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            {},
+            {
+                "text": {
+                    "height": 0,
+                    "string": "",
+                    "width": 0,
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": null,
+                "left": null,
+                "right": null,
+                "top": 12
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "show": true
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {}
+        }
+    },
+    "updated": "2023-04-06T15:35:36"
+}

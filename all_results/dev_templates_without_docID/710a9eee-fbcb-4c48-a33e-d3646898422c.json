@@ -1,0 +1,366 @@
+{
+    "created": "2025-03-01T01:36:08Z",
+    "id": "710a9eee-fbcb-4c48-a33e-d3646898422c",
+    "managed": false,
+    "name": "Welcome_HRHC_HMSA_No_Address",
+    "program": "HRHC",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "@@@letter_date@@@",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "@@@patient_full_address@@@",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear @@@patient_full_name@@@:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Thank you for talking with me on @@@cmr_date@@@ about your health and medications.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Enclosed with this letter is a Medication Action Plan and a Personal Medication List that we've completed for you. The action plan has steps you should take to help you get the best results from your medications. The medication list will help you keep track of your medications and use them the right way.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Here's how to make the best use of the action plan and list:",
+                    "text_style": {
+                        "parent_style": "ListHeaderText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Take them with you when you see your doctors, pharmacists, and other health care providers.",
+                        "Ask your doctors, pharmacists, and other health care providers to update the action plan and medication list at every visit.",
+                        "If you're admitted to the hospital, take your medication list with you.",
+                        "Give a copy of the action plan and medication list to your family or caregivers."
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 14,
+                        "start": "\u2022"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36,
+                        "spaceAfter": 0
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you have questions about this letter or any of the materials, call University Health Partners at @@@hotline_phone@@@ @@@hotline_hours@@@. We look forward to working with you to help you be as healthy as possible.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "@@@pharmacist_name@@@",
+                    "text_style": {
+                        "parent_style": "HandwrittenText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "@@@pharmacist_job_title@@@",
+                    "text_style": {
+                        "parent_style": "SignatureText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "@@@pharmacist_credentialed_name@@@",
+                    "text_style": {
+                        "parent_style": "SignatureText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "@@@hotline_name@@@",
+                    "text_style": {
+                        "parent_style": "SignatureText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "height": 45,
+                    "storage": {
+                        "path": "org_logo/hmsa/2025-02-28/hmsa.png",
+                        "type": "s3"
+                    },
+                    "x": 72,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "height": 45,
+                    "storage": {
+                        "path": "org_logo/hmsa/2025-02-28/uhp_dkicp_combined.png",
+                        "type": "s3"
+                    },
+                    "x": 540,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 11,
+                    "string": "Enc.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 118
+                }
+            },
+            {
+                "text": {
+                    "height": 16,
+                    "string": "University Health Partners is an independent company providing Medication Therapy Management Program services on behalf of HMSA.",
+                    "text_style": {
+                        "parent_style": "DisclaimerText"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 96
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "string": "<font color=\"#3275BB\"><b>Hawai\u2018i Medical Service Association</b></font>",
+                    "text_style": {
+                        "parent_style": "FancyFooterText",
+                        "rightIndent": 6
+                    },
+                    "width": 100,
+                    "x": 72,
+                    "y": 54
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "string": "<font color=\"#3275BB\">818 Keeaumoku St.<br/>(808) 948-5110</font>",
+                    "text_style": {
+                        "parent_style": "FancyFooterText",
+                        "rightIndent": 6
+                    },
+                    "width": 100,
+                    "x": 172,
+                    "y": 54
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "string": "<font color=\"#3275BB\">P.O. Box 860<br/>Honolulu, HI 96808-0860</font>",
+                    "text_style": {
+                        "parent_style": "FancyFooterText",
+                        "rightIndent": 6
+                    },
+                    "width": 100,
+                    "x": 272,
+                    "y": 54
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "string": "<font color=\"#3275BB\">Offices also located on<br/>Hawai\u02bbi Island, Kaua\u02bbi, and Maui</font>",
+                    "text_style": {
+                        "parent_style": "FancyFooterText",
+                        "rightIndent": 6
+                    },
+                    "width": 100,
+                    "x": 372,
+                    "y": 54
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "string": "<font color=\"#3275BB\">hmsa.com</font>",
+                    "text_style": {
+                        "parent_style": "FancyFooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 54
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "string": "<font color=\"#3275BB\">An Independent Licensee of the Blue Cross and Blue Shield Association</font>",
+                    "text_style": {
+                        "parent_style": "SmallFancyFooterText"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 18
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 144,
+                "left": 66,
+                "right": 66,
+                "top": 108
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                },
+                "DisclaimerText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText"
+                },
+                "FancyFooterText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText"
+                },
+                "FeatureText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                },
+                "FooterText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 9,
+                    "leading": 11,
+                    "parent_style": "BodyText"
+                },
+                "HandwrittenText": {
+                    "fontName": "Lucida-Handwriting-normal",
+                    "fontSize": 18,
+                    "leading": 22,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14
+                },
+                "HeaderText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                },
+                "ListHeaderText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 9
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14
+                },
+                "PullOutText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 14,
+                    "leading": 17,
+                    "parent_style": "BodyText"
+                },
+                "SignatureText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 6
+                },
+                "SmallFancyFooterText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 7,
+                    "leading": 9,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-03-05T18:38:43"
+}

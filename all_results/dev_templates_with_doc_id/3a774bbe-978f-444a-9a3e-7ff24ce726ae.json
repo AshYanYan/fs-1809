@@ -1,0 +1,541 @@
+{
+    "created": "2025-04-25T22:03:51Z",
+    "id": "3a774bbe-978f-444a-9a3e-7ff24ce726ae",
+    "managed": false,
+    "name": "MTM_Welcome_IEHP",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "se",
+                    "filename": "{org_logo}",
+                    "height": 35,
+                    "width": 70,
+                    "x": 352,
+                    "y": 720
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "H8894_DSNP_25_5877329_C",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "H8894_DSNP_25_5877329_C_CH",
+                            "Spanish": "H8894_DSNP_25_5877329_C_SP",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'>H8894_DSNP_25_5877329_C_VI</font>"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Arial-normal",
+                        "fontSize": 8,
+                        "text_alignment": "left"
+                    },
+                    "width": 200,
+                    "x": 41,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Arial-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 365,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "height": 40,
+                    "string": "{patient_mailing_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 240,
+                    "x": 41,
+                    "y": 655
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "{patient_full_name} \u60a8\u597d\uff1a",
+                            "Spanish": "Estimado(a) {patient_full_name}:",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'>K\u00ednh g\u1eedi {patient_full_name},</font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 24
+                    },
+                    "width": 463,
+                    "y": 600
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "As part of your IEHP DualChoice (HMO D-SNP) Medicare plan, we\u2019re pleased to welcome you into our Medication Therapy Management (MTM) program. Because you meet the program criteria based on the number of medications you take, the number of health conditions you have, and your annual prescription costs, you\u2019ve automatically qualified for this important program. <b><i>There is no cost to participate</i></b>.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u4f5c\u70ba\u60a8 IEHP DualChoice (HMO D-SNP) Medicare \u8a08\u5283\u7684\u4e00\u90e8\u5206\uff0c\u6211\u5011\u5f88\u9ad8\u8208\u6b61\u8fce\u60a8\u52a0\u5165\u6211\u5011\u7684 \u85e5\u7269\u6cbb\u7642\u7ba1\u7406 (Medication Therapy Management, MTM) \u65b9\u6848\u3002\u57fa\u65bc\u60a8\u6240\u670d\u7528\u7684\u85e5\u7269\u6578\u91cf\u3001\u6240\u60a3\u7684 \u5065\u5eb7\u75c5\u75c7\u6578\u91cf\u4ee5\u53ca\u6bcf\u5e74\u7684\u8655\u65b9\u8cbb\u7528\uff0c\u60a8\u7b26\u5408\u8a72\u8a08\u5283\u7684\u6a19\u6e96\uff0c\u6240\u4ee5\u60a8\u5df2\u81ea\u52d5\u5177\u5099\u53c3\u52a0\u9019\u9805\u91cd\u8981\u8a08 \u5283\u7684\u8cc7\u683c\u3002\u53c3\u52a0\u8a08\u5283\u7121\u9700\u4efb\u4f55\u8cbb\u7528\u3002",
+                            "Spanish": "Como parte de su plan de Medicare de IEHP DualChoice (HMO D-SNP), nos complace darle la bienvenida a nuestro Programa de Administraci\u00f3n del Tratamiento con Medicamentos (Medication Therapy Management, MTM). Debido a que cumple con los criterios relacionados con la cantidad de medicinas que toma, los problemas de salud que tiene y el costo anual de sus medicamentos, usted califica autom\u00e1ticamente para este importante programa. <b><i>Participar no tiene costo.</i></b> ",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'>L\u00e0 m\u1ed9t ph\u1ea7n c\u1ee7a ch\u01b0\u01a1ng tr\u00ecnh Medicare IEHP DualChoice (HMO D-SNP) c\u1ee7a qu\u00fd v\u1ecb, ch\u00fang t\u00f4i vui m\u1eebng ch\u00e0o \u0111\u00f3n qu\u00fd v\u1ecb v\u00e0o ch\u01b0\u01a1ng tr\u00ecnh Qu\u1ea3n l\u00fd Li\u1ec7u ph\u00e1p Thu\u1ed1c (Medication Therapy Management, MTM) c\u1ee7a ch\u00fang t\u00f4i. V\u00ec qu\u00fd v\u1ecb \u0111\u00e1p \u1ee9ng c\u00e1c ti\u00eau ch\u00ed c\u1ee7a ch\u01b0\u01a1ng tr\u00ecnh d\u1ef1a tr\u00ean s\u1ed1 l\u01b0\u1ee3ng thu\u1ed1c qu\u00fd v\u1ecb d\u00f9ng, s\u1ed1 l\u01b0\u1ee3ng t\u00ecnh tr\u1ea1ng s\u1ee9c kh\u1ecfe qu\u00fd v\u1ecb c\u00f3 v\u00e0 chi ph\u00ed thu\u1ed1c theo toa h\u00e0ng n\u0103m, qu\u00fd v\u1ecb \u0111\u00e3 t\u1ef1 \u0111\u1ed9ng h\u1ed9i \u0111\u1ee7 \u0111i\u1ec1u ki\u1ec7n tham gia ch\u01b0\u01a1ng tr\u00ecnh quan tr\u1ecdng n\u00e0y. <b><i>Kh\u00f4ng m\u1ea5t ph\u00ed tham gia.</i></b></font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What can MTM do for you?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b>MTM \u80fd\u70ba\u60a8\u505a\u4e9b\u4ec0\u9ebc\uff1f</b>",
+                            "Spanish": "<b>\u00bfQu\u00e9 puede hacer MTM por usted? </b>",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'><b>MTM c\u00f3 th\u1ec3 l\u00e0m g\u00ec cho qu\u00fd v\u1ecb? </b></font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Address any questions or problems you have about your medications",
+                        "Address any concerns you have, such as cost issues, side effects or drug interactions",
+                        "Provide advice on how to get the most benefit from the drugs you take",
+                        "Provide guidance on topics to discuss with your provider"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u89e3\u7b54\u60a8\u5c0d\u85e5\u7269\u7684\u4efb\u4f55\u7591\u554f\u6216\u554f\u984c",
+                                "\u89e3\u6c7a\u60a8\u7684\u4efb\u4f55\u7591\u616e\uff0c\u4f8b\u5982\u8cbb\u7528\u554f\u984c\u3001\u526f\u4f5c\u7528\u6216\u85e5\u7269\u4ea4\u4e92\u4f5c\u7528",
+                                "\u5c31\u5982\u4f55\u900f\u904e\u60a8\u670d\u7528\u7684\u85e5\u7269\u7372\u5f97\u6700\u5927\u76ca\u8655\u63d0\u4f9b\u5efa\u8b70",
+                                "\u63d0\u4f9b\u8207\u91ab\u7642\u670d\u52d9\u63d0\u4f9b\u8005\u6240\u8a0e\u8ad6\u4e3b\u984c\u7684\u6307\u5c0e"
+                            ],
+                            "Spanish": [
+                                "Abordar cualquier pregunta o problema que tenga sobre sus medicamentos",
+                                "Abordar inquietudes que tenga, como problemas con el costo, efectos secundarios o interacciones entre medicamentos",
+                                "Proporcionar consejos sobre c\u00f3mo aprovechar al m\u00e1ximo los medicamentos que toma",
+                                "Proporcionar orientaci\u00f3n sobre temas de los que puede hablar con su proveedor"
+                            ],
+                            "Vietnamese": [
+                                "<font fontname='Arial-Unicode-normal'>Gi\u1ea3i quy\u1ebft b\u1ea5t k\u1ef3 c\u00e2u h\u1ecfi ho\u1eb7c v\u1ea5n \u0111\u1ec1 n\u00e0o qu\u00fd v\u1ecb c\u00f3 v\u1ec1 thu\u1ed1c c\u1ee7a qu\u00fd v\u1ecb</font>",
+                                "<font fontname='Arial-Unicode-normal'>Gi\u1ea3i quy\u1ebft b\u1ea5t k\u1ef3 m\u1ed1i quan t\u00e2m n\u00e0o qu\u00fd v\u1ecb c\u00f3, ch\u1eb3ng h\u1ea1n nh\u01b0 c\u00e1c v\u1ea5n \u0111\u1ec1 v\u1ec1 chi ph\u00ed, t\u00e1c d\u1ee5ng ph\u1ee5 ho\u1eb7c t\u01b0\u01a1ng t\u00e1c thu\u1ed1c</font>",
+                                "<font fontname='Arial-Unicode-normal'>Cho l\u1eddi khuy\u00ean l\u00e0m th\u1ebf n\u00e0o \u0111\u1ec3 c\u00f3 \u0111\u01b0\u1ee3c nhi\u1ec1u l\u1ee3i \u00edch nh\u1ea5t t\u1eeb c\u00e1c lo\u1ea1i thu\u1ed1c qu\u00fd v\u1ecb d\u00f9ng</font>",
+                                "<font fontname='Arial-Unicode-normal'>Cung c\u1ea5p h\u01b0\u1edbng d\u1eabn v\u1ec1 c\u00e1c ch\u1ee7 \u0111\u1ec1 \u0111\u1ec3 trao \u0111\u1ed5i v\u1edbi nh\u00e0 cung c\u1ea5p c\u1ee7a qu\u00fd v\u1ecb</font>"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8,
+                        "start": "\u2022"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36,
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What do you receive when participating?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b>\u53c3\u52a0\u8a08\u5283\u5f8c\u60a8\u6703\u5f97\u5230\u4ec0\u9ebc\uff1f</b>",
+                            "Spanish": "<b>\u00bfQu\u00e9 puede recibir al participar?</b>",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'><b>Qu\u00fd v\u1ecb nh\u1eadn \u0111\u01b0\u1ee3c nh\u1eefng g\u00ec khi tham gia?</b></font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Access to a licensed pharmacist who will review all your prescription and over-the-counter medications",
+                        "A To-Do List of the pharmacist\u2019s recommendations to review with your provider",
+                        "A Personal Medication List to track the medications you take and why they're used"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u53ef\u8207\u57f7\u696d\u85e5\u5291\u5e2b\u806f\u7d61\uff0c\u4ed6/\u5979\u5c07\u5be9\u67e5\u60a8\u7684\u6240\u6709\u8655\u65b9\u85e5\u548c\u975e\u8655\u65b9\u85e5",
+                                "\u85e5\u5291\u5e2b\u5efa\u8b70\u7684\u5f85\u8fa6\u4e8b\u9805\u6e05\u55ae\uff0c\u4f9b\u60a8\u8207\u91ab\u7642\u670d\u52d9\u63d0\u4f9b\u8005\u4e00\u8d77\u5be9\u67e5",
+                                "\u500b\u4eba\u85e5\u7269\u6e05\u55ae\uff0c\u7528\u65bc\u8ffd\u8e64\u60a8\u670d\u7528\u7684\u85e5\u7269\u53ca\u670d\u7528\u539f\u56e0"
+                            ],
+                            "Spanish": [
+                                "Acceso a un farmac\u00e9utico quien revisar\u00e1 todos sus medicamentos recetados y de venta sin receta",
+                                "Una lista de cosas por hacer de las recomendaciones del farmac\u00e9utico que usted puede revisar con su proveedor",
+                                "Una lista de medicamentos personal para hacer un seguimiento de los medicamentos que toma y por qu\u00e9 los toma"
+                            ],
+                            "Vietnamese": [
+                                "<font fontname='Arial-Unicode-normal'>Ti\u1ebfp c\u1eadn d\u01b0\u1ee3c s\u0129 \u0111\u01b0\u1ee3c c\u1ea5p ph\u00e9p, ng\u01b0\u1eddi s\u1ebd xem x\u00e9t t\u1ea5t c\u1ea3 c\u00e1c \u0111\u01a1n thu\u1ed1c c\u1ee7a qu\u00fd v\u1ecb v\u00e0 c\u00e1c thu\u1ed1c mua kh\u00f4ng c\u1ea7n toa</font>",
+                                "<font fontname='Arial-Unicode-normal'>Danh S\u00e1ch Vi\u1ec7c C\u1ea7n L\u00e0m theo khuy\u1ebfn ngh\u1ecb c\u1ee7a d\u01b0\u1ee3c s\u0129 \u0111\u1ec3 xem x\u00e9t v\u1edbi nh\u00e0 cung c\u1ea5p c\u1ee7a qu\u00fd v\u1ecb</font>",
+                                "<font fontname='Arial-Unicode-normal'>Danh s\u00e1ch thu\u1ed1c c\u00e1 nh\u00e2n \u0111\u1ec3 theo d\u00f5i c\u00e1c lo\u1ea1i thu\u1ed1c qu\u00fd v\u1ecb d\u00f9ng v\u00e0 l\u00fd do ch\u00fang \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng</font>"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8,
+                        "start": "\u2022"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36,
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Want to participate? Get started now!</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b>\u60f3\u53c3\u52a0\u55ce\uff1f\u7acb\u5373\u958b\u59cb\uff01</b>",
+                            "Spanish": "<b>\u00bfDesea participar? \u00a1Comience ya!</b>",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'><b>Qu\u00fd v\u1ecb mu\u1ed1n tham gia? H\u00e3y b\u1eaft \u0111\u1ea7u ngay!</b></font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "To schedule your comprehensive medication review call {hotline_phone}.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5982\u9700\u9810\u7d04\u5168\u9762\u85e5\u7269\u5be9\u67e5\uff0c\u8acb\u81f4\u96fb  {hotline_phone}\u3002",
+                            "Spanish": "Para programar su revisi\u00f3n completa de medicamentos, llame al {hotline_phone}.",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'>\u0110\u1ec3 l\u00ean l\u1ecbch xem x\u00e9t thu\u1ed1c to\u00e0n di\u1ec7n c\u1ee7a qu\u00fd v\u1ecb, h\u00e3y g\u1ecdi {hotline_phone}.</font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Don't want to participate?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b>\u4e0d\u60f3\u53c3\u52a0\uff1f</b>",
+                            "Spanish": "<b>\u00bfNo desea participar?</b>",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'><b>Qu\u00fd v\u1ecb kh\u00f4ng mu\u1ed1n tham gia?</b></font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_text_wrapping_is_cjk",
+                    "string": "Participation is optional. If you do not wish to participate, call IEHP\u2019s Medication Therapy Management team toll-free at {hotline_phone} (TTY users should call 711), {hotline_hours}. You may continue to receive calls throughout the year until a formal request has been processed. If you remain an IEHP DualChoice Medicare member, you can rejoin the program at any time. You may be offered MTM services again next year if you continue to qualify for the program.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u200b\u60a8\u200b\u53ef\u200b\u9078\u64c7\u662f\u5426\u53c3\u52a0\u8a08\u5283\u3002\u5982\u679c\u60a8\u4e0d\u60f3\u53c3\u52a0\uff0c\u8acb\u81f4\u96fb IEHP \u200b\u7684\u200b\u85e5\u200b\u7269\u200b\u6cbb\u200b\u7642\u7ba1\u7406\u5718\u968a\uff0c\u514d\u4ed8\u8cbb\u96fb\u8a71 {hotline_phone} (TTY \u4f7f\u7528\u8005\u8acb\u81f4\u96fb 711)\uff0c\u670d\u52d9\u6642\u9593\u70ba{hotline_hours}\u3002\u5728\u6b63\u5f0f\u8981\u6c42\u7372\u5f97\u8655\u7406\u4e4b\u524d\uff0c\u60a8\u53ef\u80fd\u4ecd\u6703\u5728\u5e74\u5ea6\u671f\u9593\u7e7c\u7e8c\u63a5\u5230\u96fb\u8a71\u3002\u5982\u679c\u60a8\u4ecd\u4fdd\u6709 IEHP DualChoice Medicare \u200b\u7684\u200b\u6703\u200b\u54e1\u200b\u8eab\u5206\uff0c\u60a8\u53ef\u96a8\u6642\u91cd\u65b0\u52a0\u5165\u6b64\u8a08\u5283\u3002\u5982\u679c\u60a8\u7e7c\u7e8c\u7b26\u5408\u8a72\u8a08\u5283\u7684\u8cc7\u683c\uff0c\u60a8\u53ef\u80fd\u6703\u5728\u660e\u5e74\u518d\u6b21\u7372\u5f97 MTM \u670d\u52d9\u3002",
+                            "Spanish": "Su participaci\u00f3n es opcional. Si no desea participar, llame al equipo de Administraci\u00f3n del Tratamiento con Medicamentos de IEHP a nuestra l\u00ednea gratuita al {hotline_phone} (los usuarios de TTY deben llamar al 711), de {hotline_hours}. Es posible que siga recibiendo llamadas durante todo el a\u00f1o hasta que una solicitud formal haya sido procesada. Si sigue siendo miembro de Medicare de IEHP DualChoice, puede volver a unirse al programa en cualquier momento. Es posible que se le puedan ofrecer a usted los servicios de MTM si sigue calificando para el programa. ",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'>Vi\u1ec7c tham gia l\u00e0 t\u00f9y ch\u1ecdn. N\u1ebfu qu\u00fd v\u1ecb kh\u00f4ng mu\u1ed1n tham gia, h\u00e3y g\u1ecdi cho nh\u00f3m Qu\u1ea3n l\u00fd tr\u1ecb li\u1ec7u b\u1eb1ng Thu\u1ed1c c\u1ee7a IEHP theo s\u1ed1 \u0111i\u1ec7n tho\u1ea1i mi\u1ec5n ph\u00ed {hotline_phone} (ng\u01b0\u1eddi d\u00f9ng TTY n\u00ean g\u1ecdi 711), {hotline_hours}. Qu\u00fd v\u1ecb c\u00f3 th\u1ec3 ti\u1ebfp t\u1ee5c nh\u1eadn c\u00e1c cu\u1ed9c g\u1ecdi trong su\u1ed1t n\u0103m cho \u0111\u1ebfn khi y\u00eau c\u1ea7u ch\u00ednh th\u1ee9c \u0111\u01b0\u1ee3c x\u1eed l\u00fd. N\u1ebfu qu\u00fd v\u1ecb v\u1eabn l\u00e0 h\u1ed9i vi\u00ean Medicare c\u1ee7a IEHP DualChoice, qu\u00fd v\u1ecb c\u00f3 th\u1ec3 tham gia l\u1ea1i ch\u01b0\u01a1ng tr\u00ecnh b\u1ea5t c\u1ee9 l\u00fac n\u00e0o. Qu\u00fd v\u1ecb c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c cung c\u1ea5p c\u00e1c d\u1ecbch v\u1ee5 MTM m\u1ed9t l\u1ea7n n\u1eefa v\u00e0o n\u0103m t\u1edbi n\u1ebfu qu\u00fd v\u1ecb ti\u1ebfp t\u1ee5c h\u1ed9i \u0111\u1ee7 \u0111i\u1ec1u ki\u1ec7n tham gia ch\u01b0\u01a1ng tr\u00ecnh.</font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "report_text_wrapping_is_cjk",
+                    "string": "",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u200b\u60a8\u200b\u53ef\u200b\u9078\u64c7\u662f\u5426\u53c3\u52a0\u8a08\u5283\u3002\u5982\u679c\u60a8\u4e0d\u60f3\u53c3\u52a0\uff0c\u8acb\u81f4\u96fb IEHP \u200b\u7684\u200b\u85e5\u200b\u7269\u200b\u6cbb\u200b\u7642\u7ba1\u7406\u5718\u968a\uff0c\u514d\u4ed8\u8cbb\u96fb\u8a71 {hotline_phone} (TTY \u4f7f\u7528\u8005\u8acb\u81f4\u96fb 711)\uff0c\u670d\u52d9\u6642\u9593\u70ba{hotline_hours}\u3002\u5728\u6b63\u5f0f\u8981\u6c42\u7372\u5f97\u8655\u7406\u4e4b\u524d\uff0c\u60a8\u53ef\u80fd\u4ecd\u6703\u5728\u5e74\u5ea6\u671f\u9593\u7e7c\u7e8c\u63a5\u5230\u96fb\u8a71\u3002\u5982\u679c\u60a8\u4ecd\u4fdd\u6709 IEHP DualChoice Medicare \u200b\u7684\u200b\u6703\u200b\u54e1\u200b\u8eab\u5206\uff0c\u60a8\u53ef\u96a8\u6642\u91cd\u65b0\u52a0\u5165\u6b64\u8a08\u5283\u3002\u5982\u679c\u60a8\u7e7c\u7e8c\u7b26\u5408\u8a72\u8a08\u5283\u7684\u8cc7\u683c\uff0c\u60a8\u53ef\u80fd\u6703\u5728\u660e\u5e74\u518d\u6b21\u7372\u5f97 MTM \u670d\u52d9\u3002"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "wordWrap": "CJK"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We look forward to helping you live a healthier life.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u6211\u5011\u671f\u5f85\u5354\u52a9\u60a8\u904e\u4e0a\u66f4\u5065\u5eb7\u7684\u751f\u6d3b\u3002",
+                            "Spanish": "Esperamos poder ayudarlo a disfrutar de una vida m\u00e1s saludable.",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'>Ch\u00fang t\u00f4i mong mu\u1ed1n gi\u00fap qu\u00fd v\u1ecb s\u1ed1ng m\u1ed9t cu\u1ed9c s\u1ed1ng kh\u1ecfe m\u1ea1nh h\u01a1n.</font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u656c\u795d \u5b89\u5eb7\uff0c",
+                            "Spanish": "Atentamente,",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'>Tr\u00e2n tr\u1ecdng,</font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 15
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "IEHP DualChoice Medication Therapy Management Team",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "IEHP DualChoice \u85e5\u7269\u6cbb\u7642\u7ba1\u7406\u5718\u968a",
+                            "Spanish": "Equipo de Administraci\u00f3n del Tratamiento con Medicamentos de IEHP DualChoice",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'>Ban Qu\u1ea3n l\u00fd Li\u1ec7u ph\u00e1p Thu\u1ed1c IEHP DualChoice</font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "height": 10,
+                    "string": "\u00a92025 Inland Empire Health Plan. A Public Entity. All Rights Reserved.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u00a92025 Inland Empire Health Plan\u3002\u516c\u5171\u5be6\u9ad4\u3002\u4fdd\u7559\u6240\u6709\u6b0a\u5229\u3002",
+                            "Spanish": "\u00a92025 Inland Empire Health Plan. Una Entidad P\u00fablica. Todos los Derechos Reservados. ",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'>\u00a92025 Inland Empire Health Plan. M\u1ed9t T\u1ed5 Ch\u1ee9c C\u00f4ng. B\u1ea3o L\u01b0u M\u1ecdi Quy\u1ec1n.</font>"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Arial-normal",
+                        "fontSize": 12,
+                        "spaceBefore": 14,
+                        "text_alignment": "left"
+                    },
+                    "width": 450,
+                    "x": 41
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<i>IEHP DualChoice (HMO D-SNP) is an HMO plan with a Medicare contract. Enrollment in IEHP DualChoice (HMO D-SNP) depends on contract renewal</i>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<i>IEHP DualChoice (HMO D-SNP) \u662f\u4e00\u9805\u7c3d\u6709 Medicare \u5408\u7d04\u7684 HMO \u8a08\u5283\u3002\u53c3\u4fdd IEHP DualChoice (HMO D-SNP) \u9700\u8996\u5408\u7d04\u7e8c\u7d04\u60c5\u6cc1\u800c\u5b9a\u3002</i>",
+                            "Spanish": "<i>IEHP DualChoice (HMO D-SNP) es un plan HMO con un contrato con Medicare. La inscripci\u00f3n en IEHP DualChoice (HMO D-SNP) depende de la renovaci\u00f3n del contrato.</i> ",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'><i>IEHP DualChoice (HMO D-SNP) l\u00e0 m\u1ed9t ch\u01b0\u01a1ng tr\u00ecnh HMO c\u00f3 h\u1ee3p \u0111\u1ed3ng v\u1edbi Medicare.Vi\u1ec7c ghi danh tham gia ch\u01b0\u01a1ng tr\u00ecnh IEHP DualChoice (HMO D-SNP) ph\u1ee5 thu\u1ed9c v\u00e0o vi\u1ec7c gia h\u1ea1n h\u1ee3p \u0111\u1ed3ng.</i></font>"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Arial-normal",
+                        "fontSize": 12,
+                        "leading": 12,
+                        "spaceBefore": 14,
+                        "text_alignment": "left"
+                    },
+                    "width": 463,
+                    "x": 41
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 35,
+                    "width": 70,
+                    "x": 36,
+                    "y": 755
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "10 Vantage Point Dr, Ste 1,<br/>Rochester, NY 14624",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "AddressText"
+                    },
+                    "width": 500,
+                    "x": 36,
+                    "y": 615
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "<b>Health and Wellness or Prevention Information.</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b>\u200b\u5065\u5eb7\u548c\u4fdd\u5065\u6216\u9810\u9632\u8cc7\u8a0a\u3002</b>",
+                            "Spanish": "<b>Informaci\u00f3n sobre Salud y Bienestar o Prevenci\u00f3n.</b>",
+                            "Vietnamese": "<font fontname='Arial-Unicode-normal'><b>Th\u00f4ng tin v\u1ec1 S\u1ee9c kh\u1ecfe v\u00e0 S\u1ed1ng kh\u1ecfe ho\u1eb7c Ph\u00f2ng ng\u1eeba.</b></font>"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Arial-bold",
+                        "fontSize": 12,
+                        "parent_style": "FeatureText"
+                    },
+                    "width": 400,
+                    "x": 36,
+                    "y": 668
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 40,
+                "left": 36,
+                "right": 36,
+                "top": 82
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": true,
+                "skip_cover_page": true,
+                "text_style": {
+                    "parent_style": "ParagraphText",
+                    "text_alignment": "right"
+                },
+                "x": 400,
+                "y": 33
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DisclaimerText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 8,
+                    "leading": 9,
+                    "parent_style": "BodyText"
+                },
+                "FeatureText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 9,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "HeaderText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 2,
+                    "spaceBefore": 11,
+                    "text_alignment": "left"
+                },
+                "ListHeaderText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 4,
+                    "spaceBefore": 11,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                },
+                "PullOutText": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 12,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-23T20:08:33"
+}

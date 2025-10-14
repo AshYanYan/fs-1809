@@ -1,0 +1,57 @@
+{
+    "created": "2023-03-23T12:41:49Z",
+    "id": "4d77b0bc-63e4-4aef-8836-1aa2cd0d89c5",
+    "name": "Sample template 2-QA",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<b>Medication Allergies: [patient_allergies]</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 36,
+                "right": 36,
+                "top": 108
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "show": true
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 14,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 14,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2023-03-23T12:41:49"
+}

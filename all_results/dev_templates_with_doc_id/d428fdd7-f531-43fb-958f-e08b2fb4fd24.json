@@ -1,0 +1,418 @@
+{
+    "created": "2023-12-09T02:02:30Z",
+    "id": "d428fdd7-f531-43fb-958f-e08b2fb4fd24",
+    "name": "Welcome_Letter_UHC",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 45,
+                    "x": 36,
+                    "y": 756
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#2a3683",
+                    "stroke_width": 1,
+                    "x_end": 200,
+                    "x_start": 200,
+                    "y_end": 711,
+                    "y_start": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "/images/arine_logo.png",
+                    "height": 32,
+                    "x": 225,
+                    "y": 750
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "height": 45,
+                    "storage": {
+                        "path": "org_logo/UHC_learn_more.png",
+                        "type": "s3"
+                    },
+                    "x": 0,
+                    "y": 150
+                }
+            },
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<b>Call {hotline_phone}</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 165,
+                    "y": 120
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "string": "Administrative services provided by United HealthCare Services, Inc. or their affiliates, and UnitedHealthcare Service LLC in NY. Stop-loss insurance is underwritten by UnitedHealthcare Insurance Company or their affiliates, including UnitedHealthcare Life Insurance Company in NJ, and UnitedHealthcare Insurance Company of New York in NY.",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 32
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "B2C &nbsp;&nbsp; EI232876701 &nbsp;&nbsp; 01/24 &nbsp;&nbsp; \u00a9 2024 United HealthCare Services, Inc. All Rights Reserved. &nbsp;&nbsp; 24-2876900",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        36,
+                        300,
+                        132,
+                        72
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        75
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "right"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": "{patient_full_address}"
+                            },
+                            {
+                                "string": "{english_letter_date}"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "BOTTOM"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "spacer": {
+                    "height": 75
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Optimizing your medications can help improve your health. That\u2019s why we are working with Arine to offer you a medication management program \u2014 at no extra cost \u2014 to help ensure you take medications that are safe and effective for your health conditions as prescribed by your doctor.",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "rightIndent": 72
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        45,
+                        405
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "image": {
+                                "alignment": "left",
+                                "height": 34
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "storage": {
+                                    "path": "org_logo/UHC_health.png",
+                                    "type": "s3"
+                                }
+                            },
+                            {
+                                "string": "<b>Better Health \u2014</b> A clinical pharmacist will make sure you are taking the right medications for your health conditions and help you understand how to correctly take all of your medications."
+                            }
+                        ],
+                        [
+                            {
+                                "storage": {
+                                    "path": "org_logo/UHC_safety.png",
+                                    "type": "s3"
+                                }
+                            },
+                            {
+                                "string": "<b>Increased safety \u2014</b> Some medications may cause side effects or may not work well when taken with other medications. A clinical pharmacist will provide tips on how to manage any side effects and make sure your combination of medications is safe."
+                            }
+                        ],
+                        [
+                            {
+                                "storage": {
+                                    "path": "org_logo/UHC_cost.png",
+                                    "type": "s3"
+                                }
+                            },
+                            {
+                                "string": "<b>Lower costs \u2014</b> A clinical pharmacist can look for ways to save you money on your medications and can work with your doctor to find lower cost options when appropriate."
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "To get more information or to take advantage of this program at no extra cost, please call toll-free at {hotline_phone}, {hotline_hours}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "rightIndent": 72,
+                        "spaceAfter": 32
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "UnitedHealthcare",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 25,
+                    "x": 72,
+                    "y": 750
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{arine_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 72,
+                    "y": 618
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{patient_mailing_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 110,
+                    "y": 560
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 150,
+                "left": 36,
+                "right": 36,
+                "top": 150
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": null,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "DocIDText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText"
+                },
+                "FooterText": {
+                    "fontName": "UHCSans-normal",
+                    "fontSize": 6,
+                    "leading": 8,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 8,
+                    "textColor": "#4f4c4d"
+                },
+                "ParagraphText": {
+                    "fontName": "UHCSans-normal",
+                    "fontSize": 10,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 8,
+                    "textColor": "#2a3683"
+                }
+            }
+        }
+    },
+    "updated": "2024-06-28T08:33:12"
+}

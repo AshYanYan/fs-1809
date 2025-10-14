@@ -1,0 +1,216 @@
+{
+    "created": "2023-11-09T04:07:47Z",
+    "id": "22296bbd-5fc8-4551-9e0a-14ec9ffbb023",
+    "managed": true,
+    "name": "MTM Opt-Out Priority",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "se",
+                    "height": 75,
+                    "storage": {
+                        "path": "org_logo/priority_optout_qr_code.png",
+                        "type": "s3"
+                    },
+                    "x": 500,
+                    "y": 215
+                }
+            },
+            {
+                "text": {
+                    "height": 16,
+                    "ignore_large_font": true,
+                    "string": "<i>[patient.id]</i>",
+                    "text_style": {
+                        "fontSize": 14,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 468,
+                    "x": 54,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "ignore_large_font": true,
+                    "string": "<b>Want to participate or opt out?</b><br/><br/>To schedule your comprehensive medication review or opt out, visit <b><em>bit.ly/4itXTjK</em></b> or scan the QR code above.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 190,
+                    "x": 375,
+                    "y": 100
+                }
+            },
+            {
+                "text": {
+                    "height": 16,
+                    "ignore_large_font": true,
+                    "string": "<em>&#42;Opt-out of the MTM program is based on your current plan. If you enroll in a different plan and do not want to be contacted about the MTM program, you will need to opt-out again.</em>",
+                    "text_style": {
+                        "fontSize": 11,
+                        "leading": 11,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 468,
+                    "x": 54,
+                    "y": 48
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<b>MTM Opt-Out Form</b>",
+                    "text_style": {
+                        "fontSize": 14,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "As a Priority Health Medicare member, you have access to our Medication Therapy Management (MTM) program, at no additional cost to you. This program connects you with a licensed pharmacist for a yearly comprehensive medication review that can help reduce your costs and improve your health.",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "MTM\u2019s free services include:",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Comprehensive review of your prescription and over-the-counter medications.",
+                        "Advice to help relieve side effects, including alternative drug options (if available).",
+                        "A Personal Medication List to keep track of the medications you\u2019re taking and why."
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 14
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you do not wish to participate in our Medication Therapy Management Program, call 833.415.4405 (TTY: 711). We're available Monday through Thursday from 8 a.m. to 5 p.m. and Friday from 9 a.m. to 5 p.m. Eastern time. You can also scan the QR code below, visit <strong><em>bit.ly/4itXTjK</em></strong> or mail the following form to:",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Priority Health Medicare<br/>MS 1260<br/>1231 East Beltline Ave NE <br/>Grand Rapids, MI 49525",
+                    "text_style": {
+                        "fontSize": 12,
+                        "leftIndent": 48,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "pagebreak": {
+                    "display_condition": "patient_requested_large_font"
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>If we do not hear from you, you may continue to be contacted about the MTM program.</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "line": {}
+            },
+            {
+                "paragraph": {
+                    "string": "<font fontName = 'arial-unicode-normal'> &#9723 &nbsp </font> Opt out indefinitely&#42; &#8212; To re&#8211;enroll in the future, please call us at the number listed above.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<font fontName = 'arial-unicode-normal'> &#9723 &nbsp </font> Opt out this calendar year&#42; &#8212; You will not be contacted this calendar year, but may be contacted the following year if you are eligible.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Name: _____________<u>{patient_full_name}</u>_____________<br/><br/>Date of Birth: ______________<u>{patient_date_birth}</u>______________<br/><br/>Phone number: &nbsp( __________ ) __________ - _______________<br/><br/><br/><br/>Signature: ______________________________________________<br/><br/>Date: ____________________________________________________",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 50,
+                "right": 50,
+                "top": 84
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "FooterText": {
+                    "fontName": "Lato-italic",
+                    "fontSize": 8,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 11,
+                    "textColor": "gray"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 11,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-06T19:02:39"
+}

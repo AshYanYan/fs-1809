@@ -1,0 +1,69 @@
+{
+    "created": "2023-04-05T14:30:42Z",
+    "id": "321e7e0a-d4c0-40cb-8599-a3c3b3f6a4c5",
+    "name": "Giulio_Default_Translations",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "Default Translations",
+                    "text_style": {
+                        "parent_style": "Heading1Text"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "This is English text",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Texto Predeterminado en Espa\u00f1ol"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 72,
+                "right": 72,
+                "top": 72
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Times-New-Roman-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "Heading1Text": {
+                    "fontName": "Times-New-Roman-normal",
+                    "parent_style": "Heading1"
+                },
+                "ParagraphText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 11,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14
+                }
+            }
+        }
+    },
+    "updated": "2023-09-21T23:03:12"
+}

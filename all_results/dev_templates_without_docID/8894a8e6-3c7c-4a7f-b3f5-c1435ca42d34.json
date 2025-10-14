@@ -1,0 +1,33 @@
+{
+    "created": "2023-04-18T06:04:58Z",
+    "id": "8894a8e6-3c7c-4a7f-b3f5-c1435ca42d34",
+    "name": "New Temp 3",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 24,
+                "left": 24,
+                "right": 24,
+                "top": 24
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "show": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {}
+        }
+    },
+    "updated": "2023-04-18T06:05:50"
+}

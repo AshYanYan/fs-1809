@@ -1,0 +1,917 @@
+{
+    "created": "2025-01-03T10:24:48Z",
+    "id": "a586718b-15eb-4e38-b846-56a9c117b15e",
+    "managed": true,
+    "name": "PCP_TMR",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "hide_for": [
+                        "vnsny"
+                    ],
+                    "x": 576,
+                    "y": 758
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "arine_logo.png",
+                    "height": 40,
+                    "show_for": [
+                        "vnsny"
+                    ],
+                    "x": 576,
+                    "y": 758
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "DOCID-{doc_id}",
+                    "text_style": {
+                        "fontSize": 9,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 220,
+                    "x": 360,
+                    "y": 27
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 38,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 40,
+                    "string": "<b>(cont.)</b>",
+                    "string_replacements": {
+                        "allcare": {
+                            "English": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        },
+                        "excellus": {
+                            "English": "Medication Action Plan Name cont.<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        },
+                        "excellus_dsnp": {
+                            "English": "Medication Action Plan Name cont.<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        },
+                        "healthfirst": {
+                            "English": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        },
+                        "medigold": {
+                            "English": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        },
+                        "prominence": {
+                            "English": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        },
+                        "simply_prescriptions": {
+                            "English": "Medication Action Plan Name cont.<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        },
+                        "univera": {
+                            "English": "Medication Action Plan Name cont.<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        },
+                        "vivahealth": {
+                            "English": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 718
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "allcare",
+                        "medigold",
+                        "prominence",
+                        "healthfirst"
+                    ],
+                    "string": "Medication Therapy Management Program for Patient: <b>{patient_full_name} (DOB: {patient_date_birth})</b><br/>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "allcare",
+                        "medigold",
+                        "prominence",
+                        "healthfirst"
+                    ],
+                    "string": "Medication Management Program for Patient: <b>{patient_full_name} (DOB: {patient_date_birth})</b><br/>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {provider_full_name}:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "As part of {hotline_name}\u2019s Medication Therapy Management program, a targeted medication review was completed for your patient utilizing pharmacy claims data on {letter_date}. As a result of this review the recommendations identified are in the table below. Please call {hotline_tmr_phone} with any questions. Please also indicate in the last column whether you plan to implement the recommendations.",
+                    "string_replacements": {
+                        "allcare": {
+                            "English": "I am a {hotline_name} pharmacist. On {letter_date}, I performed a targeted medication review for your patient. I have summarized the issues identified and my recommendations in the below table. Please call {hotline_tmr_phone} (TTY: 711) with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}"
+                        },
+                        "aloha": {
+                            "English": "As part of {hotline_name} Medicare\u2019s Medication Therapy Management program, a targeted medication review was completed for your patient utilizing pharmacy claims data on {letter_date}. As a result of this review the recommendations identified are in the table below. Please call {hotline_tmr_phone} with any questions. Please also indicate in the last column whether you plan to implement the recommendations."
+                        },
+                        "excellus": {
+                            "English": "As part of the {hotline_name} Medication Therapy Management program, a targeted medication review was completed for your patient utilizing pharmacy claims data on {letter_date}. As a result of this review, the recommendations identified are in the table below."
+                        },
+                        "excellus_dsnp": {
+                            "English": "As part of the {hotline_name} Medication Therapy Management program, a targeted medication review was completed for your patient utilizing pharmacy claims data on {letter_date}. As a result of this review, the recommendations identified are in the table below."
+                        },
+                        "healthfirst": {
+                            "English": "I am a Healthfirst pharmacist. On {letter_date}, I performed a targeted medication review for your patient. I have summarized the issues identified and my recommendations in the below table. Please call 1-844-450-5721 (TTY users call 711) with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}."
+                        },
+                        "icare": {
+                            "English": "As part of {mtm_year} Medicare's Medication Therapy Management program, a targeted medication review was completed for your patient utilizing pharmacy claims data on {letter_date}. As a result of this review, the recommendations identified are in the table below. Please call {hotline_tmr_phone} with any questions. Please also indicate in the last column whether you plan to implement the recommendations."
+                        },
+                        "medigold": {
+                            "English": "I am a {sub_org_name} pharmacist. On {letter_date}, I performed a targeted medication review for your patient. I have summarized the issues identified and my recommendations in the below table. Please call {hotline_tmr_phone} (TTY: 711) with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}"
+                        },
+                        "priority_health": {
+                            "English": "As part of {hotline_name} Medicare's Medication Therapy Management program, a targeted medication review was completed for your patient utilizing pharmacy claims data on {letter_date}. The table below identifies the recommendation(s) found as a result of this review."
+                        },
+                        "prominence": {
+                            "English": "I am a {hotline_name} pharmacist. On {letter_date}, I performed a targeted medication review for your patient. I have summarized the issues identified and my recommendations in the below table. Please call {hotline_tmr_phone} (TTY: 711) with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}"
+                        },
+                        "simply_prescriptions": {
+                            "English": "As part of the {hotline_name} Medication Therapy Management program, a targeted medication review was completed for your patient utilizing pharmacy claims data on {letter_date}. As a result of this review, the recommendations identified are in the table below."
+                        },
+                        "univera": {
+                            "English": "As part of the {hotline_name} Medication Therapy Management program, a targeted medication review was completed for your patient utilizing pharmacy claims data on {letter_date}. As a result of this review, the recommendations identified are in the table below."
+                        },
+                        "vivahealth": {
+                            "English": "I am a clinical pharmacist working on behalf of {hotline_name}. On {letter_date}, I performed a targeted medication review for your patient. I have summarized the issues identified and my recommendations in the below table. Please call {hotline_tmr_phone} with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}"
+                        },
+                        "vnsny": {
+                            "English": "As part of {hotline_name} Medicare\u2019s Medication Therapy Management program, a targeted medication review was completed for your patient utilizing pharmacy claims data on {letter_date}. As a result of this review the recommendations identified are in the table below. Please call {hotline_tmr_phone} (TTY users call 711) with any questions. Please also indicate in the last column whether you plan to implement the recommendations."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "5.4841%",
+                        "50.882%",
+                        "27.78%",
+                        "15.8539%"
+                    ],
+                    "data_source": "provider_recommendations",
+                    "hide_for": [
+                        "excellus",
+                        "univera",
+                        "simply_prescriptions",
+                        "excellus_dsnp",
+                        "priority_health"
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Assessment",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Recommendation",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Implement? (Y/N)",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "6%",
+                        "60%",
+                        "34%",
+                        "0%"
+                    ],
+                    "data_source": "provider_recommendations",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "excellus",
+                        "univera",
+                        "simply_prescriptions",
+                        "excellus_dsnp",
+                        "priority_health"
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Assessment",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Recommendation",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Please send any updated prescriptions to the patient\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The patient\u2019s preferred pharmacy is:",
+                    "string_replacements": {
+                        "scan_h5425": {
+                            "English": "Please send any new prescriptions directly to the patient\u2019s preferred pharmacy using the prescription form attached. Please do not send SCAN any prescriptions, as we are not a dispensing pharmacy."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacy_name}<br/>{pharmacy_street}<br/>{pharmacy_city_state_zip}<br/>Phone: {pharmacy_phone}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "allcare",
+                        "medigold",
+                        "prominence",
+                        "vivahealth"
+                    ],
+                    "string": "Please fax us back this form at {hotline_fax} and indicate whether you plan to implement the recommendations. Additionally, if there are any other comments or important notes about the patient's health, please note here:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "healthfirst"
+                    ],
+                    "string": "Please fax us back this form at {hotline_fax} and indicate whether you plan to implement the recommendations. Additionally, if there are any other comments or important notes about the patient's health, please note here:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "aloha",
+                        "icare",
+                        "updp_h1977",
+                        "updp_h2161",
+                        "hamaspik",
+                        "mass_advantage",
+                        "health_new_england",
+                        "select_health",
+                        "vnsny"
+                    ],
+                    "string": "Please leave any other comments here about the recommendations or important notes about the patient\u2019s health and fax us the form at {hotline_fax}:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "hide_for": [
+                        "excellus",
+                        "univera",
+                        "simply_prescriptions",
+                        "excellus_dsnp",
+                        "priority_health",
+                        "scan",
+                        "scan_h5425",
+                        "scan_village_health",
+                        "scan_desert_health"
+                    ],
+                    "spaceBefore": 21
+                }
+            },
+            {
+                "line": {
+                    "hide_for": [
+                        "excellus",
+                        "univera",
+                        "simply_prescriptions",
+                        "excellus_dsnp",
+                        "priority_health",
+                        "scan",
+                        "scan_h5425",
+                        "scan_village_health",
+                        "scan_desert_health"
+                    ],
+                    "spaceBefore": 21
+                }
+            },
+            {
+                "line": {
+                    "hide_for": [
+                        "excellus",
+                        "univera",
+                        "simply_prescriptions",
+                        "excellus_dsnp",
+                        "priority_health",
+                        "scan",
+                        "scan_h5425",
+                        "scan_village_health",
+                        "scan_desert_health"
+                    ],
+                    "spaceBefore": 21
+                }
+            },
+            {
+                "line": {
+                    "hide_for": [
+                        "excellus",
+                        "univera",
+                        "simply_prescriptions",
+                        "excellus_dsnp",
+                        "priority_health",
+                        "scan",
+                        "scan_h5425",
+                        "scan_village_health",
+                        "scan_desert_health"
+                    ],
+                    "spaceBefore": 21
+                }
+            },
+            {
+                "line": {
+                    "hide_for": [
+                        "excellus",
+                        "univera",
+                        "simply_prescriptions",
+                        "excellus_dsnp",
+                        "priority_health",
+                        "scan",
+                        "scan_h5425",
+                        "scan_village_health",
+                        "scan_desert_health"
+                    ],
+                    "spaceAfter": 20,
+                    "spaceBefore": 21
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We appreciate working with you to provide high-quality healthcare for our patients.",
+                    "string_replacements": {
+                        "priority_health": {
+                            "English": "We appreciate your collaboration in providing high-quality healthcare for our patients."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "aloha",
+                        "excellus",
+                        "univera",
+                        "simply_prescriptions",
+                        "excellus_dsnp",
+                        "priority_health",
+                        "scan",
+                        "scan_h5425",
+                        "scan_village_health",
+                        "scan_desert_health",
+                        "vnsny"
+                    ],
+                    "string": "",
+                    "string_replacements": {
+                        "allcare": {
+                            "English": "Randee Bowder"
+                        },
+                        "hamaspik": {
+                            "English": "Wusung Kim"
+                        },
+                        "health_new_england": {
+                            "English": "Wusung Kim"
+                        },
+                        "healthfirst": {
+                            "English": "Healthfirst"
+                        },
+                        "icare": {
+                            "English": "Randee Bowder"
+                        },
+                        "mass_advantage": {
+                            "English": "Wusung Kim"
+                        },
+                        "medigold": {
+                            "English": "Randee Bowder"
+                        },
+                        "prominence": {
+                            "English": "Randee Bowder"
+                        },
+                        "select_health": {
+                            "English": "Mike Eaton"
+                        },
+                        "updp_h1977": {
+                            "English": "Wusung Kim"
+                        },
+                        "updp_h2161": {
+                            "English": "Wusung Kim"
+                        },
+                        "vivahealth": {
+                            "English": "Viva Medicare"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "SignatureText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{hotline_name}",
+                    "string_replacements": {
+                        "allcare": {
+                            "English": "myMTMcare CEO<br/>Randee Bowder, RPh<br/>{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "aloha": {
+                            "English": "{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "excellus": {
+                            "English": "{hotline_name}"
+                        },
+                        "excellus_dsnp": {
+                            "English": "{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "hamaspik": {
+                            "English": "Pharmacist<br/>Wusung Kim, PharmD<br/>{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "health_new_england": {
+                            "English": "Pharmacist<br/>Wusung Kim, PharmD<br/>{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "icare": {
+                            "English": "myMTMcare CEO<br/> Randee Bowder, RPh<br/>{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "mass_advantage": {
+                            "English": "Pharmacist<br/>Wusung Kim, PharmD<br/>{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "medigold": {
+                            "English": "myMTMcare CEO<br/>Randee Bowder, RPh<br/>{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "priority_health": {
+                            "English": "{hotline_name}<br/>Phone: {hotline_tmr_phone}"
+                        },
+                        "prominence": {
+                            "English": "myMTMcare CEO<br/>Randee Bowder, RPh<br/>{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "scan": {
+                            "English": "{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "scan_desert_health": {
+                            "English": "{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "scan_h5425": {
+                            "English": "{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "scan_village_health": {
+                            "English": "{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "select_health": {
+                            "English": "Programs Director<br/>Mike Eaton, PharmD<br/>{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "simply_prescriptions": {
+                            "English": "{hotline_name}"
+                        },
+                        "univera": {
+                            "English": "{hotline_name}"
+                        },
+                        "updp_h1977": {
+                            "English": "Pharmacist<br/>Wusung Kim, PharmD<br/>{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "updp_h2161": {
+                            "English": "Pharmacist<br/>Wusung Kim, PharmD<br/>{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "vivahealth": {
+                            "English": "{hotline_name}<br/>Phone: {hotline_tmr_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "vnsny": {
+                            "English": "{hotline_name}<br/>Phone: {hotline_tmr_phone} (TTY users call 711)<br/>Fax: {hotline_fax}"
+                        },
+                        "x": {
+                            "English": "Phone: 1-844-450-5721 (TTY: 711)<br/>Fax: {hotline_fax}"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "height": 50,
+                    "show_for": [
+                        "healthfirst"
+                    ],
+                    "string": "Coverage is provided by Healthfirst Health Plan, Inc., Healthfirst PHSP, Inc., and/or Healthfirst Insurance Company, Inc. (together, \u201cHealthfirst\u201d). Healthfirst complies with applicable Federal civil rights laws and does not discriminate on the basis of race, color, national origin, age, disability, or sex. ATENCI\u00d3N: si habla espa\u00f1ol, tiene a su disposici\u00f3n servicios gratuitos de asistencia ling\u00fc\u00edstica. Llame al 1-866-305-0408 (TTY 1-888-867-4132). \u6ce8\u610f\uff1a\u5982\u679c\u60a8\u4f7f\u7528\u7e41\u9ad4\u4e2d\u6587\uff0c\u60a8\u53ef\u4ee5\u514d\u8cbb\u7372\u5f97\u8a9e\u8a00\u63f4\u52a9\u670d\u52d9\u3002\u8acb\u81f4\u96fb 1-866-305-0408 (TTY 1-888-542-3821).",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 460
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "hide_for": [
+                        "vnsny"
+                    ],
+                    "x": 576,
+                    "y": 758
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "show_for": [
+                        "vnsny"
+                    ],
+                    "x": 36,
+                    "y": 758
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "arine_logo.png",
+                    "height": 40,
+                    "show_for": [
+                        "vnsny"
+                    ],
+                    "x": 576,
+                    "y": 758
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "DOCID-{doc_id}",
+                    "text_style": {
+                        "fontSize": 9,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 220,
+                    "x": 360,
+                    "y": 27
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "Y0028_9551_C"
+                        },
+                        "excellus_dsnp": {
+                            "English": "H7524_0548_C"
+                        },
+                        "healthfirst": {
+                            "English": "1129-24"
+                        },
+                        "simply_prescriptions": {
+                            "English": "S3521_9550_C"
+                        },
+                        "univera": {
+                            "English": "Y0028_9552_C"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    },
+                    "width": 220,
+                    "x": 36,
+                    "y": 27
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 38,
+                    "y": 72
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 84,
+                "left": 36,
+                "right": 36,
+                "top": 84
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": false
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 20,
+                    "spaceBefore": 8,
+                    "text_alignment": "left"
+                },
+                "SignatureText": {
+                    "fontName": "Lucida-Handwriting-normal",
+                    "fontSize": 16,
+                    "spaceAfter": 20,
+                    "spaceBefore": 20,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-01T00:30:40"
+}

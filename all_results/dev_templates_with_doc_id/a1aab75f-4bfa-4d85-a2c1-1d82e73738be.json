@@ -1,0 +1,462 @@
+{
+    "created": "2025-04-17T21:30:18Z",
+    "id": "a1aab75f-4bfa-4d85-a2c1-1d82e73738be",
+    "managed": false,
+    "name": "HRHC_PCP_TDL_HMSA",
+    "program": "HRHC",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>(DOB: {patient_date_birth})",
+                    "string_replacements": {
+                        "vivahealth": {
+                            "English": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 746
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "1300-910750",
+                    "text_style": {
+                        "parent_style": "DocIDText",
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Medication Management Program for Patient: <b>{patient_full_name} (DOB: {patient_date_birth})</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {provider_full_name}:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "I\u2019m a clinical pharmacist working on behalf of {hotline_name}. On {cmr_date}, I reviewed your patient\u2019s medications. I\u2019ve summarized my assessment and recommendations in the table below.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Action Requested<br/>Please review the information provided and indicate in the last column whether you plan to implement the recommendations. Fax the form to {hotline_fax}. Please call {hotline_phone} if you have any questions.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "6%",
+                        "60%",
+                        "32%",
+                        "20%"
+                    ],
+                    "data_source": "provider_recommendations",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Assessment",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Recommendation",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Implement?<br/>(Y/N)",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "ROWBACKGROUNDS": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#FFFFFF",
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "pharmacy_name",
+                    "keepWithNext": true,
+                    "string": "Please send any updated prescriptions to the patient\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The patient\u2019s preferred pharmacy is:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "pharmacy_name",
+                    "string": "{pharmacy_name}<br/>{pharmacy_street}<br/>{pharmacy_city_state_zip}<br/>Phone: {pharmacy_phone}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Please leave any other comments about these recommendations or important notes about the patient\u2019s health. Then fax the form to {hotline_fax}:",
+                    "text_style": {
+                        "keepWithNext": true,
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 25
+                    }
+                }
+            },
+            {
+                "line": {
+                    "keepWithNext": true,
+                    "width": "100%"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15,
+                    "keepWithNext": true
+                }
+            },
+            {
+                "line": {
+                    "keepWithNext": true,
+                    "width": "100%"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15,
+                    "keepWithNext": true
+                }
+            },
+            {
+                "line": {
+                    "keepWithNext": true,
+                    "width": "100%"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We appreciate working with you to provide high-quality healthcare for our patients.",
+                    "text_style": {
+                        "keepWithNext": true,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "Sincerely,",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "keepWithNext": true,
+                        "leading": 18,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Pharmacist<br/>{pharmacist_credentialed_name}<br/>University Health Partners<br/>Phone: {pharmacist_phone} (TTY users call 711)<br/>Fax: {pharmacist_fax}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "pharmacy_name",
+                    "keepWithNext": true,
+                    "string": "University Health Partners is an independent company providing Medication Therapy Management program on behalf of HMSA.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "height": 60,
+                    "storage": {
+                        "path": "org_logo/hmsa/2025-02-28/hmsa.png",
+                        "type": "s3"
+                    },
+                    "x": 36,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "height": 60,
+                    "storage": {
+                        "path": "org_logo/hmsa/2025-02-28/uhp_dkicp_combined.png",
+                        "type": "s3"
+                    },
+                    "x": 580,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 92
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "storage": {
+                        "path": "assets/hmsa/2025-05-22/FS-3011/hmsa-blue-footer-content.png",
+                        "type": "s3"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 70
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "1300-910750",
+                    "text_style": {
+                        "parent_style": "DocIDText",
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 112,
+                "left": 30,
+                "right": 30,
+                "top": 108
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Lato-normal",
+                "font_size": 10,
+                "show": true,
+                "skip_cover_page": null,
+                "y": 26
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "DocIDText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 9,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "text_alignment": "right"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 14,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-09T19:12:54"
+}

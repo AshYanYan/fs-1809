@@ -1,0 +1,335 @@
+{
+    "created": "2024-01-08T19:16:20Z",
+    "id": "02eff0ce-7d9f-485a-a17e-034c2240699e",
+    "name": "Welcome_MTM_Priority_Health",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "x": 54,
+                    "y": 760
+                }
+            },
+            {
+                "text": {
+                    "height": 9,
+                    "ignore_large_font": true,
+                    "string": "Y0056_NCMS500050402513N_C 12312024",
+                    "text_style": {
+                        "fontSize": 9,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 54,
+                    "y": 28
+                }
+            },
+            {
+                "text": {
+                    "height": 9,
+                    "ignore_large_font": true,
+                    "string": "12/24",
+                    "text_style": {
+                        "fontSize": 9,
+                        "text_alignment": "right"
+                    },
+                    "width": 140,
+                    "x": 418,
+                    "y": 28
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "ignore_large_font": true,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 9,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 358,
+                    "y": 18
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{english_letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name}:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "As part of your <b>Priority Health</b> Medicare plan, we\u2019re pleased to welcome you into our Medication Therapy Management (MTM) program. Because you meet the program criteria based on the number of medications you take, the number of health conditions you have, and your annual prescription costs, you\u2019ve automatically qualified for this important program. <i><b>There is no cost to participate.</b></i>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What can MTM do for you?</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Address any questions or problems you have about your medications.",
+                        "Address any concerns you have, such as cost issues, side effects or drug interactions.",
+                        "Provide advice on how to get the most benefit from the drugs you take.",
+                        "Provide guidance on topics to discuss with your provider."
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36,
+                        "spaceAfter": 0,
+                        "spaceBefore": 0
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What do you receive when participating?</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Access to a licensed pharmacist who will review all your prescription and over-the-counter medications.",
+                        "A To-Do List of the pharmacist\u2019s recommendations to review with your provider.",
+                        "A Personal Medication List to track the medications you take and why they\u2019re used."
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36,
+                        "spaceAfter": 0,
+                        "spaceBefore": 0
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "You won\u2019t need to switch pharmacies to participate in this program, and you can continue to use any Priority Health Medicare network pharmacy to fill your prescriptions.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Want to participate? Get started now!</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "To complete or schedule your comprehensive medication review, call 833.415.4405 (TTY: 711). We\u2019re available Monday through Thursday from 8 a.m. to 5 p.m. and Friday from 9 a.m. to 5 p.m. Eastern time.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Don\u2019t want to participate?</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Participation is optional. If you do not wish to participate, call 833.415.4405 (TTY: 711). We\u2019re available Monday through Thursday from 8 a.m. to 5 p.m. and Friday from 9 a.m. to 5 p.m. Eastern time. You can also complete and return the attached form to be removed from the program. You may continue to receive calls throughout the year until a formal request has been processed. If you remain a Priority Health Medicare member, you can rejoin the program at any time. You may be offered MTM services again next year if you continue to qualify for the program.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We look forward to helping you live a healthier life.<br/><br/>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Medicare Clinical Pharmacy team",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 25,
+                    "x": 70,
+                    "y": 742
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "ignore_large_font": true,
+                    "string": "{arine_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 70,
+                    "y": 697
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "ignore_large_font": true,
+                    "string": "<b>Health and wellness or prevention information.</b>",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 100,
+                    "y": 665
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "ignore_large_font": true,
+                    "string": "{patient_mailing_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 100,
+                    "y": 567
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "ignore_large_font": true,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 9,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 358,
+                    "y": 18
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 36,
+                "left": 50,
+                "right": 50,
+                "top": 84
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 6,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-02-07T17:41:37"
+}

@@ -1,0 +1,501 @@
+{
+    "created": "2024-12-04T04:49:32Z",
+    "id": "b21c3a38-9f3e-43c1-994c-e14f737baec9",
+    "managed": false,
+    "name": "test_ag",
+    "program": "DMP",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 0,
+                    "string": "hi hi",
+                    "width": 0,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "<b>Date of Review: {cmr_date}</b>",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 250,
+                    "x": 286,
+                    "y": 676
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "<b>Date of Review: {review_date}</b>",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 250,
+                    "x": 286,
+                    "y": 676
+                }
+            },
+            {
+                "line": {
+                    "x_end": 0,
+                    "x_start": 0,
+                    "y_end": 0,
+                    "y_start": 0
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "table": {
+                    "column_widths": [
+                        "5%",
+                        "50%",
+                        "30%",
+                        "15%"
+                    ],
+                    "data_source": "provider_recommendations",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Assessment",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Recommendation",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Implement? (Y/N)",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "#acacac"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "spacer": {
+                    "height": 0,
+                    "width": 0
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "helloooo - testing shading"
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#99ff00",
+                    "stroke_width": 0.12,
+                    "x_end": 576,
+                    "x_start": 36,
+                    "y_end": 60,
+                    "y_start": 60
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#99ff00",
+                    "stroke_width": 0.34,
+                    "x_end": 576,
+                    "x_start": 36,
+                    "y_end": 60,
+                    "y_start": 60
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#99ff25",
+                    "stroke_width": 0.56,
+                    "x_end": 576,
+                    "x_start": 36,
+                    "y_end": 60,
+                    "y_start": 60
+                }
+            },
+            {
+                "paragraph": {
+                    "height": 11,
+                    "string": "<b>Date of Review: {cmr_date}</b>",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 250,
+                    "x": 286,
+                    "y": 676
+                }
+            },
+            {
+                "paragraph": {
+                    "height": 10,
+                    "string": "<b>Date of Review: {review_date}</b>",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 250,
+                    "x": 286,
+                    "y": 676
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        120,
+                        120,
+                        98,
+                        98,
+                        109
+                    ],
+                    "data_source": "patient_meds",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_footer": [
+                        {
+                            "string": "Please note: this list includes patient-reported information. Please verify this list for accuracy.<br/>"
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        }
+                    ],
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Medication Name & Dosage",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Directions",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Indication",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Prescriber",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Notes",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "CENTER"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#0f0f0f"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    -1
+                                ]
+                            }
+                        },
+                        {
+                            "ROWBACKGROUNDS": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#FFFFFF",
+                                    "#acacac"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "line": {
+                    "stroke_color": "#99ff00",
+                    "stroke_width": 0,
+                    "x_end": 576,
+                    "x_start": 36,
+                    "y_end": 60,
+                    "y_start": 60
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "spaceBefore": 1.95,
+                    "string": "Test String a",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 746
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "<b>Date of Review: {cmr_date}</b>",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 250,
+                    "x": 286,
+                    "y": 676
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 36,
+                "right": 36,
+                "top": 72
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 16.25,
+                    "spaceBefore": 12.5,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-10T01:29:42"
+}

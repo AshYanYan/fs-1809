@@ -1,0 +1,457 @@
+{
+    "created": "2023-04-05T14:30:42Z",
+    "id": "24808b0a-e87a-4825-a503-d627a55e66a0",
+    "name": "Giulio_PA_Columns",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 18,
+                    "string": "CAPITOL COMMONS CENTER \u2022 400 SOUTH PINE \u2022 LANSING, MICHIGAN 48913 www.michigan.gov/mdhhs \u2022 517-241-8550",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "center"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 36
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<br /><br /><br />{provider_full_name}<br />{provider_address}",
+                    "text_style": {
+                        "parent_style": "BiggerText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{prep_date}",
+                    "text_style": {
+                        "parent_style": "BiggerText",
+                        "text_alignment": "right"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Re: QUALITY IMPROVEMENT OPPORTUNITY",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-bold",
+                        "parent_style": "BiggerText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {provider_full_name},",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "The Michigan Department of Health and Human Services is committed to providing quality and evidence-based pharmacy services to behavioral health patients. In an effort to collaborate and assist you in providing safe, appropriate, and cost-effective care to your patients, we have implemented the Magellan <b>Whole Health Rx Consultation Program</b>. As part of this program, drug utilization algorithms based on evidence based guidelines are used to identify any potential drug therapy concerns.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "This letter has been generated because we have identified a member-specific quality opportunity. Please review the clinical information at the top of each page and the corresponding patient list to determine if a change in therapy can be made.",
+                    "text_style": {
+                        "borderColor": "#000000",
+                        "borderPadding": [
+                            6,
+                            8,
+                            6,
+                            8
+                        ],
+                        "borderWidth": 1,
+                        "fontName": "Times-New-Roman-bold",
+                        "leftIndent": 32,
+                        "parent_style": "BiggerText",
+                        "rightIndent": 32,
+                        "text_align": "center"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "This program is informational in nature and is not intended to replace your authority, responsibility, or accountability for patient care.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "A clinical pharmacist may contact you to schedule a consultation or come to your office to meet with you to discuss how the information can be used to improve the quality of care and reduce the risks of adverse events. You can also use the contact information below to contact a clinical pharmacist to request a personal consultation, provide feedback, ask questions, or request additional data.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Email: pharmacyconsultation@magellanhealth.com<br/>Phone: (800) 243-3771",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "All patients listed in this document have received a paid prescription with your national identification number (NPI) identified as the prescriber. Please be aware some of these patients may have received a prescription from you at a different site of service as this mailing is directed to the address primarily associated with your DEA.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "image": {
+                    "filename": "/images/signature_trish_bouck.png",
+                    "height": 32
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Trish M. Bouck, MPA, RN<br/>Director, Pharmacy Management Division<br/>Bureau of Medicaid Care Management & Quality Assurance<br/>Medical Services Administration<br/>Michigan Department of Health and Human Services cc: Enclosure",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "loop": {
+                    "data": {
+                        "iterate_over": "drps"
+                    },
+                    "elements": [
+                        {
+                            "paragraph": {
+                                "string": "{drp_title}",
+                                "text_style": {
+                                    "parent_style": "Heading1Text",
+                                    "textColor": "#00a89e",
+                                    "text_alignment": "center"
+                                }
+                            }
+                        },
+                        {
+                            "columns": {
+                                "column_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "LINEBELOW": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#000000"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "content": [
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_assessment_list_items",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "ParagraphText"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "{drp_assessment_title}:",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234
+                                    },
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_recommendation_list_items",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "ParagraphText"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "{drp_recommendation_title}:",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234
+                                    }
+                                ],
+                                "spaceAfter": 24,
+                                "spaceBefore": 24
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "{drp_references_title}",
+                                "text_style": {
+                                    "parent_style": "ColumnsHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "list": {
+                                "items": "drp_references_list_items",
+                                "list_attributes": {
+                                    "bulletType": "bullet"
+                                },
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "chart": {
+                                "chart_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "MIDDLE"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "GRID": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#000000"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "BACKGROUND": {
+                                            "end": [
+                                                -1,
+                                                0
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "#EDEDED"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "chart_type_source": "drp_patient_table_type",
+                                "column_widths_source": "drp_patient_table_column_widths",
+                                "content_source": "drp_patient_table_content",
+                                "content_template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "TableBodyText"
+                                        }
+                                    }
+                                },
+                                "header_template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "TableHeaderText",
+                                            "text_alignment": "center"
+                                        }
+                                    }
+                                },
+                                "headers_source": "drp_patient_table_headers"
+                            }
+                        }
+                    ],
+                    "separators": [
+                        {
+                            "pagebreak": {}
+                        }
+                    ]
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "/images/michigan_letterhead_logo.png",
+                    "width": 550,
+                    "x": 31,
+                    "y": 776
+                }
+            },
+            {
+                "text": {
+                    "height": 54,
+                    "string": "The Michigan Department of Health and Human Services<br/>Magellan Pharmacy Consultation Program<br/>4801 East Washington Street<br/>Phoenix, AZ 85034",
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    },
+                    "width": 240,
+                    "x": 40,
+                    "y": 720
+                }
+            },
+            {
+                "text": {
+                    "height": 18,
+                    "string": "CAPITOL COMMONS CENTER \u2022 400 SOUTH PINE \u2022 LANSING, MICHIGAN 48913 www.michigan.gov/mdhhs \u2022 517-241-8550",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "center"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 36
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 52,
+                "right": 52,
+                "top": 72
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Times-New-Roman-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "BiggerText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14
+                },
+                "ColumnsHeaderText": {
+                    "fontName": "Times-New-Roman-bold",
+                    "fontSize": 11,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14
+                },
+                "FooterText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 9,
+                    "leading": 9,
+                    "parent_style": "BodyText"
+                },
+                "HeaderText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 8,
+                    "leading": 8,
+                    "parent_style": "BodyText"
+                },
+                "Heading1Text": {
+                    "fontName": "Times-New-Roman-normal",
+                    "parent_style": "Heading1"
+                },
+                "ParagraphText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 11,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14
+                },
+                "TableBodyText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 9,
+                    "leading": 9,
+                    "parent_style": "BodyText"
+                },
+                "TableHeaderText": {
+                    "fontName": "Calibri-bold",
+                    "fontSize": 9,
+                    "leading": 9,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2023-09-21T23:03:12"
+}

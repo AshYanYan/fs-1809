@@ -1,0 +1,1040 @@
+{
+    "created": "2023-03-02T16:47:30Z",
+    "id": "6de2f682-6540-48a8-84c2-2ee6334cac7f",
+    "managed": true,
+    "name": "PCP_QUAL_ADH_general",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "hide_for": [
+                        "vnsny"
+                    ],
+                    "string": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}",
+                    "string_replacements": {
+                        "priority_health": {
+                            "English": "(cont.)"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 250,
+                    "x": 36,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "vnsny"
+                    ],
+                    "string": "(cont.)",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 250,
+                    "x": 287,
+                    "y": 741
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "hide_for": [
+                        "vnsny",
+                        "healthfirst",
+                        "molina"
+                    ],
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "/images/arine_logo.png",
+                    "height": 30,
+                    "show_for": [
+                        "vnsny"
+                    ],
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "height": 30,
+                    "show_for": [
+                        "molina"
+                    ],
+                    "storage": {
+                        "path": "org_logo/molina_logo.png",
+                        "type": "s3"
+                    },
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 45,
+                    "show_for": [
+                        "vnsny"
+                    ],
+                    "x": 36,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "hide_for": [
+                        "aloha",
+                        "blueshield_ca",
+                        "blueshield_ca_affil",
+                        "cca",
+                        "healthfirst",
+                        "molina"
+                    ],
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {
+                        "vnsny": {
+                            "English": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately."
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 65
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "healthfirst"
+                    ],
+                    "string": "Coverage is provided by Healthfirst Health Plan, Inc. or Healthfirst Insurance Company, Inc.",
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8
+                    },
+                    "width": 170,
+                    "x": 36,
+                    "y": 50
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "univera",
+                        "simply_prescriptions",
+                        "healthfirst"
+                    ],
+                    "string": "ORG_DOC_ID",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "Y0028_9551_C"
+                        },
+                        "excellus_dsnp": {
+                            "English": "H7524_0548_C"
+                        },
+                        "healthfirst": {
+                            "English": "0048-24"
+                        },
+                        "simply_prescriptions": {
+                            "English": "S3521_9550_C"
+                        },
+                        "univera": {
+                            "English": "Y0028_9552_C"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "hide_for": [
+                        "blueshield_ca",
+                        "blueshield_ca_affil",
+                        "vnsny",
+                        "aloha",
+                        "healthfirst"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            },
+            {
+                "line": {
+                    "show_for": [
+                        "blueshield_ca",
+                        "blueshield_ca_affil",
+                        "cca",
+                        "healthfirst"
+                    ],
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 576,
+                    "x_start": 36,
+                    "y_end": 60,
+                    "y_start": 60
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "blueshield_ca",
+                        "blueshield_ca_affil"
+                    ],
+                    "string": "<font color = '#0195da' size = '12'>blueshieldca.com</font>",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 7,
+                        "leading": 16,
+                        "text_alignment": "left"
+                    },
+                    "width": 400,
+                    "x": 36,
+                    "y": 45
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "string_replacements": {
+                        "scan": {}
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Medication Management Program for Patient: <b>{patient_full_name} (DOB: {patient_date_birth})</b>",
+                    "string_replacements": {
+                        "priority_health": {
+                            "English": "Medication Therapy Management Program for Patient: <b>{patient_full_name}</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {provider_prefix} {provider_full_name}:",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "I am a {hotline_name} pharmacist. On {review_date}, I spoke with your patient to perform a medication consultation. I have summarized the issues identified and my recommendations in the below table. Please call {hotline_phone} with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}.",
+                    "string_replacements": {
+                        "UHC": {
+                            "English": "I am a pharmacist reaching out on behalf of United Healthcare from Arine. On {review_date}, I spoke with your patient to perform a medication consultation. I have summarized the issues identified and my recommendations in the below table. Please call {hotline_phone} with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}."
+                        },
+                        "aloha": {
+                            "English": "I am a clinical pharmacist with {hotline_name}. On {review_date}, I reviewed your patient's medication as a value-add to our members. I have summarized my assessment and recommendations in the table below.<br/><br/><b>Action Requested</b><br/>Please review the information provided and indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}. Please call 844-269-7071 (TTY/TDD Users 1-877-447-5990) with any questions."
+                        },
+                        "bcbsnc": {
+                            "English": "I am a clinical pharmacist with {hotline_name}. On {review_date}, I reviewed your patient's case. I have summarized my assessment and recommendations in the table below. <br/><br/><b>Action Requested</b><br/>Please review the information provided and indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}. Please call us at {pharmacist_phone} with any questions."
+                        },
+                        "blueshield_ca": {
+                            "English": "I am a {hotline_name} pharmacist. On {review_date}, I reviewed your patient's case. I have summarized my assessment and recommendations in the table below. Please review the information provided and indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}. Please call {hotline_phone} with any questions."
+                        },
+                        "blueshield_ca_affil": {
+                            "English": "I am a clinical pharmacist working on behalf of {hotline_name}. On {review_date}, I reviewed your patient's case. I have summarized my assessment and recommendations in the table below. Please review the information provided and indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}. Please call {hotline_phone} with any questions."
+                        },
+                        "cca": {
+                            "English": "I am a clinical pharmacist working on behalf of {hotline_name}. On {review_date}, I reviewed your patient's case. I have summarized my assessment and recommendations in the table below. Please review the information provided and indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}. Please call {hotline_phone} with any questions."
+                        },
+                        "elderplan": {
+                            "English": "I am a clinical pharmacist working on behalf of {hotline_name}. On {review_date}, I reviewed your patient's case. I have summarized my assessment and recommendations in the table below.<br/><br/><b>Action Requested</b><br/>Please review the information provided and indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}. Please call {hotline_phone} with any questions."
+                        },
+                        "excellus": {
+                            "English": "I am a clinical pharmacist from Excellus BlueCross BlueShield. On {review_date}, I reviewed your patient's case and summarized my assessment and recommendations in the table below.<br/><br/><b>Action Requested</b><br/>Please review the information provided and indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}. Please call {hotline_phone} 8:30AM-4:30PM with any questions."
+                        },
+                        "excellus_dsnp": {
+                            "English": "I am a clinical pharmacist from Excellus BlueCross BlueShield. On {review_date}, I reviewed your patient's case and summarized my assessment and recommendations in the table below.<br/><br/><b>Action Requested</b><br/>Please review the information provided and indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}. Please call {hotline_phone} 8:30AM-4:30PM with any questions."
+                        },
+                        "healthfirst": {
+                            "English": "I am a clinical pharmacist working on behalf of Healthfirst. On {review_date}, I reviewed your patient's case. I have summarized my assessment and recommendations in the table below.<br/><br/><b>Action Requested</b><br/>Please review the information provided. Indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}. Please call {hotline_phone} with any questions."
+                        },
+                        "molina": {
+                            "English": "I am a clinical pharmacist working on behalf of {hotline_name}. On {review_date}, I reviewed your patient's case. I have summarized my assessment and recommendations in the table below. <br/><br/><b>Action Requested</b><br/>Please review the recommendation(s) below and indicate if you plan to implement in the last column. Please return this fax with any pertinent information to {hotline_fax}. Should you have any questions, please call us at {hotline_phone}."
+                        },
+                        "priority_health": {
+                            "English": "As part of {hotline_name} Medicare\u2019s Medication Management program, a targeted medication review was completed for your patient utilizing pharmacy claims data on {letter_date}. The table below identifies the recommendation(s) found as a result of this review.<br/><br/>In the last column, please indicate whether you plan to implement the recommendation(s) and fax back to {hotline_fax}.  Please call {hotline_phone} with any questions."
+                        },
+                        "simply_prescriptions": {
+                            "English": "I am a clinical pharmacist from {hotline_name}. On {review_date}, I reviewed your patient's case and summarized my assessment and recommendations in the table below.<br/><br/><b>Action Requested</b><br/>Please review the information provided and indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}. Please call {hotline_phone} 8:30AM-4:30PM with any questions."
+                        },
+                        "univera": {
+                            "English": "I am a clinical pharmacist from {hotline_name}. On {review_date}, I reviewed your patient's case and summarized my assessment and recommendations in the table below.<br/><br/><b>Action Requested</b><br/>Please review the information provided and indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}. Please call {hotline_phone} 8:30AM-4:30PM with any questions."
+                        },
+                        "vivahealth": {
+                            "English": "I am a clinical pharmacist working on behalf of {hotline_name}. On {review_date}, I reviewed your patient's medication list. I have summarized my assessment and recommendations in the table below.<br/><br/><b>Action Requested</b><br/>Please review the information provided and indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}. If you have any questions regarding this letter, please do not hesitate to contact {hotline_name} via the toll free Provider Services number: 1-800-294-7780 or local number: {hotline_phone}, from {hotline_hours}."
+                        },
+                        "vnsny": {
+                            "English": "I am a pharmacist at Arine Inc., a medication management company that works with {hotline_name} Health Plans. On {review_date}, I performed a review of your patient\u2019s case. I have summarized the issues identified and my recommendations in the table below. Please indicate in the last column whether you plan to implement the recommendations and <u><b>fax back this form and any requested medical records</b></u> to {hotline_fax}."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "5%",
+                        "50%",
+                        "30%",
+                        "15%"
+                    ],
+                    "data_source": "provider_recommendations",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Assessment",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Recommendation",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Implement? (Y/N)",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "pharmacy_name",
+                    "string": "Please send any updated medication prescriptions to the patient\u2019s preferred pharmacy. The patient\u2019s preferred pharmacy is:",
+                    "string_replacements": {
+                        "aloha": {
+                            "English": "Please send any updated prescriptions to the patient\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The patient\u2019s preferred pharmacy is:"
+                        },
+                        "bcbsnc": {
+                            "English": "Please send any updated medication prescriptions to the patient\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The patient\u2019s preferred pharmacy is:"
+                        },
+                        "cca": {
+                            "English": "Please send any updated medication prescriptions to the patient\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The patient\u2019s preferred pharmacy is:"
+                        },
+                        "elderplan": {
+                            "English": "Please send any updated medication prescriptions to the patient\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The patient\u2019s preferred pharmacy is:"
+                        },
+                        "healthfirst": {
+                            "English": "Please send any updated medication prescriptions to the patient\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The patient\u2019s preferred pharmacy is:"
+                        },
+                        "icare": {
+                            "English": "Please send any updated medication prescriptions to the patient's preferred pharmacy, as we are not a dispensing pharmacy. The patient is eligible for a 90-day supply for $0. The patient's preferred pharmacy is:"
+                        },
+                        "molina": {
+                            "English": "Please send any updated medication prescriptions to the patient\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The patient\u2019s preferred pharmacy is:"
+                        },
+                        "vivahealth": {
+                            "English": "Please send any updated medication prescriptions to the patient\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The patient\u2019s preferred pharmacy is:"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "pharmacy_name",
+                    "string": "{pharmacy_name}<br/>{pharmacy_street}<br/>{pharmacy_city_state_zip}<br/>Phone: {pharmacy_phone}",
+                    "string_replacements": {
+                        "molina": {
+                            "English": "{pharmacy_dba_name}<br/>{pharmacy_street}<br/>{pharmacy_city_state_zip}<br/>Phone: {pharmacy_phone}"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "10%",
+                        "90%"
+                    ],
+                    "data_source": "table_items",
+                    "display_condition": "provider_summary",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceBefore": 12,
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<b>Note:</b>"
+                            },
+                            {
+                                "string": "{provider_summary}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "pagebreak": {
+                    "hide_for": [
+                        "elderplan",
+                        "cca",
+                        "vnsny",
+                        "molina",
+                        "aloha",
+                        "vivahealth",
+                        "blueshield_ca_affil",
+                        "blueshield_ca",
+                        "bcbsnc"
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "priority_health"
+                    ],
+                    "string": "Please leave any other comments here about the recommendations or important notes about the patient\u2019s health and fax us the form at {hotline_fax}:",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "color": "#787878",
+                    "hide_for": [
+                        "priority_health"
+                    ]
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "color": "#787878",
+                    "hide_for": [
+                        "priority_health"
+                    ]
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "color": "#787878",
+                    "hide_for": [
+                        "priority_health"
+                    ]
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "color": "#787878",
+                    "hide_for": [
+                        "priority_health"
+                    ]
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "color": "#787878",
+                    "hide_for": [
+                        "priority_health"
+                    ]
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "color": "#787878",
+                    "hide_for": [
+                        "priority_health"
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We appreciate working with you to provide high-quality healthcare for our patients.",
+                    "string_replacements": {
+                        "priority_health": {
+                            "English": "We appreciate your collaboration in providing high-quality healthcare for our patients."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "spacer": {
+                    "height": 30
+                }
+            },
+            {
+                "signature": {
+                    "filename": "{pharmacist_signature}",
+                    "height": 50,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "leading": 18,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Pharmacist<br/>{pharmacist_credentialed_name}<br/>{pharmacist_org_name}<br/>Phone: {pharmacist_phone}<br/>Fax: {pharmacist_fax}",
+                    "string_replacements": {
+                        "UHC": {
+                            "English": "Pharmacist<br/>{pharmacist_credentialed_name}<br/>Arine<br/>Phone: {pharmacist_phone}<br/>Fax: {pharmacist_fax}"
+                        },
+                        "aloha": {
+                            "English": "Pharmacist<br/>{pharmacist_credentialed_name}<br/>Arine<br/>Phone: 844-269-7071 (TTY/TDD Users 1-877-447-5990)<br/>Fax: {pharmacist_fax}"
+                        },
+                        "bcbsnc": {
+                            "English": "{pharmacist_credentialed_name}<br/>{hotline_name}<br/>Phone: {pharmacist_phone}<br/>Fax: {hotline_fax}"
+                        },
+                        "molina": {
+                            "English": "Pharmacist<br/>{pharmacist_credentialed_name}<br/>{hotline_name}<br/>Phone: {pharmacist_phone}<br/>Fax: {pharmacist_fax}"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 12,
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "univera"
+                    ],
+                    "string": "Test String",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "ExcellusBCBS.com"
+                        },
+                        "excellus_dsnp": {
+                            "English": "ExcellusBCBS.com"
+                        },
+                        "univera": {
+                            "English": "UniveraHealthcare.com"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 746
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "univera"
+                    ],
+                    "string": "Test Street Address<br/>City, State Zip_Code",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "165 Court Street<br/>Rochester, NY 14647"
+                        },
+                        "excellus_dsnp": {
+                            "English": "165 Court Street<br/>Rochester, NY 14647"
+                        },
+                        "univera": {
+                            "English": "205 Park Club Ln.<br/>Buffalo, NY 14221"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 250,
+                    "y": 746
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "hide_for": [
+                        "vnsny",
+                        "healthfirst",
+                        "molina"
+                    ],
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "/images/arine_logo.png",
+                    "height": 30,
+                    "show_for": [
+                        "vnsny",
+                        "healthfirst"
+                    ],
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "height": 30,
+                    "show_for": [
+                        "molina"
+                    ],
+                    "storage": {
+                        "path": "org_logo/molina_logo.png",
+                        "type": "s3"
+                    },
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 38,
+                    "show_for": [
+                        "vnsny",
+                        "healthfirst"
+                    ],
+                    "x": 36,
+                    "y": 764
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "hide_for": [
+                        "blueshield_ca",
+                        "blueshield_ca_affil",
+                        "cca",
+                        "vnsny",
+                        "molina",
+                        "aloha",
+                        "healthfirst"
+                    ],
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 65
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "vnsny"
+                    ],
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 65
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "healthfirst"
+                    ],
+                    "string": "MESSAGE",
+                    "string_replacements": {
+                        "healthfirst": {
+                            "English": "Coverage is provided by Healthfirst Health Plan, Inc. or Healthfirst Insurance Company, Inc."
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8
+                    },
+                    "width": 170,
+                    "x": 36,
+                    "y": 50
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "univera",
+                        "simply_prescriptions",
+                        "healthfirst"
+                    ],
+                    "string": "ORG_DOC_ID",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "Y0028_9551_C"
+                        },
+                        "excellus_dsnp": {
+                            "English": "H7524_0548_C"
+                        },
+                        "healthfirst": {
+                            "English": "0048-24"
+                        },
+                        "simply_prescriptions": {
+                            "English": "S3521_9550_C"
+                        },
+                        "univera": {
+                            "English": "Y0028_9552_C"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "hide_for": [
+                        "blueshield_ca",
+                        "blueshield_ca_affil",
+                        "vnsny",
+                        "aloha",
+                        "healthfirst"
+                    ],
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "blueshield_ca",
+                        "blueshield_ca_affil"
+                    ],
+                    "string": "<font color = '#0195da' size = '12'>blueshieldca.com</font><br/>601 12th Street &nbsp | &nbsp Oakland, CA 94607<br/>Blue Shield of California is an independent member of the Blue Shield Association L52000-W (1/20)",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 7,
+                        "leading": 16,
+                        "text_alignment": "left"
+                    },
+                    "width": 400,
+                    "x": 36,
+                    "y": 45
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "blueshield_ca",
+                        "blueshield_ca_affil"
+                    ],
+                    "string": "H2819_23_877A_C 12172023<br/>Y0118_23_877A_C 12172023<br/>T13226 2/13",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 9,
+                        "leading": 12,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 43
+                }
+            },
+            {
+                "line": {
+                    "show_for": [
+                        "blueshield_ca",
+                        "blueshield_ca_affil",
+                        "cca",
+                        "healthfirst"
+                    ],
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 576,
+                    "x_start": 36,
+                    "y_end": 60,
+                    "y_start": 60
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 36,
+                "right": 36,
+                "top": 72
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 16,
+                    "spaceBefore": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-09T01:17:57"
+}

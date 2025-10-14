@@ -1,0 +1,299 @@
+{
+    "created": "2023-12-09T02:02:30Z",
+    "id": "76f4f1ce-c232-4ed6-80b0-723ba4030780",
+    "name": "Welcome_Letter_Viva",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 45,
+                    "x": 36,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "/images/arine_logo.png",
+                    "height": 32,
+                    "x": 225,
+                    "y": 750
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "table": {
+                    "column_widths": [
+                        36,
+                        300,
+                        132,
+                        72
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        75
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "right"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": "{patient_full_address}"
+                            },
+                            {
+                                "string": "{english_letter_date}"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "BOTTOM"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "spacer": {
+                    "height": 75
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Your {hotline_name} pharmacy team cares about you. We want to help you stay as safe and healthy as you can. One way we do that is by making sure the drugs your doctor prescribes are working well with any over-the-counter drugs, vitamins, or supplements you may be taking.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We are excited to tell you about a new service that lets you work with a trained pharmacist to help you feel better, take medicines safely, and save you money. There is no cost to you for this service. The pharmacist will help you:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "<b>GET HEALTHIER</b></br> A {hotline_name} pharmacist will help you get the most from your medicines by making sure they are helping you feel better and you are on the right medicines for your specific health conditions.",
+                        "str2",
+                        [
+                            "sub_str_1",
+                            "sub_str_2"
+                        ],
+                        "str_3"
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "To get more information or to take advantage of this program at no extra cost, please call toll-free at {hotline_phone}, {hotline_hours}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "rightIndent": 72,
+                        "spaceAfter": 32
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "UnitedHealthcare",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 25,
+                    "x": 72,
+                    "y": 750
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{arine_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 72,
+                    "y": 618
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{patient_mailing_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 110,
+                    "y": 560
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 150,
+                "left": 36,
+                "right": 36,
+                "top": 150
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": null,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "DocIDText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText"
+                },
+                "FooterText": {
+                    "fontName": "UHCSans-normal",
+                    "fontSize": 6,
+                    "leading": 8,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 8,
+                    "textColor": "#4f4c4d"
+                },
+                "ParagraphText": {
+                    "fontName": "UHCSans-normal",
+                    "fontSize": 10,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 8,
+                    "textColor": "#2a3683"
+                }
+            }
+        }
+    },
+    "updated": "2023-12-12T21:26:09"
+}

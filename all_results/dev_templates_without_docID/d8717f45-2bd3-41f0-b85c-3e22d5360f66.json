@@ -1,0 +1,82 @@
+{
+    "created": "2025-04-17T18:29:39Z",
+    "id": "d8717f45-2bd3-41f0-b85c-3e22d5360f66",
+    "managed": false,
+    "name": "MTM_CL_ProminenceHealth",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "height": 35,
+                    "storage": {
+                        "path": "org_logo/prominence_logo_was_in_arine_pdfs_until_dec_30th.png",
+                        "type": "s3"
+                    },
+                    "x": 470,
+                    "y": 770
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 28
+                    },
+                    "x": 72,
+                    "y": 774
+                }
+            },
+            {
+                "paragraph": {
+                    "height": 100,
+                    "string": "{patient_mailing_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 288,
+                    "x": 72,
+                    "y": 720
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 144,
+                "left": 72,
+                "right": 72,
+                "top": 54
+            },
+            "orientation": "null",
+            "pagination": {
+                "font_name": null,
+                "show": null,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 14,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-04-17T19:09:00"
+}

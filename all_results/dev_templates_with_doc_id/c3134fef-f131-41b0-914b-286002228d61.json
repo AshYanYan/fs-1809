@@ -1,0 +1,354 @@
+{
+    "created": "2024-10-30T06:08:33Z",
+    "id": "c3134fef-f131-41b0-914b-286002228d61",
+    "name": "PCP_PML_MTM_general_SHANE_TESTING_FS-1312",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "<b>Patient\u2019s Medication Summary</b><br/><br/><b>Name:</b> {patient_full_name} (DOB: {patient_date_birth})",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 700
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "hide_for": [
+                        "vnsny"
+                    ],
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "/images/arine_logo.png",
+                    "height": 30,
+                    "show_for": [
+                        "vnsny"
+                    ],
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 45,
+                    "show_for": [
+                        "vnsny"
+                    ],
+                    "x": 36,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "<b>Date of Review: {cmr_date}</b>",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 250,
+                    "x": 286,
+                    "y": 676
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 65
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "univera",
+                        "simply_prescriptions"
+                    ],
+                    "string": "ORG_DOC_ID",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "Y0028_9957_C"
+                        },
+                        "excellus_dsnp": {
+                            "English": "H7524_0605_C"
+                        },
+                        "simply_prescriptions": {
+                            "English": "S3521_9940_C"
+                        },
+                        "univera": {
+                            "English": "Y0028_9958_C"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<b>Medication Allergies: {patient_allergies}</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        120,
+                        120,
+                        98,
+                        98,
+                        109
+                    ],
+                    "data_source": "patient_mtm_meds",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_footer": [
+                        {
+                            "string": "Please note: this list includes patient-reported information. Please verify this list for accuracy.<br/>"
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        }
+                    ],
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Medication Name & Dosage",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Directions",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Indication",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Prescriber",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Notes",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "CENTER"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    -1
+                                ]
+                            }
+                        },
+                        {
+                            "ROWBACKGROUNDS": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#FFFFFF",
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 31,
+                "right": 31,
+                "top": 128
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2024-10-30T07:16:01"
+}

@@ -1,0 +1,268 @@
+{
+    "created": "2023-01-25T15:47:30Z",
+    "id": "c2753ba9-547b-43ed-a14c-68a326690894",
+    "ignore": true,
+    "name": "care_plan_patient_letter",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "filename": "report/images/mckesson_biologics_logo.png",
+                    "height": 50,
+                    "x": 425,
+                    "y": 710
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<b>{care_plan_name}</b>",
+                    "text_style": {
+                        "fontSize": 18,
+                        "leading": 18,
+                        "spaceAfter": 18
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        200,
+                        250
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        32,
+                        32,
+                        32,
+                        32,
+                        32,
+                        null
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<b>Care Plan:</b>"
+                            },
+                            {
+                                "string": "{care_plan_name}"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<b>Goal:</b>"
+                            },
+                            {
+                                "string": "{care_plan_goal}"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<b>Current:</b>"
+                            },
+                            {
+                                "string": "{care_plan_current_display}"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<b>Target:</b>"
+                            },
+                            {
+                                "string": "{care_plan_target_display}"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<b>Recommendations:</b>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "{care_plan_recommendations}"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    1,
+                                    4
+                                ],
+                                "start": [
+                                    0,
+                                    4
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    1,
+                                    5
+                                ],
+                                "start": [
+                                    0,
+                                    5
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    1,
+                                    5
+                                ],
+                                "start": [
+                                    0,
+                                    5
+                                ],
+                                "value": [
+                                    18
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    1,
+                                    5
+                                ],
+                                "start": [
+                                    0,
+                                    5
+                                ],
+                                "value": [
+                                    24
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    0.25,
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "INNERGRID": {
+                                "end": [
+                                    -1,
+                                    4
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    0.25,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "References:",
+                    "text_style": {
+                        "fontSize": 12,
+                        "leading": 12,
+                        "spaceAfter": 12,
+                        "spaceBefore": 12
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{care_plan_references}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "leading": 14
+                    }
+                }
+            }
+        ],
+        "first_page_template": {},
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 72,
+                "right": 72,
+                "top": 72
+            },
+            "pagination": {
+                "show": true
+            }
+        },
+        "localization": {},
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 14,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12
+                }
+            }
+        }
+    },
+    "updated": "2023-01-25T15:47:30Z"
+}

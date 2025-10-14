@@ -1,0 +1,387 @@
+{
+    "created": "2023-08-02T09:27:46Z",
+    "id": "fbbf409b-5fc5-4d82-bd71-c10f15b18014",
+    "name": "10861 QA TEST TDL template",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Recommended To-Do List for {patient_full_name}, DOB: {patient_date_birth}",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 12,
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 770
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 576,
+                    "x_start": 36,
+                    "y_end": 50,
+                    "y_start": 50
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Form CMS-10396 (Expires: 02/24)",
+                    "text_style": {
+                        "fontSize": 7,
+                        "text_alignment": "left"
+                    },
+                    "width": 150,
+                    "x": 36,
+                    "y": 35
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Form Approved OMB No. 0938-1154",
+                    "text_style": {
+                        "fontSize": 7,
+                        "text_alignment": "right"
+                    },
+                    "width": 300,
+                    "x": 276,
+                    "y": 35
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "DOCID-05406ff8-e3e6-4bf7-9935-6c337c0d6a1c",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 9,
+                        "text_alignment": "right"
+                    },
+                    "width": 300,
+                    "x": 276,
+                    "y": 18
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<b>Recommended To-Do List</b>",
+                    "text_style": {
+                        "parent_style": "Heading1Text"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "color": "black",
+                    "width": "100%"
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Prepared on: {prep_date}",
+                    "text_style": {
+                        "leftIndent": 8,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "color": "black",
+                    "width": "100%"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 5
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "You can get the best results from your medications by completing the items on this <b>\u201cTo-Do List.\u201d</b>",
+                    "text_style": {
+                        "leftIndent": 8,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        50,
+                        470
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "image": {
+                                "alignment": "left",
+                                "height": 32
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "storage": {
+                                    "bucket": "arine-logo-s3-test",
+                                    "path": "test_logo_2.jpeg",
+                                    "type": "S3"
+                                }
+                            },
+                            {
+                                "string": "Bring your <b>To-Do List</b> when you go to your doctor. And, share it with your family or caregivers."
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "spacer": {
+                    "height": 10
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>My To-Do List</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "spacer": {
+                    "height": 10
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        265,
+                        265
+                    ],
+                    "data_source": "patient_todo_list_items",
+                    "row_heights": [
+                        6,
+                        24,
+                        null
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "bulletText": "&#9744",
+                                "spaceAfter": 12,
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 24,
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "<b>What we talked about:</b>",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "<b>What I should do:</b>",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "black"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    1,
+                                    -1
+                                ],
+                                "start": [
+                                    1,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ],
+                    "top_border": true
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 36,
+                "right": 36,
+                "top": 54
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {
+                "letter_date": {
+                    "English": {
+                        "format_string": "%B %-d, %Y",
+                        "locale": "en_US.UTF-8"
+                    },
+                    "Spanish": {
+                        "format_string": "%-d de %B de %Y",
+                        "locale": "es_ES.UTF-8"
+                    }
+                }
+            }
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "Heading1Text": {
+                    "fontName": "Times-New-Roman-normal",
+                    "parent_style": "Heading1"
+                },
+                "ParagraphText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 14,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12
+                },
+                "TableHeaderText": {
+                    "fontName": "Times-New-Roman-bold",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2023-08-02T09:27:46"
+}

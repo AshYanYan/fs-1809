@@ -1,0 +1,1659 @@
+{
+    "created": "2024-09-17T14:30:42Z",
+    "id": "8a3ab0a3-e536-4158-93c8-e93ce0a16c9b",
+    "managed": false,
+    "name": "Cambia_SPC",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "<b>Regence BlueShield of Idaho</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "<b>Regence BlueShield of Idaho</b><br/>1602 21st Avenue | Lewiston, ID 83501",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "<b>Regence BlueShield</b> serves select counties in the state of Washington<br/>and is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "<b>Regence BlueShield</b><br/>1111 Lake Washington Blvd N, Suite 900 | Renton, WA 98056",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Oregon</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Oregon</b><br/>200 SW Market Street, 11th Floor | Portland, OR 97201",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Utah</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Utah</b><br/>2890 E Cottonwood Parkway | Salt Lake City, UT 84121",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:asuris_nw_wa_ppo",
+                        "cambia:asuris_nw_wa_pdp"
+                    ],
+                    "string": "<b>Asuris Northwest Health</b><br/>528 E Spokane Blvd | Suite 301 | Spokane WA 99202",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 18,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "text_style": {
+                        "parent_style": "FooterTextSmall",
+                        "text_alignment": "left"
+                    },
+                    "width": 500,
+                    "x": 36,
+                    "y": 60
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{prep_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "spaceBefore": 20,
+                    "string": "Dear {provider_full_name},",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "The <b>statin therapy for patients with cardiovascular disease (SPC)</b> Star Ratings measure requires males ages 21 to 75 and females ages 40 to 75 with a history of clinical atherosclerotic cardiovascular disease (ASCVD) to be on moderate- or high-intensity statin therapy. We have reviewed our records and noticed that this patient is currently not taking a moderate- or high-intensity statin and has a diagnosis indicating ASCVD.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        350,
+                        115
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        32
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<b>Patient Name: {patient_full_name}</b>"
+                            },
+                            {
+                                "string": "<b>DOB: {patient_date_birth}</b>"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    6
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "INNERGRID": {
+                                "end": [
+                                    -1,
+                                    3
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:asuris_nw_wa_ppo",
+                        "cambia:asuris_nw_wa_pdp"
+                    ],
+                    "string": "<b>Action Requested:</b> <br />Please indicate the appropriate action items and fax us the form at {hotline_fax}. Please call 833-203-0051 with any questions.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp",
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp",
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo",
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "<b>Action Requested:</b> <br />Please indicate the appropriate action items and fax us the form at {hotline_fax}. Please call {hotline_phone} with any questions.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Select all that apply:</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Patient is a candidate for statin therapy; I will send a new moderate- or high-intensity statin prescription to the patient\u2019s preferred pharmacy:",
+                        [
+                            "{pharmacy_name}<br />{pharmacy_street}<br />{pharmacy_city_state_zip}<br />{pharmacy_phone}<br />"
+                        ],
+                        "I will discuss statin therapy during the patient\u2019s next appointment on ______________ (date)",
+                        "Patient does not have ASCVD",
+                        "Patient has refused statin therapy in the past",
+                        "Patient is already on a statin. Please indicate what statin the patient is currently on below:<br /><br />_________________________________________________",
+                        "Patient is receiving palliative care",
+                        "Patient has advanced illness and frailty",
+                        "Patient is pregnant, lactating, undergoing In vitro fertilization (IVF), or is using Clomiphene"
+                    ],
+                    "list_attributes": {
+                        "bulletFontName": "Times-New-Roman-normal",
+                        "bulletType": "bullet",
+                        "start": "\u25a1"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 50,
+                        "spaceAfter": 7,
+                        "spaceBefore": 1.5
+                    },
+                    "sub_list_attributes": {
+                        "bulletColor": "White",
+                        "bulletType": "bullet",
+                        "leftIndent": 70,
+                        "spaceAfter": 7
+                    },
+                    "sub_list_item_attributes": {
+                        "value": ""
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 10
+                    }
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "Statin therapy is not appropriate for the patient at this time due to meeting one or more of the following criteria. <b>Please select all that apply and submit a non-chargeable claim code using the appropriate ICD-10 codes. Codes must be updated each measure year</b> to ensure your patient is appropriately excluded.<br/><br/><b>To properly document this exclusion, please select one of the following actions:</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 20
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "I will submit a corrected claim with the appropriate exclusion ICD-10 code",
+                        [
+                            "\u2022 Must include current year date of service",
+                            "\u2022 Must be submitted annually with current year date of service"
+                        ]
+                    ],
+                    "list_attributes": {
+                        "bulletFontName": "Times-New-Roman-normal",
+                        "bulletType": "bullet",
+                        "start": "\u25a1"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 50,
+                        "spaceAfter": 7,
+                        "spaceBefore": 1.5
+                    },
+                    "sub_list_attributes": {
+                        "bulletColor": "Black",
+                        "bulletType": "bullet",
+                        "leftIndent": 70,
+                        "spaceAfter": 7
+                    },
+                    "sub_list_item_attributes": {
+                        "value": ""
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 10
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "OR",
+                    "text_style": {
+                        "leftIndent": 30,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "I will fax patient chart notes as supporting documentation",
+                        [
+                            "\u2022 Chart notes indicating MYALGIA and RHABDOMYOLYSIS can be from any year. All other chart notes must be from <b>this measurement year</b>.",
+                            "\u2022 Must clearly document why statin therapy is contraindicated/inappropriate"
+                        ]
+                    ],
+                    "list_attributes": {
+                        "bulletFontName": "Times-New-Roman-normal",
+                        "bulletType": "bullet",
+                        "start": "\u25a1"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 50,
+                        "spaceAfter": 7,
+                        "spaceBefore": 1.5
+                    },
+                    "sub_list_attributes": {
+                        "bulletColor": "Black",
+                        "bulletType": "bullet",
+                        "leftIndent": 70,
+                        "spaceAfter": 7
+                    },
+                    "sub_list_item_attributes": {
+                        "value": ""
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 10
+                    }
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        160,
+                        100,
+                        300
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        16,
+                        16,
+                        16,
+                        68,
+                        16,
+                        16,
+                        32
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14
+                                }
+                            }
+                        }
+                    ],
+                    "spaceBefore": 100,
+                    "table_alignment": "center",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Definition",
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Code System",
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Codes",
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [
+                        [
+                            {
+                                "string": "\u25a1  Myalgia"
+                            },
+                            {
+                                "string": "<b>ICD10CM</b>"
+                            },
+                            {
+                                "string": "<b>M79.10, M79.11, M79.12, M79.18</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  Myopathy"
+                            },
+                            {
+                                "string": "<b>ICD10CM</b>"
+                            },
+                            {
+                                "string": "<b>G72.0, G72.2, G72.9</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  Myositis"
+                            },
+                            {
+                                "string": "<b>ICD10CM</b>"
+                            },
+                            {
+                                "string": "<b>M60.80, M60.811, M60.812, M60.819, M60.821, M60.822, M60.829, M60.831, M60.832, M60.839, M60.841, M60.842, M60.849, M60.851, M60.852, M60.859, M60.861, M60.862, M60.869, M60.871, M60.872, M60.879, M60.88, M60.89, M60.9</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  Rhabdomyolysis"
+                            },
+                            {
+                                "string": "<b>ICD10CM</b>"
+                            },
+                            {
+                                "string": "<b>M62.82</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  End stage renal disease"
+                            },
+                            {
+                                "string": "<b>ICD10CM</b>"
+                            },
+                            {
+                                "string": "<b>N18.5, N18.6, Z99.2</b>"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "\u25a1  Cirrhosis"
+                            },
+                            {
+                                "string": "<b>ICD10CM</b>"
+                            },
+                            {
+                                "string": "<b>K70.30, K70.31, K71.7, K74.3, K74.4, K74.5, K74.60, H74.69, P78.81</b>"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    6
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "INNERGRID": {
+                                "end": [
+                                    -1,
+                                    10
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Statin therapy intensity categories</b>",
+                    "text_style": {
+                        "parent_style": "BiggerText",
+                        "spaceBefore": 20,
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        110,
+                        150,
+                        125
+                    ],
+                    "data_source": "table_items",
+                    "row_heights": [
+                        16,
+                        16,
+                        16,
+                        16,
+                        16,
+                        16
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "center",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Statin",
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Moderate-intensity dose",
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "High-intensity dose",
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 14,
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [
+                        [
+                            {
+                                "string": "Atorvastatin (L)"
+                            },
+                            {
+                                "string": "10 to 20 mg"
+                            },
+                            {
+                                "string": "40 to 80 mg"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "Simvastatin (L)"
+                            },
+                            {
+                                "string": "20 to 40 mg"
+                            },
+                            {
+                                "string": "N/A"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "Lovastatin (L)"
+                            },
+                            {
+                                "string": "40 mg"
+                            },
+                            {
+                                "string": "N/A"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "Pravastatin (H)"
+                            },
+                            {
+                                "string": "40 to 80 mg"
+                            },
+                            {
+                                "string": "N/A"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "Rosuvastatin (H)"
+                            },
+                            {
+                                "string": "5 to 10 mg"
+                            },
+                            {
+                                "string": "20 to 40 mg"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "BOTTOMPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    6
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#787878"
+                                ]
+                            }
+                        },
+                        {
+                            "INNERGRID": {
+                                "end": [
+                                    -1,
+                                    10
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "black"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "H- Hydrophilic L -Lipophilic; if myalgia occurs on a lipophilic statin despite dose reductions, it may be prudent to attempt a trial of a hydrophilic statin.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We appreciate working with you to provide high-quality healthcare for our patients.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "Regence BlueShield of Idaho<br/>Phone: 1-{pharmacist_phone}<br/>Fax: 1-{pharmacist_fax}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "Regence BlueShield<br/>Phone: 1-{pharmacist_phone}<br/>Fax: 1-{pharmacist_fax}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "Regence BlueCross BlueShield of Oregon<br/>Phone: 1-{pharmacist_phone}<br/>Fax: 1-{pharmacist_fax}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "Regence BlueCross BlueShield of Utah<br/>Phone: 1-{pharmacist_phone}<br/>Fax: 1-{pharmacist_fax}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:asuris_nw_wa_ppo",
+                        "cambia:asuris_nw_wa_pdp",
+                        "cambia:asuris_nw_as_pdp"
+                    ],
+                    "string": "Asuris Northwest Health<br/>Phone: 1-833-203-0051<br/>Fax: 1-{pharmacist_fax}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "loop": {
+                    "data": {
+                        "iterate_over": "drps"
+                    },
+                    "elements": [
+                        {
+                            "paragraph": {
+                                "string": "{drp_title}",
+                                "text_style": {
+                                    "parent_style": "Heading1Text",
+                                    "textColor": "#00a89e",
+                                    "text_alignment": "center"
+                                }
+                            }
+                        },
+                        {
+                            "columns": {
+                                "column_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "content": [
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_assessment_list_items",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "ParagraphText",
+                                                        "spaceAfter": 0
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "list": {
+                                                    "items": "drp_assessment_notes",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "list_item_attributes": {
+                                                        "value": " "
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceBefore": 60
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "{drp_assessment_title}:",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234
+                                    },
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_recommendation_list_items",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "ParagraphText",
+                                                        "spaceAfter": 0
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "list": {
+                                                    "items": "drp_recommendation_notes",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "list_item_attributes": {
+                                                        "value": " "
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceBefore": 60
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "{drp_recommendation_title}:",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234
+                                    }
+                                ],
+                                "spaceBefore": 24
+                            }
+                        },
+                        {
+                            "columns": {
+                                "column_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "LINEBELOW": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#000000"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "content": [
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_exclusion_criteria_full_width",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceAfter": 0
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "Exclusion Criteria <super>{drp_exclusion_references}</super>",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 468
+                                    }
+                                ],
+                                "display_condition": "drp_exclusion_criteria_full_width",
+                                "spaceBefore": 12
+                            }
+                        },
+                        {
+                            "columns": {
+                                "column_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "LINEBELOW": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#000000"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "content": [
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_exclusion_criteria_left_column",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceAfter": 0
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "Exclusion Criteria <super>{drp_exclusion_references}</super>",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234
+                                    },
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_exclusion_criteria_right_column",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceAfter": 0
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "",
+                                                "text_style": {
+                                                    "leftIndent": 36,
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234
+                                    }
+                                ],
+                                "display_condition": "drp_exclusion_criteria_left_column",
+                                "spaceBefore": 12
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "{drp_references_title}:",
+                                "text_style": {
+                                    "parent_style": "FooterText"
+                                }
+                            }
+                        },
+                        {
+                            "list": {
+                                "items": "drp_references_list_items",
+                                "list_attributes": {
+                                    "bulletFontSize": 8,
+                                    "bulletFormat": "%s.",
+                                    "bulletType": "1"
+                                },
+                                "text_style": {
+                                    "parent_style": "FooterTextSmall"
+                                }
+                            }
+                        },
+                        {
+                            "spacer": {
+                                "height": 5
+                            }
+                        },
+                        {
+                            "chart": {
+                                "chart_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "MIDDLE"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "GRID": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#000000"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "BACKGROUND": {
+                                            "end": [
+                                                -1,
+                                                0
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "#EDEDED"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "chart_type_source": "drp_patient_table_type",
+                                "column_widths_source": "drp_patient_table_column_widths",
+                                "content_source": "drp_patient_table_content",
+                                "content_template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "TableBodyText"
+                                        }
+                                    }
+                                },
+                                "header_template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "TableHeaderText",
+                                            "text_alignment": "center"
+                                        }
+                                    }
+                                },
+                                "headers_source": "drp_patient_table_headers",
+                                "spaceBefore": 12
+                            }
+                        }
+                    ],
+                    "separators": [
+                        {
+                            "pagebreak": {}
+                        }
+                    ]
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 50,
+                    "width": 150,
+                    "x": 50,
+                    "y": 775
+                }
+            },
+            {
+                "text": {
+                    "height": 18,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "text_style": {
+                        "parent_style": "FooterTextSmall",
+                        "text_alignment": "left"
+                    },
+                    "width": 500,
+                    "x": 36,
+                    "y": 60
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "<b>Regence BlueShield of Idaho</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "<b>Regence BlueShield of Idaho</b><br/>1602 21st Avenue | Lewiston, ID 83501",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "<b>Regence BlueShield</b> serves select counties in the state of Washington<br/>and is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "<b>Regence BlueShield</b><br/>1111 Lake Washington Blvd N, Suite 900 | Renton, WA 98056",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Oregon</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Oregon</b><br/>200 SW Market Street, 11th Floor | Portland, OR 97201",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Utah</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Utah</b><br/>2890 E Cottonwood Parkway | Salt Lake City, UT 84121",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:asuris_nw_wa_ppo",
+                        "cambia:asuris_nw_wa_pdp"
+                    ],
+                    "string": "<b>Asuris Northwest Health</b><br/>528 E Spokane Blvd | Suite 301 | Spokane WA 99202",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 30
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 40,
+                "left": 36,
+                "right": 36,
+                "top": 80
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "BiggerText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 14,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14
+                },
+                "CalloutText": {
+                    "borderColor": "#000000",
+                    "borderPadding": 5,
+                    "borderWidth": 1,
+                    "fontName": "Lato-bold",
+                    "fontSize": 13,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 18
+                },
+                "ColumnsHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 11,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14
+                },
+                "FooterText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 9,
+                    "leading": 9,
+                    "parent_style": "BodyText"
+                },
+                "FooterTextLarge": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 10,
+                    "leading": 10,
+                    "parent_style": "BodyText"
+                },
+                "FooterTextSmall": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8,
+                    "leading": 8,
+                    "parent_style": "BodyText"
+                },
+                "HeaderText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8,
+                    "leading": 8,
+                    "parent_style": "BodyText"
+                },
+                "Heading1Text": {
+                    "fontName": "Lato-normal",
+                    "parent_style": "Heading1"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14
+                },
+                "TableBodyText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 9,
+                    "leading": 9,
+                    "parent_style": "BodyText"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 9,
+                    "leading": 9,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-23T23:28:04"
+}

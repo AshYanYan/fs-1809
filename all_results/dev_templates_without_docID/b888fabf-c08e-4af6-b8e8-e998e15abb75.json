@@ -1,0 +1,83 @@
+{
+    "created": "2024-12-03T22:56:06Z",
+    "id": "b888fabf-c08e-4af6-b8e8-e998e15abb75",
+    "name": "ashleyTest",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 11,
+                    "x_end": 576,
+                    "x_start": 36,
+                    "y_end": 50,
+                    "y_start": 50
+                }
+            }
+        ],
+        "document_content": [],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 50,
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 576,
+                    "x_start": 36,
+                    "y_end": 50,
+                    "y_start": 50
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 36,
+                "right": 36,
+                "top": 84
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 16,
+                    "spaceBefore": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 10,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "textColor": "#064c7b"
+                }
+            }
+        }
+    },
+    "updated": "2024-12-03T22:56:06"
+}

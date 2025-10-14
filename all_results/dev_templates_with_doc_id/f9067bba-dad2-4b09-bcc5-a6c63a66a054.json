@@ -1,0 +1,792 @@
+{
+    "created": "2024-05-28T14:30:42Z",
+    "id": "f9067bba-dad2-4b09-bcc5-a6c63a66a054",
+    "name": "PA_batch+followup_vnsny",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "DOCID-{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "/images/arine_logo.png",
+                    "height": 25,
+                    "x": 576,
+                    "y": 755
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "/images/vnsny_logo_new.png",
+                    "height": 35,
+                    "x": 165,
+                    "y": 760
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "H5549_Arine Provider 5/2024",
+                    "text_style": {
+                        "parent_style": "FooterTextLarge"
+                    },
+                    "width": 400,
+                    "x": 36,
+                    "y": 25
+                }
+            }
+        ],
+        "coverpage_override_mapping": {
+            "excluded": "vnsny_exclusion"
+        },
+        "document_content": [
+            {
+                "spacer": {
+                    "height": 5
+                }
+            },
+            {
+                "paragraph": {
+                    "spaceBefore": 60,
+                    "string": "{prep_full_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "spaceBefore": 20,
+                    "string": "Dear {provider_full_name},",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Arine works with VNSNY Health Medicare (HMO) to help members better manage their health through preventative health measures.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "npi_org_flag_excluded",
+                    "string": "As part of the Healthcare Effectiveness Data and Information Set (HEDIS\u00ae) audit, we would like to ask for your assistance in collecting supplemental data. Our records indicate that the patients on the following page are due for at least one health screening or are indicated for statin therapy due to comorbidities. If this is not the case and the patient has been evaluated recently for the recommendations below, please send us the patient\u2019s medical records <b>within one week of receipt</b> so that we can update our information via:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "npi_org_flag_excluded",
+                    "string": "As part of the Healthcare Effectiveness Data and Information Set (HEDIS\u00ae) audit, we would like to ask for your assistance in collecting supplemental data. Our records indicate that the patients on the following page are due for at least one health screening or are indicated for statin therapy due to comorbidities. If this is not the case and a patient has been evaluated recently for the recommendations below, please send a response via the options below indicating that the recommendations on the pages that follow, were already reviewed:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        [
+                            "Fax: <b>1-833-263-1963</b>, Attn: Health Plans - Quality Program"
+                        ],
+                        [
+                            "Secure email: <a href='mailto: clinical-support@arine.io' color='blue'><u>clinical-support@arine.io</u></a>"
+                        ],
+                        [
+                            "<b>Mail:</b> <br /> VNS Health <br /> Health Plans - Quality Management <br /> 220 East 42nd Street <br /> New York, NY 10017"
+                        ]
+                    ],
+                    "sub_list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "sub_list_item_attributes": {
+                        "value": "\u2022"
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 0
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) permits sharing of medical record information needed for quality assessment and improvement activities, without the need for specific patient consent. (See 45 CFR 164.501 and 164.506.1).",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "To speak to one of our pharmacists about this letter, or if you have any questions, please call or email us at the contact information below.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Arine Pharmacists</b> <br /> 1-917-383-1285 <br /> Monday to Friday from 9 am - 6 pm <br /> clinical-support@arine.io",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Your assistance in the Healthcare Effectiveness Data and Information Set (HEDIS\u00ae) supplemental data collection process is extremely important to the success of the audit. Thank you for your continued partnership.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "VNS Care Team",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "loop": {
+                    "data": {
+                        "iterate_over": "drps"
+                    },
+                    "elements": [
+                        {
+                            "spacer": {
+                                "height": 1
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "{drp_title}",
+                                "text_style": {
+                                    "parent_style": "BiggerText",
+                                    "textColor": "#000000",
+                                    "text_alignment": "center"
+                                }
+                            }
+                        },
+                        {
+                            "columns": {
+                                "column_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "GRID": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#000000"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "BACKGROUND": {
+                                            "end": [
+                                                -1,
+                                                0
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "#EDEDED"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "content": [
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_assessment_list_items",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "list_item_attributes": {
+                                                        "bulletFontSize": 15
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "ParagraphText",
+                                                        "spaceAfter": 0
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "list": {
+                                                    "items": "drp_assessment_notes",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "list_item_attributes": {
+                                                        "value": " "
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceBefore": 30
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "{drp_assessment_title}",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText",
+                                                    "text_alignment": "center"
+                                                }
+                                            }
+                                        },
+                                        "width": 270
+                                    },
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_recommendation_list_items",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "list_item_attributes": {
+                                                        "bulletFontSize": 15
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "bulletFontSize": 15,
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "ParagraphText",
+                                                        "spaceAfter": 0
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "list": {
+                                                    "items": "drp_recommendation_notes",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "list_item_attributes": {
+                                                        "value": " "
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceBefore": 60
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "{drp_recommendation_title}",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText",
+                                                    "text_alignment": "center"
+                                                }
+                                            }
+                                        },
+                                        "width": 270
+                                    }
+                                ],
+                                "spaceBefore": 24
+                            }
+                        },
+                        {
+                            "columns": {
+                                "column_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "LINEBELOW": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#000000"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "content": [
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_exclusion_criteria_full_width",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceAfter": 0
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "Exclusion Criteria <super>{drp_exclusion_references}</super>",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 468
+                                    }
+                                ],
+                                "display_condition": "drp_exclusion_criteria_full_width",
+                                "spaceBefore": 12
+                            }
+                        },
+                        {
+                            "columns": {
+                                "column_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "TOP"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "LINEBELOW": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#000000"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "content": [
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_exclusion_criteria_left_column",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceAfter": 0
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "Exclusion Criteria <super>{drp_exclusion_references}</super>",
+                                                "text_style": {
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234
+                                    },
+                                    {
+                                        "elements": [
+                                            {
+                                                "list": {
+                                                    "items": "drp_exclusion_criteria_right_column",
+                                                    "list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_attributes": {
+                                                        "bulletType": "bullet"
+                                                    },
+                                                    "sub_list_item_attributes": {
+                                                        "value": "\u2022"
+                                                    },
+                                                    "text_style": {
+                                                        "parent_style": "FooterText",
+                                                        "spaceAfter": 0
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "header": {
+                                            "paragraph": {
+                                                "string": "",
+                                                "text_style": {
+                                                    "leftIndent": 36,
+                                                    "parent_style": "ColumnsHeaderText"
+                                                }
+                                            }
+                                        },
+                                        "width": 234
+                                    }
+                                ],
+                                "display_condition": "drp_exclusion_criteria_left_column",
+                                "spaceAfter": 75,
+                                "spaceBefore": 19
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "{drp_references_title}:",
+                                "text_style": {
+                                    "parent_style": "FooterText"
+                                }
+                            }
+                        },
+                        {
+                            "list": {
+                                "items": "drp_references_list_items",
+                                "list_attributes": {
+                                    "bulletFontSize": 10,
+                                    "bulletFormat": "%s.",
+                                    "bulletType": "1"
+                                },
+                                "text_style": {
+                                    "parent_style": "FooterText"
+                                }
+                            }
+                        },
+                        {
+                            "spacer": {
+                                "height": 20
+                            }
+                        },
+                        {
+                            "chart": {
+                                "chart_style": [
+                                    {
+                                        "VALIGN": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "MIDDLE"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "GRID": {
+                                            "end": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                1,
+                                                "#000000"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "BACKGROUND": {
+                                            "end": [
+                                                -1,
+                                                0
+                                            ],
+                                            "start": [
+                                                0,
+                                                0
+                                            ],
+                                            "value": [
+                                                "#EDEDED"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "chart_type_source": "drp_patient_table_type",
+                                "column_widths_source": "drp_patient_table_column_widths",
+                                "content_source": "drp_patient_table_content",
+                                "content_template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "TableBodyText",
+                                            "text_alignment": "center"
+                                        }
+                                    }
+                                },
+                                "header_template": {
+                                    "paragraph": {
+                                        "text_style": {
+                                            "parent_style": "ColumnsHeaderText",
+                                            "text_alignment": "center"
+                                        }
+                                    }
+                                },
+                                "headers_source": "drp_patient_table_headers",
+                                "spaceBefore": 12
+                            }
+                        },
+                        {
+                            "spacer": {
+                                "height": 20
+                            }
+                        }
+                    ],
+                    "separators": [
+                        {
+                            "pagebreak": {}
+                        }
+                    ]
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "DOCID-{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "/images/arine_logo.png",
+                    "height": 25,
+                    "x": 576,
+                    "y": 755
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "/images/vnsny_logo_new.png",
+                    "height": 35,
+                    "x": 165,
+                    "y": 760
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "H5549_Arine Provider 5/2024",
+                    "text_style": {
+                        "parent_style": "FooterTextLarge"
+                    },
+                    "width": 400,
+                    "x": 36,
+                    "y": 25
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 108,
+                "left": 30,
+                "right": 30,
+                "top": 72
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "BiggerText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 18,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 20
+                },
+                "CalloutText": {
+                    "borderColor": "#000000",
+                    "borderPadding": 5,
+                    "borderWidth": 1,
+                    "fontName": "Lato-bold",
+                    "fontSize": 13,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 18
+                },
+                "ColumnsHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 11,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14
+                },
+                "FooterText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 9,
+                    "leading": 9,
+                    "parent_style": "BodyText"
+                },
+                "FooterTextLarge": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 10,
+                    "leading": 10,
+                    "parent_style": "BodyText"
+                },
+                "FooterTextSmall": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8,
+                    "leading": 8,
+                    "parent_style": "BodyText"
+                },
+                "HeaderText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8,
+                    "leading": 8,
+                    "parent_style": "BodyText"
+                },
+                "Heading2Text": {
+                    "fontName": "Lato-bold",
+                    "parent_style": "Heading2"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14
+                },
+                "TableBodyText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 9,
+                    "leading": 9,
+                    "parent_style": "BodyText"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 9,
+                    "leading": 9,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2024-03-12T21:57:54"
+}

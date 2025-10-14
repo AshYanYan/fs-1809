@@ -1,0 +1,219 @@
+{
+    "created": "2023-12-14T18:23:55Z",
+    "id": "fb720be7-72c6-4b94-bcd1-42eee7368777",
+    "managed": true,
+    "name": "MLI_general",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Form Approved OMB# 0938-1421 <br/>Form CMS-10802 (Expires 12/31/25)",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 65
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "Multi-Language Insert",
+                    "text_style": {
+                        "parent_style": "HeaderText",
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "English: We have free interpreter services to answer any questions you may have about our health or drug plan. To get an interpreter, just call us at 1-866-783-1444, TTY/TDD 711. Someone who speaks English/Language can help you. This is a free service.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Spanish: Tenemos servicios de int\u00e9rprete sin costo alguno para responder cualquier pregunta que pueda tener sobre nuestro plan de salud o medicamentos. Para hablar con un int\u00e9rprete, por favor llame al 1-866-783-1444, TTY/TDD 711. Alguien que hable espa\u00f1ol le podr\u00e1 ayudar. Este es un servicio gratuito.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Spanish: Tenemos servicios de int\u00e9rprete sin costo alguno para responder cualquier pregunta que pueda tener sobre nuestro plan de salud o medicamentos. Para hablar con un int\u00e9rprete, por favor llame al 1-866-783-1444, TTY/TDD 711. Alguien que hable espa\u00f1ol le podr\u00e1 ayudar. Este es un servicio gratuito.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Chinese Mandarin: \u6211\u4eec\u63d0\u4f9b\u514d\u8d39\u7684\u7ffb\u8bd1\u670d\u52a1\uff0c\u5e2e\u52a9\u60a8\u89e3\u7b54\u5173\u4e8e\u5065\u5eb7\u6216\u836f\u7269\u4fdd\u9669\u7684\u4efb\u4f55\u7591\u95ee\u3002\u5982\u679c\u60a8\u9700\u8981\u6b64\u7ffb\u8bd1\u670d\u52a1\uff0c\u8bf7\u81f4\u7535 1-866-783-1444, TTY/TDD 711\u3002\u6211\u4eec\u7684\u4e2d\u6587\u5de5\u4f5c\u4eba\u5458\u5f88\u4e50\u610f\u5e2e\u52a9\u60a8\u3002\u8fd9\u662f\u4e00\u9879\u514d\u8d39\u670d\u52a1\u3002",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Chinese Cantonese: \u60a8\u5c0d\u6211\u5011\u7684\u5065\u5eb7\u6216\u85e5\u7269\u4fdd\u96aa\u53ef\u80fd\u5b58\u6709\u7591\u554f\uff0c\u70ba\u6b64\u6211\u5011\u63d0\u4f9b\u514d\u8cbb\u7684\u7ffb\u8b6f\u670d\u52d9\u3002\u5982\u9700\u7ffb\u8b6f\u670d\u52d9\uff0c\u8acb\u81f4\u96fb 1-866-783-1444, TTY/TDD 711\u3002\u6211\u5011\u8b1b\u4e2d\u6587\u7684\u4eba\u54e1\u5c07\u6a02\u610f\u70ba\u60a8\u63d0\u4f9b\u5e6b\u52a9\u3002\u9019\u662f\u4e00\u9805\u514d\u8cbb\u670d\u52d9\u3002",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Tagalog: Mayroon kaming libreng serbisyo sa pagsasaling-wika upang masagot ang anumang mga katanungan ninyo hinggil sa aming planong pangkalusugan o panggamot. Upang makakuha ng tagasaling-wika, tawagan lamang kami sa 1-866-783-1444, TTY/TDD 711. Maaari kayong tulungan ng isang nakakapagsalita ng Tagalog. Ito ay libreng serbisyo.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "French: Nous proposons des services gratuits d'interpr\u00e9tation pour r\u00e9pondre \u00e0 toutes vos questions relatives \u00e0 notre r\u00e9gime de sant\u00e9 ou d'assurance- m\u00e9dicaments. Pour acc\u00e9der au service d'interpr\u00e9tation, il vous suffit de nous appeler au 1-866-783-1444, TTY/TDD 711. Un interlocuteur parlant Fran\u00e7ais pourra vous aider. Ce service est gratuit.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Vietnamese: Ch\u00fang t\u00f4i c\u00f3 d\u1ecbch v\u1ee5 th\u00f4ng d\u1ecbch mi\u1ec5n ph\u00ed \u0111\u1ec3 tr\u1ea3 l\u1eddi c\u00e1c c\u00e2u h\u1ecfi v\u1ec1 ch\u01b0\u01a1ng s\u1ee9c kh\u1ecfe v\u00e0 ch\u01b0\u01a1ng tr\u00ecnh thu\u1ed1c men. N\u1ebfu qu\u00ed v\u1ecb c\u1ea7n th\u00f4ng d\u1ecbch vi\u00ean xin g\u1ecdi 1-866-783-1444, TTY/TDD 711. s\u1ebd c\u00f3 nh\u00e2n vi\u00ean n\u00f3i ti\u1ebfng Vi\u1ec7t gi\u00fap \u0111\u1ee1 qu\u00ed v\u1ecb. \u0110\u00e2y l\u00e0 d\u1ecbch v\u1ee5 mi\u1ec5n ph\u00ed.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "German: Unser kostenloser Dolmetscherservice beantwortet Ihren Fragen zu unserem Gesundheits- und Arzneimittelplan. Unsere Dolmetscher erreichen Sie unter 1-866-783-1444, TTY/TDD 711. Man wird Ihnen dort auf Deutsch weiterhelfen. Dieser Service ist kostenlos.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Korean: \ub2f9\uc0ac\ub294 \uc758\ub8cc \ubcf4\ud5d8 \ub610\ub294 \uc57d\ud488 \ubcf4\ud5d8\uc5d0 \uad00\ud55c \uc9c8\ubb38\uc5d0 \ub2f5\ud574 \ub4dc\ub9ac\uace0\uc790 \ubb34\ub8cc \ud1b5\uc5ed \uc11c\ube44\uc2a4\ub97c \uc81c\uacf5\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4. \ud1b5\uc5ed \uc11c\ube44\uc2a4\ub97c \uc774\uc6a9\ud558\ub824\uba74 \uc804\ud654 1-866-783-1444, TTY/TDD 711 \ubc88\uc73c\ub85c \ubb38\uc758\ud574 \uc8fc\uc2ed\uc2dc\uc624. \ud55c\uad6d\uc5b4\ub97c \ud558\ub294 \ub2f4\ub2f9\uc790\uac00 \ub3c4\uc640 \ub4dc\ub9b4 \uac83\uc785\ub2c8\ub2e4. \uc774 \uc11c\ube44\uc2a4\ub294 \ubb34\ub8cc\ub85c \uc6b4\uc601\ub429\ub2c8\ub2e4.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Russian: \u0415\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u0432\u043e\u0437\u043d\u0438\u043a\u043d\u0443\u0442 \u0432\u043e\u043f\u0440\u043e\u0441\u044b \u043e\u0442\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u043e\u0433\u043e \u0438\u043b\u0438 \u043c\u0435\u0434\u0438\u043a\u0430\u043c\u0435\u043d\u0442\u043d\u043e\u0433\u043e \u043f\u043b\u0430\u043d\u0430, \u0432\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0432\u043e\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u043d\u0430\u0448\u0438\u043c\u0438 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u043c\u0438 \u0443\u0441\u043b\u0443\u0433\u0430\u043c\u0438 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0447\u0438\u043a\u043e\u0432. \u0427\u0442\u043e\u0431\u044b \u0432\u043e\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u0443\u0441\u043b\u0443\u0433\u0430\u043c\u0438 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0447\u0438\u043a\u0430, \u043f\u043e\u0437\u0432\u043e\u043d\u0438\u0442\u0435 \u043d\u0430\u043c \u043f\u043e \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0443 1-866-783-1444 (\u0442\u0435\u043b\u0435\u0442\u0430\u0439\u043f: TTY/TDD 711). \u0412\u0430\u043c \u043e\u043a\u0430\u0436\u0435\u0442 \u043f\u043e\u043c\u043e\u0449\u044c \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0433\u043e\u0432\u043e\u0440\u0438\u0442 \u043f\u043e-p\u0443\u0441\u0441\u043a\u0438. \u0414\u0430\u043d\u043d\u0430\u044f \u0443\u0441\u043b\u0443\u0433\u0430 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u0430\u044f.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": ".\u0625\u0646\u0646\u0627\u0646\u0642\u062f\u0645\u062e\u062f\u0645\u0627\u062a\u0627\u0644\u0645\u062a\u0631\u062c\u0645\u0627\u0644\u0641\u0648\u0631\u064a\u0627\u0644\u0645\u062c\u0627\u0646\u06cc\u0629\u0644\u0644\u0625\u062c\u0627\u0628\u0629\u0639\u0646\u0623\u064a\u0623\u0633\u0626\u0644\u0629\u062a\u062a\u0639\u0644\u0642\u0628\u0627\u0644\u0635\u062d\u0629\u0623\u0648\u062c\u062f\u0648\u0644\u0627\u0644\u0623\u062f\u0648\u06cc\u0629\u0644\u062f\u06cc\u0646\u0627:Arabic",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Spanish: Tenemos servicios de int\u00e9rprete sin costo alguno para responder cualquier pregunta que pueda tener sobre nuestro plan de salud o medicamentos. Para hablar con un int\u00e9rprete, por favor llame al 1-866-783-1444, TTY/TDD 711. Alguien que hable espa\u00f1ol le podr\u00e1 ayudar. Este es un servicio gratuito.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Italian: \u00c8 disponibile un servizio di interpretariato gratuito per rispondere a eventuali domande sul nostro piano sanitario e farmaceutico. Per un interprete, contattare il numero 1-866-783-1444, TTY/TDD 711. Un nostro incaricato che parla Italianovi fornir\u00e0 l'assistenza necessaria. \u00c8 un servizio gratuito.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Portuguese: Dispomos de servi\u00e7os de interpreta\u00e7\u00e3o gratuitos para responder a qualquer quest\u00e3o que tenha acerca do nosso plano de sa\u00fade ou de medica\u00e7\u00e3o. Para obter um int\u00e9rprete, contacte-nos atrav\u00e9s do n\u00famero 1-866-783-1444, TTY/TDD 711. Ir\u00e1 encontrar algu\u00e9m que fale o idioma Portugu\u00eas para o ajudar. Este servi\u00e7o \u00e9 gratuito.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "French Creole: Nou genyen s\u00e8vis ent\u00e8pr\u00e8t gratis pou reponn tout kesyon ou ta genyen kons\u00e8nan plan medikal oswa dw\u00f2g nou an. Pou jwenn yon ent\u00e8pr\u00e8t, jis rele nou nan 1-866-783-1444, TTY/TDD 711. Yon moun ki pale Krey\u00f2l kapab ede w. Sa a se yon s\u00e8vis ki gratis.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Polish: Umo\u017cliwiamy bezp\u0142atne skorzystanie z us\u0142ug t\u0142umacza ustnego, kt\u00f3ry pomo\u017ce w uzyskaniu odpowiedzi na temat planu zdrowotnego lub dawkowania lek\u00f3w. Aby skorzysta\u0107 z pomocy t\u0142umacza znaj\u0105cego j\u0119zyk polski, nale\u017cy zadzwoni\u0107 pod numer 1-866-783-1444, TTY/TDD 711. Ta us\u0142uga jest bezp\u0142atna.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Japanese: \u5f53\u793e\u306e\u5065\u5eb7 \u5065\u5eb7\u4fdd\u967a\u3068\u85ac\u54c1 \u51e6\u65b9\u85ac\u30d7\u30e9\u30f3\u306b\u95a2\u3059\u308b\u3054\u8cea\u554f\u306b\u304a\u7b54\u3048\u3059\u308b\u305f\u3081\u306b\u3001\u7121\u6599\u306e\u901a\u8a33\u30b5\u30fc\u30d3\u30b9\u304c\u3042\u308a\u307e\u3059\u3054\u3056\u3044\u307e\u3059\u3002\u901a\u8a33\u3092\u3054\u7528\u547d\u306b\u306a\u308b\u306b\u306f\u30011-866-783-1444, TTY/TDD 711 \u306b\u304a\u96fb\u8a71\u304f\u3060\u3055\u3044\u3002\u65e5\u672c\u8a9e\u3092\u8a71\u3059\u4eba \u8005 \u304c\u652f\u63f4\u3044\u305f\u3057\u307e\u3059\u3002\u3053\u308c\u306f\u7121\u6599\u306e\u30b5\u30fc \u30d3\u30b9\u3067\u3059\u3002",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 36,
+                "right": 36,
+                "top": 72
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": null,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "HeaderText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 14,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                },
+                "ParagraphText": {
+                    "fontName": "Arial-Unicode",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "spaceBefore": 12,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2023-12-14T19:18:07"
+}

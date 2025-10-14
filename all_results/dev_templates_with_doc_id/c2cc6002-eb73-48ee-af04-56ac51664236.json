@@ -1,0 +1,1392 @@
+{
+    "created": "2025-03-16T00:56:19Z",
+    "id": "c2cc6002-eb73-48ee-af04-56ac51664236",
+    "managed": true,
+    "name": "DMP Initial Notice (ESI 2025 / Standard Footer)",
+    "program": "DMP",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 12,
+                    "string": "Form CMS-10874",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "left"
+                    },
+                    "width": 504,
+                    "x": 54,
+                    "y": 68
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "OMB Approval No. 0938-1465 (Expires 11/30/2027)",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 504,
+                    "x": 54,
+                    "y": 68
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "hide_condition": "report_parameters__variables__footer_variable_client_approval_code__exclude",
+                    "string": "{report_parameters__variables__footer_variable_client_approval_code__value}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 504,
+                    "x": 54,
+                    "y": 54
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "[patient_org.report.reportInitialNoticeMaterialIdEnglish]",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 504,
+                    "x": 54,
+                    "y": 40
+                }
+            },
+            {
+                "text": {
+                    "height": 9,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 504,
+                    "x": 54,
+                    "y": 23
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "DEPARTMENT OF HEALTH AND HUMAN SERVICES<br/>CENTERS FOR MEDICARE & MEDICAID SERVICES",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>This is important information about your Medicare Part D prescription drug coverage. Read this notice carefully.</b> For help, please contact us. Please see methods to contact us on the last page under \u201cFor More Information and Help with This Notice.\u201d",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 18
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        400
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "image": {
+                                "height": 32
+                            }
+                        }
+                    ],
+                    "spaceAfter": 14,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "filename": "{org_logo}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "CENTER"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>NOTICE OF INTENT TO LIMIT YOUR ACCESS TO CERTAIN PART D DRUGS</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 18,
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "70%",
+                        "30%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 14,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "Date: {prep_date_localized}"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "Enrollee\u2019s Name: {patient_full_name}"
+                            },
+                            {
+                                "string": "Member Number: {patient_member_id}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    12
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__prescriber_response_status__exclude",
+                    "string": "{report_parameters__variables__prescriber_response_status__value}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What Action Do We Intend To Take?</b><br/>Based on information available at the time of our review, we intend to limit your drug access in the following way(s), unless you provide us with information that changes our decision within 30 days of this notice:",
+                    "text_style": {
+                        "parent_style": "ParagraphHeaderAndParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__coverage_limitation_detail__exclude",
+                    "string": "{report_parameters__variables__coverage_limitation_detail__value}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__low_income_subsidy_status__exclude",
+                    "string": "{report_parameters__variables__low_income_subsidy_status__value}",
+                    "text_style": {
+                        "parent_style": "ParagraphHeaderAndParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What Is A Drug Management Program?</b><br/>[patient_org.report.reportPlanName] has a drug management program to help you use prescription opioids safely. Opioids are a class of drugs that include pain relievers available legally by prescription, such as oxycodone (OxyContin\u00ae), hydrocodone (Vicodin\u00ae), codeine, morphine, and many others. Opioid pain medications can help with certain types of pain, but have serious risks like addiction, overdose, and death. These risks are increased when opioids are obtained from multiple prescribers or pharmacies; when opioids are taken with certain other medications like benzodiazepines (commonly used for anxiety and sleep); and/or when a person taking opioids has a recent history of opioid overdose. If we determine that your use of prescription opioids is not safe, we may limit your access to them or to other medications like benzodiazepines under our drug management program.",
+                    "text_style": {
+                        "parent_style": "ParagraphHeaderAndParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What If I Don\u2019t Agree?</b><br/>You have the right to give us any information you think is important to our decision about the safety of your medication use.",
+                    "text_style": {
+                        "parent_style": "ParagraphHeaderAndParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__prescriber_response_status_appeal__exclude",
+                    "string": "{report_parameters__variables__prescriber_response_status_appeal__value}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "If you or your prescriber has information you would like us to consider, you can contact us at:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "[patient_org.report.reportDMPAppealsInformation]",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Note: We are not allowed to limit your access under the drug management program if you are being treated for cancer-related pain or have sickle cell disease, you\u2019re in hospice or get palliative or end-of-life care, or you live in a long-term care facility. If any of these apply to you or you have any other information you would like us to consider, please contact us within the next 30 days. See options to contact us in the section For More Information and Help with This Notice below.</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__pharmacy_prescriber_limitation__exclude",
+                    "string": "{report_parameters__variables__pharmacy_prescriber_limitation__value}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What Happens Next?</b><br/>We will review any information you send us. We will also review any new information from your  prescriber(s). After we make a decision about whether you are safely using your medications, we will send you another notice within 60 days. You will receive another notice if we decide you\u2019re not at risk and will not limit your access to these drugs. You will also receive another notice if we decide you\u2019re at risk and limit your access to these drugs. This notice will explain how you, your prescriber, or your representative can ask for an appeal and, if you choose to appeal, we will review your case and give you a decision. If we continue to deny any part of your request related to the limitations that apply to your access to medications, we will automatically send your case to an independent reviewer outside of our plan.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Note: If you change to a different Medicare drug plan, we can give your new plan information about  your case and any limitations we place on your drug access under our drug management program. Your new plan may place you in its drug management program as well.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__resources_for_medication_safety_variable__exclude",
+                    "string": "<b>What Resources Are Available to Help Me Use My Medications Safely?</b><br/>{report_parameters__variables__resources_for_medication_safety_variable__value}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Visit <b>www.hhs.gov/opioids</b> for information about State and Federal public health resources that can help you learn more about opioid medications and how to use them safely, including information about mental health services and other counseling services. Also visit Medicare\u2019s webpage <b><u><font color='#0563c1'>www.medicare.gov/coverage/pain-management</font></u></b> for information about Medicare\u2019s coverage of other pain treatments.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>FOR MORE INFORMATION AND HELP WITH THIS NOTICE</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 14,
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "For more information about the drug management program or any of the information in this notice,  please contact [patient_org.report.reportPlanName] at:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "50%",
+                        "50%"
+                    ],
+                    "data_source": "table_items",
+                    "keepWithNext": true,
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 14,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "Telephone: [patient_org.report.reportCustomerServicePhoneNumber]"
+                            },
+                            {
+                                "string": "TTY: [patient_org.report.reportCustomerServiceTTYNumber]"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    12
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "[patient_org.report.reportCustomerServiceHours]",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 6
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "[patient_org.report.reportPlanWebsite]",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 6
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "[patient_org.report.reportPlanMailingAddress]",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 6
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{report_parameters__variables__dmp_free_text__value}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 6
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 6
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 6
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "You may also contact one of the organizations listed below for assistance.",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 6
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "1-800-MEDICARE (1-800-633-4227), 24 hours, 7 days a week. TTY users:1-877-486-2048",
+                        "Medicare Rights Center: 1-888-HMO-9050",
+                        "State Health Insurance Program National Technical Assistance Center: 877-839-2675"
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 12
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "keepWithNext": true,
+                    "spaceAfter": 12,
+                    "spaceBefore": 12
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "PRA Disclosure Statement According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this collection is 0938-1465. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, and gather the data needed, and complete and review the information collection. If you have any comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to CMS, 7500 Security Boulevard, Attn: PRA Reports Clearance Officer, Baltimore, Maryland 21244-1850.",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "CMS does not discriminate in its programs and activities: To request this form in an accessible format (e.g., Braille, Large Print, Audio CD) contact your Medicare Drug Plan. If you need assistance contacting your plan, call: 1-800-MEDICARE.",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "pagebreak": {
+                    "hide_condition": "report_parameters__variables__pharmacy_and_prescriber_selection_form__exclude"
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__pharmacy_and_prescriber_selection_form__exclude",
+                    "string": "[patient_org.report.reportPlanName] PHARMACY&nbsp;AND&nbsp;PRESCRIBER&nbsp;SELECTION&nbsp;FORM",
+                    "text_style": {
+                        "leftIndent": 36,
+                        "parent_style": "ParagraphText",
+                        "rightIndent": 36,
+                        "spaceBefore": 18,
+                        "textTransform": "uppercase",
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "70%",
+                        "30%"
+                    ],
+                    "data_source": "table_items",
+                    "hide_condition": "report_parameters__variables__pharmacy_and_prescriber_selection_form__exclude",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 14,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "Enrollee\u2019s Name: {patient_full_name}"
+                            },
+                            {
+                                "string": "Member Number: {patient_member_id}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    12
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__pharmacy_and_prescriber_selection_form__exclude",
+                    "string": "<i>{report_parameters__variables__pharmacy_and_prescriber_selection_form__value}</i>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__pharmacy_and_prescriber_selection_form__exclude",
+                    "keepWithNext": true,
+                    "string": "<i>I prefer to use the following pharmacy (write in the information for up to two, in order of preference):</i>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__pharmacy_and_prescriber_selection_form__exclude",
+                    "keepWithNext": true,
+                    "string": "<i><u>Choice #1</u></i>",
+                    "text_style": {
+                        "parent_style": "ParagraphLeadingText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "25%",
+                        "75%"
+                    ],
+                    "data_source": "table_items",
+                    "hide_condition": "report_parameters__variables__pharmacy_and_prescriber_selection_form__exclude",
+                    "keepWithNext": true,
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "leftIndent": 12,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 14,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<i>Pharmacy Name:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Address:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Telephone Number:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LINEBELOW": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    1,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#000000"
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    12
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__pharmacy_and_prescriber_selection_form__exclude",
+                    "keepWithNext": true,
+                    "string": "<i><u>Choice #2</u></i>",
+                    "text_style": {
+                        "parent_style": "ParagraphLeadingText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "25%",
+                        "75%"
+                    ],
+                    "data_source": "table_items",
+                    "hide_condition": "report_parameters__variables__pharmacy_and_prescriber_selection_form__exclude",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "leftIndent": 12,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 14,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<i>Pharmacy Name:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Address:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Telephone Number:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LINEBELOW": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    1,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#000000"
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    12
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__pharmacy_and_prescriber_selection_form__exclude",
+                    "keepWithNext": true,
+                    "string": "<i>I prefer to use the following prescriber (write in the information for up to two, in order of preference):</i>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__pharmacy_and_prescriber_selection_form__exclude",
+                    "keepWithNext": true,
+                    "string": "<i><u>Choice #1</u></i>",
+                    "text_style": {
+                        "parent_style": "ParagraphLeadingText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "25%",
+                        "75%"
+                    ],
+                    "data_source": "table_items",
+                    "hide_condition": "report_parameters__variables__pharmacy_and_prescriber_selection_form__exclude",
+                    "keepWithNext": true,
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "leftIndent": 12,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 14,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<i>Prescriber Name:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Address:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Telephone Number:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LINEBELOW": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    1,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#000000"
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    12
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_parameters__variables__pharmacy_and_prescriber_selection_form__exclude",
+                    "keepWithNext": true,
+                    "string": "<i><u>Choice #2</u></i>",
+                    "text_style": {
+                        "parent_style": "ParagraphLeadingText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "25%",
+                        "75%"
+                    ],
+                    "data_source": "table_items",
+                    "hide_condition": "report_parameters__variables__pharmacy_and_prescriber_selection_form__exclude",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "leftIndent": 12,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceAfter": 14,
+                    "table_alignment": "center",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<i>Prescriber Name:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Address:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<i>Telephone Number:</i>"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "LINEBELOW": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    1,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#000000"
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    12
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 35,
+                    "x": 36,
+                    "y": 760
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "10 Vantage Point Dr, Ste 1<br/>Rochester, NY 14624",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 500,
+                    "x": 36,
+                    "y": 615
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "<b>Health and wellness or prevention information.</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 400,
+                    "x": 72,
+                    "y": 668
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "Form CMS-10874",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "left"
+                    },
+                    "width": 504,
+                    "x": 54,
+                    "y": 68
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "OMB Approval No. 0938-1465 (Expires 11/30/2027)",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 504,
+                    "x": 54,
+                    "y": 68
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "hide_condition": "report_parameters__variables__footer_variable_client_approval_code__exclude",
+                    "string": "{report_parameters__variables__footer_variable_client_approval_code__value}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 504,
+                    "x": 54,
+                    "y": 54
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "[patient_org.report.reportInitialNoticeMaterialIdEnglish]",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 504,
+                    "x": 54,
+                    "y": 40
+                }
+            },
+            {
+                "text": {
+                    "height": 9,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 504,
+                    "x": 54,
+                    "y": 23
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 90,
+                "left": 48,
+                "right": 48,
+                "top": 66
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Times-New-Roman-normal",
+                "font_size": 9,
+                "show": true,
+                "skip_cover_page": true,
+                "y": 20
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 11,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DisclaimerText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DocIdText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 9,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FeatureText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 11,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 11,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "InformationTableText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 10,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "spaceBefore": 2,
+                    "text_alignment": "left"
+                },
+                "ListHeaderText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 4,
+                    "spaceBefore": 12,
+                    "text_alignment": "left"
+                },
+                "ParagraphHeaderAndParagraphText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14,
+                    "spaceBefore": 12,
+                    "text_alignment": "left"
+                },
+                "ParagraphHeaderText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 2,
+                    "spaceBefore": 12,
+                    "text_alignment": "left"
+                },
+                "ParagraphLeadingText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 4,
+                    "spaceBefore": 2,
+                    "text_alignment": "left"
+                },
+                "ParagraphSmallText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 10,
+                    "spaceBefore": 2,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 14,
+                    "spaceBefore": 2,
+                    "text_alignment": "left"
+                },
+                "PullOutText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 14,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "TitleText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12,
+                    "leading": 15,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 2,
+                    "spaceBefore": 11,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-03-15T23:50:19"
+}

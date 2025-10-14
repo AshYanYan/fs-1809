@@ -1,0 +1,205 @@
+{
+    "created": "2023-01-25T15:47:30Z",
+    "id": "2e8d320b-c703-46e0-a8b4-55ea2ed7bc14",
+    "name": "CL_QUAL_Viva",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "x": 540,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 50,
+                    "string": "VIVA HEALTH complies with applicable Federal civil rights laws and does not discriminate on the basis of race, color, national origin, age, disability, or sex. ATENCI\u00d3N: si habla espa\u00f1ol, tiene a su disposici\u00f3n servicios gratuitos de asistencia ling\u00fc\u00edstica. Llame al 1-800-633-1542 (TTY: 711). \u6ce8\u610f\uff1a\u5982\u679c\u60a8\u4f7f\u7528\u7e41\u9ad4\u4e2d\u6587\uff0c\u60a8\u53ef\u4ee5\u514d\u8cbb\u7372\u5f97\u8a9e\u8a00\u63f4\u52a9 \u670d\u52d9.\u8acb\u81f4\u96fb 1-800-633-1542 (TTY: 711).<br/>H0154_mcdoc4134A_C_02/27/2024",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 60
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 36
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Thank you for talking with me on {cmr_date} about your health and medications.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "This letter shows your action plan (Medication Action Plan) and medication list (Personal Medication List). <b>The action plan has steps you should take to help you get the best results from your medications. The medication list will help you keep track of your medications and make sure you take them the right way.</b>",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Have your action plan and medication list with you when you talk with your doctors, pharmacists, and other health care providers.",
+                        "Ask your doctors, pharmacists, and other health care providers to update the action plan and medication list every time you have a medication change and at every visit.",
+                        "With every medication change, have your doctor send in a new prescription to your pharmacy.",
+                        "Take your medication list with you if you go to the hospital.",
+                        "Give a copy of the action plan and medication list to your family or caregivers."
+                    ],
+                    "items_replacements": {},
+                    "list_attributes": {
+                        "bulletFontSize": 6,
+                        "bulletOffsetY": -5,
+                        "bulletType": "bullet",
+                        "leftIndent": 24,
+                        "spaceAfter": 12,
+                        "start": "square"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 6
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you want to talk about this letter or any of the other materials, you can call VIVA MEDICARE member services at 1-800-633-1542 (TTY 711) and ask for a pharmacist to call you back. We are available Monday \u2013 Friday, 8:00 am \u2013 8:00 pm. From October 1 \u2013 March 31, we are available 7 days a week, 8:00 am \u2013 8:00 pm.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We look forward to working with you to help you be as healthy as possible.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Warmly,",
+                    "string_replacements": {},
+                    "text_style": {
+                        "leftIndent": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "signature": {
+                    "filename": "{pharmacist_signature}",
+                    "height": 50,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "leading": 18,
+                        "leftIndent": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_name}<br/>Pharmacist<br/>VIVA MEDICARE",
+                    "string_replacements": {},
+                    "text_style": {
+                        "leftIndent": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 120,
+                "left": 72,
+                "right": 72,
+                "top": 54
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Calibri-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2023-08-17T05:13:39"
+}

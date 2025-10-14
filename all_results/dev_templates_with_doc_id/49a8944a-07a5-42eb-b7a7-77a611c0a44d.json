@@ -1,0 +1,740 @@
+{
+    "created": "2025-03-31T16:16:35Z",
+    "id": "49a8944a-07a5-42eb-b7a7-77a611c0a44d",
+    "managed": false,
+    "name": "PCP_HEALTH_FIRST_COPY",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 50,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 30,
+                    "string": "{hotline_name}<br/>{org_address}",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 150,
+                    "x": 426,
+                    "y": 726
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "<b>Patient name:</b> {patient_full_name} <b>Patient date of birth: </b>{patient_date_birth}",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 400,
+                    "x": 36,
+                    "y": 50
+                }
+            },
+            {
+                "text": {
+                    "height": 9,
+                    "string": "1128-24",
+                    "text_style": {
+                        "fontSize": 9,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 9,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 9,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 30
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "Dear {provider_full_name},",
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Post-Discharge Medication Action Plan",
+                    "text_style": {
+                        "parent_style": "HeaderText",
+                        "spaceBefore": 40
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_full_name}",
+                    "text_style": {
+                        "parent_style": "HeaderText",
+                        "spaceBefore": 10
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{hotline_name} medication management team reviewed your patient\u2019s medications after their hospital stay. We recommend following up with the patient before taking any action on the information below to ensure accuracy.<br/><br/>After you review this summary, it is important to place a copy of this letter in the patient's medical record for your reference and document CPT code 1111F to fulfill quality measures per CMS/HEDIS requirements.",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 20
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Patient information",
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Patient name: {patient_full_name}<br/>Patient date of birth: {patient_date_birth}<br/> Primary care physician: {provider_full_name}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Medication Reconciliation Post-Discharge (MRP) information",
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Discharge date: {user_selected_mrp_discharge_date}<br/>MRP date: {cmr_date_mmddyyyy}<br/> MRP completed by: {pharmacist_credentialed_name}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "spacer": {
+                    "height": 450
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Coverage is provided by Healthfirst Health Plan, Inc., Healthfirst PHSP, Inc., and/or Healthfirst Insurance Company, Inc. (together, \u201cHealthfirst\u201d). Healthfirst complies with applicable Federal civil rights laws and does not discriminate on the basis of race, color, national origin, age, disability, or sex. ATENCI\u00d3N: si habla espa\u00f1ol, tiene a su disposici\u00f3n servicios gratuitos de asistencia ling\u00fc\u00edstica. Llame al 1-866-305-0408 (TTY 1-888-867-4132). \u6ce8\u610f\uff1a\u5982\u679c\u60a8\u4f7f\u7528\u7e41\u9ad4\u4e2d\u6587\uff0c\u60a8\u53ef\u4ee5\u514d\u8cbb\u7372\u5f97 \u8a9e\u8a00\u63f4\u52a9\u670d\u52d9\u3002\u8acb\u81f4\u96fb 1-866-305-0408 (TTY 1-888-542-3821).",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "Name: {patient_full_name} (DOB: {patient_date_birth})"
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Allergies<br/><br/>",
+                    "text_style": {
+                        "keepWithNext": 1,
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "40%",
+                        "60%"
+                    ],
+                    "data_source": "patient_allergies_list",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Allergy",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Reaction",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "has_some_med_with_status",
+                    "string": "The medication list and recommendations were created by reconciling the discharge summary discharge medications with the patient\u2019s pharmacy fill and claim history.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "patient_new_meds_list",
+                    "string": "<b>NEW</b> medications recently prescribed<br/><br/>",
+                    "text_style": {
+                        "keepWithNext": 1,
+                        "parent_style": "HeaderTextNonBold"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "20%",
+                        "20%",
+                        "20%",
+                        "20%",
+                        "20%"
+                    ],
+                    "data_source": "patient_new_meds_list",
+                    "display_condition": "patient_new_meds_list",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Medication Name & Dosage",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Directions",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Indication",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Prescriber",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Notes",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "patient_continue_meds_list",
+                    "string": "<b>CONTINUE</b> taking the medications as directed<br/><br/>",
+                    "text_style": {
+                        "keepWithNext": 1,
+                        "parent_style": "HeaderTextNonBold"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "20%",
+                        "20%",
+                        "20%",
+                        "20%",
+                        "20%"
+                    ],
+                    "data_source": "patient_continue_meds_list",
+                    "display_condition": "patient_continue_meds_list",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Medication Name & Dosage",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Directions",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Indication",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Prescriber",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Notes",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "patient_stop_meds_list",
+                    "string": "<b>STOP</b> taking the following medications<br/><br/>",
+                    "text_style": {
+                        "keepWithNext": 1,
+                        "parent_style": "HeaderTextNonBold"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "20%",
+                        "20%",
+                        "20%",
+                        "20%",
+                        "20%"
+                    ],
+                    "data_source": "patient_stop_meds_list",
+                    "display_condition": "patient_stop_meds_list",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Medication Name & Dosage",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Directions",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Indication",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Prescriber",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Notes",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "pharmacy_name",
+                    "string": "Please send any updated medication prescriptions to the patient\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The patient\u2019s preferred pharmacy is:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacy_name}<br/>{pharmacy_street}<br/>{pharmacy_city_state_zip}<br/>{pharmacy_phone}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 60,
+                "left": 36,
+                "right": 36,
+                "top": 108
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "HeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText"
+                },
+                "HeaderTextNonBold": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 16,
+                    "spaceBefore": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-04-21T19:09:53"
+}

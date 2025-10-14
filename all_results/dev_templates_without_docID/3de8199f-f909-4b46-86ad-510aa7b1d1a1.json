@@ -1,0 +1,118 @@
+{
+    "created": "2023-11-27T21:57:52Z",
+    "id": "3de8199f-f909-4b46-86ad-510aa7b1d1a1",
+    "managed": true,
+    "name": "PCP_MRP_GRACE_general",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "x": 576,
+                    "y": 770
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date} <br/><br/> Dear {provider_full_name},<br/><br/> Re: Medication Reconciliation Post-Discharge (MRP) for {patient_full_name}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "This letter is to inform you that a medication reconciliation was completed for your patient, {patient_full_name} ({patient_date_birth}), following discharge on {mrp_discharge_date}. We believe our collaborative effort will optimize and enhance both efficacy and safety of your patient's care.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>After you review this summary, it is important to place a copy of this letter in the patient's medical record for your reference and document CPT code 1111F to fulfill quality measures per CMS/HEDIS requirements.</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "For any questions, please call {hotline_phone}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<br/>Regards,",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "signature": {
+                    "filename": "{pharmacist_signature}",
+                    "height": 50,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "leading": 18,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Pharmacist<br/>{pharmacist_credentialed_name}<br/>{pharmacist_org_name}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 36,
+                "left": 36,
+                "right": 36,
+                "top": 72
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": null,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 16,
+                    "spaceBefore": 16,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2023-11-28T17:29:04"
+}

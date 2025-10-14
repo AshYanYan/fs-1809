@@ -1,0 +1,815 @@
+{
+    "created": "2025-05-15T18:34:47Z",
+    "id": "afb12138-0c23-4d6d-9dd7-a1d550daaf35",
+    "managed": false,
+    "name": "PML_HRHC_MDX",
+    "program": "HRHC",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 27,
+                    "x": 580,
+                    "y": 770
+                }
+            },
+            {
+                "text": {
+                    "height": 42,
+                    "string": "<font color = '#007489'><b>Personal Medication List (cont.)</b><br/><br/><b>Name:</b></font> {patient_full_name}",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<font color = '#007489'><b>Plan de acci\u00f3n de medicaci\u00f3n (cont.)</b><br/><br/><b>Nombre:</b></font> {patient_full_name}"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 42,
+                    "y": 720
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<font color = '#007489'>Personal Medication List</font>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<font color = '#007489'>Lista de medicamentos personales</font>"
+                        }
+                    },
+                    "text_style": {
+                        "color": "blue",
+                        "fontSize": 24,
+                        "parent_style": "Heading1Text",
+                        "spaceAfter": 40
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        320,
+                        256
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 20,
+                                    "parent_style": "ParagraphText",
+                                    "spaceAfter": 20
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 20,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<font color = '#007489'><b>Name:</b></font> {patient_full_name} (DOB: {patient_date_birth})",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<font color = '#007489'><b>Nombre:</b></font> {patient_full_name} (DOB: {patient_date_birth})"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<font color = '#007489'><b>Date:</b></font> {cmr_date}",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<font color = '#007489'><b>Fecha:</b></font> {cmr_date}"
+                                    }
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<font color = '#007489'><b>Pharmacy Name:</b></font> {pharmacy_name}",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<font color = '#007489'><b>Nombre de la farmacia:</b></font> {pharmacy_name}"
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<font color = '#007489'><b>Pharmacy Phone:</b></font> {pharmacy_phone}",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<font color = '#007489'><b>Tel\u00e9fono de la farmacia:</b></font> {pharmacy_phone}"
+                                    }
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<font color = '#007489'><b>Doctor Name:</b></font> {provider_prefix}{provider_full_name} ",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<font color = '#007489'><b>Nombre del m\u00e9dico:</b></font> {provider_prefix}{provider_full_name} "
+                                    }
+                                }
+                            },
+                            {
+                                "string": "<font color = '#007489'><b>Doctor Phone:</b></font> {provider_phone} ",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<font color = '#007489'><b>Tel\u00e9fono del m\u00e9dico:</b></font> {provider_phone} "
+                                    }
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<font color = '#007489'><b>Medication Allergies:</b></font> {patient_allergies} ",
+                                "string_replacements": {
+                                    "default": {
+                                        "Spanish": "<font color = '#007489'><b>Alergias a medicamentos:</b></font> {patient_allergies} "
+                                    }
+                                }
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "spacer": {
+                    "height": 20
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        92,
+                        92,
+                        54,
+                        56,
+                        54,
+                        54,
+                        145
+                    ],
+                    "data_source": "patient_meds_daily_dosage",
+                    "row_heights": [
+                        22,
+                        35,
+                        19,
+                        null
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "center"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "center"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "center"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "center"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_header": [
+                        [
+                            {
+                                "paragraph": {
+                                    "string": "Medicine",
+                                    "string_replacements": {
+                                        "default": {
+                                            "Spanish": "Medicamentos"
+                                        }
+                                    },
+                                    "text_style": {
+                                        "parent_style": "TableHeaderTextWhite"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "Amount of Medicine (e.g. number of pills)",
+                                    "string_replacements": {
+                                        "default": {
+                                            "Spanish": "Cantidad de medicamento (por ejemplo, cantidad de pastillas)"
+                                        }
+                                    },
+                                    "text_style": {
+                                        "parent_style": "TableHeaderTextWhite"
+                                    }
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "paragraph": {
+                                    "string": "<font size = 5><br/><br/></font>Name",
+                                    "string_replacements": {
+                                        "default": {
+                                            "Spanish": "<font size = 5><br/><br/></font>Nombre"
+                                        }
+                                    },
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "<font size = 5><br/><br/></font>Used for",
+                                    "string_replacements": {
+                                        "default": {
+                                            "Spanish": "<font size = 5><br/><br/></font>Se usa para"
+                                        }
+                                    },
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            },
+                            {
+                                "image": {
+                                    "filename": "/images/morning.png",
+                                    "height": 35
+                                }
+                            },
+                            {
+                                "image": {
+                                    "filename": "/images/midday.png",
+                                    "height": 35
+                                }
+                            },
+                            {
+                                "image": {
+                                    "filename": "/images/evening.png",
+                                    "height": 35
+                                }
+                            },
+                            {
+                                "image": {
+                                    "filename": "/images/night.png",
+                                    "height": 35
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "<font size = 5><br/><br/></font>Notes",
+                                    "string_replacements": {
+                                        "default": {
+                                            "Spanish": "<font size = 5><br/><br/></font>Notas"
+                                        }
+                                    },
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "paragraph": {
+                                    "string": "",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "Morning",
+                                    "string_replacements": {
+                                        "default": {
+                                            "Spanish": "Ma\u00f1ana"
+                                        }
+                                    },
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText",
+                                        "spaceBefore": 0,
+                                        "text_alignment": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "Midday",
+                                    "string_replacements": {
+                                        "default": {
+                                            "Spanish": "Mediod\u00eda"
+                                        }
+                                    },
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText",
+                                        "spaceBefore": 0,
+                                        "text_alignment": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "Evening",
+                                    "string_replacements": {
+                                        "default": {
+                                            "Spanish": "Tarde"
+                                        }
+                                    },
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText",
+                                        "spaceBefore": 0,
+                                        "text_alignment": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "Night",
+                                    "string_replacements": {
+                                        "default": {
+                                            "Spanish": "Noche"
+                                        }
+                                    },
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText",
+                                        "spaceBefore": 0,
+                                        "text_alignment": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    5,
+                                    1
+                                ],
+                                "start": [
+                                    2,
+                                    1
+                                ],
+                                "value": [
+                                    "CENTER"
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    5,
+                                    2
+                                ],
+                                "start": [
+                                    2,
+                                    2
+                                ],
+                                "value": [
+                                    2
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    5,
+                                    2
+                                ],
+                                "start": [
+                                    2,
+                                    2
+                                ],
+                                "value": [
+                                    2
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    2,
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "ROWBACKGROUNDS": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    3
+                                ],
+                                "value": [
+                                    [
+                                        "#EFEFEF",
+                                        "white"
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    0,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#39a2d9"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    2,
+                                    0
+                                ],
+                                "value": [
+                                    "#6884c5"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    1,
+                                    2
+                                ],
+                                "start": [
+                                    1,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    2,
+                                    2
+                                ],
+                                "start": [
+                                    2,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    3,
+                                    2
+                                ],
+                                "start": [
+                                    3,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    4,
+                                    2
+                                ],
+                                "start": [
+                                    4,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    5,
+                                    2
+                                ],
+                                "start": [
+                                    5,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    6,
+                                    2
+                                ],
+                                "start": [
+                                    6,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEABOVE": {
+                                "end": [
+                                    -1,
+                                    1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    3
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 27,
+                    "x": 580,
+                    "y": 770
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 150,
+                "left": 36,
+                "right": 36,
+                "top": 84
+            },
+            "orientation": "",
+            "pagination": {
+                "font_name": null,
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {},
+            "force_language": "English"
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "DocIDText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "text_alignment": "right"
+                },
+                "FooterText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "text_alignment": "right"
+                },
+                "Heading1Text": {
+                    "color": "blue",
+                    "fontName": "Lato-normal",
+                    "fontSize": 25,
+                    "parent_style": "Heading1",
+                    "spaceAfter": 16
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText"
+                },
+                "TableHeaderTextWhite": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "textColor": "white"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-15T19:00:06"
+}

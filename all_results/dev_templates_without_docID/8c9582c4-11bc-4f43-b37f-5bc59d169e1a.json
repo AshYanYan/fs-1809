@@ -1,0 +1,668 @@
+{
+    "created": "2023-06-13T18:37:52Z",
+    "id": "8c9582c4-11bc-4f43-b37f-5bc59d169e1a",
+    "name": "CMM_PML_PPOK_Arine",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "x": 564,
+                    "y": 758
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<font color = '#007489'>Personal Medication List</font>",
+                    "text_style": {
+                        "color": "blue",
+                        "fontSize": 24,
+                        "parent_style": "Heading1Text",
+                        "spaceAfter": 40
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        320,
+                        256
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 20,
+                                    "parent_style": "ParagraphText",
+                                    "spaceAfter": 20
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "fontSize": 12,
+                                    "leading": 20,
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<font color = '#007489'>Name:</font> {patient_full_name}"
+                            },
+                            {
+                                "string": "<font color = '#007489'>Date:</font> {letter_date}"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<font color = '#007489'>Pharmacy Name:</font> {pharmacy_name}"
+                            },
+                            {
+                                "string": "<font color = '#007489'>Pharmacy Phone:</font> {pharmacy_phone}"
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<font color = '#007489'>Doctor Name: </font>{provider_prefix}{provider_full_name} "
+                            },
+                            {
+                                "string": "<font color = '#007489'>Doctor Phone: </font>{provider_phone} "
+                            }
+                        ],
+                        [
+                            {
+                                "string": "<font color = '#007489'>Medication Allergies: </font> {patient_allergies} "
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "spacer": {
+                    "height": 20
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        86,
+                        86,
+                        56,
+                        56,
+                        56,
+                        56,
+                        130
+                    ],
+                    "data_source": "patient_meds_daily_dosage",
+                    "row_heights": [
+                        22,
+                        35,
+                        19,
+                        null
+                    ],
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "center"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "center"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "center"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText",
+                                    "text_alignment": "center"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_header": [
+                        [
+                            {
+                                "paragraph": {
+                                    "string": "Medicine",
+                                    "text_style": {
+                                        "fontName": "Lato-normal",
+                                        "parent_style": "TableHeaderText",
+                                        "textColor": "white"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "",
+                                    "text_style": {
+                                        "fontName": "Lato-normal",
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "Amount of Medicine (e.g. number of pills)",
+                                    "text_style": {
+                                        "fontName": "Lato-normal",
+                                        "parent_style": "TableHeaderText",
+                                        "textColor": "white"
+                                    }
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "paragraph": {
+                                    "string": "<font size = 5><br/><br/></font>Name",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "<font size = 5><br/><br/></font>Used for",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            },
+                            {
+                                "image": {
+                                    "filename": "/images/morning.png",
+                                    "height": 35
+                                }
+                            },
+                            {
+                                "image": {
+                                    "filename": "/images/midday.png",
+                                    "height": 35
+                                }
+                            },
+                            {
+                                "image": {
+                                    "filename": "/images/evening.png",
+                                    "height": 35
+                                }
+                            },
+                            {
+                                "image": {
+                                    "filename": "/images/night.png",
+                                    "height": 35
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "<font size = 5><br/><br/></font>Notes",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "paragraph": {
+                                    "string": "",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "Morning",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText",
+                                        "spaceBefore": 0,
+                                        "text_alignment": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "Midday",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText",
+                                        "spaceBefore": 0,
+                                        "text_alignment": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "Evening",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText",
+                                        "spaceBefore": 0,
+                                        "text_alignment": "center"
+                                    }
+                                }
+                            },
+                            {
+                                "paragraph": {
+                                    "string": "Night",
+                                    "text_style": {
+                                        "parent_style": "TableHeaderText",
+                                        "spaceBefore": 0,
+                                        "text_alignment": "center"
+                                    }
+                                }
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "ALIGN": {
+                                "end": [
+                                    5,
+                                    1
+                                ],
+                                "start": [
+                                    2,
+                                    1
+                                ],
+                                "value": [
+                                    "CENTER"
+                                ]
+                            }
+                        },
+                        {
+                            "LEFTPADDING": {
+                                "end": [
+                                    5,
+                                    2
+                                ],
+                                "start": [
+                                    2,
+                                    2
+                                ],
+                                "value": [
+                                    2
+                                ]
+                            }
+                        },
+                        {
+                            "RIGHTPADDING": {
+                                "end": [
+                                    5,
+                                    2
+                                ],
+                                "start": [
+                                    2,
+                                    2
+                                ],
+                                "value": [
+                                    2
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    2,
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "ROWBACKGROUNDS": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    3
+                                ],
+                                "value": [
+                                    [
+                                        "#EFEFEF",
+                                        "white"
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    0,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#39a2d9"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    2,
+                                    0
+                                ],
+                                "value": [
+                                    "#6884c5"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    1,
+                                    2
+                                ],
+                                "start": [
+                                    1,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    2,
+                                    2
+                                ],
+                                "start": [
+                                    2,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    3,
+                                    2
+                                ],
+                                "start": [
+                                    3,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    4,
+                                    2
+                                ],
+                                "start": [
+                                    4,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    5,
+                                    2
+                                ],
+                                "start": [
+                                    5,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEBEFORE": {
+                                "end": [
+                                    6,
+                                    2
+                                ],
+                                "start": [
+                                    6,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "LINEABOVE": {
+                                "end": [
+                                    -1,
+                                    1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "BOX": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    3
+                                ],
+                                "value": [
+                                    1,
+                                    "#a3b8ba"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 36,
+                "right": 36,
+                "top": 72
+            },
+            "orientation": "",
+            "pagination": {
+                "font_name": null,
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {
+                "letter_date": {
+                    "English": {
+                        "format_string": "%B %-d, %Y",
+                        "locale": "en_US.UTF-8"
+                    },
+                    "Spanish": {
+                        "format_string": "%-d de %B de %Y",
+                        "locale": "es_ES.UTF-8"
+                    }
+                }
+            }
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "Heading1Text": {
+                    "fontName": "Lato-normal",
+                    "parent_style": "Heading1"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2023-09-12T17:04:18"
+}

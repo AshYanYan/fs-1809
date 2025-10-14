@@ -1,0 +1,52 @@
+{
+    "created": "2023-03-24T09:49:30Z",
+    "id": "34522bb4-7fb0-4c0c-ac23-808d780156f9",
+    "name": "ManualQA-test 11303",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 0,
+                    "string": "null",
+                    "width": 0,
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            {
+                "text": {
+                    "height": 0,
+                    "string": "",
+                    "width": 0,
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "document_content": [],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": null,
+                "left": null,
+                "right": null,
+                "top": null
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "show": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {}
+        }
+    },
+    "updated": "2023-03-24T09:49:30"
+}

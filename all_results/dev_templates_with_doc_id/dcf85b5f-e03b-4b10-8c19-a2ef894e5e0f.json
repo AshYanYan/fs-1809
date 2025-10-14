@@ -1,0 +1,297 @@
+{
+    "created": "2023-01-25T15:47:30Z",
+    "id": "dcf85b5f-e03b-4b10-8c19-a2ef894e5e0f",
+    "name": "CL_QUAL_Molina",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "x": 540,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "H3038_24_5487_CAMTMTMRLtr_M",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 75,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 36
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "string_replacements": {
+                        "molina": {
+                            "Spanish": "Estimado(a) {patient_full_name},"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Thank you for talking with me on {cmr_date} about your health and medications.",
+                    "string_replacements": {
+                        "molina": {
+                            "Spanish": "Gracias por hablar conmigo el {cmr_date} sobre su salud y sus medicamentos."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{hotline_name} provides a Medication Therapy Management (MTM) program at no extra cost to you. As part of this program, pharmacists from {hotline_name} have reviewed your medication(s). Suggestions from the pharmacist are attached. These suggestions were made based on your recent prescription claims and do not include over-the-counter medicines, non-covered medicines, or samples.",
+                    "string_replacements": {
+                        "molina": {
+                            "Spanish": "{hotline_name} ofrece un programa de Administraci\u00f3n de terapia con medicamentos (MTM) sin costo adicional para usted. Como parte de este programa, los farmac\u00e9uticos de {hotline_name} han revisado sus medicamentos. Se adjuntan las sugerencias del farmac\u00e9utico. Estas sugerencias se hicieron con base en sus reclamos por recetas m\u00e9dicas recientes y no incluyen medicamentos de venta libre, medicamentos no cubiertos ni muestras."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "This program will continue throughout the year. We may call you or mail you more information later in the year. If you are deaf or hard of hearing and have access to TTY, please call us at the number below to update your information.",
+                    "string_replacements": {
+                        "molina": {
+                            "Spanish": "Este programa continuar\u00e1 durante todo el a\u00f1o. Es posible que le llamemos por tel\u00e9fono o que le enviemos m\u00e1s informaci\u00f3n m\u00e1s adelante en el a\u00f1o. Si usted es sordo o tiene problemas de audici\u00f3n y tiene acceso a TTY, ll\u00e1menos al n\u00famero que aparece a continuaci\u00f3n para actualizar su informaci\u00f3n."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you want to talk about this letter or any of the other materials, call {hotline_name} toll free at {hotline_phone} {hotline_hours}. We look forward to working with you to help you be as healthy as possible.",
+                    "string_replacements": {
+                        "molina": {
+                            "Spanish": "Si desea hablar sobre esta carta o cualquiera de los otros materiales, llame a {hotline_name} sin costo al {hotline_phone} de {hotline_hours}. Esperamos trabajar con usted para ayudarle a estar lo m\u00e1s saludable posible."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Warmly,",
+                    "string_replacements": {
+                        "molina": {
+                            "Spanish": "Afectuosamente,"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "signature": {
+                    "filename": "{pharmacist_signature}",
+                    "height": 50,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "leading": 18,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_name}<br/>Pharmacist<br/>{hotline_name}",
+                    "string_replacements": {
+                        "molina": {
+                            "Spanish": "{pharmacist_name}<br/>Pharmacist<br/>{hotline_name}"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 35,
+                    "x": 72,
+                    "y": 760
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{arine_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 72,
+                    "y": 615
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "Health and Wellness or Prevention Information",
+                    "string_replacements": {
+                        "molina": {
+                            "Spanish": "Informaci\u00f3n sobre salud y bienestar o prevenci\u00f3n"
+                        }
+                    },
+                    "width": 400,
+                    "x": 110,
+                    "y": 668
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 350,
+                    "x": 110,
+                    "y": 560
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "H3038_24_5487_CAMTMTMRLtr_M",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 75,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 120,
+                "left": 72,
+                "right": 72,
+                "top": 54
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Calibri-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-01-06T22:35:26"
+}

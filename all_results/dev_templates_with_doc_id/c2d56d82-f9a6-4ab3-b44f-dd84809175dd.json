@@ -1,0 +1,517 @@
+{
+    "created": "2025-05-16T17:44:00Z",
+    "id": "c2d56d82-f9a6-4ab3-b44f-dd84809175dd",
+    "managed": false,
+    "name": "PCP_TMR_excellus_unified",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 576,
+                    "y": 758
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 9,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 220,
+                    "x": 360,
+                    "y": 27
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 38,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 40,
+                    "string": "<b>(cont.)</b>",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "Medication Action Plan Name cont.<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        },
+                        "excellus_dsnp": {
+                            "English": "Medication Action Plan Name cont.<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        },
+                        "simply_prescriptions": {
+                            "English": "Medication Action Plan Name cont.<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        },
+                        "univera": {
+                            "English": "Medication Action Plan Name cont.<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 718
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "Y0028_9954_C"
+                        },
+                        "excellus_dsnp": {
+                            "English": "Y0028_9954_C"
+                        },
+                        "simply_prescriptions": {
+                            "English": "S3521_9932_C"
+                        },
+                        "univera": {
+                            "English": "Y0028_9938_C"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    },
+                    "width": 220,
+                    "x": 36,
+                    "y": 27
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Re: Medication Management Program <br/>Patient: <b>{patient_full_name} (DOB: {patient_date_birth})</b><br/>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {provider_full_name}:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{hotline_name} routinely performs utilization reviews to provide information for prescribers that may help optimize patient care. The following is being shared for your review.",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "{hotline_name} routinely performs utilization reviews to provide information for prescribers that may help optimize patient care. The following is being shared for your review."
+                        },
+                        "excellus_dsnp": {
+                            "English": "{hotline_name} routinely performs utilization reviews to provide information for prescribers that may help optimize patient care. The following is being shared for your review."
+                        },
+                        "simply_prescriptions": {
+                            "English": "{hotline_name} routinely performs utilization reviews to provide information for prescribers that may help optimize patient care. The following is being shared for your review."
+                        },
+                        "univera": {
+                            "English": "Univera Healthcare routinely performs utilization reviews to provide information for prescribers that may help optimize patient care. The following is being shared for your review."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "6%",
+                        "60%",
+                        "34%",
+                        "0%"
+                    ],
+                    "data_source": "provider_recommendations",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "show_for": [
+                        "excellus",
+                        "univera",
+                        "simply_prescriptions",
+                        "excellus_dsnp"
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Assessment",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Recommendation",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Please send any needed prescription updates to the patient's preferred pharmacy noted below.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacy_name}<br/>{pharmacy_street}<br/>{pharmacy_city_state_zip}<br/>Phone: {pharmacy_phone}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "excellus",
+                        "univera",
+                        "simply_prescriptions",
+                        "excellus_dsnp"
+                    ],
+                    "string": "Please leave any other comments about the recommendations or important notes about the patient's health and fax this form to {hotline_fax}:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "show_for": [
+                        "excellus",
+                        "univera",
+                        "simply_prescriptions",
+                        "excellus_dsnp"
+                    ],
+                    "spaceBefore": 21
+                }
+            },
+            {
+                "line": {
+                    "show_for": [
+                        "excellus",
+                        "univera",
+                        "simply_prescriptions",
+                        "excellus_dsnp"
+                    ],
+                    "spaceBefore": 21
+                }
+            },
+            {
+                "line": {
+                    "show_for": [
+                        "excellus",
+                        "univera",
+                        "simply_prescriptions",
+                        "excellus_dsnp"
+                    ],
+                    "spaceAfter": 20,
+                    "spaceBefore": 21
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We appreciate working with you to provide high-quality healthcare for our patients.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{hotline_name}",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "The Medication Therapy Management Team<br/>{hotline_name}"
+                        },
+                        "excellus_dsnp": {
+                            "English": "The Medication Therapy Management Team<br/>{hotline_name}"
+                        },
+                        "simply_prescriptions": {
+                            "English": "The Medication Therapy Management Team<br/>{hotline_name}"
+                        },
+                        "univera": {
+                            "English": "The Medication Therapy Management Team<br/>Univera Healthcare"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 576,
+                    "y": 768
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{org_address}",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "ExcellusBCBS.com<br/>{org_address}"
+                        },
+                        "excellus_dsnp": {
+                            "English": "ExcellusBCBS.com<br/>{org_address}"
+                        },
+                        "simply_prescriptions": {
+                            "English": "SimplyPrescriptions.com<br/>{org_address}"
+                        },
+                        "univera": {
+                            "English": "UniveraHealthcare.com<br/>{org_address}"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 220,
+                    "x": 355,
+                    "y": 718
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 9,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 220,
+                    "x": 360,
+                    "y": 27
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "Y0028_9551_C"
+                        },
+                        "excellus_dsnp": {
+                            "English": "H7524_0548_C"
+                        },
+                        "simply_prescriptions": {
+                            "English": "S3521_9932_C"
+                        },
+                        "univera": {
+                            "English": "Y0028_9938_C"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    },
+                    "width": 220,
+                    "x": 36,
+                    "y": 27
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 38,
+                    "y": 72
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 84,
+                "left": 36,
+                "right": 36,
+                "top": 84
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": false
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 20,
+                    "spaceBefore": 8,
+                    "text_alignment": "left"
+                },
+                "SignatureText": {
+                    "fontName": "Lucida-Handwriting-normal",
+                    "fontSize": 16,
+                    "spaceAfter": 20,
+                    "spaceBefore": 20,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-22T20:50:34"
+}

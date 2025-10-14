@@ -1,0 +1,386 @@
+{
+    "created": "2023-01-25T15:47:30Z",
+    "id": "f4998349-a64a-466e-929e-cd66c6d5795f",
+    "managed": true,
+    "name": "CL_CMM",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 540,
+                    "y": 738
+                }
+            },
+            {
+                "line": {
+                    "hide_for": [
+                        "UHC"
+                    ],
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 535,
+                    "x_start": 75,
+                    "y_end": 135,
+                    "y_start": 135
+                }
+            },
+            {
+                "text": {
+                    "height": 50,
+                    "hide_for": [
+                        "UHC"
+                    ],
+                    "string": "According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB number for this information collection is 0938-1154. The time required to complete this information collection is estimated to average 40 minutes per response, including the time to review instructions, searching existing data resources, gather the data needed, and complete and review the information collection. If you have any comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: CMS, Attn: PRA Reports Clearance Officer, 7500 Security Boulevard, Baltimore, Maryland 21244-1850",
+                    "string_replacements": {
+                        "scan": {
+                            "Spanish": "De conformidad con la Ley de reducci\u00f3n de los tr\u00e1mites burocr\u00e1ticos de 1995, nadie estar\u00e1 obligado a responder a una solicitud de informaci\u00f3n a menos que se identifique con un n\u00famero de control v\u00e1lido de la Oficina de Administraci\u00f3n y Presupuesto. El n\u00famero de control v\u00e1lido de la Oficina de Administraci\u00f3n y Presupuesto para esta recolecci\u00f3n de informaci\u00f3n es 0938-1154. El tiempo necesario para completar esta solicitud es en promedio, 40 minutos incluido el tiempo necesario para revisar las instrucciones, buscar en las fuentes de datos existentes, seleccionar los datos necesarios y completarla. Si tiene comentarios sobre el tiempo estimado para responder o sugerencias para mejorar este formulario, s\u00edrvase escribir a: CMS, Attn: PRA Reports Clearance Officer, 7500 Security Boulevard, Baltimore, Maryland 21244-1850"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 7,
+                        "leading": 9,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 460,
+                    "x": 75,
+                    "y": 81
+                }
+            },
+            {
+                "line": {
+                    "hide_for": [
+                        "UHC"
+                    ],
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 535,
+                    "x_start": 75,
+                    "y_end": 75,
+                    "y_start": 75
+                }
+            },
+            {
+                "line": {
+                    "hide_for": [
+                        "UHC"
+                    ],
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 535,
+                    "x_start": 75,
+                    "y_end": 50,
+                    "y_start": 50
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Form CMS-10396 (Expires: 02/24)",
+                    "string_replacements": {
+                        "scan": {
+                            "Spanish": "Formulario de CMS-10396 (Vence: 02/24)"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 7,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 150,
+                    "x": 75,
+                    "y": 35
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Form Approved OMB No. 0938-1154",
+                    "string_replacements": {
+                        "scan": {
+                            "Spanish": "Formulario aprobado No. de OMB 0938-1154"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 7,
+                        "text_alignment": "right"
+                    },
+                    "width": 150,
+                    "x": 385,
+                    "y": 35
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 32
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "string_replacements": {
+                        "scan": {
+                            "Spanish": "Saludo {patient_full_name},"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Thank you for talking with me on {letter_date}, about your health and medications. As a follow-up to our conversation, I have included two documents:",
+                    "string_replacements": {
+                        "scan": {
+                            "Spanish": "Gracias por hablar conmigo el d\u00eda {letter_date} acerca de su salud y medicamentos. Para hacer seguimiento a nuestra conversaci\u00f3n, le adjunto dos documentos:"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 18
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Your <b>Recommended To-Do List</b> has steps you should take to get the best results from your medications.",
+                        "Your <b>Medication List</b> will help you keep track of your medications and how to take them."
+                    ],
+                    "items_replacements": {
+                        "scan": {
+                            "Spanish": [
+                                "Su <b>Lista de Cosas Para Hacer</b> incluye los pasos que usted debe seguir para obtener los mejores resultados de sus medicamentos.",
+                                "Su <b>Lista de Medicamentos</b> le ayudar\u00e1 a monitorear sus medicamentos y saber cu\u00e1ndo y c\u00f3mo tomarlos."
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletFontSize": 14,
+                        "bulletFormat": "%s.",
+                        "bulletType": "1",
+                        "leftIndent": 24,
+                        "spaceAfter": 24,
+                        "spaceBefore": 24
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you want to talk about these documents, please call Arine Health Plan at <b>800-559-3500 (TTY: 888-444-1531)</b> Monday to Friday, 8am to 5pm MST.",
+                    "string_replacements": {
+                        "ppok": {
+                            "English": "If you want to talk about these documents, please call PPOK Health Plan at <b>800-559-3500 (TTY: 888-444-1531)</b> Monday to Friday, 8am to 5pm MST."
+                        },
+                        "scan": {
+                            "English": "If you want to talk about these documents, please call SCAN Health Plan at <b>800-559-3500 (TTY: 888-444-1531)</b> Monday to Friday, 8am to 5pm MST.",
+                            "Spanish": "Si usted quiere hablar acerca de estos documentos adjuntos, por favor llame a SCAN Health Plan <b>800-559-3500</b>. Esperamos trabajar con usted, sus m\u00e9dicos, y otros proveedores de atenci\u00f3n m\u00e9dica a trav\u00e9s de lunes a viernes de 8 a.m. a 6 p.m. del programa MTM, para mantenerlo saludable."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "I look forward to working with you and your doctors to make sure your medications work well for you.",
+                    "string_replacements": {
+                        "scan": {
+                            "Spanish": "Espero poder trabajar con usted y sus doctores para asegurarnos que sus medicamentos son efectivos."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "string_replacements": {
+                        "scan": {
+                            "Spanish": "Muchas gracias por su atenci\u00f3n,"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 32
+                    }
+                }
+            },
+            {
+                "signature": {
+                    "filename": "{pharmacist_signature}",
+                    "height": 50,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "leading": 18,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_name}<br/>{pharmacist_role}",
+                    "string_replacements": {
+                        "UHC": {
+                            "English": "{pharmacist_name}<br/>Pharmacist<br/>Phone: {hotline_phone}"
+                        },
+                        "priority_health": {
+                            "English": "{pharmacist_name}<br/>{pharmacist_role}<br/>[patient_org.hotlineInfo.motto]"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "sw",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 35,
+                    "y": 235
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "string": "{arine_address}",
+                    "string_replacements": {
+                        "UHC": {
+                            "English": "UHC Address"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 35,
+                    "y": 205
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 100,
+                    "y": 45
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 144,
+                "left": 72,
+                "right": 72,
+                "top": 54
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Times-New-Roman-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 14,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2023-08-17T05:13:39"
+}

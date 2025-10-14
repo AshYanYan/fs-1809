@@ -1,0 +1,389 @@
+{
+    "created": "2023-11-08T21:01:37Z",
+    "id": "d74e11d7-0bc7-421e-bf96-e99a8a352acc",
+    "managed": false,
+    "name": "Welcome_MTM_excellus",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 72,
+                    "y": 758
+                }
+            },
+            {
+                "text": {
+                    "height": 40,
+                    "string": "<font color='#3160BE'>excellusbcbs.com</font>",
+                    "string_replacements": {
+                        "simply_prescriptions": {
+                            "English": "<font color='#3160BE'>simplyprescriptions.com</font>"
+                        },
+                        "univera": {
+                            "English": "<font color='#3160BE'>univerahealthcare.com</font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 160,
+                    "x": 380,
+                    "y": 718
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "Y0028_9949_C"
+                        },
+                        "excellus_dsnp": {
+                            "English": "H7524_0602_C"
+                        },
+                        "simply_prescriptions": {
+                            "English": "S3521_9937_C"
+                        },
+                        "univera": {
+                            "English": "Y0028_9948_C"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 340,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "simply_prescriptions",
+                        "univera"
+                    ],
+                    "string": "165 Court Street<br/>Rochester, NY 14647",
+                    "string_replacements": {
+                        "simply_prescriptions": {
+                            "English": "PO Box 546 <br/>Buffalo, NY 14201"
+                        },
+                        "univera": {
+                            "English": "205 Park Club Lane<br/> Buffalo, NY 14221"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<font color='red'><b>Health and wellness or prevention information.</b></font>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{english_letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "As part of your Medicare plan, we would like to welcome you into our Medication Therapy Management (MTM) program. You are auto enrolled in this important program based on the number of medications you take, health conditions you have, and your medication costs in the last year.<br/><br/><b>This service is free and can help you save money.</b><br/><br/>To learn more, visit our web page:<br/><br/><font color='#3160BE'><u>https://medicare.excellusbcbs.com/prescriptions/medications/mtm-program</u></font>",
+                    "string_replacements": {
+                        "simply_prescriptions": {
+                            "English": "As part of your Medicare plan, we would like to welcome you into our Medication Therapy Management (MTM) program. You are auto enrolled in this important program based on the number of medications you take, health conditions you have, and your medication costs in the last year.<br/><br/><b>This service is free and can help you save money.</b><br/><br/>To learn more, visit our web page:<br/><br/><font color='#3160BE'><u>https://www.simplyprescriptions.com/member/medications/mtm-program</u></font>"
+                        },
+                        "univera": {
+                            "English": "As part of your Medicare plan, we would like to welcome you into our Medication Therapy Management (MTM) program. You are auto enrolled in this important program based on the number of medications you take, health conditions you have, and your medication costs in the last year.<br/><br/><b>This service is free and can help you save money.</b><br/><br/>To learn more, visit our web page:<br/><br/><font color='#3160BE'><u>https://medicare.univerahealthcare.com/prescriptions/medications/mtm-program</u></font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What happens during the review?</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "A pharmacist will call you to go over all medicines you are taking.",
+                        "After the call, the pharmacist will mail an \u201cAction Plan\u201d to help you get the best results from your medications, and a \u201cPersonal Medication List\u201d to track medications you take and why."
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What can MTM Medication Review do for you?</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Many people have more than one doctor, and medications can change during the year. It\u2019s helpful to have a trained pharmacist as an extra set of eyes.",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 0
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "A pharmacist will answer any questions you have and to share medication tips, such as:",
+                        "A check for side effects and if your medications are safe to take together.",
+                        "Help with where and how to get your medications at the best price."
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Want to take part? It\u2019s easy and helpful:</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "<b>To schedule your pharmacist review, call us</b> at {hotline_phone},<br/>{hotline_hours}",
+                        "<b>If you do not want to be in the MTM program</b>, please call SafeRx within 30 days at 1-800-559-8426 and leave a message to opt out (TTY:711) or email <font color='#3160BE'><u>SafeRx@flrx.com</u></font>"
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We look forward to helping you live a healthy life.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We look forward to your call!<br/>Your Medicare Pharmacy Management Team",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 72,
+                    "y": 758
+                }
+            },
+            {
+                "text": {
+                    "height": 40,
+                    "string": "",
+                    "string_replacements": {
+                        "excellus_dsnp": {
+                            "English": "<font color='#3160BE'>excellusbcbs.com</font>"
+                        },
+                        "simply_prescriptions": {
+                            "English": "<font color='#3160BE'>simplyprescriptions.com</font>"
+                        },
+                        "univera": {
+                            "English": "<font color='#3160BE'>univerahealthcare.com</font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 160,
+                    "x": 380,
+                    "y": 718
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "string": "165 Court Street<br/>Rochester, NY 14647",
+                    "string_replacements": {
+                        "simply_prescriptions": {
+                            "English": "PO Box 546 <br/>Buffalo, NY 14201"
+                        },
+                        "univera": {
+                            "English": "205 Park Club Lane <br/> Buffalo, NY 14221"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 72,
+                    "y": 698
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{patient_mailing_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 100,
+                    "y": 565
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 340,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 48,
+                "left": 68,
+                "right": 68,
+                "top": 84
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 8,
+                    "spaceBefore": 16,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-04-15T20:38:11"
+}

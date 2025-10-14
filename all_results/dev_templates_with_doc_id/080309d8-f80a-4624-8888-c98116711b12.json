@@ -1,0 +1,234 @@
+{
+    "created": "2025-01-18T01:49:05Z",
+    "id": "080309d8-f80a-4624-8888-c98116711b12",
+    "name": "CL_QUAL_VillageMD_DocuSend",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "x": 540,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 468,
+                    "x": 90,
+                    "y": 18
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 36
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Providing accessible and high-quality care for you is our priority. Because you\u2019re a valued patient, we want to let you know that as part of your Stay Well Care Plan a review of your medications was done on {cmr_date}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "As part of this review, we are including in this letter your <b>Medication Action Plan</b> which has steps you should take to help you get the best results from your medications. We have also included your <b>Personal Medication List</b> which will help you keep track of your medications and how to take them. Here are some recommendations on how to use them going forward.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Have your medication action plan and personal medication list with you when you talk with your doctors, APPs, pharmacists, and any other health care providers.",
+                        "Ask your doctors, pharmacists, and other health care providers to update the action plan and medication list at every visit.",
+                        "Take your personal medication list with you if you go to the hospital and ask to have it updated with any changes before you leave.",
+                        "Consider sharing a copy of your medication action plan and personal medication list to your family or caregivers."
+                    ],
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you have any questions, you can call {hotline_name} at {pharmacist_phone} {hotline_hours} at anytime. We thank you for trusting us with your care and look forward to seeing you soon.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Wishing you good health,",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "signature": {
+                    "filename": "{pharmacist_signature}",
+                    "height": 50,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "leading": 18,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_job_title}<br/>{pharmacist_credentialed_name}<br/>{hotline_name}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "x": 45,
+                    "y": 760
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "10 Vantage Point Dr, Ste 1<br/>Rochester, NY 14624",
+                    "text_style": {
+                        "parent_style": "AddressText"
+                    },
+                    "width": 250,
+                    "x": 45,
+                    "y": 624
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "<b>Health and Wellness or Prevention Information.</b>",
+                    "text_style": {
+                        "parent_style": "FeatureText"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 668
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 468,
+                    "x": 90,
+                    "y": 18
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 66,
+                "right": 66,
+                "top": 72
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Calibri-normal",
+                "show": true,
+                "skip_cover_page": true
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                },
+                "FeatureText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText"
+                },
+                "FooterText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12
+                }
+            }
+        }
+    },
+    "updated": "2025-01-27T19:34:18"
+}

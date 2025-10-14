@@ -1,0 +1,381 @@
+{
+    "created": "2023-07-17T21:46:48Z",
+    "id": "5d196f94-f145-465f-85d5-b0e7aa5a78e7",
+    "name": "Welcome_MTM_scan (old)",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 44,
+                    "x": 75,
+                    "y": 770
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "string": "{arine_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 75,
+                    "y": 700
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{patient_mailing_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 110,
+                    "y": 560
+                }
+            },
+            {
+                "text": {
+                    "height": 110,
+                    "string": "[patient.insurance_id]",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 140,
+                    "x": 425,
+                    "y": 580
+                }
+            },
+            {
+                "text": {
+                    "height": 110,
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 140,
+                    "x": 425,
+                    "y": 565
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Y0057_SCAN_12896_2021_C IA 09282022",
+                    "string_replacements": {
+                        "priority_health": {
+                            "English": "Y0056_NCMS400040012427AB_C 08292023"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 11,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 42,
+                    "y": 35
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "hide_for": [
+                        "priority_health"
+                    ],
+                    "string": "M2114-1 06/23",
+                    "text_style": {
+                        "fontSize": 11,
+                        "text_alignment": "right"
+                    },
+                    "width": 150,
+                    "x": 325,
+                    "y": 35
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "priority_health"
+                    ],
+                    "string": "12719C &nbsp; &nbsp; &nbsp; &nbsp; 08/23",
+                    "text_style": {
+                        "fontSize": 11,
+                        "text_alignment": "right"
+                    },
+                    "width": 150,
+                    "x": 425,
+                    "y": 35
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 9,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 360,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name}:",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5c0a\u656c\u7684 {patient_full_name}:",
+                            "Spanish": "Estimado/a {patient_full_name}:"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "SCAN partners with Arine to provide Medication Therapy Management services, and we are happy to inform you that you are eligible for a medication review with a pharmacist. We are offering you the opportunity to review your medications over the telephone with a pharmacist to help make sure you are on the right medications and receiving the best possible care. This service is free of charge. During the review, we will try to answer three main questions:",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "SCAN \u8207 Arine \u5408\u4f5c\u63d0\u4f9b\u85e5\u7269\u6cbb\u7642\u7ba1\u7406\u670d\u52d9\uff0c\u4e26\u4e14\u6211\u5011\u5f88\u9ad8\u8208\u5730\u901a\u77e5\u60a8\uff0c\u60a8\u7b26\u5408\u7531\u85e5\u5291\u5e2b\u70ba\u60a8\u57f7\u884c\u85e5\u7269\u5be9\u67e5\u7684\u8cc7\u683c\u3002\u6211\u5011\u5c07\u70ba\u60a8\u63d0\u4f9b\u4e00\u6b21\u85e5\u7269\u6aa2\u67e5\u6a5f\u6703\uff0c\u8b93\u4e00\u4f4d\u85e5\u5291\u5e2b\u900f\u904e\u96fb\u8a71\u5c0d\u60a8\u7684\u85e5\u7269\u9032\u884c\u6aa2\u67e5\uff0c\u4ee5\u78ba\u4fdd\u60a8\u76ee\u524d\u670d\u7528\u7684\u85e5\u7269\u9069\u7576\uff0c\u4e26\u7372\u5f97\u6700\u4f73\u8b77\u7406\u3002\u8a72\u670d\u52d9\u514d\u8cbb\u63d0\u4f9b\u3002\u5728\u6aa2\u67e5\u671f\u9593\uff0c\u6211\u5011\u5c07\u5617\u8a66\u56de\u7b54\u4e09\u500b\u4e3b\u8981\u554f\u984c:",
+                            "Spanish": "SCAN se asocia con Arine para brindarle servicios para la administraci\u00f3n de farmacoterapia, y nos complace informarle que es elegible para una revisi\u00f3n de medicamentos con un farmac\u00e9utico. Le ofrecemos la oportunidad de revisar sus medicamentos por tel\u00e9fono con un farmac\u00e9utico para asegurarnos de que tome los medicamentos correctos y reciba la mejor atenci\u00f3n posible. Este servicio no tiene costo alguno para usted. En la revisi\u00f3n, se intentar\u00e1n contestar las siguientes tres preguntas principales:"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 12,
+                        "spaceBefore": 10
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "<b>Are you on the best medicines for your medical conditions?</b>",
+                        "<b>Are the medicines being used correctly?</b>",
+                        "<b>Are there options for your medicines which will save you money?</b>"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u60a8\u76ee\u524d\u662f\u5426\u6b63\u5728\u670d\u7528\u6700\u9069\u5408\u60a8\u75c5\u75c7\u7684\u85e5\u7269?",
+                                "\u7528\u85e5\u65b9\u5f0f\u662f\u5426\u6070\u7576?",
+                                "\u662f\u5426\u5b58\u5728\u80fd\u5e6b\u60a8\u7701\u9322\u7684\u66ff\u4ee3\u85e5\u7269?"
+                            ],
+                            "Spanish": [
+                                "<b>\u00bfEst\u00e1 tomando los medicamentos m\u00e1s apropiados para sus afecciones m\u00e9dicas?</b>",
+                                "<b>\u00bfEst\u00e1 tomando los medicamentos de forma correcta?</b>",
+                                "<b>\u00bfExisten otros medicamentos con los que podr\u00eda ahorrar dinero?</b>"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletFontSize": 12,
+                        "bulletFormat": "%s.",
+                        "bulletType": "1",
+                        "leftIndent": 18,
+                        "spaceAfter": 12,
+                        "spaceBefore": 16
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 66,
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 12
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "After the medication review, we will mail you an updated medication list and a recommended to-do list. This information can be shared and used to help you when you talk to your doctors at your next visit. Your doctor will help you decide if our suggestions are right for you.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5728\u85e5\u7269\u5be9\u67e5\u5f8c\uff0c\u6211\u5011\u5c07\u5411\u60a8\u90f5\u5bc4\u66f4\u65b0\u7684\u85e5\u7269\u6e05\u55ae\u548c\u5efa\u8b70\u7684\u5f85\u8fa6\u4e8b\u9805\u6e05\u55ae\u3002\u5982\u679c\u60a8\u5728\u4e0b\u6b21\u5c31\u8a3a\u6642\u8207\u60a8\u7684\u91ab\u751f\u4ea4\u8ac7\uff0c\u53ef\u4ee5\u5206\u4eab\u9019\u4e9b\u8cc7\u8a0a\u4e26\u7528\u65bc\u5411\u60a8\u63d0\u4f9b\u5e6b\u52a9\u3002\u60a8\u7684\u91ab\u751f\u5c07\u5e6b\u52a9\u60a8\u78ba\u5b9a\u6211\u5011\u7684\u5efa\u8b70\u662f\u5426\u9069\u5408\u60a8\u3002",
+                            "English": "After the medication review, we will mail you an updated medication list and a recommended to-do list. This information can be shared and used to help you when you talk to your doctors at your next visit. Your doctor will help you decide if our suggestions are right for you.",
+                            "Spanish": "Despu\u00e9s de realizar una revisi\u00f3n de los medicamentos, le enviaremos por correo una lista de medicamentos actualizada y una lista de tareas recomendadas. Puede compartir esta informaci\u00f3n y usarla cuando hable con sus m\u00e9dicos en la pr\u00f3xima visita. Su m\u00e9dico le ayudar\u00e1 a decidir si nuestras sugerencias son adecuadas para usted."
+                        },
+                        "ppok": {
+                            "English": "If you want to talk about these documents, please call PPOK Health Plan at <b>800-559-3500 (TTY: 888-444-1531)</b> Monday to Friday, 8am to 5pm MST."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "There are two ways to let us know if you are interested in speaking with one of our pharmacists:",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u6709\u5169\u7a2e\u65b9\u6cd5\u53ef\u4ee5\u544a\u77e5\u6211\u5011\u60a8\u662f\u5426\u6709\u8208\u8da3\u8207\u6211\u5011\u7684\u5176\u4e2d\u4e00\u4f4d\u85e5\u5291\u5e2b\u4ea4\u8ac7:",
+                            "Spanish": "Hay dos formas de informarnos si le interesa hablar con uno de nuestros farmac\u00e9uticos:"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Please call us at {hotline_phone}. If you use a TTY, call 711. We are available from 8:00 a.m. and 5:00 p.m., Monday through Friday.",
+                        "Please scan the QR code to fill out a schedule response form"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u8acb\u81f4\u96fb{hotline_phone}\u806f\u7d61\u6211\u5011\u3002\u5982\u679c\u60a8\u4f7f\u7528\u807d\u969c\u5c08\u7dda\uff0c\u8acb\u64a5\u6253<br/>711\u3002\u6211\u5011\u7684\u670d\u52d9\u6642\u9593\u70ba:\u4e0a\u5348 8:00 \u81f3\u4e0b\u5348 5:00, \u9031\u4e00\u81f3\u9031\u4e94\u3002",
+                                "\u8acb\u6383\u63cf\u4e8c\u7dad\u78bc\u4ee5\u586b\u5beb\u65e5\u7a0b\u56de\u8986\u8868"
+                            ],
+                            "Spanish": [
+                                "Ll\u00e1menos al {hotline_phone}. Si utiliza TTY, llame al 711. Estamos disponibles de 8:00a.m. a 5:00p.m., de lunes a viernes.",
+                                "Escanee el c\u00f3digo QR para completar un formulario de respuesta de programaci\u00f3n."
+                            ]
+                        },
+                        "priority_health": {
+                            "English": [
+                                "Please call us at 606.313.1014 or toll free at 800.259.7314. If you use a TTY, call 711. We are available from 8:00 a.m. and 5:00 p.m., Monday through Friday.",
+                                "Please scan the QR code to fill out a schedule response form"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletFontSize": 12,
+                        "bulletFormat": "%s.",
+                        "bulletType": "1",
+                        "leftIndent": 18,
+                        "spaceAfter": 10,
+                        "spaceBefore": 16
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 68,
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 12
+                    }
+                }
+            },
+            {
+                "image": {
+                    "alignment": "center",
+                    "filename": "/images/scan_qr_code.png",
+                    "height": 42,
+                    "width": 42
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "To learn more about our Medication Therapy Management Program or to let us know if you want to be removed from the program, please call us at 606.313.1014 or toll free at 800.259.7314 within 30 days. If you use a TTY, call 711. We are available from 8:00 a.m. and 5:00 p.m., Monday through Friday.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5982\u9700\u5b89\u6392\u60a8\u7684\u85e5\u7269\u5be9\u67e5\u6216\u60f3\u8981\u9000\u51fa\u6b64\u8a08\u5283\uff0c\u8acb\u5728 30 \u5929\u5167\u64a5\u6253 562-283-8895 \u806f\u7d61\u6211\u5011\u3002\u807d\u969c\u5c08\u7dda 711\u3002\u670d\u52d9\u6642\u9593\u70ba \u4e0a\u5348 8:00 \u81f3\u4e0b\u5348 5:00, \u9031\u4e00\u81f3\u9031\u4e94\u3002",
+                            "Spanish": "Para programar la revisi\u00f3n de sus medicamentos o para desinscribirse de este programa, ll\u00e1menos al {hotline_phone} dentro de los pr\u00f3ximos 30 d\u00edas. Si utiliza TTY, llame al 711. El horario de atenci\u00f3n es de 8:00a.m. a 5:00p.m., de lunes a viernes."
+                        },
+                        "priority_health": {
+                            "English": "<b>To schedule your medication review or to opt out of this program</b>, please call us at {hotline_phone} within 30 days. If you use a TTY, call 711. We are available from 8:00 a.m. and 5:00 p.m., Monday through Friday."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u8b39\u81f4,",
+                            "Spanish": "Atentamente,"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 16
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "SCAN",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 16
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 36,
+                "left": 36,
+                "right": 36,
+                "top": 200
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": true,
+                "skip_cover_page": true
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 15,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 0,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2023-12-01T22:58:21"
+}

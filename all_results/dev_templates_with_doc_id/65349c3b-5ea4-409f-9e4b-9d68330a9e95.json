@@ -1,0 +1,180 @@
+{
+    "created": "2023-11-08T21:01:37Z",
+    "id": "65349c3b-5ea4-409f-9e4b-9d68330a9e95",
+    "name": "Welcome_HRHC_BCBSVT",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "sw",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 72,
+                    "y": 717
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{org_address}",
+                    "text_style": {
+                        "leading": 15,
+                        "leftIndent": 36,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "spacer": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "leftIndent": 66,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "spacer": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{english_letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name}, <br/><br/> We are offering a medication management program at no extra cost to help {hotline_name} members like you improve your health. You have been selected for this program to make sure you are on the safest and most effective medications for your health conditions. Our experienced pharmacists will help you achieve the following:",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "<b><i>BETTER HEALTH</i></b> <br/> A trained pharmacist will help you achieve the maximum benefit from your medications by making sure you are on the right medications for your specific health conditions. They will work with you and your health care providers to achieve your health goals. The pharmacist can also answer any questions you have about your medications so you can feel more informed.<br/>",
+                        "<b><i>INCREASED SAFETY</i></b> <br/> Some medications may cause side effects or may not work well when taken incorrectly or with other medicines. The pharmacist will make sure that you are taking the right combination of medications and provide tips on how to manage any side effects.<br/>",
+                        "<b><i>LOWER COSTS</i></b> <br/> The pharmacist can also look for ways to save you money by recommending lower cost options or removing any unnecessary medications.<br/>"
+                    ],
+                    "items_replacements": {},
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "leftIndent": 16
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 32
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 12
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "You may receive a call from a pharmacist to talk about your medications. For more information or to speak to a pharmacist directly and take advantage of this free program you can call {hotline_phone} {hotline_hours}. <br/><br/>Sincerely,<br/><br/> {hotline_name}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "sw",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 72,
+                    "y": 717
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 48,
+                "left": 36,
+                "right": 36,
+                "top": 72
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 8,
+                    "spaceBefore": 8,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2024-07-03T13:31:08"
+}

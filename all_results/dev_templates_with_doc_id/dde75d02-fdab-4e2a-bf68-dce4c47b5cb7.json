@@ -1,0 +1,345 @@
+{
+    "created": "2023-11-08T21:01:37Z",
+    "id": "dde75d02-fdab-4e2a-bf68-dce4c47b5cb7",
+    "name": "Welcome_MTM_vns",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 35,
+                    "x": 72,
+                    "y": 762
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 340,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},<br/><br/> As part of your {hotline_name} plan, we\u2019re pleased to welcome you into our Medication Therapy Management (MTM) program. Because you meet the requirements, you\u2019ve automatically qualified for this important program. <b>There is no cost to participate.</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5c0a\u656c\u7684\u5ba2\u5920 {patient_full_name}.<br/><br/>\u4f5c\u70ba\u60a8 <b>{hotline_name}</b> \u8a08\u5283\u7684\u4e00\u90e8\u5206\uff0c\u5f88\u6b61\u8fce\u60a8\u52a0\u5165\u6211\u5011\u7684\u85e5\u7269\u6cbb\u7642\u7ba1\u7406 (MTM) \u8a08 \u5283\u3002\u7531\u65bc\u60a8\u5df2\u7b26\u5408\u65b9\u6848\u8981\u6c42\uff0c\u56e0\u6b64\u60a8\u5df2\u81ea\u52d5\u7372\u5f97\u53c3\u52a0\u6b64\u91cd\u8981\u65b9\u6848\u7684\u8cc7\u683c\u3002\u800c\u7121\u9700\u4efb\u4f55\u984d\u5916\u8cbb \u7528\u3002",
+                            "Spanish": "Estimada/o {patient_full_name},<br/><br/> Como parte de su plan <b>{hotline_name}</b>, nos complace darle la bienvenida a nuestro programa de Manejo de Terapia de Medicamentos (MTM). Debido a que cumple con los requisitos, autom\u00e1ticamente califica para este importante programa. <b>No hay ning\u00fan costo para participar.</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What can MTM do for you?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "MTM \u80fd\u70ba\u60a8\u63d0\u4f9b\u751a\u9ebc\u670d\u52d9\uff1f",
+                            "Spanish": "<b>\u00bfQu\u00e9 puede hacer MTM por usted?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeadingText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Answer any questions or concerns you might have about your medications",
+                        "Help with any problems you might have, such as cost, side effects, or drug interactions",
+                        "Provide advice on how to talk to your provider about the drugs you take"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u53ef\u4ee5\u56de\u7b54\u60a8\u5c0d\u85e5\u7269\u53ef\u80fd\u6709\u7684\u4efb\u4f55\u554f\u984c\u6216\u7591\u616e",
+                                "\u53ef\u4ee5\u5e6b\u52a9\u89e3\u6c7a\u60a8\u53ef\u80fd\u9047\u5230\u7684\u554f\u984c\uff0c\u4f8b\u5982\u8cbb\u7528\u3001\u526f\u4f5c\u7528\u6216\u85e5\u7269\u4ea4\u4e92\u4f5c\u7528",
+                                "\u53ef\u4ee5\u63d0\u4f9b\u5efa\u8b70\u5920\u60a8\u5982\u4f55\u8207\u60a8\u7684\u8655\u65b9\u4eba\u54e1\u8a0e\u8ad6\u6709\u95dc\u60a8\u6240\u670d\u7528\u85e5\u7269"
+                            ],
+                            "Spanish": [
+                                "Responder cualquier pregunta o inquietud que pueda tener sobre sus medicamentos",
+                                "Ayudar con cualquier problema que pueda tener, como costo, efectos secundarios o interacciones entre medicamentos",
+                                "Proporcionarle consejos sobre c\u00f3mo hablar con su proveedor sobre los medicamentos que toma"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What do you receive when participating?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u7576\u60a8\u53c3\u8207\u6642\u6703\u5f97\u5230\u751a\u9ebc\uff1f",
+                            "Spanish": "<b>\u00bfQu\u00e9 recibe al participar?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeadingText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "A phone call with a licensed pharmacist who will review all your prescription and over-the-counter medications",
+                        "A To-Do List of the pharmacist\u2019s recommendations to discuss with your provider",
+                        "A Personal Medication List to track the medications you take and why they\u2019re used"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u53ef\u4ee5\u8207\u57f7\u696d\u85e5\u5291\u5e2b\u901a\u96fb\u8a71\uff0c\u8b93\u4ed6\u5be9\u8996\u60a8\u7684\u6240\u6709\u8655\u65b9\u85e5\u7269\u548c\u975e\u8655\u65b9\u85e5\u7269",
+                                "\u85e5\u5291\u5e2b\u6703\u5efa\u8b70\uff0d\u4efd\u5f85\u8fa6\u4e8b\u9805\u6e05\u55ae\uff0c\u4f9b\u60a8\u8207\u60a8\u7684\u8655\u65b9\u63d0\u4f9b\u8005\u8a0e\u8ad6",
+                                "\u5920\u60a8\u63d0\u4f9b\u4e00\u4efd\u500b\u4eba\u85e5\u7269\u6e05\u55ae\uff0c\u65b9\u4fbf\u60a8\u77e5\u9053\u6240\u670d\u7528\u7684\u85e5\u7269\u53ca\u4f7f\u7528\u539f\u56e0"
+                            ],
+                            "Spanish": [
+                                "Una llamada telef\u00f3nica con un farmac\u00e9utico autorizado que revisar\u00e1 todos sus medicamentos recetados y de venta libre",
+                                "Una lista de \"cosas por hacer\" con las recomendaciones del farmac\u00e9utico para discutir con su proveedor",
+                                "Una lista personal de medicamentos para llevar un control de los medicamentos que toma y por qu\u00e9 se usan"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceAfter": 8
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Want to participate? Get started now!</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5982\u679c\u60a8\u60f3\u53c3\u52a0\u6b64\u8a08\u5283, \u73fe\u5728\u5c31\u53ef\u4ee5\u958b\u59cb",
+                            "Spanish": "<b>\u00bfQuiere participar? \u00a1Empiece ahora!</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeadingText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "To schedule your comprehensive medication review, call [patient_org.report.reportMtmWelcomeLetterPhoneNumber].",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u8acb\u81f4\u96fb [patient_org.report.reportMtmWelcomeLetterPhoneNumber], \u5b89\u6392\u60a8\u7684\u5168\u9762\u85e5\u7269\u6aa2\u8996\u3002",
+                            "Spanish": "Para programar su revisi\u00f3n completa de medicamentos, llame al [patient_org.report.reportMtmWelcomeLetterPhoneNumber]."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Don\u2019t want to participate?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5982\u679c\u60a8\u4e0d\u60f3\u53c3\u52a0\u6b64\u8a08\u5283",
+                            "Spanish": "<b>\u00bfNo quiere participar?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeadingText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you do not wish to participate, call Customer Service toll-free at [patient_org.report.reportMtmWelcomeLetterPhoneNumber] (TTY users should call 711), {hotline_hours}. You may continue to get calls from us until you call. If you remain a {hotline_name} Medicare member, you can rejoin the program at any time during the year by calling [patient_org.report.reportMtmWelcomeLetterPhoneNumber]. You may be offered MTM services again next year if you meet the requirements.<br/><br/>We look forward to helping you live a healthier life.<br/>Sincerely,<br/><br/>{hotline_name}",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5982\u679c\u60a8\u4e0d\u60f3\u53c3\u8207\uff0c\u8acb\u6bcf\u9031 {hotline_hours} \u64a5\u6253\u514d\u8cbb\u96fb\u8a71 [patient_org.report.reportMtmWelcomeLetterPhoneNumber] \u806f\u7d61\u5ba2\u5920\u670d\u52d9\u90e8\uff08TTY \u7528\u5920\u61c9\u64a5\u6253 711\uff09\u3002\u5728\u60a8\u6c92\u6709\u806f\u7d61\u5ba2\u5920\u670d\u52d9\u90e8 \u4e4b\u524d\uff0c\u60a8\u53ef\u80fd\u6703\u7e7c\u7e8c\u63a5\u5230\u6211\u5011\u7684\u96fb\u8a71\u3002\u5982\u679c\u60a8\u4ecd\u7136\u662f {hotline_name} Medicare \u6703\u54e1\uff0c\u60a8 \u53ef\u4ee5\u96a8\u6642\u81f4\u96fb [patient_org.report.reportMtmWelcomeLetterPhoneNumber] \u91cd\u65b0\u52a0\u5165\u9019\u500b\u8a08\u5283\u3002\u5982\u679c\u60a8\u4ecd\u7136\u7b26\u5408\u8981\u6c42\uff0c\u660e\u5e74\u53ef \u80fd\u6703\u518d\u6b21\u70ba\u60a8\u63d0\u4f9b MTM \u670d\u52d9\u3002<br/><br/>\u6211\u5011\u5e0c\u671b\u80fd\u5920\u5e6b\u52a9\u60a8\u904e\u66f4\u5065\u5eb7\u7684\u751f\u6d3b\u3002<br/>\u8b1d\u8b1d\uff0c<br/><br/>{hotline_name}",
+                            "Spanish": "Si no desea participar, llame al n\u00famero gratuito de Servicio al Cliente al [patient_org.report.reportMtmWelcomeLetterPhoneNumber] (Los usuarios de TTY deben llamar al 711), {hotline_hours}. Puede continuar recibiendo nuestras llamadas hasta que llame. Si sigue siendo miembro de {hotline_name} Medicare, puede volver a unirse al programa en cualquier momento durante el a\u00f1o llamando a [patient_org.report.reportMtmWelcomeLetterPhoneNumber]. Es posible que le ofrezcan servicios de MTM nuevamente el pr\u00f3ximo a\u00f1o si cumple con los requisitos.<br/><br/>Esperamos poder ayudarle a vivir una vida m\u00e1s saludable.<br/>Atentamente,<br/><br/>{hotline_name}"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 35,
+                    "x": 76,
+                    "y": 745
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "ignore_large_font": true,
+                    "string": "{arine_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 72,
+                    "y": 697
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "string": "<b>Health and wellness or prevention information</b>",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 100,
+                    "y": 665
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "ignore_large_font": true,
+                    "string": "{patient_mailing_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 100,
+                    "y": 567
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "ignore_large_font": true,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 48,
+                "left": 72,
+                "right": 72,
+                "top": 72
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "HeadingText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 16,
+                    "leading": 18,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 4,
+                    "spaceBefore": 12,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 4,
+                    "spaceBefore": 4,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-01-18T00:09:37"
+}

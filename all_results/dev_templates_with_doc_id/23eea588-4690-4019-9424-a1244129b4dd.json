@@ -1,0 +1,445 @@
+{
+    "created": "2023-03-03T16:47:30Z",
+    "id": "23eea588-4690-4019-9424-a1244129b4dd",
+    "managed": false,
+    "name": "PCP_PML_QUAL_Cambia",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "x": 36,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "<b>Date of Review: {review_date}</b>",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 250,
+                    "x": 326,
+                    "y": 689
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 10,
+                        "leading": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 46
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "<b>Regence BlueShield of Idaho</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "<b>Regence BlueShield of Idaho</b><br/>1602 21st Avenue | Lewiston, ID 83501",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "<b>Regence BlueShield</b> serves select counties in the state of Washington<br/>and is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "<b>Regence BlueShield</b><br/>1111 Lake Washington Blvd N, Suite 900 | Renton, WA 98056",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Oregon</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Oregon</b><br/>200 SW Market Street, 11th Floor | Portland, OR 97201",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Utah</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Utah</b><br/>2890 E Cottonwood Parkway | Salt Lake City, UT 84121",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:asuris_nw_wa_ppo",
+                        "cambia:asuris_nw_wa_pdp"
+                    ],
+                    "string": "<b>Asuris Northwest Health</b><br/>528 E Spokane Blvd | Suite 301 | Spokane WA 99202",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<b>Patient\u2019s Medication Summary</b><br/><b>Name:</b> {patient_full_name} (DOB: {patient_date_birth})",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Medication Allergies: {patient_allergies}</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 18
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "25%",
+                        "15%",
+                        "15%",
+                        "20%",
+                        "25%"
+                    ],
+                    "data_source": "patient_meds",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_footer": [
+                        {
+                            "string": "Please note: this list includes patient-reported information. Please verify this list for accuracy."
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        },
+                        {
+                            "string": ""
+                        }
+                    ],
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "Medication Name & Dosage",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Directions",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Indication",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Prescriber",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Notes",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "CENTER"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "SPAN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    -1
+                                ]
+                            }
+                        },
+                        {
+                            "ROWBACKGROUNDS": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#FFFFFF",
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 96,
+                "left": 30,
+                "right": 30,
+                "top": 72
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "FooterText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "text_alignment": "right"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 24,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 16,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-03-21T19:39:13"
+}

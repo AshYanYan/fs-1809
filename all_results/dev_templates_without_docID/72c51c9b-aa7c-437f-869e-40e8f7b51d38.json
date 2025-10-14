@@ -1,0 +1,168 @@
+{
+    "created": "2023-12-09T02:02:30Z",
+    "id": "72c51c9b-aa7c-437f-869e-40e8f7b51d38",
+    "managed": true,
+    "name": "Welcome_Letter",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 540,
+                    "y": 738
+                }
+            },
+            {
+                "text": {
+                    "height": 75,
+                    "string": "{arine_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 40,
+                    "y": 600
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{patient_mailing_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 40,
+                    "y": 530
+                }
+            },
+            {
+                "text": {
+                    "height": 18,
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 365,
+                    "y": 580
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 24
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We are offering a medication management program at no extra cost to help United Healthcare members like you improve your health. You have been selected for this program to make sure you are on safe and effective medicines for your health conditions. Our experienced pharmacists will help you achieve the following:",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 12
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "<b>Better Health</b><br/>A trained pharmacist will help you achieve great benefit from your medicines by making sure you are on the right medicines for your specific health conditions.",
+                        "<b>Increased safety</b><br/>Some medicines may cause side effects or may not work well when taken incorrectly or with other medicines. The pharmacist will make sure that you are taking the right combination of medicines and also provide tips on how to manage any side effects.",
+                        "<b>Lower costs</b><br/>The pharmacist can also look for ways to save you money by recommending lower cost options or removing any unnecessary medicines."
+                    ],
+                    "list_attributes": {
+                        "bulletFontSize": 14,
+                        "bulletType": "bullet",
+                        "leftIndent": 24,
+                        "spaceAfter": 12,
+                        "spaceBefore": 12
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Take advantage of this program at no extra cost by calling for more information or to speak to a pharmacist directly toll-free at <b>1-800-XXX-XXXX</b> any time M-F from 8a-6p CT.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "spacer": {
+                    "height": 64
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Lindsey Samera, PharmD<br/>Manager Pharmacy Programs<br/>UnitedHealthcare",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 36,
+                "right": 36,
+                "top": 220
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": null,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2023-12-12T21:26:09"
+}

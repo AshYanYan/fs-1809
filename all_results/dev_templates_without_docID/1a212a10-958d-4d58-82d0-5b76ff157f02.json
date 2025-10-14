@@ -1,0 +1,42 @@
+{
+    "created": "2024-10-28T21:40:44Z",
+    "id": "1a212a10-958d-4d58-82d0-5b76ff157f02",
+    "name": "AG_00000",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [
+            {
+                "table": {
+                    "data_source": "table_items",
+                    "row_template": []
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": null,
+                "left": null,
+                "right": null,
+                "top": null
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": null,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {}
+        }
+    },
+    "updated": "2024-10-28T21:40:44"
+}

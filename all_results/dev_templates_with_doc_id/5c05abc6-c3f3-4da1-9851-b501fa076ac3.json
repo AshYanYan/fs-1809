@@ -1,0 +1,1260 @@
+{
+    "created": "2023-06-01T23:34:28Z",
+    "id": "5c05abc6-c3f3-4da1-9851-b501fa076ac3",
+    "managed": true,
+    "name": "SDL_MTM_general",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "priority_health"
+                    ],
+                    "string": "{hotline_name} complies with applicable Federal civil rights laws and does not discriminate on the basis of race, color, national origin, age, disability, or sex.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontName": "Lato-italic",
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 45
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "ignore_large_font": true,
+                    "show_for": [
+                        "scan"
+                    ],
+                    "string": "Y0057_SCAN_12899_2021_C IA 12292021",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 5,
+                    "ignore_large_font": true,
+                    "show_for": [
+                        "aloha"
+                    ],
+                    "string": "H5969_002_MTM0032401_C<br/>H5969_003_MTM0032401_C",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "ignore_large_font": true,
+                    "show_for": [
+                        "priority_health"
+                    ],
+                    "string": "Y0056_NCMS400040012427AB_C 08292023",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 26
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "ignore_large_font": true,
+                    "show_for": [
+                        "priority_health"
+                    ],
+                    "string": "12719C &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 08/23",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 10,
+                    "y": 26
+                }
+            },
+            {
+                "text": {
+                    "height": 15,
+                    "ignore_large_font": true,
+                    "show_for": [
+                        "univera",
+                        "prominence"
+                    ],
+                    "string": "A nonprofit independent licensee of the Blue Cross Blue Shield Association <br/> Y0028_9254_C",
+                    "string_replacements": {
+                        "prominence": {
+                            "English": "Y0109_MTMLTR1_24_C",
+                            "Spanish": "Y0109_MTMLTR1_24_C"
+                        },
+                        "univera": {
+                            "Chinese": "<br/>Y0028_9948_C",
+                            "English": "<br/>Y0028_9948_C",
+                            "Spanish": "<br/>Y0028_9948_C"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 400,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 15,
+                    "show_for": [
+                        "excellus"
+                    ],
+                    "string": "<br/>Y0028_9949_C",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 400,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 5,
+                    "ignore_large_font": true,
+                    "show_for": [
+                        "excellus_dsnp"
+                    ],
+                    "string": "H7524_0602_C",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 400,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "ignore_large_font": true,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 30,
+                    "show_for": [
+                        "aloha"
+                    ],
+                    "string": "AlohaCare Advantage Plus/AlohaCare Advantage (HMO D-SNP) is an HMO D-SNP with a Medicare contract and a contract with the Hawai`i Medicaid Program. Enrollment in AlohaCare Advantage Plus/AlohaCare Advantage depends on contract renewal.",
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "center"
+                    },
+                    "width": 520,
+                    "x": 25,
+                    "y": 26
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "ignore_large_font": true,
+                    "show_for": [
+                        "scan"
+                    ],
+                    "string": "M2130 12/21",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 9,
+                        "text_alignment": "center"
+                    },
+                    "width": 200,
+                    "x": 386,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 22,
+                    "ignore_large_font": true,
+                    "show_for": [
+                        "simply_prescriptions"
+                    ],
+                    "string": "S3521_9937_C",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 9,
+                        "text_alignment": "left"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 18
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "spacer": {
+                    "height": 12,
+                    "show_for": [
+                        "priority_health"
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "priority_health",
+                        "vnsny"
+                    ],
+                    "string": "<u><b>Safe Disposal of Prescription Medications</b></u>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b><u>\u5b89\u5168\u8655\u7406\u8655\u65b9\u85e5</u></b>",
+                            "Spanish": "<b><u>Eliminaci\u00f3n segura de medicamentos con receta</u></b>"
+                        },
+                        "healthfirst": {
+                            "Chinese": "<b><u>\u5b89\u5168\u8655\u7406\u8655\u65b9\u85e5\u7269</u></b>",
+                            "Spanish": "<b><u>Eliminaci\u00f3n segura de medicamentos recetados</u></b>"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 16,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "center"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "priority_health",
+                        "vnsny"
+                    ],
+                    "string": "<u><b>How to Safely Dispose of Unused Prescription Medications</b></u>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b><u>\u5b89\u5168\u8655\u7406\u8655\u65b9\u85e5</u></b>",
+                            "Spanish": "<b><u>Eliminaci\u00f3n segura de medicamentos con receta</u></b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Storing your medications safely and disposing of the ones you no longer need can make a difference when it comes to preventing medication injuries. It can also prevent medications from getting into the wrong hands.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u8acb\u5b89\u5168\u5730\u5b58\u653e\u85e5\u7269\u4e26\u8655\u7406\u6389\u60a8\u4e0d\u518d\u9700\u8981\u7684\u85e5\u7269\uff0c\u9019\u6a23\u505a\u4e0d\u50c5\u53ef\u4ee5\u6709\u6548\u907f\u514d\u85e5\u7269\u50b7\u5bb3\uff0c\u9084\u80fd\u9632\u6b62\u85e5\u7269\u843d\u5165\u58de\u4eba\u4e4b\u624b\u3002",
+                            "Spanish": "Almacenar sus medicamentos de manera segura y desechar los que ya no necesita puede hacer una diferencia en la prevenci\u00f3n de lesiones causadas por medicamentos. Tambi\u00e9n puede evitar que los medicamentos caigan en las manos equivocadas."
+                        },
+                        "healthfirst": {
+                            "Chinese": "\u5b89\u5168\u5730\u5132\u5b58\u85e5\u7269\u4e26\u8655\u7406\u4e0d\u518d\u9700\u8981\u7684\u85e5\u7269\u53ef\u4ee5\u6709\u6548\u9632\u6b62\u85e5\u7269\u50b7\u5bb3\uff0c\u4e5f\u53ef\u9810\u9632\u85e5\u7269\u843d\u5165\u58de\u4eba\u4e4b\u624b\u3002",
+                            "Spanish": "Almacenar sus medicamentos de forma segura y deshacerse de los que ya no necesita puede marcar la diferencia cuando se trata de prevenir lesiones por medicamentos. Tambi\u00e9n puede evitar que los medicamentos lleguen a las manos equivocadas."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b><u>How to Store Medications Safely:</u></b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b><u>\u5982\u4f55\u5b89\u5168\u5730\u5b58\u653e\u85e5\u7269:</u></b>",
+                            "Spanish": "<b><u>C\u00f3mo almacenar los medicamentos de manera segura:</u></b>"
+                        },
+                        "healthfirst": {
+                            "Chinese": "<b><u>\u5982\u4f55\u5b89\u5168\u5730\u5132\u5b58\u85e5\u7269\uff1a</u></b>",
+                            "Spanish": "<b><u>C\u00f3mo almacenar los medicamentos de forma segura:</u></b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Make sure your medications are stored in their original container and the cap is tight.",
+                        "Place your medications in a safe location and never leave it in an unsecured place, such as the kitchen counter.",
+                        "Store your medications where children cannot see or reach them."
+                    ],
+                    "items_replacements": {
+                        "cambia": {
+                            "English": [
+                                "Make sure your medications are stored in their original container and the cap is on tight.",
+                                "Place your medications in a safe location and never leave it in an unsecured place, such as the kitchen counter.",
+                                "Store your medications where children can't see or reach them."
+                            ]
+                        },
+                        "default": {
+                            "Chinese": [
+                                "\u78ba\u4fdd\u60a8\u7684\u85e5\u7269\u5b58\u653e\u5728\u539f\u4f86\u7684\u5bb9\u5668\u4e2d\uff0c\u4e26\u4e14\u84cb\u7dca\u4e86\u84cb\u5b50\u3002",
+                                "\u5c07\u85e5\u7269\u653e\u5728\u5b89\u5168\u7684\u5730\u65b9\uff0c\u800c\u5207\u52ff\u5c07\u5176\u653e\u5728\u6c92\u6709\u5b89\u5168\u4fdd\u969c\u7684\u5730\u65b9\uff0c\u5982\u5eda\u623f\u6ac3\u6aaf\u3002",
+                                "\u5c07\u85e5\u7269\u5b58\u653e\u5728\u5152\u7ae5\u770b\u4e0d\u5230\u6216\u5920\u4e0d\u8457\u7684\u5730\u65b9\u3002"
+                            ],
+                            "Spanish": [
+                                "Conserve los medicamentos en sus envases originales con la tapa bien cerrada.",
+                                "Coloque los medicamentos en un lugar seguro y no los deje nunca en un lugar que no sea seguro, como la encimera de la cocina.",
+                                "Guarde los medicamentos en un sitio donde los ni\u00f1os no puedan verlos ni alcanzarlos."
+                            ]
+                        },
+                        "healthfirst": {
+                            "Chinese": [
+                                "\u78ba\u4fdd\u85e5\u7269\u5132\u5b58\u5728\u539f\u5305\u88dd\u5bb9\u5668\u5167\uff0c\u4e26\u4e14\u84cb\u7dca\u74f6\u84cb\u3002",
+                                "\u5c07\u85e5\u7269\u653e\u7f6e\u5728\u5b89\u5168\u7684\u5730\u65b9\uff1b\u5207\u52ff\u5c07\u85e5\u7269\u7559\u5728\u4e0d\u5b89\u5168\u7684\u5730\u65b9\uff0c\u4f8b\u5982\u5eda\u623f\u6aaf\u9762\u3002",
+                                "\u5c07\u85e5\u7269\u5b58\u653e\u5728\u5b69\u5b50\u770b\u4e0d\u898b\u6216\u6478\u4e0d\u8457\u7684\u5730\u65b9\u3002"
+                            ],
+                            "Spanish": [
+                                "Aseg\u00farese de que sus medicamentos est\u00e9n almacenados en su envase original y que la tapa est\u00e9 bien cerrada.",
+                                "Coloque sus medicamentos en un lugar seguro y nunca los deje en un lugar no seguro, como el mostrador de la cocina.",
+                                "Guarde sus medicamentos fuera del alcance y la vista de los ni\u00f1os."
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b><u>How to Dispose of Medications Safely:</u></b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b><u>\u5982\u4f55\u5b89\u5168\u5730\u8655\u7406\u85e5\u7269:</u></b>",
+                            "Spanish": "<b><u>C\u00f3mo deshacerse de los medicamentos de forma segura:</u></b>"
+                        },
+                        "healthfirst": {
+                            "Chinese": "<b><u>\u5982\u4f55\u5b89\u5168\u5730\u8655\u7406\u85e5\u7269\uff1a</u></b>",
+                            "Spanish": "<b><u>C\u00f3mo desechar los medicamentos de forma segura:</u></b>"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Dispose of medications you no longer use or are expired as soon as possible. This will prevent you and others from accidentally taking medications you no longer need."
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u76e1\u5feb\u8655\u7406\u60a8\u4e0d\u518d\u4f7f\u7528\u6216\u904e\u671f\u7684\u85e5\u7269\u3002\u9019\u5c07\u9632\u6b62\u60a8\u548c\u5176\u4ed6\u4eba\u610f\u5916\u5730\u670d\u7528\u60a8\u4e0d\u518d\u9700\u8981\u7684\u85e5\u7269\u3002"
+                            ],
+                            "Spanish": [
+                                "Deseche los medicamentos que ya no usa o que est\u00e1n vencidos lo antes posible. Esto evitar\u00e1 que usted u otras personas tomen accidentalmente medicamentos que ya no necesitan."
+                            ]
+                        },
+                        "healthfirst": {
+                            "Chinese": [
+                                "\u5118\u5feb\u8655\u7406\u4e0d\u518d\u4f7f\u7528\u6216\u904e\u671f\u7684\u85e5\u7269\u3002\u9019\u6703\u9810\u9632\u60a8\u8207\u4ed6\u4eba\u610f\u5916\u5730\u4f7f\u7528\u60a8\u4e0d\u518d\u9700\u8981\u7684\u85e5\u7269\u3002"
+                            ],
+                            "Spanish": [
+                                "Deseche lo m\u00e1s pronto posible los medicamentos que ya no usa o que han caducado. Esto evitar\u00e1 que usted y otras personas tomen accidentalmente medicamentos que ya no necesita."
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b><u>Drug Take Back Programs Near You:</u></b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b><u>\u60a8\u9644\u8fd1\u7684\u85e5\u7269\u56de\u6536\u8a08\u5283:</u></b>",
+                            "Spanish": "<b><u>Programas de devoluci\u00f3n de medicamentos cerca de su domicilio:</u></b>"
+                        },
+                        "healthfirst": {
+                            "Chinese": "<b><u>\u5728\u60a8\u9644\u8fd1\u7684\u85e5\u7269\u56de\u6536\u8a08\u5283\uff1a</u></b>",
+                            "Spanish": "<b><u>Programas de devoluci\u00f3n de medicamentos:</u></b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "The preferred way of disposing unused controlled medications is to bring them to community take-back sites near you.",
+                        "Before bringing your medications to take-back sites, use a marker to cover any personal information, such as your name or prescription number. Two medication take-back sites in your community are:"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u8655\u7406\u672a\u4f7f\u7528\u7684\u53d7\u7ba1\u5236\u85e5\u7269\u7684\u9996\u9078\u65b9\u5f0f\u662f\u5c07\u5b83\u5011\u5e36\u5230\u60a8\u9644\u8fd1\u7684\u793e\u5340\u56de\u6536\u9ede\u3002",
+                                "\u5728\u5c07\u85e5\u7269\u5e36\u5230\u56de\u6536\u9ede\u4e4b\u524d\uff0c\u8acb\u4f7f\u7528\u8a18\u865f\u7b46\u5857\u62b9\u6389\u4efb\u4f55\u500b\u4eba\u8cc7\u8a0a\uff0c\u4f8b\u5982\u60a8\u7684\u59d3\u540d\u6216\u8655\u65b9\u865f\u3002\u60a8\u6240\u5728\u793e\u5340\u7684\u5169\u500b\u85e5\u7269\u56de\u6536\u9ede\u662f:"
+                            ],
+                            "Spanish": [
+                                "La mejor forma de desechar los medicamentos controlados sin usar es llevarlos a los sitios de devoluci\u00f3n de la comunidad cerca de su domicilio.",
+                                "Antes de llevar sus medicamentos a los sitios de devoluci\u00f3n, cubra con un marcador cualquier informaci\u00f3n personal, como su nombre o n\u00famero de receta. Los siguientes son dos sitios de devoluci\u00f3n de medicamentos en su comunidad:"
+                            ]
+                        },
+                        "healthfirst": {
+                            "Chinese": [
+                                "\u8655\u7406\u672a\u4f7f\u7528\u7684\u53d7\u7ba1\u5236\u85e5\u7269\u7684\u9996\u9078\u65b9\u5f0f\u662f\u5c07\u85e5\u7269\u5e36\u5230\u5728\u60a8\u9644\u8fd1\u7684\u793e\u5340\u85e5\u7269\u56de\u6536\u670d\u52d9\u9ede\u3002",
+                                "\u5728\u5c07\u85e5\u7269\u5e36\u5230\u56de\u6536\u670d\u52d9\u9ede\u524d\uff0c\u8acb\u7528\u99ac\u514b\u7b46\u5857\u62b9\u6240\u6709\u500b\u4eba\u8cc7\u8a0a\uff0c\u4f8b\u5982\u59d3\u540d\u6216\u8655\u65b9\u85e5\u7269\u865f\u78bc\u3002\u5728\u60a8\u793e\u5340\u4e2d\u7684\u5169\u500b\u85e5\u7269\u56de\u6536\u670d\u52d9\u9ede\uff1a"
+                            ],
+                            "Spanish": [
+                                "La forma preferida de deshacerse de los medicamentos controlados que no se usaron es llevarlos a sitios comunitarios de devoluci\u00f3n cercanos a usted.",
+                                "Antes de llevar sus medicamentos a los sitios de devoluci\u00f3n, use un marcador para cubrir cualquier informaci\u00f3n personal, como su nombre o el n\u00famero de receta. Dos sitios de devoluci\u00f3n de medicamentos en su comunidad son:"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "10%",
+                        "40%",
+                        "40%",
+                        "10%"
+                    ],
+                    "data_source": "table_items",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_items": [
+                        [
+                            {
+                                "string": ""
+                            },
+                            {
+                                "string": "{patient_disposal_sites[0]}"
+                            },
+                            {
+                                "string": "{patient_disposal_sites[1]}"
+                            },
+                            {
+                                "string": ""
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "list": {
+                    "hide_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "simply_prescriptions",
+                        "univera"
+                    ],
+                    "items": [
+                        "The US Drug Enforcement Administration (DEA) allows unused prescription medications to be mailed back to pharmacies or other authorized sites using packages made available at pharmacies or other drug disposal sites. Contact your local pharmacy prior to mailing unused medications.",
+                        "Other medication collection sites in your area and information about medication disposal may be found at the websites below:<br/><b>o</b> &nbsp &nbsp &nbsp Information regarding drug take back: <a href='https://www.deatakeback.com/'><u>https://www.deatakeback.com/</u></a> <br/><b>o</b> &nbsp &nbsp &nbsp Additional take-back sites near you: <a href='https://apps2.deadiversion.usdoj.gov/pubdispsearch/spring/main?execution=e2s1'><u>https://apps2.deadiversion.usdoj.gov/pubdispsearch/spring/main?execution=e2s1</u></a>"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u7f8e\u570b\u7ddd\u6bd2\u7f72 (Drug Enforcement Administration, DEA) \u5141\u8a31\u60a8\u4f7f\u7528\u85e5\u623f\u6216\u5176\u4ed6\u85e5\u7269\u8655\u7406\u9ede\u63d0\u4f9b\u7684\u5305\u88dd\uff0c\u5c07\u672a\u4f7f\u7528\u7684\u8655\u65b9\u85e5\u90f5\u5bc4\u56de\u85e5\u623f\u6216\u5176\u4ed6\u6388\u6b0a\u9ede\u3002\u5728\u90f5\u5bc4\u672a\u4f7f\u7528\u7684\u85e5\u7269\u524d\uff0c\u8acb\u806f\u7d61\u60a8\u7576\u5730\u7684 \u85e5\u623f\u3002",
+                                "\u60a8\u53ef\u5728\u4ee5\u4e0b\u7db2\u7ad9\u627e\u5230\u60a8\u6240\u5728\u5730\u5340\u7684\u5176\u4ed6\u85e5\u7269\u6536\u96c6\u9ede\u548c\u6709\u95dc\u85e5\u7269\u8655\u7406\u7684\u8cc7\u8a0a:<br/><b>o</b> &nbsp &nbsp &nbsp \u6709\u95dc\u85e5\u7269\u56de\u6536\u7684\u8cc7\u8a0a: <u>https://www.deatakeback.com/</u> <br/><b>o</b> &nbsp &nbsp &nbsp \u60a8\u9644\u8fd1\u7684\u5176\u4ed6\u56de\u6536\u9ede: <u>https://apps2.deadiversion.usdoj.gov/pubdispsearch/spring/main?execution=e2s1</u>"
+                            ],
+                            "Spanish": [
+                                "La Administraci\u00f3n para el Control de Drogas (Drug Enforcement Administration, DEA) de los EE.\u00a0UU. permite que los medicamentos con receta sin usar se devuelvan por correo a las farmacias u otros sitios autorizados utilizando paquetes disponibles en las farmacias u otros sitios para la eliminaci\u00f3n de medicamentos. Comun\u00edquese con su farmacia local antes de enviar por correo los medicamentos sin usar.",
+                                "Puede encontrar otros sitios de recolecci\u00f3n de medicamentos en su \u00e1rea e informaci\u00f3n sobre c\u00f3mo desechar los medicamentos en los siguientes sitios web:<br/><b>o</b> &nbsp &nbsp &nbsp Informaci\u00f3n sobre la devoluci\u00f3n de los medicamentos: <u>https://www.deatakeback.com/</u> <br/><b>o</b> &nbsp &nbsp &nbsp Otros sitios de devoluci\u00f3n cerca de su domicilio: <u>https://bit.ly/3guWP4x</u>"
+                            ]
+                        },
+                        "healthfirst": {
+                            "Chinese": [
+                                "\u7f8e\u570b\u7ddd\u6bd2\u5c40\uff08Drug Enforcement Administration\uff0c\u7c21\u7a31DEA\uff09\u5141\u8a31\u4f7f\u7528\u85e5\u623f\u6216\u5176\u4ed6\u85e5\u7269\u8655\u7406\u670d\u52d9\u9ede\u63d0\u4f9b\u7684\u5305\u88dd\u5c07\u672a\u4f7f\u7528\u7684\u8655\u65b9\u85e5\u7269\u90f5\u5bc4\u56de\u85e5\u623f\u6216\u5176\u4ed6\u6388\u6b0a\u670d\u52d9\u9ede\u3002\u5728\u90f5\u5bc4\u672a\u4f7f\u7528\u85e5\u7269\u524d\uff0c\u8acb\u806f\u7d61\u60a8\u7684\u7576\u5730\u85e5\u623f\u3002",
+                                "\u53ef\u5728\u4e0b\u5217\u7db2\u7ad9\u627e\u5230\u5728\u60a8\u9644\u8fd1\u7684\u5176\u4ed6\u85e5\u7269\u6536\u96c6\u9ede\u4ee5\u53ca\u85e5\u7269\u8655\u7406\u76f8\u95dc\u8cc7\u8a0a\uff1a<br/><b>o</b> &nbsp &nbsp &nbsp \u85e5\u7269\u56de\u6536\u76f8\u95dc\u8cc7\u8a0a\uff1a<a href='https://www.deatakeback.com'><u>https://www.deatakeback.com</u></a><br/><b>o</b> &nbsp &nbsp &nbsp \u5728\u60a8\u9644\u8fd1\u7684\u5176\u4ed6\u56de\u6536\u670d\u52d9\u9ede\uff1a<a href='https://bit.ly/3guWP4x'><u>https://bit.ly/3guWP4x</u></a>"
+                            ],
+                            "Spanish": [
+                                "La Administraci\u00f3n de Control de Drogas (DEA) de los Estados Unidos permite que los medicamentos recetados que no se utilicen se env\u00eden por correo a las farmacias u otros sitios autorizados utilizando paquetes disponibles en las farmacias u otros sitios para desechar medicamentos. Comun\u00edquese con su farmacia local antes de enviar por correo los medicamentos que no us\u00f3.",
+                                "Puede encontrar otros sitios de recolecci\u00f3n de medicamentos en su \u00e1rea e informaci\u00f3n sobre la eliminaci\u00f3n de medicamentos en los sitios web a continuaci\u00f3n:<br/><b>o</b> &nbsp &nbsp &nbsp Informaci\u00f3n sobre la devoluci\u00f3n de medicamentos: <a href='https://www.deatakeback.com'><u>https://www.deatakeback.com/</u></a> <br/><b>o</b> &nbsp &nbsp &nbsp Otros lugares para devolver medicamentos cerca de usted: <a href='https://bit.ly/3guWP4x'><u>https://bit.ly/3guWP4x</u></a>"
+                            ]
+                        },
+                        "priority_health": {
+                            "English": [
+                                "The US Drug Enforcement Administration (DEA) allows unused prescription medications to be mailed back to pharmacies or other authorized sites using packages made available at pharmacies or other drug disposal sites. Contact your local pharmacy prior to mailing unused medications.",
+                                "Other medication collection sites in your area and information about medication disposal may be found at the websites below:<br/><b>o</b> &nbsp &nbsp &nbsp Information regarding drug take back: <a href='https://www.deatakeback.com/'><u>https://www.deatakeback.com/</u></a> <br/><b>o</b> &nbsp &nbsp &nbsp Additional take-back sites near you: <a href='https://bit.ly/3guWP4x'><u>https://bit.ly/3guWP4x</u></a>"
+                            ],
+                            "Spanish": [
+                                "La Administraci\u00f3n para el Control de Drogas (Drug Enforcement Administration, DEA) de los EE.\u00a0UU. permite que los medicamentos con receta sin usar se devuelvan por correo a las farmacias u otros sitios autorizados utilizando paquetes disponibles en las farmacias u otros sitios para la eliminaci\u00f3n de medicamentos. Comun\u00edquese con su farmacia local antes de enviar por correo los medicamentos sin usar.",
+                                "Puede encontrar otros sitios de recolecci\u00f3n de medicamentos en su \u00e1rea e informaci\u00f3n sobre c\u00f3mo desechar los medicamentos en los siguientes sitios web:<br/><b>o</b> &nbsp &nbsp &nbsp Informaci\u00f3n sobre la devoluci\u00f3n de los medicamentos: <u>https://www.deatakeback.com/</u> <br/><b>o</b> &nbsp &nbsp &nbsp Otros sitios de devoluci\u00f3n cerca de su domicilio: <u>https://bit.ly/3guWP4x</u>"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "The US Drug Enforcement Administration (DEA) allows unused prescription medications to be mailed back to pharmacies or other authorized sites using packages made available at pharmacies or other drug disposal sites. Contact your local pharmacy prior to mailing unused medications.",
+                        "Other medication collection sites in your area and information about medication disposal may be found at the websites below:<br/><b>o</b> &nbsp &nbsp &nbsp Information regarding drug take back: <font color='#3160BE'><u>https://www.deatakeback.com/</u></font> <br/><b>o</b> &nbsp &nbsp &nbsp Additional take-back sites near you: <font color='#3160BE'><u>https://apps2.deadiversion.usdoj.gov/pubdispsearch/spring/main?execution=e2s1</u></font>"
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u7f8e\u570b\u7ddd\u6bd2\u7f72 (Drug Enforcement Administration, DEA) \u5141\u8a31\u60a8\u4f7f\u7528\u85e5\u623f\u6216\u5176\u4ed6\u85e5\u7269\u8655\u7406\u9ede\u63d0\u4f9b\u7684\u5305\u88dd\uff0c\u5c07\u672a\u4f7f\u7528\u7684\u8655\u65b9\u85e5\u90f5\u5bc4\u56de\u85e5\u623f\u6216\u5176\u4ed6\u6388\u6b0a\u9ede\u3002\u5728\u90f5\u5bc4\u672a\u4f7f\u7528\u7684\u85e5\u7269\u524d\uff0c\u8acb\u806f\u7d61\u60a8\u7576\u5730\u7684 \u85e5\u623f\u3002",
+                                "\u60a8\u53ef\u5728\u4ee5\u4e0b\u7db2\u7ad9\u627e\u5230\u60a8\u6240\u5728\u5730\u5340\u7684\u5176\u4ed6\u85e5\u7269\u6536\u96c6\u9ede\u548c\u6709\u95dc\u85e5\u7269\u8655\u7406\u7684\u8cc7\u8a0a:<br/><b>o</b> &nbsp &nbsp &nbsp \u6709\u95dc\u85e5\u7269\u56de\u6536\u7684\u8cc7\u8a0a: <font color='#3160BE'><u>https://www.deatakeback.com/</u></font> <br/><b>o</b> &nbsp &nbsp &nbsp \u60a8\u9644\u8fd1\u7684\u5176\u4ed6\u56de\u6536\u9ede: <font color='#3160BE'><u>https://apps2.deadiversion.usdoj.gov/pubdispsearch/spring/main?execution=e2s1</u></font>"
+                            ],
+                            "Spanish": [
+                                "La Administraci\u00f3n para el Control de Drogas (Drug Enforcement Administration, DEA) de los EE.\u00a0UU. permite que los medicamentos con receta sin usar se devuelvan por correo a las farmacias u otros sitios autorizados utilizando paquetes disponibles en las farmacias u otros sitios para la eliminaci\u00f3n de medicamentos. Comun\u00edquese con su farmacia local antes de enviar por correo los medicamentos sin usar.",
+                                "Puede encontrar otros sitios de recolecci\u00f3n de medicamentos en su \u00e1rea e informaci\u00f3n sobre c\u00f3mo desechar los medicamentos en los siguientes sitios web:<br/><b>o</b> &nbsp &nbsp &nbsp Informaci\u00f3n sobre la devoluci\u00f3n de los medicamentos: <font color='#3160BE'><u>https://www.deatakeback.com/</u></font> <br/><b>o</b> &nbsp &nbsp &nbsp Otros sitios de devoluci\u00f3n cerca de su domicilio: <font color='#3160BE'><u>https://apps2.deadiversion.usdoj.gov/pubdispsearch/spring/main?execution=e2s1</u></font>"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet"
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "simply_prescriptions",
+                        "univera"
+                    ],
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b><u>Other Ways to Dispose of Medications:</u></b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b><u>\u5176\u4ed6\u85e5\u7269\u8655\u7406\u65b9\u6cd5:</u></b>",
+                            "Spanish": "<b><u>Otras formas de deshacerse de los medicamentos:</u></b>"
+                        },
+                        "healthfirst": {
+                            "Chinese": "<b><u>\u8655\u7406\u85e5\u7269\u7684\u5176\u4ed6\u65b9\u5f0f\uff1a</u></b>",
+                            "Spanish": "<b><u>Otros modos de desechar medicamentos:</u></b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "hide_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "simply_prescriptions",
+                        "univera"
+                    ],
+                    "items": [
+                        "Remove the medications from their original containers and mix them with something undesirable, such as used coffee grounds, dirt, or cat litter.",
+                        "Put the mixture in something you can close, such as a zip-lock bag, to prevent the medicine from spilling out. Then throw the container in the trash.",
+                        "Some prescription medications may be safely flushed. Please visit <a href='https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know/drug-disposal-fdas-flush-list-certain-medicines'><u>https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know/drug-disposal-fdas-flush-list-certain-medicines </u></a> for a list of flushable medications.",
+                        "If you have any questions about your medications, ask your doctor or pharmacist."
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u5f9e\u539f\u4f86\u7684\u5bb9\u5668\u4e2d\u53d6\u51fa\u85e5\u7269\uff0c\u5c07\u5176\u8207\u4e0d\u9700\u8981\u7684\u6771\u897f\u6df7\u5408\uff0c\u5982\u7528\u904e\u7684\u5496\u5561\u6e23\u3001\u6ce5\u571f\u6216\u8c93\u7802\u3002",
+                                "\u5c07\u6df7\u5408\u7269\u653e\u5165\u53ef\u4ee5\u5c01\u9589\u7684\u5bb9\u5668(\u4f8b\u5982\u4e00\u500b\u62c9\u93c8\u888b)\u5167\uff0c\u4ee5\u9632\u6b62\u85e5\u7269\u6ea2\u51fa\u3002\u7136\u5f8c\u5c07\u5bb9\u5668\u6254\u9032 \u5783\u573e\u6876\u3002",
+                                "\u67d0\u4e9b\u8655\u65b9\u85e5\u53ef\u4ee5\u5b89\u5168\u5730\u6c96\u8d70\u3002\u8acb\u700f\u89bd <u>https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know/drug-disposal-fdas-flush-list-certain-medicines</u> \u67e5\u770b\u53ef\u6c96\u8d70\u7684\u85e5\u7269\u6e05\u55ae\u3002",
+                                "\u5982\u679c\u60a8\u5c0d\u85e5\u7269\u6709\u4efb\u4f55\u7591\u554f\uff0c\u8acb\u8aee\u8a62\u60a8\u7684\u91ab\u751f\u6216\u85e5\u5291\u5e2b\u3002"
+                            ],
+                            "Spanish": [
+                                "Retire los medicamentos de sus envases originales y m\u00e9zclelos con alguna sustancia desagradable, como granos de caf\u00e9 usados, tierra o arena sanitaria para gatos.",
+                                "Coloque la mezcla en alg\u00fan contenedor que pueda cerrar como una bolsa con cierre herm\u00e9tico, para evitar que el medicamento se derrame. Luego, tire el recipiente a la basura.",
+                                "Algunos medicamentos recetados pueden desecharse por el inodoro de manera segura. Ingrese en link <u>https://bit.ly/3TmFnO2</u> para obtener un listado de los medicamentos que se pueden desechar por el inodoro.",
+                                "Si tiene alguna pregunta sobre sus medicamentos, consulte a su m\u00e9dico o farmac\u00e9utico."
+                            ]
+                        },
+                        "healthfirst": {
+                            "Chinese": [
+                                "\u5f9e\u539f\u5305\u88dd\u5bb9\u5668\u4e2d\u53d6\u51fa\u85e5\u7269\uff0c\u4e26\u5c07\u85e5\u7269\u8207\u4e0d\u53d7\u6b61\u8fce\u7684\u7269\u8cea\uff08\u4f8b\u5982\u5496\u5561\u6e23\u3001\u6ce5\u571f\u6216\u8c93\u7802\uff09\u6df7\u5408\u5728\u4e00\u8d77\u3002",
+                                "\u5c07\u6df7\u5408\u7269\u653e\u5165\u80fd\u5bc6\u5c01\u7684\u5bb9\u5668\u4e2d\uff08\u4f8b\u5982\u62c9\u934a\u888b\uff09\u4ee5\u9632\u85e5\u7269\u6389\u51fa\u3002\u7136\u5f8c\u5c07\u539f\u5305\u88dd\u5bb9\u5668\u6254\u9032\u5783\u573e\u6876\u3002",
+                                "\u6709\u4e9b\u8655\u65b9\u85e5\u7269\u53ef\u5b89\u5168\u5730\u6254\u5230\u99ac\u6876\u88e1\u7528\u6c34\u6c96\u8d70\u3002\u5982\u8981\u67e5\u770b\u53ef\u6254\u5230\u99ac\u6876\u88e1\u7528\u6c34\u6c96\u8d70\u7684\u85e5\u7269\u5217\u8868\uff0c\u8acb\u700f\u89bd <u>https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know/drug-disposal-fdas-flush-list-certain-medicines</u>\u3002",
+                                "\u5982\u679c\u60a8\u5c0d\u85e5\u7269\u6709\u4efb\u4f55\u7591\u554f\uff0c\u8acb\u8a62\u554f\u60a8\u7684\u91ab\u751f\u6216\u85e5\u5291\u5e2b\u3002"
+                            ],
+                            "Spanish": [
+                                "Saque los medicamentos de sus envases originales y m\u00e9zclelos con algo indeseable, como tierra, borra de caf\u00e9 o arena sanitaria para gatos.",
+                                "Coloque la mezcla en un recipiente que pueda cerrar, como una bolsa con cierre zip-lock, para evitar que el medicamento se derrame. A continuaci\u00f3n, bote el recipiente en la basura.",
+                                "Algunos medicamentos recetados se pueden desechar de forma segura en el inodoro. Para una lista de los medicamentos que puede desechar por el inodoro, visite:  <u>https://bit.ly/3TmFnO2</u>.",
+                                "Si tiene alguna pregunta sobre sus medicamentos, consulte a su m\u00e9dico o farmac\u00e9utico."
+                            ]
+                        },
+                        "priority_health": {
+                            "English": [
+                                "Remove the medications from their original containers and mix them with something undesirable, such as used coffee grounds, dirt, or cat litter.",
+                                "Put the mixture in something you can close, such as a zip-lock bag, to prevent the medicine from spilling out. Then throw the container in the trash.",
+                                "Some prescription medications may be safely flushed. Please visit <a href='https://bit.ly/3TmFnO2'><u> https://bit.ly/3TmFnO2 </u></a> for a list of flushable medications.",
+                                "If you have any questions about your medications, ask your doctor or pharmacist."
+                            ],
+                            "Spanish": [
+                                "Retire los medicamentos de sus envases originales y m\u00e9zclelos con alguna sustancia desagradable, como granos de caf\u00e9 usados, tierra o arena sanitaria para gatos.",
+                                "Coloque la mezcla en alg\u00fan contenedor que pueda cerrar como una bolsa con cierre herm\u00e9tico, para evitar que el medicamento se derrame. Luego, tire el recipiente a la basura.",
+                                "Algunos medicamentos recetados pueden desecharse por el inodoro de manera segura. Ingrese en <u>https://bit.ly/3TmFnO2</u> para obtener un listado de los medicamentos que se pueden desechar por el inodoro.",
+                                "Si tiene alguna pregunta sobre sus medicamentos, consulte a su m\u00e9dico o farmac\u00e9utico."
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceBefore": 14
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Remove the medications from their original containers and mix them with something undesirable, such as used coffee grounds, dirt, or cat litter.",
+                        "Put the mixture in something you can close, such as a zip-lock bag, to prevent the medicine from spilling out. Then throw the container in the trash.",
+                        "Some prescription medications may be safely flushed. Please visit <font color='#3160BE'><u>https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know/drug-disposal-fdas-flush-list-certain-medicines</u></font> for a list of flushable medications.",
+                        "If you have any questions about your medications, ask your doctor or pharmacist."
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u5f9e\u539f\u4f86\u7684\u5bb9\u5668\u4e2d\u53d6\u51fa\u85e5\u7269\uff0c\u5c07\u5176\u8207\u4e0d\u9700\u8981\u7684\u6771\u897f\u6df7\u5408\uff0c\u5982\u7528\u904e\u7684\u5496\u5561\u6e23\u3001\u6ce5\u571f\u6216\u8c93\u7802\u3002",
+                                "\u5c07\u6df7\u5408\u7269\u653e\u5165\u53ef\u4ee5\u5c01\u9589\u7684\u5bb9\u5668(\u4f8b\u5982\u4e00\u500b\u62c9\u93c8\u888b)\u5167\uff0c\u4ee5\u9632\u6b62\u85e5\u7269\u6ea2\u51fa\u3002\u7136\u5f8c\u5c07\u5bb9\u5668\u6254\u9032 \u5783\u573e\u6876\u3002",
+                                "\u67d0\u4e9b\u8655\u65b9\u85e5\u53ef\u4ee5\u5b89\u5168\u5730\u6c96\u8d70\u3002\u8acb\u700f\u89bd <font color='#3160BE'><u>https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know/drug-disposal-fdas-flush-list-certain-medicines</u></font> \u67e5\u770b\u53ef\u6c96\u8d70\u7684\u85e5\u7269\u6e05\u55ae\u3002",
+                                "\u5982\u679c\u60a8\u5c0d\u85e5\u7269\u6709\u4efb\u4f55\u7591\u554f\uff0c\u8acb\u8aee\u8a62\u60a8\u7684\u91ab\u751f\u6216\u85e5\u5291\u5e2b\u3002"
+                            ],
+                            "Spanish": [
+                                "Retire los medicamentos de sus envases originales y m\u00e9zclelos con alguna sustancia desagradable, como granos de caf\u00e9 usados, tierra o arena sanitaria para gatos.",
+                                "Coloque la mezcla en alg\u00fan contenedor que pueda cerrar como una bolsa con cierre herm\u00e9tico, para evitar que el medicamento se derrame. Luego, tire el recipiente a la basura.",
+                                "Algunos medicamentos recetados pueden desecharse por el inodoro de manera segura. Ingrese en link <font color='#3160BE'><u>https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know/drug-disposal-fdas-flush-list-certain-medicines</u></font> para obtener un listado de los medicamentos que se pueden desechar por el inodoro.",
+                                "Si tiene alguna pregunta sobre sus medicamentos, consulte a su m\u00e9dico o farmac\u00e9utico."
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "spaceBefore": 14
+                    },
+                    "list_item_attributes": {
+                        "spaceAfter": 2,
+                        "spaceBefore": 2
+                    },
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "simply_prescriptions",
+                        "univera"
+                    ],
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "simply_prescriptions",
+                        "univera"
+                    ],
+                    "string": "For additional information on the safe disposal of medications, please contact your local pharmacy, police department or visit: <a href='www.hhs.gov/opioids/prevention/safely-dispose-drugs/index.html'><u>  www.hhs.gov/opioids/prevention/safely-dispose-drugs/index.html </u></a>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5982\u9700\u7372\u53d6\u6709\u95dc\u5b89\u5168\u8655\u7406\u85e5\u7269\u7684\u5176\u4ed6\u8cc7\u8a0a\uff0c\u8acb\u806f\u7d61\u60a8\u7576\u5730\u7684\u85e5\u5e97\u3001\u8b66\u7f72\uff0c\u6216\u700f\u89bd: <u>www.hhs.gov/opioids/prevention/safely-dispose-drugs/index.html</u>",
+                            "Spanish": "Para obtener m\u00e1s informaci\u00f3n sobre la eliminaci\u00f3n segura de los medicamentos, comun\u00edquese con su farmacia local, con el departamento de polic\u00eda o ingrese en: <u>www.hhs.gov/opioids/prevention/safely-dispose-drugs/index.html</u>"
+                        },
+                        "healthfirst": {
+                            "Chinese": "\u5982\u9700\u5b89\u5168\u8655\u7406\u85e5\u7269\u7684\u66f4\u591a\u8cc7\u8a0a\uff0c\u8acb\u806f\u7d61\u60a8\u7684\u7576\u5730\u85e5\u623f\u6216\u8b66\u5bdf\u5c40\uff0c\u4e5f\u53ef\u700f\u89bd: <u>https://www.hhs.gov/opioids/prevention/safely-dispose-drugs/index.html</u>\u3002",
+                            "Spanish": "Para informaci\u00f3n adicional sobre la forma segura de desechar medicamentos, comun\u00edquese con su farmacia local o el departamento de polic\u00eda, o visite: <a href='https://www.hhs.gov/opioids/prevention/safely-dispose-drugs/index.html'><u>https://www.hhs.gov/opioids/prevention/safely-dispose-drugs/index.html</u></a>."
+                        },
+                        "priority_health": {
+                            "English": "For additional information on the safe disposal of medications, please contact your local pharmacy, police department or visit: <a href='https://bit.ly/3TKrglA'><u> https://bit.ly/3TKrglA </u></a>",
+                            "Spanish": "Para obtener m\u00e1s informaci\u00f3n sobre la eliminaci\u00f3n segura de los medicamentos, comun\u00edquese con su farmacia local, con el departamento de polic\u00eda o ingrese en: <u>https://bit.ly/3TKrgIA</u>"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "simply_prescriptions",
+                        "univera"
+                    ],
+                    "string": "For additional information on the safe disposal of medications, please contact your local pharmacy, police department or visit: <font color='#3160BE'><u>www.hhs.gov/opioids/prevention/safely-dispose-drugs/index.html</u></font>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5982\u9700\u7372\u53d6\u6709\u95dc\u5b89\u5168\u8655\u7406\u85e5\u7269\u7684\u5176\u4ed6\u8cc7\u8a0a\uff0c\u8acb\u806f\u7d61\u60a8\u7576\u5730\u7684\u85e5\u5e97\u3001\u8b66\u7f72\uff0c\u6216\u700f\u89bd: <font color='#3160BE'><u>www.hhs.gov/opioids/prevention/safely-dispose-drugs/index.html</u></font>",
+                            "Spanish": "Para obtener m\u00e1s informaci\u00f3n sobre la eliminaci\u00f3n segura de los medicamentos, comun\u00edquese con su farmacia local, con el departamento de polic\u00eda o ingrese en: <font color='#3160BE'><u>www.hhs.gov/opioids/prevention/safely-dispose-drugs/index.html</u></font>"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "show_for": [
+                        "priority_health",
+                        "excellus",
+                        "excellus_dsnp",
+                        "simply_prescriptions",
+                        "univera",
+                        "cambia"
+                    ],
+                    "x": 36,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "hide_for": [
+                        "priority_health",
+                        "univera",
+                        "excellus",
+                        "excellus_dsnp",
+                        "simply_prescriptions",
+                        "select_health",
+                        "medigold",
+                        "prominence",
+                        "allcare",
+                        "cambia"
+                    ],
+                    "x": 576,
+                    "y": 760
+                }
+            },
+            {
+                "text": {
+                    "height": 40,
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "simply_prescriptions",
+                        "univera"
+                    ],
+                    "string": "<font color='#3160BE'>excellusbcbs.com</font>",
+                    "string_replacements": {
+                        "simply_prescriptions": {
+                            "English": "<font color='#3160BE'>simplyprescriptions.com</font>"
+                        },
+                        "univera": {
+                            "English": "<font color='#3160BE'>univerahealthcare.com</font>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 160,
+                    "x": 416,
+                    "y": 718
+                }
+            },
+            {
+                "text": {
+                    "height": 5,
+                    "show_for": [
+                        "aloha"
+                    ],
+                    "string": "H5969_002_MTM0032401_C<br/>H5969_003_MTM0032401_C",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 15,
+                    "show_for": [
+                        "excellus"
+                    ],
+                    "string": "<br/>Y0028_9949_C",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 400,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 5,
+                    "show_for": [
+                        "excellus_dsnp"
+                    ],
+                    "string": "H7524_0602_C",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 400,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 30,
+                    "show_for": [
+                        "priority_health"
+                    ],
+                    "string": "1231 East Beltline Ave, NE<br/>Grand Rapids, MI 49525 ",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 150,
+                    "x": 426,
+                    "y": 726
+                }
+            },
+            {
+                "text": {
+                    "height": 15,
+                    "show_for": [
+                        "priority_health"
+                    ],
+                    "string": "616.942.0954<br/> 800.942.0954<br/><i>priorityhealth.com</i>",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 150,
+                    "x": 426,
+                    "y": 706
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "priority_health"
+                    ],
+                    "string": "{hotline_name} complies with applicable Federal civil rights laws and does not discriminate on the basis of race, color, national origin, age, disability, or sex.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontName": "Lato-italic",
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 36
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "scan"
+                    ],
+                    "string": "Y0057_SCAN_12899_2021_C IA 12292021",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "ignore_large_font": true,
+                    "show_for": [
+                        "univera",
+                        "prominence"
+                    ],
+                    "string": "A nonprofit independent licensee of the Blue Cross Blue Shield Association <br/> Y0028_9254_C",
+                    "string_replacements": {
+                        "prominence": {
+                            "English": "Y0109_MTMLTR1_24_C",
+                            "Spanish": "Y0109_MTMLTR1_24_C"
+                        },
+                        "univera": {
+                            "Chinese": "<br/>Y0028_9948_C",
+                            "English": "<br/>Y0028_9948_C",
+                            "Spanish": "<br/>Y0028_9948_C"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 400,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "ignore_large_font": true,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 30,
+                    "show_for": [
+                        "aloha"
+                    ],
+                    "string": "AlohaCare Advantage Plus/AlohaCare Advantage (HMO D-SNP) is an HMO D-SNP with a Medicare contract and a contract with the Hawai`i Medicaid Program. Enrollment in AlohaCare Advantage Plus/AlohaCare Advantage depends on contract renewal.",
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "center"
+                    },
+                    "width": 520,
+                    "x": 25,
+                    "y": 26
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "scan"
+                    ],
+                    "string": "M2130 12/21",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 9,
+                        "text_alignment": "center"
+                    },
+                    "width": 200,
+                    "x": 386,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 22,
+                    "show_for": [
+                        "simply_prescriptions"
+                    ],
+                    "string": "S3521_9937_C",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 9,
+                        "text_alignment": "left"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 18
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "priority_health"
+                    ],
+                    "string": "Y0056_NCMS400040012427AB_C 08292023",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 26
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "cambia"
+                    ],
+                    "string": "Y0062_2025_RX061_C",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 10,
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 26
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "priority_health"
+                    ],
+                    "string": "12719C &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 08/23",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 10,
+                    "y": 26
+                }
+            },
+            {
+                "text": {
+                    "height": 15,
+                    "show_for": [
+                        "mvp_health"
+                    ],
+                    "string": "<br/>Y0051_0303_C",
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    },
+                    "width": 400,
+                    "x": 36,
+                    "y": 30
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "ignore_large_font": true,
+                    "show_for": [
+                        "healthfirst"
+                    ],
+                    "string": "",
+                    "string_replacements": {
+                        "healthfirst": {
+                            "Chinese": "1121-24_CH",
+                            "English": "",
+                            "Spanish": "1121-24_SP"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "left"
+                    },
+                    "width": 200,
+                    "x": 40,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 18,
+                "left": 36,
+                "right": 36,
+                "top": 66
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "FooterText": {
+                    "fontName": "Lato-italic",
+                    "fontSize": 8,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 11,
+                    "textColor": "gray"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 13,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 14,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-04-09T01:33:59"
+}

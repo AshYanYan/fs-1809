@@ -1,0 +1,480 @@
+PDF Template ID	PDF Template Name	DOC ID VARIABLE
+52a5797f-c925-4d1e-86a8-b9f16aa58dba	CL_HRHC_BCBSVT	YES
+52a5797f-c925-4d1e-86a8-b9f16aa58dba	CL_HRHC_BCBSVT	YES
+bac2bcde-c30c-4a5e-a3f7-cd16a542a0e7	PA_batch+followup_ADAP_PA	YES
+bac2bcde-c30c-4a5e-a3f7-cd16a542a0e7	PA_batch+followup_ADAP_PA	YES
+7afe3ae9-fc09-4049-a64f-ca4bee4a8004	UHC_CL	YES
+7afe3ae9-fc09-4049-a64f-ca4bee4a8004	UHC_CL	YES
+1edb3296-599d-4b17-8738-895c84087509	Test_Hours_of_Operations	YES
+1edb3296-599d-4b17-8738-895c84087509	Test_Hours_of_Operations	YES
+0ab706ee-7914-469c-90ab-bb3317a9ca64	CL_MTM_Unified	YES
+0ab706ee-7914-469c-90ab-bb3317a9ca64	CL_MTM_Unified	YES
+0ab706ee-7914-469c-90ab-bb3317a9ca64	CL_MTM_Unified	YES
+c4047de1-c160-4500-8bdf-53bb15b9259e	pcp_qual_adh_centene_demo	YES
+c4047de1-c160-4500-8bdf-53bb15b9259e	pcp_qual_adh_centene_demo	YES
+c3134fef-f131-41b0-914b-286002228d61	PCP_PML_MTM_general_SHANE_TESTING_FS-1312	YES
+f4b9f513-54ad-47e5-8a3b-65decabd0a99	PCP_TMR_ESI	YES
+f4b9f513-54ad-47e5-8a3b-65decabd0a99	PCP_TMR_ESI	YES
+3c929cc2-3d40-41ee-86d3-fbf7da5a7556	SDL_MTM_priority	YES
+ac947eef-e39b-40b6-9a04-84cd8d384d8a	BSC_SPC_TMR	YES
+ac947eef-e39b-40b6-9a04-84cd8d384d8a	BSC_SPC_TMR	YES
+0cec2fe9-5a97-4ee5-a5cc-99e9a63a0f9f	SDL_MTM_VNS	YES
+1a44050e-7a77-41a7-9df6-b88b471ad377	Welcome_MTM_ESI_DocuSend	YES
+1a44050e-7a77-41a7-9df6-b88b471ad377	Welcome_MTM_ESI_DocuSend	YES
+8b3f570e-6f98-4451-936b-c9bc72b4fe96	Welcome_MTM_allcare	YES
+8b3f570e-6f98-4451-936b-c9bc72b4fe96	Welcome_MTM_allcare	YES
+65349c3b-5ea4-409f-9e4b-9d68330a9e95	Welcome_HRHC_BCBSVT	YES
+65349c3b-5ea4-409f-9e4b-9d68330a9e95	Welcome_HRHC_BCBSVT	YES
+28107700-9704-48fc-abba-07c1dba171b7	pcp_urg_ecg	YES
+a89cc40e-7c93-44f8-a620-22b46b4af19f	MTM_PCP_TMR	YES
+a89cc40e-7c93-44f8-a620-22b46b4af19f	MTM_PCP_TMR	YES
+1949e0de-1999-4cb1-b3d0-f14707f82477	CL_GRACE	YES
+1949e0de-1999-4cb1-b3d0-f14707f82477	CL_GRACE	YES
+52aceab5-abe6-4515-a13b-0bf20ac10ccf	PML_QUAL	YES
+52aceab5-abe6-4515-a13b-0bf20ac10ccf	PML_QUAL	YES
+90f593d9-a8da-4e48-9690-34d5e7a276b3	FollowUp_MTM_VNS_DocuSend	YES
+90f593d9-a8da-4e48-9690-34d5e7a276b3	FollowUp_MTM_VNS_DocuSend	YES
+a36ab633-8868-4415-a84a-1d67a8c05515	CL_MTM_docusend (DO NOT USE.. IS THIS A BACKUP?)	YES
+a36ab633-8868-4415-a84a-1d67a8c05515	CL_MTM_docusend (DO NOT USE.. IS THIS A BACKUP?)	YES
+521965aa-e785-422b-951d-3ed403e2bb0b	mock CL	YES
+521965aa-e785-422b-951d-3ed403e2bb0b	mock CL	YES
+348bdec0-5fd0-4b81-99dd-d848e6c4b12a	TEST MANUAL QA TEMPLATE	YES
+29822d58-5fd7-47c4-80b6-adb8d46cd19a	PCP_ADH_QUAL_Cambia	YES
+29822d58-5fd7-47c4-80b6-adb8d46cd19a	PCP_ADH_QUAL_Cambia	YES
+a586718b-15eb-4e38-b846-56a9c117b15e	PCP_TMR	YES
+a586718b-15eb-4e38-b846-56a9c117b15e	PCP_TMR	YES
+f69df3de-44ad-4533-8cf5-3dfbd5d01dd8	MAP_QUAL	YES
+f69df3de-44ad-4533-8cf5-3dfbd5d01dd8	MAP_QUAL	YES
+c2d56d82-f9a6-4ab3-b44f-dd84809175dd	PCP_TMR_excellus_unified	YES
+c2d56d82-f9a6-4ab3-b44f-dd84809175dd	PCP_TMR_excellus_unified	YES
+02eff0ce-7d9f-485a-a17e-034c2240699e	Welcome_MTM_Priority_Health	YES
+02eff0ce-7d9f-485a-a17e-034c2240699e	Welcome_MTM_Priority_Health	YES
+5ca95a36-d653-47ef-bece-c651d9c0277c	PCP_PML_QUAL_general	YES
+408f0a44-62d1-4eaa-b364-1f7347927056	PCP_PML_MTM_general	YES
+1cbfae78-cb14-4f90-8bec-b2884a3369fe	PCP_PML_QUAL_BCBSNC	YES
+1cbfae78-cb14-4f90-8bec-b2884a3369fe	PCP_PML_QUAL_BCBSNC	YES
+e74061d1-2866-431f-8c95-13590d8bf72d	PCP DMP Provider Notification (No POT) (ESI 2025)	YES
+e74061d1-2866-431f-8c95-13590d8bf72d	PCP DMP Provider Notification (No POT) (ESI 2025)	YES
+557f0fc9-1cf6-4481-aea5-5d6b806417ef	PA_batch+followup_SelectHealth	YES
+557f0fc9-1cf6-4481-aea5-5d6b806417ef	PA_batch+followup_SelectHealth	YES
+1d8b99d2-c2ed-460c-9ef7-81c18cbf7359	BSC_Outreach_no_sig	YES
+1d8b99d2-c2ed-460c-9ef7-81c18cbf7359	BSC_Outreach_no_sig	YES
+fa5c3e49-7956-4786-a772-e58b8813aa8f	Cambia_OMW	YES
+fa5c3e49-7956-4786-a772-e58b8813aa8f	Cambia_OMW	YES
+33fcd88a-1eee-4a12-93ac-994ebcd7b461	Sample Template 3-QA	YES
+d428fdd7-f531-43fb-958f-e08b2fb4fd24	Welcome_Letter_UHC	YES
+d428fdd7-f531-43fb-958f-e08b2fb4fd24	Welcome_Letter_UHC	YES
+a60c3e09-6abe-4e73-9ae2-ff2136dd1b6b	PCP_PML_CMM_general	YES
+a87e763d-c591-45a5-b019-eb545fcb0c51	CL_QUAL_Cambia	YES
+a87e763d-c591-45a5-b019-eb545fcb0c51	CL_QUAL_Cambia	YES
+f22bb8a7-b8ab-4495-8382-8ef44788e831	CL_HRHC_Cambia	YES
+f22bb8a7-b8ab-4495-8382-8ef44788e831	CL_HRHC_Cambia	YES
+eba3a4d9-95bf-48bb-bba6-5eabd10ef965	Test_Dynamic_Quality	YES
+43f33950-ebfc-439c-96c5-a1b29e720471	Welcome_MTM_MVP	YES
+43f33950-ebfc-439c-96c5-a1b29e720471	Welcome_MTM_MVP	YES
+5a8320af-e14f-4205-b258-578e67c8ccdf	PA_batch+followup_Magellan_PHP	YES
+5a8320af-e14f-4205-b258-578e67c8ccdf	PA_batch+followup_Magellan_PHP	YES
+878f5d99-f722-46be-bae4-5c155d355a30	CL_MTM_get_item_error	YES
+878f5d99-f722-46be-bae4-5c155d355a30	CL_MTM_get_item_error	YES
+2e8d320b-c703-46e0-a8b4-55ea2ed7bc14	CL_QUAL_Viva	YES
+059f5e9b-e6d1-446c-87b9-0c48af571795	CL_QUAL_Cambia_docusend	YES
+059f5e9b-e6d1-446c-87b9-0c48af571795	CL_QUAL_Cambia_docusend	YES
+b0f273c9-2c67-4f89-8e08-f650197db430	Welcome_MTM_scan	YES
+c2cc6002-eb73-48ee-af04-56ac51664236	DMP Initial Notice (ESI 2025 / Standard Footer)	YES
+c2cc6002-eb73-48ee-af04-56ac51664236	DMP Initial Notice (ESI 2025 / Standard Footer)	YES
+49a8944a-07a5-42eb-b7a7-77a611c0a44d	PCP_HEALTH_FIRST_COPY	YES
+d74e11d7-0bc7-421e-bf96-e99a8a352acc	Welcome_MTM_excellus	YES
+d74e11d7-0bc7-421e-bf96-e99a8a352acc	Welcome_MTM_excellus	YES
+83ddc7d3-7ea6-43a7-b4d7-8eda2af84eaa	Welcome_MTM_Cambia	YES
+5288e04f-fb1b-4c83-b316-42da5f87653e	TEST TEMPLATE 1	YES
+4c7374f4-3f23-45fa-b270-b6b569b73888	MTM_SDL_IEHP	YES
+4c7374f4-3f23-45fa-b270-b6b569b73888	MTM_SDL_IEHP	YES
+b5e1ba73-7b5b-4117-b2cf-9067d2f79260	MAP_HRHC_general	YES
+b5e1ba73-7b5b-4117-b2cf-9067d2f79260	MAP_HRHC_general	YES
+ad9ac321-ae7a-4ae5-8b87-9cc0fd0ba25e	PCP_QUAL_ADH_Quality_Prospect	YES
+ad9ac321-ae7a-4ae5-8b87-9cc0fd0ba25e	PCP_QUAL_ADH_Quality_Prospect	YES
+22428eb1-8288-44db-b963-9b3c5957a444	PCP_ADH_QUAL_CareOregon	YES
+22428eb1-8288-44db-b963-9b3c5957a444	PCP_ADH_QUAL_CareOregon	YES
+6e1a70c4-c14e-4c64-b3f5-21cdcf2deda1	PCP DMP No Claim Edit (ESI 2025)	YES
+6e1a70c4-c14e-4c64-b3f5-21cdcf2deda1	PCP DMP No Claim Edit (ESI 2025)	YES
+a759d768-51bd-49d2-a3ee-7ec697b9403f	PA_batch+followup_ElderPlan	YES
+a759d768-51bd-49d2-a3ee-7ec697b9403f	PA_batch+followup_ElderPlan	YES
+6ba573f5-37b7-4f67-8e8e-74f242557967	Welcome_MTM_Healthfirst	YES
+6ba573f5-37b7-4f67-8e8e-74f242557967	Welcome_MTM_Healthfirst	YES
+0b2f7612-bb8d-4251-a68a-6a410d80d8b7	PCP_QUAL_ADH_Quality_Excellus_Priority	YES
+0b2f7612-bb8d-4251-a68a-6a410d80d8b7	PCP_QUAL_ADH_Quality_Excellus_Priority	YES
+76f4f1ce-c232-4ed6-80b0-723ba4030780	Welcome_Letter_Viva	YES
+76f4f1ce-c232-4ed6-80b0-723ba4030780	Welcome_Letter_Viva	YES
+a75d04f5-15a1-478e-9a98-c505e1cdfad1	PML_GRACE	YES
+8bb9ab9c-949d-4eeb-8aff-8009e0df2424	MTM_CL_IEHP	YES
+8bb9ab9c-949d-4eeb-8aff-8009e0df2424	MTM_CL_IEHP	YES
+db5d90b8-5da4-44bf-b729-b05a2fa5be14	CL_QUAL_BCBSNC	YES
+f1ba327d-327d-46fc-a3c4-e7fd6660f2fe	Welcome_MTM_icare	YES
+f1ba327d-327d-46fc-a3c4-e7fd6660f2fe	Welcome_MTM_icare	YES
+dd7c044c-5441-41f5-87b9-e2331a2ad486	PML_QUAL_Cambia	YES
+dd7c044c-5441-41f5-87b9-e2331a2ad486	PML_QUAL_Cambia	YES
+777ab27b-611c-45ee-b56c-10b224c92efd	MAP_CMM	YES
+ed5c4df7-0a28-49f9-a790-4db752f133f2	PCP_ADH_QUAL_Prospect	YES
+ed5c4df7-0a28-49f9-a790-4db752f133f2	PCP_ADH_QUAL_Prospect	YES
+1d0983ff-9e58-4084-b9ef-3204b7f9f3ce	CL_HRHC_general	YES
+1d0983ff-9e58-4084-b9ef-3204b7f9f3ce	CL_HRHC_general	YES
+7427d387-6ba2-473f-81e5-f29ab1661981	Test Template 1	YES
+1e3785a2-a8c9-4425-aacb-61ee40b543a4	PA_batch+followup_ADAP_ID	YES
+1e3785a2-a8c9-4425-aacb-61ee40b543a4	PA_batch+followup_ADAP_ID	YES
+6fbb373d-1fa7-4d7c-8ada-be7234ef3816	CL_MTM_NEW_07-21	YES
+6fbb373d-1fa7-4d7c-8ada-be7234ef3816	CL_MTM_NEW_07-21	YES
+8219d59d-dd5a-4bd1-9b25-b77741fde6de	PCP_QUAL_ADH_Quality_Cambia	YES
+8219d59d-dd5a-4bd1-9b25-b77741fde6de	PCP_QUAL_ADH_Quality_Cambia	YES
+b080ba3b-1120-4b80-860c-fb8d8e57c0e7	Dev-admin-Test 1 template	YES
+57a5ca11-481d-4249-b0a6-5a9f822dc8a9	PCP_TDL_HRHC_general	YES
+57a5ca11-481d-4249-b0a6-5a9f822dc8a9	PCP_TDL_HRHC_general	YES
+37c68c4e-d581-416e-a0cd-6a6e52010a9e	Welcome_HRHC_Kaiser_DocuSend	YES
+37c68c4e-d581-416e-a0cd-6a6e52010a9e	Welcome_HRHC_Kaiser_DocuSend	YES
+1a8019d9-fdba-44c9-86e9-2d8aa24e3422	CL_HRHC_HMSA	YES
+1a8019d9-fdba-44c9-86e9-2d8aa24e3422	CL_HRHC_HMSA	YES
+6860ed9c-11bd-450c-8521-a62fd20a02de	PA_batch+followup_Molina	YES
+6860ed9c-11bd-450c-8521-a62fd20a02de	PA_batch+followup_Molina	YES
+edf38774-280a-4226-b45d-ff1eef3c59ec	PA_batch+followup_BSC	YES
+edf38774-280a-4226-b45d-ff1eef3c59ec	PA_batch+followup_BSC	YES
+8a49dbf1-de4b-4f5d-b17e-951867fed6d4	Welcome_HRHC_Cambia_docusend	YES
+8a49dbf1-de4b-4f5d-b17e-951867fed6d4	Welcome_HRHC_Cambia_docusend	YES
+699c0f72-f462-4e06-a780-a4e8436ae3c8	PML_MTM_IEHP	YES
+f4bef20f-ccd8-47fb-8fe4-e82a2bbb21cd	PA_batch+followup_ADAP_CT	YES
+f4bef20f-ccd8-47fb-8fe4-e82a2bbb21cd	PA_batch+followup_ADAP_CT	YES
+080309d8-f80a-4624-8888-c98116711b12	CL_QUAL_VillageMD_DocuSend	YES
+080309d8-f80a-4624-8888-c98116711b12	CL_QUAL_VillageMD_DocuSend	YES
+5e040b50-f208-45cf-b4dc-d94f17377e02	test_release_2_35_0	YES
+3a3b9f0e-cd69-4fa5-87e8-264e1e775166	CL_HRHC_MDX	YES
+1573306e-7487-4f9a-b653-094d045ed052	PCP_MTM_TMR	YES
+1573306e-7487-4f9a-b653-094d045ed052	PCP_MTM_TMR	YES
+efaf0391-aac0-4f81-a6d4-f9766dce5495	PCP_TDL_MTM_general	YES
+efaf0391-aac0-4f81-a6d4-f9766dce5495	PCP_TDL_MTM_general	YES
+613358c9-2799-4e86-badb-10257f5068c9	PML_MTM_general	YES
+ccec2c78-1e13-463f-9cd3-181ba78e35b5	TDL_MTM_IEHP	YES
+1421d4f8-6313-428e-9f07-961f2fae61f9	PCP DMP Claim Edit (POT) (ESI 2025)	YES
+1421d4f8-6313-428e-9f07-961f2fae61f9	PCP DMP Claim Edit (POT) (ESI 2025)	YES
+a9fd5a90-1403-4532-8d2a-66a77dbfc9bc	MTM_CL_compliant_version	YES
+a9fd5a90-1403-4532-8d2a-66a77dbfc9bc	MTM_CL_compliant_version	YES
+45326ec7-a438-42f7-ad35-5af9d5cc4ab0	PA_batch+followup_Magellan_BSCA	YES
+45326ec7-a438-42f7-ad35-5af9d5cc4ab0	PA_batch+followup_Magellan_BSCA	YES
+44c0e02c-4d27-406e-b98c-b5389a4fe1a5	PA_batch+followup_VillageMD	YES
+44c0e02c-4d27-406e-b98c-b5389a4fe1a5	PA_batch+followup_VillageMD	YES
+aefbee43-72ee-4633-9a7f-ae49f59ed704	PCP_HEALTH_FIRST	YES
+09a230d6-5bfd-4569-93b1-4d654fdf1af8	CL_MTM_docusend	YES
+09a230d6-5bfd-4569-93b1-4d654fdf1af8	CL_MTM_docusend	YES
+507d36a2-32cd-45d4-95ef-dd59f8017ccb	PCP_MRP_Quality	YES
+a1aab75f-4bfa-4d85-a2c1-1d82e73738be	HRHC_PCP_TDL_HMSA	YES
+a1aab75f-4bfa-4d85-a2c1-1d82e73738be	HRHC_PCP_TDL_HMSA	YES
+39a148fe-df48-4bd3-82a0-e04bf8abe3d1	Test template 3 QA	YES
+c7be144e-b947-42e3-bfe5-c4917d085c9e	ag-sandbox	YES
+c7be144e-b947-42e3-bfe5-c4917d085c9e	ag-sandbox	YES
+c64e5733-20e3-4d55-b23d-5ca34a7ac286	CL_MTM_SelectHealth_Large_Address	YES
+4db6bb9d-a32c-4b34-9110-229bc6d4f514	MAP_HRHC_Cambia	YES
+4db6bb9d-a32c-4b34-9110-229bc6d4f514	MAP_HRHC_Cambia	YES
+708370f6-d8ab-4dfa-b58d-c61288cac9e6	PCP_TDL_MTM_Cambia	YES
+708370f6-d8ab-4dfa-b58d-c61288cac9e6	PCP_TDL_MTM_Cambia	YES
+ef39c4b5-5af8-43c9-87f4-6a30aca8e9f3	JMAC_PROD_14161	YES
+4d594b6b-9319-43db-b15d-b92eb390adc3	Welcome_MTM_Viva	YES
+cf436e44-3b1b-424e-b9e7-9cd6c9f0d696	MAP_QUAL_Cambia	YES
+cf436e44-3b1b-424e-b9e7-9cd6c9f0d696	MAP_QUAL_Cambia	YES
+34597bf3-b45b-486a-9c29-8970ee432c44	Template 3-QA	YES
+fb0a86f4-f402-4a24-bcbd-55381c674c4e	CL_CMM_S3_test	YES
+fb0a86f4-f402-4a24-bcbd-55381c674c4e	CL_CMM_S3_test	YES
+a1db6c1c-2087-45eb-96f0-3063ca39e991	Alohacare_PA_cover_letter	YES
+a1db6c1c-2087-45eb-96f0-3063ca39e991	Alohacare_PA_cover_letter	YES
+96227de2-335b-4c94-a12c-d43a1ebcff7b	PCP_MRP_Quality	YES
+d3ff8f4c-b727-4bd2-a297-2c5ff07f11a8	Welcome_MTM_prominence_duplicate	YES
+d3ff8f4c-b727-4bd2-a297-2c5ff07f11a8	Welcome_MTM_prominence_duplicate	YES
+0ad0b2ff-6a5d-4243-8a1f-1f64d5f625fa	Welcome_HRHC_Cambia	YES
+0ad0b2ff-6a5d-4243-8a1f-1f64d5f625fa	Welcome_HRHC_Cambia	YES
+66fcc46c-0cf5-4463-8214-def7ec67c2b1	Welcome_MTM_general	YES
+66fcc46c-0cf5-4463-8214-def7ec67c2b1	Welcome_MTM_general	YES
+a2e422aa-66c7-4f99-963a-fd564d56fdd7	PCP_PML_HRHC_general	YES
+6d47dec6-c2c6-4c45-9c77-2fdcf795e5bc	CMM PCP PML-Test	YES
+bf7c15e5-0d7d-431d-b0bd-b6ed569248dc	PA_batch+followup_state_of_pa	YES
+bf7c15e5-0d7d-431d-b0bd-b6ed569248dc	PA_batch+followup_state_of_pa	YES
+42c09b37-e538-44b7-b5bf-dd610cc587b7	PA_batch+followup_HealthFirst_POLY	YES
+42c09b37-e538-44b7-b5bf-dd610cc587b7	PA_batch+followup_HealthFirst_POLY	YES
+4dcb4b27-b456-4684-bd31-02bc29c9b14c	PA_batch+followup_Viva	YES
+4dcb4b27-b456-4684-bd31-02bc29c9b14c	PA_batch+followup_Viva	YES
+05a905a5-8b20-44a5-9cf3-cc7b17dd4fb1	1 - QA Test template	YES
+75d2992c-e186-4419-8288-8507b1a81025	PA_batch+followup_MI	YES
+75d2992c-e186-4419-8288-8507b1a81025	PA_batch+followup_MI	YES
+7e527042-3161-4a87-bb08-84cebe09a7c6	Test 2 Sample template-Quality	YES
+afb12138-0c23-4d6d-9dd7-a1d550daaf35	PML_HRHC_MDX	YES
+afb12138-0c23-4d6d-9dd7-a1d550daaf35	PML_HRHC_MDX	YES
+9bfd81ac-0b90-457a-babb-6c2a2d8f9691	Test 1 sample template-Quality	YES
+bd684de1-330b-4cf6-9bb9-e91fefdc2ae1	Test 3 template QA	YES
+246d42ba-ab6a-4872-bfde-7ddff34d81c5	PCP DMP Provider Notification (POT) (ESI 2025)	YES
+246d42ba-ab6a-4872-bfde-7ddff34d81c5	PCP DMP Provider Notification (POT) (ESI 2025)	YES
+e97377b7-9563-438b-b1dc-f1599efa8b5f	MTM_SDL_scan_temp	YES
+2d3525f3-95eb-4f4f-a629-75ffce0d2f12	Welcome_MTM_medigold	YES
+2d3525f3-95eb-4f4f-a629-75ffce0d2f12	Welcome_MTM_medigold	YES
+b7e8bb32-11bb-4199-b4a5-160c84f31297	PCP DMP No Claim Edit (POT) (ESI 2025)	YES
+b7e8bb32-11bb-4199-b4a5-160c84f31297	PCP DMP No Claim Edit (POT) (ESI 2025)	YES
+7e559e73-718c-4fa1-a9c7-a18bde62a102	Welcome_Qual_CareOregon_VBID	YES
+7e559e73-718c-4fa1-a9c7-a18bde62a102	Welcome_Qual_CareOregon_VBID	YES
+c84a5a2c-9007-460a-9986-9678341609be	Welcome_MTM_peoplecare	YES
+c84a5a2c-9007-460a-9986-9678341609be	Welcome_MTM_peoplecare	YES
+d5cab980-c5db-47f8-8335-36456eb1e40a	SDL_MTM_english_icare	YES
+d5cab980-c5db-47f8-8335-36456eb1e40a	SDL_MTM_english_icare	YES
+b0e53476-2f55-42e6-8f66-833b52926a33	BSC_SUPD_TMR	YES
+b0e53476-2f55-42e6-8f66-833b52926a33	BSC_SUPD_TMR	YES
+0e879070-43f5-4de8-a74e-7bcec4667aa6	PA_batch+followup_PPOK	YES
+0e879070-43f5-4de8-a74e-7bcec4667aa6	PA_batch+followup_PPOK	YES
+a2676f1f-9a61-48aa-9aae-1f1ef36b7395	PCP_ADH_QUAL_general	YES
+a2676f1f-9a61-48aa-9aae-1f1ef36b7395	PCP_ADH_QUAL_general	YES
+bd314601-fefa-4a5c-ad98-76dbacdac53e	CL_HRHC_Cambia_docusend	YES
+bd314601-fefa-4a5c-ad98-76dbacdac53e	CL_HRHC_Cambia_docusend	YES
+1a8cb600-bdf2-4518-9abe-6daae77b5cf6	Quality-import-test-05-26	YES
+1a8cb600-bdf2-4518-9abe-6daae77b5cf6	Quality-import-test-05-26	YES
+f9067bba-dad2-4b09-bcc5-a6c63a66a054	PA_batch+followup_vnsny	YES
+f9067bba-dad2-4b09-bcc5-a6c63a66a054	PA_batch+followup_vnsny	YES
+f4998349-a64a-466e-929e-cd66c6d5795f	CL_CMM	YES
+f4998349-a64a-466e-929e-cd66c6d5795f	CL_CMM	YES
+23ede163-fdd1-4f14-b824-9b5a9d62dc30	CL_MTM_no-address_general	YES
+6e05e428-b610-4c96-9d8c-0d68624dde85	TDL_MTM_general	YES
+314a35e5-3bcd-49bc-9a19-499e090877e0	PCP_QUAL_ADH	YES
+314a35e5-3bcd-49bc-9a19-499e090877e0	PCP_QUAL_ADH	YES
+dba78273-c7fe-4146-9a0c-24178820a9b7	PA_batch+followup_BCBSVT	YES
+dba78273-c7fe-4146-9a0c-24178820a9b7	PA_batch+followup_BCBSVT	YES
+42becb79-b663-4a6c-a068-053bde077de2	PCP_QUAL_ADH_Quality_CareOregon	YES
+42becb79-b663-4a6c-a068-053bde077de2	PCP_QUAL_ADH_Quality_CareOregon	YES
+23eea588-4690-4019-9424-a1244129b4dd	PCP_PML_QUAL_Cambia	YES
+7c455bf9-eae6-42c2-a881-43d0970569e3	Welcome_MTM_prominence	YES
+7c455bf9-eae6-42c2-a881-43d0970569e3	Welcome_MTM_prominence	YES
+3f309f76-3d78-4ed8-af63-8eba7c7c486e	HSMA_HRHC_PCP_PML	YES
+ca33127d-fc9b-43ad-9d06-d885536c3ad5	Welcome_MTM_aloha	YES
+e7faf980-d5d5-4a5a-88d6-d8b72acac273	MAP_GRACE	YES
+05396295-3e09-460d-88e2-7fbe76742d91	MVP_MTM_PCP_TDL	YES
+05396295-3e09-460d-88e2-7fbe76742d91	MVP_MTM_PCP_TDL	YES
+5c05abc6-c3f3-4da1-9851-b501fa076ac3	SDL_MTM_general	YES
+5c05abc6-c3f3-4da1-9851-b501fa076ac3	SDL_MTM_general	YES
+6992c279-6cf3-4d37-b327-12e4e3fe4d42	PCP_RDUR	YES
+6992c279-6cf3-4d37-b327-12e4e3fe4d42	PCP_RDUR	YES
+dcf85b5f-e03b-4b10-8c19-a2ef894e5e0f	CL_QUAL_Molina	YES
+dcf85b5f-e03b-4b10-8c19-a2ef894e5e0f	CL_QUAL_Molina	YES
+8ef4736d-30d0-4e4b-ade5-bb580187adcf	Welcome_HRHC_Cambia_DocuSend	YES
+7ff4b6b1-5c02-4266-b473-ac86fcefd392	CL_HRHC_Kaiser_DocuSend	YES
+7ff4b6b1-5c02-4266-b473-ac86fcefd392	CL_HRHC_Kaiser_DocuSend	YES
+e2563980-6e21-4c8c-a301-e0bab7eb71cb	PH_SUPD_TMR	YES
+e2563980-6e21-4c8c-a301-e0bab7eb71cb	PH_SUPD_TMR	YES
+a5564f18-2b5d-4b4e-94d5-8a7b16750055	PCP_TDL_MTM_VNS	YES
+a5564f18-2b5d-4b4e-94d5-8a7b16750055	PCP_TDL_MTM_VNS	YES
+a5564f18-2b5d-4b4e-94d5-8a7b16750055	PCP_TDL_MTM_VNS	YES
+a5564f18-2b5d-4b4e-94d5-8a7b16750055	PCP_TDL_MTM_VNS	YES
+dbd65b42-5ae6-46bc-abf0-a91debd3e29a	TMR_Fax_Excellus	YES
+dbd65b42-5ae6-46bc-abf0-a91debd3e29a	TMR_Fax_Excellus	YES
+1c1d3ace-4673-4fc5-8588-bad9e7c8d792	PCP_MTM_CMM	YES
+1c1d3ace-4673-4fc5-8588-bad9e7c8d792	PCP_MTM_CMM	YES
+1ce612db-5983-4dfb-992a-2cd6bed6add9	BCBSNC_MAP_QUAL	YES
+1ce612db-5983-4dfb-992a-2cd6bed6add9	BCBSNC_MAP_QUAL	YES
+13f629e9-04db-48e2-8b99-c8de6d654c05	Sample template 1	YES
+15c38467-ba1d-4bbc-87fe-20ea99569844	CL_MTM_Priority_Health_FS_2663	YES
+15c38467-ba1d-4bbc-87fe-20ea99569844	CL_MTM_Priority_Health_FS_2663	YES
+e804c554-f67a-4692-b456-ebf604a06924	CL_HRHC_VivaHealth	YES
+e804c554-f67a-4692-b456-ebf604a06924	CL_HRHC_VivaHealth	YES
+5d196f94-f145-465f-85d5-b0e7aa5a78e7	Welcome_MTM_scan (old)	YES
+1073d4e4-1c81-4af6-a363-926f27f803a0	PML_HRHC_general	YES
+1073d4e4-1c81-4af6-a363-926f27f803a0	PML_HRHC_general	YES
+bc3133e1-1627-44ca-acb7-35a42164818f	CL_MTM_general	YES
+bc3133e1-1627-44ca-acb7-35a42164818f	CL_MTM_general	YES
+1cb265ec-77c1-4692-8574-47d642ff1152	Test2 template-Quality	YES
+5bbe6bb4-0a79-4f93-bbe7-86f243dc1ba9	PCP_TMR_MTM_Cambia	YES
+5bbe6bb4-0a79-4f93-bbe7-86f243dc1ba9	PCP_TMR_MTM_Cambia	YES
+ac4bff96-fe31-4d54-aa2b-4dc14eed5a8c	Test template 3 QA	YES
+6de2f682-6540-48a8-84c2-2ee6334cac7f	PCP_QUAL_ADH_general	YES
+6de2f682-6540-48a8-84c2-2ee6334cac7f	PCP_QUAL_ADH_general	YES
+1634af88-cd62-4c94-8488-f6e96c9cbd3f	PCP_ADH_QUAL_Excellus_Priority	YES
+1634af88-cd62-4c94-8488-f6e96c9cbd3f	PCP_ADH_QUAL_Excellus_Priority	YES
+c3dae09c-f790-4691-8e40-9558052b7eea	DMP Initial Notice (ESI 2025 / Tall Footer)	YES
+c3dae09c-f790-4691-8e40-9558052b7eea	DMP Initial Notice (ESI 2025 / Tall Footer)	YES
+dde75d02-fdab-4e2a-bf68-dce4c47b5cb7	Welcome_MTM_vns	YES
+dde75d02-fdab-4e2a-bf68-dce4c47b5cb7	Welcome_MTM_vns	YES
+3a8baccc-eece-487d-8a90-fb2b3d0d2fe8	PCP_TMR_MVP_HEALTH	YES
+3a8baccc-eece-487d-8a90-fb2b3d0d2fe8	PCP_TMR_MVP_HEALTH	YES
+3a774bbe-978f-444a-9a3e-7ff24ce726ae	MTM_Welcome_IEHP	YES
+3a774bbe-978f-444a-9a3e-7ff24ce726ae	MTM_Welcome_IEHP	YES
+f72ec609-4e92-4221-9d0e-ad354bec0038	PA_batch+followup_HealthFirst	YES
+f72ec609-4e92-4221-9d0e-ad354bec0038	PA_batch+followup_HealthFirst	YES
+24808b0a-e87a-4825-a503-d627a55e66a0	Giulio_PA_Columns	NO
+bb19a115-c62a-4929-a271-c96b64c36539	template_19-10-23	NO
+e842d7db-c655-4aef-b111-3c80803514d0	PA_batch+followup_UHC	NO
+83c782e3-777b-4bb9-b353-1b63b1d8c8f4	testTemplate21 48	NO
+4f6b851c-025e-4827-a19f-8fd496b3e286	testTemplate03 16	NO
+551f1847-efaa-4aa3-b2dc-03610598c110	zain-test-12	NO
+4e7610a0-e64e-4f25-b9d7-f8c18f291ee1	testTemplate20 31	NO
+592e8fc2-fd94-4420-86f8-9307cbf465eb	Cambia_SUPD	NO
+8da0e964-9416-4ffe-bdad-756a7efd40e7	test-create-template	NO
+4da28be6-4bd2-404d-abb4-fe02ae7d42c4	testTemplate10 16	NO
+275ebf65-343f-418f-b797-990ae2f0ecb3	testTemplate03 49	NO
+da0038aa-a644-4918-ab86-b27df7948280	testTemplate20 18	NO
+5ba99041-be29-4701-abfe-00d54b9e2c44	New test temp1	NO
+16b7c130-d81d-43ce-8818-9621ea938c71	testTemplate21 53	NO
+cb55effa-2a43-4c3c-9021-0db9a1fe5e5b	testTemplate09 49	NO
+fdac97a7-7f7a-4851-a596-21985248baa0	testTemplate27 40	NO
+ac08be90-8adf-45ab-9c00-dfcd3db81094	Test Template2	NO
+125dcde4-86ad-4d8d-a508-3648999432dd	zain-pdf-template-test-2	NO
+8a3ab0a3-e536-4158-93c8-e93ce0a16c9b	Cambia_SPC	NO
+4ac5da3f-b79e-4e7d-9bae-68ee9e6ba247	dax-something-went-wrong-test	NO
+02aa15a5-4746-46cd-9e95-ababf78792d2	testTemplate10 16	NO
+5d9e8fc9-0332-44f0-8573-289bb2a571a7	testTemplate09 04	NO
+8894a8e6-3c7c-4a7f-b3f5-c1435ca42d34	New Temp 3	NO
+7667c063-0e92-4d74-96ca-ca835084641d	testTemplate20 27	NO
+05a1363f-3b3c-4c73-8394-6c5399533a93	testTemplate20 11	NO
+f31e71e3-fafd-45c3-93c6-ba1115c14c61	testTemplate03 15	NO
+129db400-3554-4032-a156-a4ed1b1392e9	PCP_TOC_michael_test	NO
+0480fd49-8f03-45d0-a144-5d86d90c9acc	zain-test-8	NO
+22296bbd-5fc8-4551-9e0a-14ec9ffbb023	MTM Opt-Out Priority	NO
+9178148c-0958-4c37-8a14-9ee696019dcf	Test DRP1234	NO
+4888e4c2-0d45-457d-a773-c192a8d1eae6	testTemplate21 56	NO
+ceead48e-c532-4691-bf9b-cba8964a8243	Mozhi_generator_test	NO
+5886103e-c35e-407f-bef5-41a5e5023acc	dax-test-create-mtm-template	NO
+23a7f757-0386-4ee3-b583-e2164176e2e6	testTemplate27 43	NO
+2091da93-10f7-4046-8cc0-0b78899d2ca7	PML	NO
+3de8199f-f909-4b46-86ad-510aa7b1d1a1	PCP_MRP_GRACE_general	NO
+bae26ffa-f282-4a88-a357-61c3b07ff362	testTemplate03 37	NO
+f208085d-2554-4b78-b14b-5bfcc75d6feb	testTemplate26 33	NO
+6771542d-cb09-4d53-bf46-5730fc068ff2	testTemplate03 37	NO
+c0525646-0fb4-47c6-8b35-bc5a21b45202	testTemplate21 41	NO
+35a8dcc4-2458-49da-9a07-2ef2d5179ffa	testTemplate27 14	NO
+c2753ba9-547b-43ed-a14c-68a326690894	care_plan_patient_letter	NO
+fbbf409b-5fc5-4d82-bd71-c10f15b18014	10861 QA TEST TDL template	NO
+24e9a11a-eb4d-404f-898b-98b35c0ed913	zain-test-5	NO
+54a00f24-0093-4ede-a245-537f8faa22d6	testTemplate20 40	NO
+c2b7155b-7e1e-4efa-bf81-271903f17ff5	updatedTestTemplate28 13	NO
+cff4d8a5-69ab-4cac-93a1-2449c620d73d	zain-test-11	NO
+77bca417-bca2-4090-aac6-42b5db94859d	zain-test-13	NO
+ff8d7432-afae-44a0-a54a-3d36bedad90d	test temp	NO
+5561e43c-f2dc-46d1-97ca-c99aa0bff18c	testTemplate04 14	NO
+39b7ecfe-9e6d-419a-b046-a5a1a873c443	testTemplate27 54	NO
+e0ea4dea-594b-49d5-b151-28c6dedc8630	zain-test-7	NO
+cbb37fab-c567-432f-9064-087ba746b3c3	testTemplate09 50	NO
+bef0e969-e7bb-4549-a8c0-b949ea03495b	TestTemplate2	NO
+2a9bab14-5db2-47bf-95fd-6eb32fd17808	TEST_SelectHealth_PML_2022	NO
+ec8f4045-7fa0-47eb-a5e1-15b753988836	testTemplate28 26	NO
+91f80f14-21ad-4462-9d85-9244ae0426c2	testTemplate10 08	NO
+76251966-8b1e-4c18-abf0-287ae7ddc5ab	testTemplate27 40	NO
+429727d9-129c-4411-9d25-96acc343f4b1	SCAN_SUPD_TMR	NO
+de76d8cf-56e3-4225-b19d-d4db60aa9271	testTemplate27 17	NO
+c7be7c03-2d16-451f-a5ad-ce888a4bf771	New Template 21/04 /2	NO
+d7becfe8-d118-4a4e-815d-f9412d1f93c0	test-create-new-template	NO
+ffdde243-f39d-45ec-a3e2-c129ce9f702a	New Templetate 21/04	NO
+abe4d44d-766d-4c06-b6cf-e82ac8940c98	PCP_ADH_QUAL_BCBSM	NO
+61a0f018-2783-479c-b1f8-d092b965df9d	testTemplate10 52	NO
+2850f871-cd61-4369-a5c2-0a0cc2607b3b	testTemplate03 07	NO
+3bcb5985-aab1-4bf2-9e94-103e029aa778	testTemplate27 32	NO
+1a212a10-958d-4d58-82d0-5b76ff157f02	AG_00000	NO
+a8107ea4-6646-433c-9cd0-f2c465387ff3	testTemplate21 57	NO
+ab1e3ab0-27c5-48fd-bb97-2ae42266d8ec	zain-test-template-5	NO
+ee81a141-1099-414f-8a58-adabd004cadc	testTemplate27 07	NO
+29818277-9b22-47cc-ad58-afa4e35b0842	testTemplate20 42	NO
+8f2eab38-afff-44ab-b407-c4a0cda7c880	test-quality-template	NO
+d8f98661-b8ad-478c-93bb-47414ef04e1b	updatedTestTemplate28 43	NO
+f196e476-bd57-4367-a678-991d57d984c5	Manual QA-Blank template	NO
+2c107c34-ad60-47b2-a66c-501c10e9ae56	PA_batch+followup_CareOregon	NO
+0921b901-3c15-42a8-958d-e8af966baa95	ABC 	NO
+33d8006d-8903-43ab-8ed0-f40a9ba49c9f	Test Template	NO
+6467cb39-0206-4cd8-9ef3-1c10b4f830a3	new-template-2	NO
+396084f9-4fa5-4694-9089-3a2470174410	Testing Template 4	NO
+30997775-e650-408f-8f08-e31bf00ad4d1	testTemplate27 23	NO
+0186a16a-5466-4bf1-b044-27a6b2be41cc	Test1 Templets	NO
+26d6e3f1-e0c6-41e6-b4fe-44041a3b5a6e	PML_MTM_general_SHANE_TESTING_FS-1312	NO
+5b8b9369-20a4-454e-8ba1-4f4405ecb227	testTemplate03 52	NO
+11af3288-e86e-4ea9-9e27-eba0dcd8d304	Sample template 2	NO
+34522bb4-7fb0-4c0c-ac23-808d780156f9	ManualQA-test 11303	NO
+9bc142d9-e65c-436c-b0c5-f9058be32ce7	testTemplate04 14	NO
+2d3ef79b-6d31-44ba-982d-1382db54c116	testTemplate09 15	NO
+fdf1883e-3651-48f6-843d-bb9a8b1b1880	1	NO
+0c921b20-321b-4167-89cc-bdde5da36c24	care_plan_patient_letter	NO
+dd40d8d2-9d6e-43c1-af17-0c96fa2a648e	zain-dev-test-pdf-template	NO
+d20a1027-6ff0-4ccc-a6ea-86cd4c415ad2	testTemplate21 47	NO
+5eb70542-311a-4aa0-8ea6-ec5a6082e85b	testTemplate20 03	NO
+29cb5695-b0f5-429f-b64b-8f22dfb6689d	PCP_MRP_GRACE_with_facility	NO
+03f62516-eabd-445f-98a4-1fc21c8dd01e	TestTemplate454666	NO
+9bdbcb6d-0156-4d80-a737-a1c496e4fafc	test	NO
+fb759003-55c9-4354-9eb7-2febd864fbcd	TEST_SelectHealth_MTM_CoverLetter_2022	NO
+1b286c1a-a3a1-4e59-8e81-177888ab51b9	testTemplate10 44	NO
+bcfd8669-9c87-4aec-abb7-dff2783a1fdc	testTemplate10 45	NO
+679d8413-cf32-46e3-97d8-cba288ba58f3	Test Template 2	NO
+745322f4-a900-4d2d-98f8-f6b1b42cfb7e	test-new-template-4	NO
+5da73e64-9201-4e9a-a3fe-6df89a5c5176	test-template-3	NO
+d509a565-21ea-4b38-a63a-d6a8c6559e34	testTemplate28 38	NO
+e63ad5c7-5ca9-47dc-a9b1-754b68b2c8c7	testTemplate21 10	NO
+710a9eee-fbcb-4c48-a33e-d3646898422c	Welcome_HRHC_HMSA_No_Address	NO
+77c31683-7b38-453e-8c7a-dc38b7502b2d	testTemplate27 14	NO
+9832b59b-83d1-4c45-836d-f627c7357f6c	new-template	NO
+8c9582c4-11bc-4f43-b37f-5bc59d169e1a	CMM_PML_PPOK_Arine	NO
+d26c0294-7e71-473e-baad-148209dbcee6	testTemplate10 38	NO
+5eabeada-65d0-46bb-8af9-87b9a9e72ba2	PCP_ADH_QUAL_HEALTHFIRST	NO
+72c51c9b-aa7c-437f-869e-40e8f7b51d38	Welcome_Letter	NO
+824dd0a3-fc1a-43f8-8d10-0992d0c91ae1	testTemplate20 09	NO
+e6ec6a06-f9fb-451e-afab-25b612c8e67e	Test	NO
+15cfdb9d-3212-4d7a-aa5c-57abdc3e1d11	testTemplate21 09	NO
+a9136371-c240-4bb7-bbe5-da00fae28f82	Test create new template	NO
+fb720be7-72c6-4b94-bcd1-42eee7368777	MLI_general	NO
+b21c3a38-9f3e-43c1-994c-e14f737baec9	test_ag	NO
+bd166374-767b-4ac8-9c92-83f6e657c56a	testTemplate26 20	NO
+5d24af85-89c3-470b-94e2-f48c632f44f2	testTemplate27 21	NO
+41d8497f-4934-4f00-99b7-555713e87a02	test-new-template	NO
+2e37981f-2e97-499f-aa93-a0b01dc91f51	testTemplate03 52	NO
+a113e272-f04b-4a0f-85c9-ef59a1b5289e	testTemplate27 31	NO
+5e5ff1a0-2150-4b42-911a-8f15e36cc99b	testTemplate27 16	NO
+e4df430e-4363-4d9b-b994-6cb642254373	testTemplate27 05	NO
+bf4b4246-73cf-4331-8a04-a33f42f09000	testTemplate21 50	NO
+13825d5d-9fc2-4560-9263-50f6ec4ce324	testTemplate27 13	NO
+b9c96879-0d6b-4418-86a4-4104e55882cb	id_test_quality_template	NO
+9306fa0a-2021-425b-b9e0-024511fca5d4	testTemplate27 14	NO
+a96d547a-608a-4320-bf39-f521aa481006	zain-test-13	NO
+d89732bd-80ab-4a4d-b7e9-1de69ff0e132	Sample Template-2-QA	NO
+25bffac9-fe3e-4cd2-97d4-1bd19a27a469	PCP_TOC	NO
+4a4ad614-8860-4a32-a210-5b723996250b	updatedTestTemplate27 45	NO
+07c8ce7e-f3d2-4f8a-ab5e-4c9bf6b81234	PCP_QUAL_ADH_HEALTHFIRST	NO
+b888fabf-c08e-4af6-b8e8-e998e15abb75	ashleyTest	NO
+76b49015-1d66-4ff5-a3e9-c60376e9dd50	testTemplate09 14	NO
+2c483d8f-727f-4d8d-861a-085ad77cb1f1	New test template	NO
+5678ced9-6508-4c6a-b9dc-da1d538468c8	zain-template-test-4	NO
+321e7e0a-d4c0-40cb-8599-a3c3b3f6a4c5	Giulio_Default_Translations	NO
+aff4606d-a0bb-4151-8935-cdf35b885f91	testTemplate21 06	NO
+06a42a1e-cc89-43dd-a63a-e34bc0a6a533	testTemplate09 11	NO
+f8e37ac4-e024-4515-ac09-cb067176454a	LST PCP REPORT	NO
+eab7a2e6-ecfd-46dc-82f4-7a2980a15085	SCAN_SPC_TMR	NO
+9bd89473-81fc-4118-9eb8-014c6fc7519f	testTemplate21 55	NO
+8fbe59c9-4559-4bf6-b2a3-ec9a181ffa75	testTemplate27 44	NO
+190889dc-438a-4f27-bb9e-1a80126713f6	testTemplate03 48	NO
+14444e86-4b14-4bda-a7fb-bf149fbf3c97	New Template 4	NO
+88c8082e-9c89-4ae5-a1ec-963837668237	testTemplate09 05	NO
+14440a6c-6626-4646-975a-a1421de04002	testTemplate27 14	NO
+31ab662c-4946-4459-b85e-9bd0e47bb7ca	NEW QA Test Template	NO
+3abd03c2-1872-4585-91fd-539f4f6cac1a	Testing Template 3	NO
+d158f82d-3aa9-4a3a-9b7d-46b95e14fd00	PML_CMM	NO
+1a479aae-9efc-49c2-83ba-a46c48916951	managed-test-template-zain	NO
+a4a79893-6ab0-4084-bd13-1d0dd48276a1	test-new-template-4	NO
+00b7b98d-c676-4eb8-8cf9-c2fe470e9c1a	PCP_TDL_GRACE_general	NO
+01364844-c281-4855-b30f-9fa4e918a943	testTemplate09 11	NO
+638eeb4c-5336-48dd-9a59-5fe763f89b1d	testTemplate20 33	NO
+f43bee81-9ae6-4a0c-b987-5b1b1623eff8	testTemplate21 04	NO
+e85d2d86-34ae-4d90-ad86-ba41b3119d25	testTemplate03 08	NO
+8b3ce421-5737-4002-829c-83cc410dd9e4	tesmplate-test-zain-13	NO
+4d77b0bc-63e4-4aef-8836-1aa2cd0d89c5	Sample template 2-QA	NO
+d9509c6a-4659-4a56-ad1a-92404c6216e8	testTemplate26 33	NO
+3249f23e-5fc1-4101-9144-ce1e4b1d99d0	testTemplate27 54	NO
+a31ea361-fb04-467e-89d0-fbd068c71325	PA_batch+followup_AlohaCare	NO
+a2e14922-efd9-427d-b401-6666bb18c676	Sample Template 2-QA	NO
+e9713f1f-d0a2-4d57-bb15-431f9fa14837	testTemplate28 09	NO
+c118d734-89ba-4c76-a3e2-e6dbf3b07700	testTemplate20 36	NO
+bb8a0980-9b36-4719-9d6a-0d20e53d5aa1	TEST PDF TEMPLATE QA1	NO
+1bd043d8-b576-4434-8a55-3a71cde6ae8b	testTemplate20 51	NO
+2801ed5c-b737-419e-91a5-115933328665	testTemplate27 40	NO
+1414e1cf-2a99-4152-b418-6a1c6eefea30	testTemplate21 45	NO
+62adaf92-d9a0-4d1b-8698-5a52755bc369	updatedTestTemplate28 34	NO
+9663d82c-e1f7-48f6-9e13-4051258ec5f2	testTemplate20 18	NO
+d8717f45-2bd3-41f0-b85c-3e22d5360f66	MTM_CL_ProminenceHealth	NO
+0022ff8d-2892-4a67-9cdb-f8f2d23ff5a0	testTemplate20 22	NO
+2d6b9ffc-5980-4b4b-b143-67188bd09289	testTemplate21 15	NO
+dde0b558-e3dd-47b4-8705-2db5455d936e	testTemplate10 53	NO
+27d5bf14-b5d4-497b-acbf-7830c14b38ed	testTemplate10 08	NO
+916d41f8-0906-47ea-b4df-4d142d4b2fe7	updatedTestTemplate27 55	NO
+ee92b983-0247-4f37-9c04-8bef1bf9e5f1	PCP_QUAL_ADH_Quality_BCBSM	NO
+44d35166-3a68-4694-8d9b-cbc4ea2b526c	test-template-5	NO
+f94dfe96-532a-41d0-9e1a-0d1bee348320	testTemplate21 16	NO

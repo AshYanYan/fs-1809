@@ -1,0 +1,44 @@
+{
+    "created": "2023-03-21T18:45:45Z",
+    "id": "4ac5da3f-b79e-4e7d-9bae-68ee9e6ba247",
+    "name": "dax-something-went-wrong-test",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<b>Medication Allergies: [patient_allergies]</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 36,
+                "right": 36,
+                "top": 107
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {}
+        }
+    },
+    "updated": "2024-10-28T20:13:29"
+}

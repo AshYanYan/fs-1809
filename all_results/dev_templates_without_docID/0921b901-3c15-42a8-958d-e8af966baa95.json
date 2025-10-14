@@ -1,0 +1,133 @@
+{
+    "created": "2023-07-20T09:59:08Z",
+    "id": "0921b901-3c15-42a8-958d-e8af966baa95",
+    "name": "ABC ",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "<b>Date of Review: {letter_date}</b>",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 250,
+                    "x": 326,
+                    "y": 676
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 65
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 25,
+                    "x": 576,
+                    "y": 757
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "<b>Patient\u2019s Medication Summary</b><br/><b>Name:</b> {patient_full_name} (DOB: {patient_date_birth})",
+                    "string_replacements": {
+                        "priority_health": {
+                            "English": "<b>Patient\u2019s Medication Summary</b><br/><br/><b>Name:</b> {patient_full_name} (DOB: {patient_date_birth})"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Medication Allergies: {patient_allergies}</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 18
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "priority_health"
+                    ],
+                    "string": "On {letter_date}, I spoke with your patient to perform a comprehensive medication review (CMR). I have summarized the list of medications discussed with the patient in the below table. Please call {hotline_phone} with any questions.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": ""
+                }
+            },
+            {
+                "paragraph": {
+                    "string": ""
+                }
+            }
+        ],
+        "first_page_template": [],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 30,
+                "right": 30,
+                "top": 72
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": null,
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 24,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 16,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2023-07-20T10:05:25"
+}

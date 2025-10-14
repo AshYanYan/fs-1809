@@ -1,0 +1,556 @@
+{
+    "created": "2024-12-16T21:01:37Z",
+    "id": "7e559e73-718c-4fa1-a9c7-a18bde62a102",
+    "managed": false,
+    "name": "Welcome_Qual_CareOregon_VBID",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 38,
+                    "x": 72,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 96,
+                    "string": "<br/><b>Earn $25 today when you speak to a pharmacist.</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<font size=7><br/></font><b>Gana $25 hoy cuando hables con un farmac\u00e9utico.</b>"
+                        }
+                    },
+                    "text_style": {
+                        "leftIndent": 36,
+                        "parent_style": "PullOutText",
+                        "rightIndent": 36
+                    },
+                    "width": 200,
+                    "x": 340,
+                    "y": 660
+                }
+            },
+            {
+                "rectangle": {
+                    "height": 96,
+                    "stroke_width": 2,
+                    "width": 200,
+                    "x": 340,
+                    "y": 660
+                }
+            },
+            {
+                "text": {
+                    "height": 20,
+                    "string": "You can get this in other languages, large print, braille or a format you prefer. You can also ask for an interpreter. This help is free. Call 888-712-3258 or TTY 711. We accept relay calls. You can get help from a certified and qualified health care interpreter.",
+                    "text_style": {
+                        "parent_style": "DisclaimerText",
+                        "text_alignment": "center"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 36
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "H5859_PH0112_M",
+                    "text_style": {
+                        "parent_style": "FooterIdText",
+                        "text_alignment": "left"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 18
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "FooterIdText",
+                        "rightIndent": 80,
+                        "text_alignment": "center"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 18
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 18
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Estimado/a {patient_full_name},"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Because you are on an ACE inhibitor or an ARB, we have a program to help you take your medications correctly. This will help you to avoid harmful interactions and side effects. (Examples of these types of drugs are <i>lisinopril</i> or <i>losartan</i>.)",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Debido a que est\u00e1 tomando un inhibidor de la ACE o un ARB, tenemos un programa dise\u00f1ado para ayudarle a tomar sus medicamentos correctamente. Esto le ayudar\u00e1 a evitar interacciones y efectos secundarios da\u00f1inos. (Ejemplos de estos medicamentos incluyen <i>lisinopril</i> o <i>losart\u00e1n</i>.)"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Here\u2019s how it works: You get to talk to one of our pharmacists to review your medications. You also receive tips and resources for managing your health. You will earn $25 once you complete the call.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "As\u00ed funciona: Podr\u00e1 hablar con uno de nuestros farmac\u00e9uticos para revisar sus medicamentos. Tambi\u00e9n recibir\u00e1 consejos y recursos para manejar su salud. Ganar\u00e1 $25 tras completar la llamada."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "As a member of {hotline_name} Advantage, this program is offered to you at no cost. <b>Call today</b>.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Como miembro de {hotline_name} Advantage, este programa se le ofrece sin costo alguno. <b>Llame hoy mismo</b>."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>How do I get started?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<b>\u00bfC\u00f3mo empiezo?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Call {hotline_name} at {hotline_phone} or toll-free 833-200-9561, 8 a.m. to 5 p.m. Monday through Friday. They\u2019ll answer your questions and walk you through next steps. <br/> They'll also set up a call for you with a pharmacist",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Llame a {hotline_name} al {hotline_phone} o al 833-200-9561, de 8 a.m. a 5 p.m., lunes a viernes. Ellos responder\u00e1n sus preguntas y le guiar\u00e1n sobre los pasos. Tambi\u00e9n programar\u00e1n una llamada con un farmac\u00e9utico."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Can I have a translator during this call?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<b>\u00bfPuedo tener un traductor durante esta llamada?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Yes. Ask the pharmacist to have a translator on the call.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "S\u00ed. P\u00eddale al farmac\u00e9utico que incluya un traductor en la llamada."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>What is the reward and how do I earn it?</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<b>\u00bfCu\u00e1l es la recompensa y c\u00f3mo la obtengo?</b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "You can earn $25 when you talk to the pharmacist about your medication.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Puede ganar $25 cuando hable con el farmac\u00e9utico sobre sus medicamentos."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "In addition, you can also earn an extra $50 if you speak to a pharmacist and are adherent to your ACE or ARB, select diabetes drugs, or statins.**",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Adem\u00e1s, puede ganar $50 adicionales si habla con un farmac\u00e9utico y cumple con el tratamiento de su inhibidor de la ECA o ARB, medicamentos selectos para la diabetes o estatinas.**"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Rewards may take up to one month before they are available on your {hotline_name} Advantage CareCard. To learn more, call {hotline_name} Advantage at 888-712-3258. Our hours are October 1 \u2013 March 31, 8 a.m. to 8 p.m., seven days a week, April 1 \u2013 September 30, 8 a.m. to 8 p.m., Monday through Friday.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Las recompensas pueden tardar hasta un mes en estar disponibles en su {hotline_name} Advantage CareCard. Para obtener m\u00e1s informaci\u00f3n, llame a {hotline_name} Advantage al 888-712-3258. Nuestro horario es del 1 de octubre al 31 de marzo, de 8 a.m. a 8 p.m., los siete d\u00edas de la semana, y del 1 de abril al 30 de septiembre, de 8 a.m. a 8 p.m., de lunes a viernes."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<i>*Limit one $25 reward.</i>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<i>*L\u00edmite de una recompensa de $25.</i>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<i>**Adherence is defined as having 80% or more days that you have the medication on hand in a given time period.</i>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<i>**La adherencia se define como tener el medicamento disponible el 80 % o m\u00e1s de los d\u00edas durante un per\u00edodo de tiempo determinado.</i>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b><font color=\"#808080\">Don't miss out on this great no-cost program.</font></b>",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "<b><font color=\"#808080\">No se pierda este excelente programa sin costo.</font></b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "To opt out of this program, call {hotline_phone} or toll-free 833-200-9561.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Para excluirse de este programa, llame al {hotline_phone} o al n\u00famero gratuito 833-200-9561."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 38,
+                    "x": 36,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 40,
+                    "string": "315 SW 5th Ave.,<br/>Portland, OR 97204",
+                    "text_style": {
+                        "parent_style": "AddressText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 674
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "FooterIdText",
+                        "text_alignment": "left"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 18
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "",
+                    "text_style": {
+                        "parent_style": "FooterIdText",
+                        "rightIndent": 80,
+                        "text_alignment": "center"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 18
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterIdText",
+                        "text_alignment": "right"
+                    },
+                    "width": 468,
+                    "x": 72,
+                    "y": 18
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 66,
+                "left": 66,
+                "right": 66,
+                "top": 138
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "DisclaimerText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 9,
+                    "parent_style": "BodyText",
+                    "text_alignment": "center"
+                },
+                "FooterIdText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 9,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "HeaderText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 2,
+                    "spaceBefore": 11,
+                    "text_alignment": "left"
+                },
+                "ListHeaderText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 4,
+                    "spaceBefore": 11,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 11,
+                    "leading": 13,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 6,
+                    "spaceBefore": 4,
+                    "text_alignment": "left"
+                },
+                "PullOutText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 16,
+                    "leading": 18,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-02-19T22:27:38"
+}

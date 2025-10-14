@@ -1,0 +1,892 @@
+{
+    "created": "2023-09-26T23:32:50Z",
+    "id": "29822d58-5fd7-47c4-80b6-adb8d46cd19a",
+    "name": "PCP_ADH_QUAL_Cambia",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 250,
+                    "x": 36,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 10,
+                        "leading": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 46
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "<b>Regence BlueShield of Idaho</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "<b>Regence BlueShield of Idaho</b><br/>1602 21st Avenue | Lewiston, ID 83501",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "<b>Regence BlueShield</b> serves select counties in the state of Washington<br/>and is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "<b>Regence BlueShield</b><br/>1111 Lake Washington Blvd N, Suite 900 | Renton, WA 98056",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Oregon</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Oregon</b><br/>200 SW Market Street, 11th Floor | Portland, OR 97201",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Utah</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Utah</b><br/>2890 E Cottonwood Parkway | Salt Lake City, UT 84121",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:asuris_nw_wa_ppo",
+                        "cambia:asuris_nw_wa_pdp"
+                    ],
+                    "string": "<b>Asuris Northwest Health</b><br/>528 E Spokane Blvd | Suite 301 | Spokane WA 99202",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Medication Management Program for Patient: <b>{patient_full_name} (DOB: {patient_date_birth})</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {provider_prefix} {provider_full_name}:",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "I am a clinical support specialist working on behalf of Regence BlueShield of Idaho. On {review_date}, I reviewed your patient's information. I have summarized my assessment and recommendations in the table below.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "I am a clinical support specialist working on behalf of Regence BlueShield. On {review_date}, I reviewed your patient's information. I have summarized my assessment and recommendations in the table below.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "I am a clinical support specialist working on behalf of Regence BlueCross BlueShield of Oregon. On {review_date}, I reviewed your patient's information. I have summarized my assessment and recommendations in the table below.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "I am a clinical support specialist working on behalf of Regence BlueCross BlueShield of Utah. On {review_date}, I reviewed your patient's information. I have summarized my assessment and recommendations in the table below.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:asuris_nw_wa_ppo",
+                        "cambia:asuris_nw_wa_pdp"
+                    ],
+                    "string": "I am a clinical support specialist working on behalf of Asuris Northwest Health. On {review_date}, I reviewed your patient's information. I have summarized my assessment and recommendations in the table below.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>Action Requested</b><br/>Please review the information provided and indicate in the last column whether you plan to implement our recommendations and fax this form back to us at {hotline_fax}. Please call {hotline_phone} with any questions.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "6%",
+                        "52%",
+                        "27%",
+                        "15%"
+                    ],
+                    "data_source": "provider_recommendations",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Assessment",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Recommendation",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Implement? (Y/N)",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_items": [],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    0
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "MIDDLE"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "pharmacy_name",
+                    "string": "Please send any updated medication prescriptions to the patient\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The patient\u2019s preferred pharmacy is:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "pharmacy_name",
+                    "string": "{pharmacy_name}<br/>{pharmacy_street}<br/>{pharmacy_city_state_zip}<br/>Phone: {pharmacy_phone}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "10%",
+                        "90%"
+                    ],
+                    "data_source": "table_items",
+                    "display_condition": "provider_summary",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "spaceBefore": 12,
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<b>Note:</b>"
+                            },
+                            {
+                                "string": "{provider_summary}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Please add any other comments here about the recommendations or important notes about the patient\u2019s health and fax this form back to us at {hotline_fax}:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "line": {
+                    "color": "#787878"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "color": "#787878"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "color": "#787878"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "color": "#787878"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "color": "#787878"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "color": "#787878"
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We appreciate working with you to provide high-quality healthcare for our patients.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "spacer": {
+                    "height": 30
+                }
+            },
+            {
+                "signature": {
+                    "filename": "{pharmacist_signature}",
+                    "height": 50,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "leading": 18,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "{pharmacist_name}<br/>Clinical support specialist<br/>Regence BlueShield of Idaho<br/>Phone: {pharmacist_phone}<br/>Fax: {pharmacist_fax}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "{pharmacist_name}<br/>Clinical support specialist<br/>Regence BlueShield<br/>Phone: {pharmacist_phone}<br/>Fax: {pharmacist_fax}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "{pharmacist_name}<br/>Clinical support specialist<br/>Regence BlueCross BlueShield of Oregon<br/>Phone: {pharmacist_phone}<br/>Fax: {pharmacist_fax}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "{pharmacist_name}<br/>Clinical support specialist<br/>Regence BlueCross BlueShield of Utah<br/>Phone: {pharmacist_phone}<br/>Fax: {pharmacist_fax}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:asuris_nw_wa_ppo",
+                        "cambia:asuris_nw_wa_pdp"
+                    ],
+                    "string": "{pharmacist_name}<br/>Clinical support specialist<br/>Asuris Northwest Health<br/>Phone: {pharmacist_phone}<br/>Fax: {pharmacist_fax}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "x": 36,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 10,
+                        "leading": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 46
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "<b>Regence BlueShield of Idaho</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "<b>Regence BlueShield of Idaho</b><br/>1602 21st Avenue | Lewiston, ID 83501",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "<b>Regence BlueShield</b> serves select counties in the state of Washington<br/>and is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "<b>Regence BlueShield</b><br/>1111 Lake Washington Blvd N, Suite 900 | Renton, WA 98056",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Oregon</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Oregon</b><br/>200 SW Market Street, 11th Floor | Portland, OR 97201",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Utah</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Utah</b><br/>2890 E Cottonwood Parkway | Salt Lake City, UT 84121",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:asuris_nw_wa_ppo",
+                        "cambia:asuris_nw_wa_pdp"
+                    ],
+                    "string": "<b>Asuris Northwest Health</b><br/>528 E Spokane Blvd | Suite 301 | Spokane WA 99202",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 72
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 108,
+                "left": 36,
+                "right": 36,
+                "top": 72
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "FooterText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "text_alignment": "right"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 16,
+                    "spaceBefore": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2023-10-05T23:06:02"
+}

@@ -1,0 +1,305 @@
+{
+    "created": "2025-02-24T18:59:02Z",
+    "id": "90f593d9-a8da-4e48-9690-34d5e7a276b3",
+    "managed": true,
+    "name": "FollowUp_MTM_VNS_DocuSend",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "height": 35,
+                    "storage": {
+                        "path": "org_logo/vnsny/2025-02-24/vnsny_logo_new_from_arine_pdfs.png",
+                        "type": "S3"
+                    },
+                    "x": 72,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "height": 23,
+                    "storage": {
+                        "path": "org_logo/arine/2025-02-24/arine.png",
+                        "type": "S3"
+                    },
+                    "x": 540,
+                    "y": 760
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "H5549_Arine MTM Corr 2/25_C",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "rightIndent": 80,
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "{prep_date_mmddyyyy}"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "height": 40,
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "AddressText"
+                    },
+                    "width": 240,
+                    "x": 72,
+                    "y": 648
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b><font color = '#172b4d'>Important Update About Your Medication List</font></b><br/>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<b><font color='#172b4d'>\u95dc\u200b\u65bc\u200b\u85e5\u200b\u7269\u200b\u6e05\u200b\u55ae\u200b\u7684\u200b\u91cd\u200b\u8981\u200b\u66f4\u200b\u65b0</font></b><br/>",
+                            "Spanish": "<b><font color='#172b4d'>Actualizaci\u00f3n importante sobre su Lista de medicamentos</font></b><br/>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "HeaderText"
+                    }
+                }
+            },
+            {
+                "spacer": {}
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},<br/><br/>On {cmr_date} you spoke with a pharmacist about your health and medications. After the conversation, we sent you a Medication List. The medication names and dosages were correct, but the letter was missing information such as generic names for branded medications and the form of the medication (e.g. 'tablet', 'capsule').",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5c0a\u200b\u656c\u200b\u7684\uff0c{patient_full_name}\uff1a<br/><br/>\u5728 {cmr_date_mmddyyyy}\uff0c\u200b\u60a8\u200b\u8207\u200b\u85e5\u200b\u5291\u200b\u5e2b\u200b\u8a0e\u200b\u8ad6\u200b\u4e86\u200b\u60a8\u200b\u7684\u200b\u5065\u200b\u5eb7\u200b\u72c0\u200b\u6cc1\u200b\u548c\u200b\u4f7f\u200b\u7528\u200b\u7684\u200b\u85e5\u200b\u7269\u200b\u3002\u200b\u8ac7\u200b\u8a71\u200b\u7d50\u200b\u675f\u200b\u5f8c\u200b\uff0c\u200b\u6211\u200b\u5011\u200b\u7d66\u200b\u60a8\u200b\u767c\u200b\u9001\u200b\u4e86\u200b\u4e00\u200b\u4efd\u200b\u85e5\u200b\u7269\u200b\u6e05\u200b\u55ae\u200b\u3002\u200b\u6e05\u200b\u55ae\u200b\u4e0a\u200b\u7684\u200b\u85e5\u200b\u7269\u200b\u540d\u200b\u7a31\u200b\u548c\u200b\u5291\u200b\u91cf\u200b\u662f\u200b\u5c0d\u200b\u7684\u200b\uff0c\u200b\u4f46\u200b\u7f3a\u200b\u5c11\u200b\u8af8\u200b\u5982\u200b\u54c1\u200b\u724c\u200b\u85e5\u200b\u7684\u200b\u901a\u200b\u7528\u200b\u540d\u200b\u7a31\u200b\u548c\u200b\u85e5\u200b\u7269\u200b\u7684\u200b\u5291\u200b\u578b\u200b\uff08\u200b\u4f8b\u200b\u5982\u200b\u300c\u200b\u7247\u200b\u5291\u200b\u300d\u200b\u3001\u200b\u300c\u200b\u81a0\u200b\u56ca\u200b\u300d\u200b\uff09\u200b\u7b49\u200b\u8cc7\u200b\u8a0a\u200b\u3002<br/><br/>",
+                            "Spanish": "Estimado/a {patient_full_name},<br/><br/>El {cmr_date}, usted habl\u00f3 con un farmac\u00e9utico sobre su salud y medicamentos. Despu\u00e9s de la conversaci\u00f3n, le enviamos una Lista de medicamentos. Los nombres y las dosis de los medicamentos eran correctos, pero en la carta le faltaba informaci\u00f3n, como los nombres gen\u00e9ricos de los medicamentos de marca y la forma del medicamento (por ejemplo, \"tableta\", \"c\u00e1psula\")."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you would like to request a corrected copy of the Medication List or if you have any questions or concerns about these documents, please call Arine, Inc. at 917-768-0581 (TTY 711), Monday-Friday, 9 am - 5 pm.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5982\u200b\u679c\u200b\u60a8\u200b\u60f3\u200b\u7d22\u200b\u8981\u200b\u4e00\u200b\u4efd\u200b\u66f4\u200b\u6b63\u200b\u5f8c\u200b\u7684\u200b\u85e5\u200b\u7269\u200b\u6e05\u200b\u55ae\u200b\u526f\u200b\u672c\u200b\uff0c\u200b\u6216\u200b\u8005\u200b\u5982\u200b\u679c\u200b\u60a8\u200b\u5c0d\u200b\u9019\u200b\u4e9b\u200b\u6587\u200b\u4ef6\u200b\u6709\u200b\u4efb\u200b\u4f55\u200b\u7591\u200b\u554f\u200b\u6216\u200b\u7591\u200b\u616e\u200b\uff0c\u200b\u8acb\u200b\u81f4\u200b\u96fb\u200b \u200bArine Inc.\uff0c\u200b\u96fb\u200b\u8a71\u200b\uff1a\u200b917-768-0581 (TTY: 711)\uff0c\u200b\u670d\u200b\u52d9\u200b\u6642\u200b\u9593\u200b\u70ba\u200b\u9031\u200b\u4e00\u200b\u81f3\u200b\u9031\u200b\u4e94\u200b\uff0c\u200b\u4e0a\u200b\u5348\u200b \u200b9&nbsp;\u9ede\u200b\u81f3\u200b\u4e0b\u200b\u5348\u200b \u200b5&nbsp;\u9ede\u200b\u3002<br/><br/>",
+                            "Spanish": "Si desea solicitar una copia corregida de la Lista de medicamentos o si tiene alguna pregunta o inquietud sobre estos documentos, llame a Arine Inc. al 917-768-0581 (TTY: 711), de lunes a viernes, 9 am \u2013 5 pm."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u8b39\u200b\u81f4\u200b\u554f\u200b\u5019\u200b\uff0c<br/><br/>",
+                            "Spanish": "Atentamente,"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 24
+                    }
+                }
+            },
+            {
+                "spacer": {}
+            },
+            {
+                "spacer": {}
+            },
+            {
+                "paragraph": {
+                    "string": "Arine, Inc. Clinical Pharmacy Team <br/> On behalf of VNS Health Medicare (HMO)",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "Arine, Inc. \u81e8\u200b\u5e8a\u200b\u85e5\u200b\u623f\u200b\u5718\u200b\u968a<br/>\u4ee3\u200b\u8868 VNS Health \u5bcc\u200b\u5eb7\u200b\u91ab\u200b\u7642\u200b\u7d05\u200b\u85cd\u200b\u5361\u200b\u8a08\u200b\u5283 (Medicare) (HMO)",
+                            "Spanish": "Equipo de farmacia cl\u00ednica de Arine, Inc.<br/>En nombre de VNS Health Medicare (HMO)"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "height": 35,
+                    "storage": {
+                        "path": "org_logo/vnsny/2025-02-24/vnsny_logo_new_from_arine_pdfs.png",
+                        "type": "S3"
+                    },
+                    "x": 36,
+                    "y": 760
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "10 Vantage Point Dr, Ste 1<br/>Rochester, NY 14624",
+                    "text_style": {
+                        "parent_style": "AddressText"
+                    },
+                    "width": 250,
+                    "x": 36,
+                    "y": 615
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "<b>Health and wellness or prevention information.</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "",
+                            "Spanish": ""
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "FeatureText"
+                    },
+                    "width": 540,
+                    "x": 72,
+                    "y": 668
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "H5549_Arine MTM Corr 2/25_C",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "rightIndent": 80,
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "FooterText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 18
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 66,
+                "right": 66,
+                "top": 144
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FeatureText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "FooterText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 9,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "HeaderText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 22,
+                    "spaceBefore": 22,
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 19,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 6,
+                    "spaceBefore": 2,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-02-24T22:48:49"
+}

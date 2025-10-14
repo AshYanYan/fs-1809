@@ -1,0 +1,424 @@
+{
+    "created": "2023-11-08T21:01:37Z",
+    "id": "8a49dbf1-de4b-4f5d-b17e-951867fed6d4",
+    "name": "Welcome_HRHC_Cambia_docusend",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "sw",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 72,
+                    "y": 717
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "cambia"
+                    ],
+                    "string": "Y0062_2024_RX091_C",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "<b>Regence BlueShield of Idaho</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 42
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "<b>Regence BlueShield of Idaho</b><br/>1602 21st Avenue | Lewiston, ID 83501",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 42
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "<b>Regence BlueShield</b> serves select counties in the state of Washington<br/>and is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 42
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "<b>Regence BlueShield</b><br/>1111 Lake Washington Blvd N, Suite 900 | Renton, WA 98056",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 42
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Oregon</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 42
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Oregon</b><br/>200 SW Market Street, 11th Floor | Portland, OR 97201",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 42
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Utah</b><br/>is an Independent Licensee of the Blue Cross and Blue Shield Association",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 42
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "<b>Regence BlueCross BlueShield of Utah</b><br/>2890 E Cottonwood Parkway | Salt Lake City, UT 84121",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 42
+                }
+            },
+            {
+                "text": {
+                    "height": 24,
+                    "show_for": [
+                        "cambia:asuris_nw_wa_ppo",
+                        "cambia:asuris_nw_wa_pdp"
+                    ],
+                    "string": "<b>Asuris Northwest Health</b><br/>528 E Spokane Blvd | Suite 301 | Spokane WA 99202",
+                    "text_style": {
+                        "parent_style": "FooterText"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 42
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{english_letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "left"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bs_id_hmo",
+                        "cambia:regence_bs_id_ppo",
+                        "cambia:regence_bs_id_pdp"
+                    ],
+                    "string": "We\u2019re offering a medication management program at no extra cost to help Regence BlueShield of Idaho members like you improve your health. You\u2019ve been selected for this program to make sure you\u2019re on the safest and most effective medicines for your health conditions. Our experienced pharmacists will help you achieve the following:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bs_wa_hmo",
+                        "cambia:regence_bs_wa_ppo"
+                    ],
+                    "string": "We\u2019re offering a medication management program at no extra cost to help Regence BlueShield members like you improve your health. You\u2019ve been selected for this program to make sure you\u2019re on the safest and most effective medicines for your health conditions. Our experienced pharmacists will help you achieve the following:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bcbs_or_hmo",
+                        "cambia:regence_bcbs_or_ppo"
+                    ],
+                    "string": "We\u2019re offering a medication management program at no extra cost to help Regence BlueCross BlueShield of Oregon members like you improve your health. You\u2019ve been selected for this program to make sure you\u2019re on the safest and most effective medicines for your health conditions. Our experienced pharmacists will help you achieve the following:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:regence_bcbs_ut_ppo",
+                        "cambia:regence_bcbs_ut_pdp"
+                    ],
+                    "string": "We\u2019re offering a medication management program at no extra cost to help Regence BlueCross BlueShield of Utah members like you improve your health. You\u2019ve been selected for this program to make sure you\u2019re on the safest and most effective medicines for your health conditions. Our experienced pharmacists will help you achieve the following:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "cambia:asuris_nw_wa_ppo",
+                        "cambia:asuris_nw_wa_pdp"
+                    ],
+                    "string": "We\u2019re offering a medication management program at no extra cost to help Asuris Northwest Health members like you improve your health. You\u2019ve been selected for this program to make sure you\u2019re on the safest and most effective medicines for your health conditions. Our experienced pharmacists will help you achieve the following:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "<b><i>BETTER HEALTH</i></b> <br/> A trained pharmacist will help you achieve the maximum benefit from your medicines by making sure you are on the right medicines for your specific health conditions.<br/>",
+                        "<b><i>INCREASED SAFETY</i></b> <br/> Some medicines may cause side effects or may not work well when taken incorrectly or with other medicines. The pharmacist will make sure you\u2019re taking the right combination of medicines and provide tips on how to manage any side effects.<br/>",
+                        "<b><i>LOWER COSTS</i></b> <br/> The pharmacist can also look for ways to save you money by recommending lower cost options or removing any unnecessary medicines.<br/>"
+                    ],
+                    "items_replacements": {},
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "leftIndent": 16
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 32
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 12
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Take advantage of this program at no extra cost by calling for more information or to speak to a pharmacist directly toll-free at {hotline_phone} {hotline_hours}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Clinical Pharmacy Services",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "sw",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 72,
+                    "y": 717
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{org_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 200,
+                    "x": 72,
+                    "y": 618
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{patient_mailing_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 110,
+                    "y": 560
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 68,
+                "right": 68,
+                "top": 72
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": false,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "FooterText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "text_alignment": "right"
+                },
+                "ParagraphText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 8,
+                    "spaceBefore": 8,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-01-29T19:24:52"
+}

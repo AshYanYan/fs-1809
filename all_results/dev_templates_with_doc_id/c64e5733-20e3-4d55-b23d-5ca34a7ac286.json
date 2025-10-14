@@ -1,0 +1,371 @@
+{
+    "created": "2025-02-20T21:46:41Z",
+    "id": "c64e5733-20e3-4d55-b23d-5ca34a7ac286",
+    "managed": false,
+    "name": "CL_MTM_SelectHealth_Large_Address",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "/images/selecthealth_logo.png",
+                    "height": 45,
+                    "x": 469,
+                    "y": 770
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "patient_caregiver",
+                    "height": 110,
+                    "string": "NOTE: A review of your medications was done on {conversation_date} with {patient_caregiver} who served on your behalf. Here is a summary of your medication review.",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "NOTA: Se realiz\u00f3 una revisi\u00f3n de sus medicamentos en {conversation_date} con {patient_caregiver} que trabaj\u00f3 para su beneficio. Aqui esta el resumen de esa revisi\u00f3n."
+                        },
+                        "scan": {
+                            "Spanish": "NOTA: Se realiz\u00f3 una revisi\u00f3n de sus medicamentos en 25 de mayo de 2023 con {patient_caregiver} que trabaj\u00f3 para su beneficio. Aqui esta el resumen de esa revisi\u00f3n."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 175,
+                    "x": 375,
+                    "y": 600
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 535,
+                    "x_start": 75,
+                    "y_end": 135,
+                    "y_start": 135
+                }
+            },
+            {
+                "text": {
+                    "height": 50,
+                    "string": "According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB number for this information collection is 0938-1154. The time required to complete this information collection is estimated to average 40 minutes per response, including the time to review instructions, searching existing data resources, gather the data needed, and complete and review the information collection. If you have any comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: CMS, Attn: PRA Reports Clearance Officer, 7500 Security Boulevard, Baltimore, Maryland 21244-1850",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "De conformidad con la Ley de reducci\u00f3n de los tr\u00e1mites burocr\u00e1ticos de 1995, nadie estar\u00e1 obligado a responder a una solicitud de informaci\u00f3n a menos que se identifique con un n\u00famero de control v\u00e1lido de la Oficina de Administraci\u00f3n y Presupuesto. El n\u00famero de control v\u00e1lido de la Oficina de Administraci\u00f3n y Presupuesto para esta recolecci\u00f3n de informaci\u00f3n es 0938-1154. El tiempo necesario para completar esta solicitud es en promedio, 40 minutos incluido el tiempo necesario para revisar las instrucciones, buscar en las fuentes de datos existentes, seleccionar los datos necesarios y completarla. Si tiene comentarios sobre el tiempo estimado para responder o sugerencias para mejorar este formulario, s\u00edrvase escribir a: CMS, Attn: PRA Reports Clearance Officer, 7500 Security Boulevard, Baltimore, Maryland 21244-1850"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 7,
+                        "leading": 9,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 460,
+                    "x": 75,
+                    "y": 81
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 535,
+                    "x_start": 75,
+                    "y_end": 75,
+                    "y_start": 75
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 535,
+                    "x_start": 75,
+                    "y_end": 50,
+                    "y_start": 50
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Form CMS-10396 (Expires: 12/27)",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Formulario de CMS-10396 (Vence: 12/27)"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 7,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 150,
+                    "x": 75,
+                    "y": 35
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Form Approved OMB No. 0938-1154",
+                    "string_replacements": {
+                        "default": {
+                            "Spanish": "Formulario aprobado No. de OMB 0938-1154"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 7,
+                        "text_alignment": "right"
+                    },
+                    "width": 150,
+                    "x": 385,
+                    "y": 35
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 335,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 28,
+                        "text_alignment": "left"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "rightIndent": 200
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u89aa\u611b\u7684 {patient_full_name},",
+                            "Spanish": "Saludo {patient_full_name},"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 24
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Thank you for talking with me on {conversation_date}, about your health and medications. As a follow-up to our conversation, I have included two documents:",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u591a\u8b1d\u4f60\u5728{conversation_date}\u8207\u6211\u50be\u8ac7\u6709\u95dc\u4f60\u7684\u5065\u5eb7\u548c\u6240\u670d\u7528\u85e5\u7269\u7684\u60c5\u6cc1\u3002\u7232\u8ddf\u9032\u6211\u5011\u7684\u8ac7\u8ad6,\u6211\u73fe\u5728\u9644\u4e0a\u5169\u4efd\u6587\u4ef6\u7d66\u4f60:",
+                            "Spanish": "Gracias por hablar conmigo el d\u00eda {conversation_date} acerca de su salud y medicamentos. Para hacer seguimiento a nuestra conversaci\u00f3n, le adjunto dos documentos:"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Your <b>Recommended To-Do List</b> has steps you should take to get the best results from your medications.",
+                        "Your <b>Medication List</b> will help you keep track of your medications and how to take them."
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u4f60\u7684 <b>\u63a8\u85a6\u5f85\u8fa6\u4e8b\u9805\u6e05\u55ae</b>\u5305\u542b\u4f60\u61c9\u8a72\u63a1\u53d6\u7684\u6b65\u9a5f\u4ee5<br/>\u4fbf\u4f60\u5f9e\u4f60\u7684\u85e5\u7269\u4e2d\u7372\u5f97\u6700\u4f73\u6548\u679c\u3002",
+                                "\u4f60\u7684 <b>\u85e5\u7269\u6e05\u55ae</b> \u5c07\u5e6b\u52a9\u4f60\u4e86\u89e3\u4f60\u7684\u85e5\u7269\u4ee5\u53ca\u5982\u4f55\u670d\u7528\u5b83\u5011\u3002"
+                            ],
+                            "Spanish": [
+                                "Su <b>Lista de Cosas Para Hacer</b> incluye los pasos que usted debe seguir para obtener los mejores resultados de sus medicamentos.",
+                                "Su <b>Lista de Medicamentos</b> le ayudar\u00e1 a monitorear sus medicamentos y saber cu\u00e1ndo y c\u00f3mo tomarlos."
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletFontSize": 14,
+                        "bulletFormat": "%s.",
+                        "bulletType": "1",
+                        "leftIndent": 24
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you want to talk about these documents, please call <b>{hotline_name}</b> at <b>{hotline_phone}</b> {hotline_hours}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "I look forward to working with you and your doctors to make sure your medications work well for you.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u6211\u5e0c\u671b\u80fd\u5920\u8207\u4f60\u548c\u4f60\u7684\u91ab\u751f\u5171\u540c\u5408\u4f5c\u4ee5\u78ba\u4fdd\u4f60\u7684\u85e5\u7269\u5c0d\u4f60\u6709\u529f\u6548\u3002",
+                            "Spanish": "Espero poder trabajar con usted y sus doctores para asegurarnos que sus medicamentos son efectivos."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u8b1d\u8b1d,",
+                            "Spanish": "Muchas gracias por su atenci\u00f3n,"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 24
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "leading": 18,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_name}<br/>{pharmacist_role}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "/images/selecthealth_logo.png",
+                    "height": 45,
+                    "x": 469,
+                    "y": 770
+                }
+            },
+            {
+                "text": {
+                    "height": 50,
+                    "string": "{patient_mailing_address}",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 11,
+                        "leading": 11,
+                        "space_After": 11,
+                        "text_alignment": "left"
+                    },
+                    "width": 212,
+                    "x": 28,
+                    "y": 565
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "Health and wellness or prevention information.",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-bold",
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 400,
+                    "x": 58,
+                    "y": 552
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 144,
+                "left": 72,
+                "right": 72,
+                "top": 54
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Arial-normal",
+                "show": true,
+                "skip_cover_page": true
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "AddressText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 14,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                },
+                "FooterPlanText": {
+                    "fontName": "Calibri-normal",
+                    "fontSize": 11,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 14,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-04-24T20:48:23"
+}

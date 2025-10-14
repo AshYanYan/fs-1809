@@ -1,0 +1,820 @@
+{
+    "created": "2023-06-05T20:47:37Z",
+    "id": "efaf0391-aac0-4f81-a6d4-f9766dce5495",
+    "managed": true,
+    "name": "PCP_TDL_MTM_general",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Medication Action Plan (cont.)<br/>Name: {patient_full_name}<br/>(DOB: {patient_date_birth})",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 300,
+                    "x": 36,
+                    "y": 746
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 65
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "healthfirst"
+                    ],
+                    "string": "1129-24",
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "left"
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "univera",
+                        "simply_prescriptions"
+                    ],
+                    "string": "ORG_DOC_ID",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "Y0028_9955_C"
+                        },
+                        "excellus_dsnp": {
+                            "English": "H7524_0604_C"
+                        },
+                        "simply_prescriptions": {
+                            "English": "S3521_9939_C"
+                        },
+                        "univera": {
+                            "English": "Y0028_9956_C"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Medication Therapy Management Program for Patient: <b>{patient_full_name} (DOB: {patient_date_birth})</b>",
+                    "string_replacements": {
+                        "healthfirst": {
+                            "English": "<br/><br/><b><i>Medication Therapy - ACTION NEEDED</i></b>"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "healthfirst"
+                    ],
+                    "string": "Patient: <b>{patient_full_name} (DOB:  {patient_date_birth})</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {provider_full_name}:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "simply_prescriptions",
+                        "univera",
+                        "allcare",
+                        "vivahealth",
+                        "esi:bannerhealth",
+                        "esi:christushealth",
+                        "esi:communityhealthplanofwashington",
+                        "esi:emblemhealth",
+                        "esi:emihealth",
+                        "esi:expressscriptsmedicarepdp",
+                        "esi:grouphealthcooperativeofeauclaire",
+                        "esi:healthfirsthealthplans",
+                        "esi:medica",
+                        "esi:networkhealth",
+                        "esi:sentarahealthplans",
+                        "esi:thehealthplan",
+                        "esi:universityofmichiganhealthplan",
+                        "esi:wellsense",
+                        "healthfirst"
+                    ],
+                    "string": "I am a pharmacist, working on behalf of {hotline_name}. I spoke with your patient on {cmr_date} to perform a medication consultation. I have summarized the issues identified and my recommendations in the below table. Please call {hotline_phone} with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "esi:bannerhealth",
+                        "esi:christushealth",
+                        "esi:communityhealthplanofwashington",
+                        "esi:emblemhealth",
+                        "esi:emihealth",
+                        "esi:expressscriptsmedicarepdp",
+                        "esi:grouphealthcooperativeofeauclaire",
+                        "esi:healthfirsthealthplans",
+                        "esi:medica",
+                        "esi:networkhealth",
+                        "esi:sentarahealthplans",
+                        "esi:thehealthplan",
+                        "esi:universityofmichiganhealthplan",
+                        "esi:wellsense"
+                    ],
+                    "string": "I am a pharmacist with [user_org.report_name] Medicare. On {cmr_date}, I spoke with your patient to perform a medication consultation. I have summarized the issues identified and my recommendations in the below table. Please call {pharmacist_phone} (TTY users call 711) with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at 1-833-263-1963.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "vivahealth"
+                    ],
+                    "string": "I am a clinical pharmacist working on behalf of VIVA MEDICARE. On {cmr_date}, I spoke with your patient to perform a medication consultation. I have summarized the issues identified and my recommendations in the below table. Please call {hotline_phone} with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "allcare"
+                    ],
+                    "string": " I am an {hotline_name} pharmacist. On {cmr_date}, I spoke with your patient to perform a medication consultation. I have summarized the issues identified and my recommendations in the below table. Please call {hotline_phone} with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at {hotline_fax}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "simply_prescriptions",
+                        "univera"
+                    ],
+                    "string": "I am a {hotline_name} pharmacist. On {cmr_date}, I spoke with your patient to perform a medication consultation. I have summarized the issues identified and my recommendations in the below table.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "healthfirst"
+                    ],
+                    "string": "I am a {hotline_name} clinical pharmacist. On {cmr_date}, I spoke with your patient to perform a medication consultation. I have summarized the issues identified and my recommendations in the below table. Please call 1-844-450-5721 (TTY users call 711) with any questions. Please also indicate in the last column whether you plan to implement the recommendations and fax us the form at 1-888-989-0945.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "6%",
+                        "60%",
+                        "32%",
+                        "20%"
+                    ],
+                    "data_source": "provider_recommendations",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Assessment",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Recommendation",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Implement?<br/>(Y/N)",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "ROWBACKGROUNDS": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "#FFFFFF",
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "display_condition": "pharmacy_name",
+                    "string": "Please send any updated prescriptions to the patient\u2019s preferred pharmacy, as we are not a dispensing pharmacy. The patient\u2019s preferred pharmacy is:",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "pharmacy_name",
+                    "string": "{pharmacy_name}<br/>{pharmacy_street}<br/>{pharmacy_city_state_zip}<br/>Phone: {pharmacy_phone}",
+                    "string_replacements": {
+                        "molina": {
+                            "English": "{pharmacy_dba_name}<br/>{pharmacy_street}<br/>{pharmacy_city_state_zip}<br/>Phone: {pharmacy_phone}"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "esi:bannerhealth",
+                        "esi:christushealth",
+                        "esi:communityhealthplanofwashington",
+                        "esi:emblemhealth",
+                        "esi:emihealth",
+                        "esi:expressscriptsmedicarepdp",
+                        "esi:grouphealthcooperativeofeauclaire",
+                        "esi:healthfirsthealthplans",
+                        "esi:medica",
+                        "esi:networkhealth",
+                        "esi:sentarahealthplans",
+                        "esi:thehealthplan",
+                        "esi:universityofmichiganhealthplan",
+                        "esi:wellsense"
+                    ],
+                    "string": "Please leave any other comments here about the recommendations or important notes about the patient\u2019s health and fax us the form at {hotline_fax}:",
+                    "string_replacements": {
+                        "healthfirst": {
+                            "English": "Please leave any other comments here about the recommendations or important notes about the patient\u2019s health and fax us the form at 1-888-989-0945:"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 25
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "esi:bannerhealth",
+                        "esi:christushealth",
+                        "esi:communityhealthplanofwashington",
+                        "esi:emblemhealth",
+                        "esi:emihealth",
+                        "esi:expressscriptsmedicarepdp",
+                        "esi:grouphealthcooperativeofeauclaire",
+                        "esi:healthfirsthealthplans",
+                        "esi:medica",
+                        "esi:networkhealth",
+                        "esi:sentarahealthplans",
+                        "esi:thehealthplan",
+                        "esi:universityofmichiganhealthplan",
+                        "esi:wellsense"
+                    ],
+                    "string": "Please leave any other comments here about the recommendations or important notes about the patient\u2019s health and fax us the form at 1-833-263-1963",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 25
+                    }
+                }
+            },
+            {
+                "line": {
+                    "hide_for": [
+                        "esi:bannerhealth",
+                        "esi:christushealth",
+                        "esi:communityhealthplanofwashington",
+                        "esi:emblemhealth",
+                        "esi:emihealth",
+                        "esi:expressscriptsmedicarepdp",
+                        "esi:grouphealthcooperativeofeauclaire",
+                        "esi:healthfirsthealthplans",
+                        "esi:medica",
+                        "esi:networkhealth",
+                        "esi:sentarahealthplans",
+                        "esi:thehealthplan",
+                        "esi:universityofmichiganhealthplan",
+                        "esi:wellsense",
+                        "healthfirst"
+                    ],
+                    "width": "100%"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "hide_for": [
+                        "esi:bannerhealth",
+                        "esi:christushealth",
+                        "esi:communityhealthplanofwashington",
+                        "esi:emblemhealth",
+                        "esi:emihealth",
+                        "esi:expressscriptsmedicarepdp",
+                        "esi:grouphealthcooperativeofeauclaire",
+                        "esi:healthfirsthealthplans",
+                        "esi:medica",
+                        "esi:networkhealth",
+                        "esi:sentarahealthplans",
+                        "esi:thehealthplan",
+                        "esi:universityofmichiganhealthplan",
+                        "esi:wellsense",
+                        "healthfirst"
+                    ],
+                    "width": "100%"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "hide_for": [
+                        "esi:bannerhealth",
+                        "esi:christushealth",
+                        "esi:communityhealthplanofwashington",
+                        "esi:emblemhealth",
+                        "esi:emihealth",
+                        "esi:expressscriptsmedicarepdp",
+                        "esi:grouphealthcooperativeofeauclaire",
+                        "esi:healthfirsthealthplans",
+                        "esi:medica",
+                        "esi:networkhealth",
+                        "esi:sentarahealthplans",
+                        "esi:thehealthplan",
+                        "esi:universityofmichiganhealthplan",
+                        "esi:wellsense",
+                        "healthfirst"
+                    ],
+                    "width": "100%"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "hide_for": [
+                        "esi:bannerhealth",
+                        "esi:christushealth",
+                        "esi:communityhealthplanofwashington",
+                        "esi:emblemhealth",
+                        "esi:emihealth",
+                        "esi:expressscriptsmedicarepdp",
+                        "esi:grouphealthcooperativeofeauclaire",
+                        "esi:healthfirsthealthplans",
+                        "esi:medica",
+                        "esi:networkhealth",
+                        "esi:sentarahealthplans",
+                        "esi:thehealthplan",
+                        "esi:universityofmichiganhealthplan",
+                        "esi:wellsense",
+                        "healthfirst"
+                    ],
+                    "width": "100%"
+                }
+            },
+            {
+                "spacer": {
+                    "height": 15
+                }
+            },
+            {
+                "line": {
+                    "hide_for": [
+                        "esi:bannerhealth",
+                        "esi:christushealth",
+                        "esi:communityhealthplanofwashington",
+                        "esi:emblemhealth",
+                        "esi:emihealth",
+                        "esi:expressscriptsmedicarepdp",
+                        "esi:grouphealthcooperativeofeauclaire",
+                        "esi:healthfirsthealthplans",
+                        "esi:medica",
+                        "esi:networkhealth",
+                        "esi:sentarahealthplans",
+                        "esi:thehealthplan",
+                        "esi:universityofmichiganhealthplan",
+                        "esi:wellsense",
+                        "healthfirst"
+                    ],
+                    "width": "100%"
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "We appreciate working with you to provide high-quality healthcare for our patients.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "leading": 18,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_for": [
+                        "esi:bannerhealth",
+                        "esi:christushealth",
+                        "esi:communityhealthplanofwashington",
+                        "esi:emblemhealth",
+                        "esi:emihealth",
+                        "esi:expressscriptsmedicarepdp",
+                        "esi:grouphealthcooperativeofeauclaire",
+                        "esi:healthfirsthealthplans",
+                        "esi:medica",
+                        "esi:networkhealth",
+                        "esi:sentarahealthplans",
+                        "esi:thehealthplan",
+                        "esi:universityofmichiganhealthplan",
+                        "esi:wellsense"
+                    ],
+                    "string": "Medication Therapy Management Pharmacist<br/>{pharmacist_credentialed_name}<br/>{pharmacist_org_name}<br/>Phone: {pharmacist_phone}<br/>Fax: {pharmacist_fax}",
+                    "string_replacements": {
+                        "healthfirst": {
+                            "English": "Medication Therapy Management Pharmacist<br/>{pharmacist_credentialed_name}<br/>{pharmacist_org_name}<br/>Phone: 1-844-450-5721 (TTY users call 711)<br/>Fax: 1-888-989-0945"
+                        },
+                        "medigold": {
+                            "English": "Medication Therapy Management Pharmacist<br/>{pharmacist_credentialed_name}<br/>{patient_sub_org_name}<br/>Phone: {pharmacist_phone}<br/>Fax: {pharmacist_fax}"
+                        },
+                        "vivahealth": {
+                            "English": "{pharmacist_job_title}<br/>{pharmacist_credentialed_name}<br/>VIVA MEDICARE<br/>{hotline_phone}<br/>Fax: {pharmacist_fax}"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "show_for": [
+                        "esi:bannerhealth",
+                        "esi:christushealth",
+                        "esi:communityhealthplanofwashington",
+                        "esi:emblemhealth",
+                        "esi:emihealth",
+                        "esi:expressscriptsmedicarepdp",
+                        "esi:grouphealthcooperativeofeauclaire",
+                        "esi:healthfirsthealthplans",
+                        "esi:medica",
+                        "esi:networkhealth",
+                        "esi:sentarahealthplans",
+                        "esi:thehealthplan",
+                        "esi:universityofmichiganhealthplan",
+                        "esi:wellsense"
+                    ],
+                    "string": "{pharmacist_job_title}<br/>{pharmacist_credentialed_name}<br/>[user_org.report_name]<br/>{pharmacist_phone}<br/>Fax: 1-833-263-1963",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "pagebreak": {
+                    "show_for": [
+                        "healthfirst"
+                    ]
+                }
+            },
+            {
+                "spacer": {
+                    "height": 450,
+                    "show_for": [
+                        "healthfirst"
+                    ],
+                    "width": 612
+                }
+            },
+            {
+                "paragraph": {
+                    "height": 50,
+                    "show_for": [
+                        "healthfirst"
+                    ],
+                    "string": "Coverage is provided by Healthfirst Health Plan, Inc., Healthfirst PHSP, Inc., and/or Healthfirst Insurance Company, Inc. (together, \u201cHealthfirst\u201d). Plans contain exclusions and limitations. Healthfirst complies with applicable Federal civil rights laws and does not discriminate on the basis of race, color, national origin, age, disability, or sex. ATENCI\u00d3N: si habla espa\u00f1ol, tiene a su disposici\u00f3n servicios gratuitos de asistencia ling\u00fc\u00edstica. Llame al 1-866-305-0408 (TTY 1-888-867-4132). \u6ce8\u610f\uff1a\u5982\u679c\u60a8\u4f7f\u7528\u7e41\u9ad4\u4e2d\u6587\uff0c\u60a8\u53ef\u4ee5\u514d\u8cbb\u7372\u5f97\u8a9e\u8a00\u63f4\u52a9\u670d\u52d9\u3002\u8acb\u81f4\u96fb 1-866-305-0408 (TTY 1-888-542-3821).",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 460
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 40,
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 65
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "show_for": [
+                        "excellus",
+                        "excellus_dsnp",
+                        "univera",
+                        "simply_prescriptions"
+                    ],
+                    "string": "ORG_DOC_ID",
+                    "string_replacements": {
+                        "excellus": {
+                            "English": "Y0028_9955_C"
+                        },
+                        "excellus_dsnp": {
+                            "English": "H7524_0604_C"
+                        },
+                        "simply_prescriptions": {
+                            "English": "S3521_9939_C"
+                        },
+                        "univera": {
+                            "English": "Y0028_9956_C"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8
+                    },
+                    "width": 200,
+                    "x": 36,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 36,
+                "right": 36,
+                "top": 108
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {
+                "conversation_date": {
+                    "English": {
+                        "format_string": "%B %-d, %Y",
+                        "locale": "en_US.UTF-8"
+                    },
+                    "Spanish": {
+                        "format_string": "%-d de %B de %Y",
+                        "locale": "es_ES.UTF-8"
+                    }
+                }
+            }
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 14,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2025-03-24T17:19:00"
+}

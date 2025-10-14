@@ -1,0 +1,83 @@
+{
+    "created": "2023-10-03T10:16:15Z",
+    "id": "4f6b851c-025e-4827-a19f-8fd496b3e286",
+    "name": "testTemplate03 16",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [],
+        "document_content": [
+            {
+                "paragraph": {
+                    "spaceAfter": 7.57,
+                    "spaceBefore": 0.5,
+                    "string": "1st paragraph"
+                }
+            },
+            {
+                "paragraph": {
+                    "spaceAfter": 1.2,
+                    "spaceBefore": 1.2,
+                    "string": "2nd paragraph"
+                }
+            },
+            {
+                "line": {
+                    "spaceBefore": 1.8,
+                    "width": "100%"
+                }
+            },
+            {
+                "paragraph": {
+                    "spaceBefore": 0.1,
+                    "string": "Hi There!"
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 720,
+                    "x_start": 72,
+                    "y_end": 60,
+                    "y_start": 60
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 0,
+                    "x_end": 720,
+                    "x_start": 72,
+                    "y_end": 70,
+                    "y_start": 70
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": null,
+                "left": null,
+                "right": null,
+                "top": null
+            },
+            "orientation": "portrait",
+            "pagination": {
+                "font_name": null,
+                "show": null,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {}
+        }
+    },
+    "updated": "2024-12-03T20:01:58"
+}

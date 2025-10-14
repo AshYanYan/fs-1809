@@ -1,0 +1,174 @@
+{
+    "created": "2024-11-04T03:42:07Z",
+    "id": "37c68c4e-d581-416e-a0cd-6a6e52010a9e",
+    "name": "Welcome_HRHC_Kaiser_DocuSend",
+    "program": "CMM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{english_letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},<br/><br/>We are offering a medication management program at no extra cost to help {hotline_name} members like you improve your health. You have been selected for this program to make sure you are on the safest and most effective medicines for your health conditions. Our experienced pharmacists will help you achieve the following:",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 18
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "<b><i>BETTER HEALTH</i></b><br/>A trained pharmacist will help you achieve the maximum benefit from you and your medicines by making sure you are on the right medicines for your specific health conditions.<br/>",
+                        "<b><i>INCREASED SAFETY</i></b><br/>Some medicines may cause side effects or may not work well when taken incorrectly or with other medicines. The pharmacist will make sure that you are taking the right combination of medicines and provide tips on how to manage any side effects.<br/>",
+                        "<b><i>LOWER COSTS</i></b><br/>The pharmacist can also look for ways to save you money by recommending lower cost options or removing any unnecessary medicines.<br/>"
+                    ],
+                    "items_replacements": {},
+                    "list_attributes": {
+                        "bulletType": "bullet",
+                        "leftIndent": 16
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 32
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 12
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Take advantage of this program at no extra cost by calling for more information or to speak to a pharmacist directly toll-free at {hotline_phone}, {hotline_hours}.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 18
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Kaiser Foundation Health Plan of Washington",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 35,
+                    "x": 48,
+                    "y": 760
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "<b>Kaiser Foundation Health Plan of Washington</b><br/>Pharmacy Administration - RCA-B2N-12<br/>{org_address}",
+                    "text_style": {
+                        "fontSize": 11,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 600,
+                    "x": 48,
+                    "y": 620
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-new-roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 100,
+                "left": 66,
+                "right": 66,
+                "top": 261
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Times-New-Roman-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2024-11-06T01:32:15"
+}

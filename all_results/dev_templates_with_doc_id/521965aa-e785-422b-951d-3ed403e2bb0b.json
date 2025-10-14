@@ -1,0 +1,473 @@
+{
+    "created": "2025-05-06T21:37:12Z",
+    "id": "521965aa-e785-422b-951d-3ed403e2bb0b",
+    "managed": false,
+    "name": "mock CL",
+    "program": "MTM",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "se",
+                    "filename": "{org_logo}",
+                    "height": 35,
+                    "width": 70,
+                    "x": 540,
+                    "y": 719
+                }
+            },
+            {
+                "text": {
+                    "display_condition": "patient_caregiver",
+                    "height": 110,
+                    "string": "NOTE: A review of your medications was done on {conversation_date} with {patient_caregiver} who served on your behalf. Here is a summary of your medication review.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5099\u8a3b\uff1a\u60a8\u7684\u85e5\u7269\u6e05\u55ae\u548c\u5065 \u5eb7\u72c0\u6cc1\u662f\u5728 {conversation_date}\u8207\u60a8\u7684\u770b \u8b77\u8005{patient_caregiver}\u8a0e\u8ad6 \u7684\u3002 \u8a0e\u8ad6\u5167\u5bb9\u5982\u4e0b\uff1a",
+                            "Spanish": "NOTA: Se realiz\u00f3 una revisi\u00f3n de sus medicamentos en {conversation_date} con {patient_caregiver} que trabaj\u00f3 para su beneficio. Aqui esta el resumen de esa revisi\u00f3n.",
+                            "Vietnamese": "L\u01afU \u00dd: Vi\u1ec7c xem x\u00e9t c\u00e1c lo\u1ea1i thu\u1ed1c c\u1ee7a b\u1ea1n \u0111\u00e3 \u0111\u01b0\u1ee3c th\u1ef1c hi\u1ec7n v\u00e0o ng\u00e0y {conversation_date} v\u1edbi {patient_caregiver}, ng\u01b0\u1eddi \u0111\u00e3 thay m\u1eb7t b\u1ea1n th\u1ef1c hi\u1ec7n. D\u01b0\u1edbi \u0111\u00e2y l\u00e0 b\u1ea3n t\u00f3m t\u1eaft c\u1ee7a bu\u1ed5i \u0111\u00e1nh gi\u00e1 thu\u1ed1c."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText2"
+                    },
+                    "width": 175,
+                    "x": 375,
+                    "y": 564
+                }
+            },
+            {
+                "text": {
+                    "height": 30,
+                    "string": "<i>IEHP DualChoice (HMO D-SNP) is an HMO plan with a Medicare contract. Enrollment in IEHP DualChoice (HMO D-SNP) depends on contract renewal.</i>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "<i>IEHP DualChoice (HMO D-SNP) \u662f\u4e00\u9805\u7c3d\u6709 Medicare \u5408\u7d04\u7684 HMO \u8a08\u5283\u3002\u53c3\u4fdd IEHP DualChoice (HMO D-SNP) \u9700\u8996\u5408\u7d04\u7e8c\u7d04\u60c5\u6cc1\u800c\u5b9a\u3002</i>",
+                            "Spanish": "<i>IEHP DualChoice (HMO D-SNP) es un plan HMO con contrato de Medicare. La inscripci\u00f3n en IEHP DualChoice (HMO D-SNP) depende de la renovaci\u00f3n del contrato.</i>",
+                            "Vietnamese": "<i>IEHP DualChoice (HMO D-SNP) l\u00e0 m\u1ed9t ch\u01b0\u01a1ng tr\u00ecnh HMO c\u00f3 h\u1ee3p \u0111\u1ed3ng v\u1edbi Medicare. Vi\u1ec7c  ghi danh tham gia ch\u01b0\u01a1ng tr\u00ecnh IEHP DualChoice (HMO D-SNP) ph\u1ee5 thu\u1ed9c v\u00e0o vi\u1ec7c gia h\u1ea1n h\u1ee3p \u0111\u1ed3ng.</i>"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Arial-normal",
+                        "fontSize": 10,
+                        "leading": 12,
+                        "parent_style": "ParagraphText2"
+                    },
+                    "width": 463,
+                    "x": 75,
+                    "y": 135
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 535,
+                    "x_start": 75,
+                    "y_end": 135,
+                    "y_start": 135
+                }
+            },
+            {
+                "text": {
+                    "height": 50,
+                    "string": "According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB number for this information collection is 0938-1154. The time required to complete this information collection is estimated to average 40 minutes per response, including the time to review instructions, searching existing data resources, gather the data needed, and complete and review the information collection. If you have any comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: CMS, Attn: PRA Reports Clearance Officer, 7500 Security Boulevard, Baltimore, Maryland 21244-1850",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u6839\u64da 1995 \u5e74\u6587\u66f8\u7c21\u5316\u6cd5\u898f\u5b9a\uff0c\u9664\u975e\u986f\u793a\u6709\u6548\u7684\u884c\u653f\u7ba1\u7406\u8207\u9810\u7b97\u5c40 (OMB) \u63a7\u5236\u7de8\u865f\uff0c\u5426\u5247\u4efb\u4f55\u4eba\u90fd\u4e0d\u5fc5\u5c0d\u8cc7\u8a0a\u6536\u96c6\u4f5c\u51fa\u56de\u61c9\u3002\u672c\u8cc7\u8a0a\u6536\u96c6\u7684\u6709\u6548 OMB \u7de8\u865f\u70ba 0938-1154\u3002\u5b8c\u6210\u672c\u8cc7\u8a0a\u6536\u96c6\u6240\u9700\u6642\u9593\u9810\u4f30\u6bcf\u6b21\u56de\u61c9\u5e73\u5747 40 \u5206\u9418\uff0c\u5305\u62ec\u95b1\u8b80\u6307\u793a\u8aaa\u660e\u3001\u641c\u5c0b\u73fe\u6709\u8cc7\u6599\u8cc7\u6e90\u3001\u6536\u96c6\u6240\u9700\u8cc7\u6599\uff0c\u4ee5\u53ca\u5b8c\u6210\u548c \u6aa2\u67e5\u8cc7\u8a0a\u6536\u96c6\u6240\u9700\u7684\u6642\u9593\u3002\u5982\u679c\u60a8\u5c0d\u6642\u9593\u9810\u4f30\u7684\u6e96\u78ba\u6027\u6709\u4efb\u4f55\u610f\u898b\uff0c\u6216\u6709\u6539\u5584\u672c\u8868\u683c\u7684\u5efa\u8b70\uff0c\u8acb\u5beb\u4fe1\u81f3\uff1aCMS, Attn: PRA Reports Clearance Officer, 7500 Security Boulevard, Baltimore, Maryland 21244-1850",
+                            "Spanish": "De acuerdo con la Ley de Simplificaci\u00f3n de los Procesos Administrativos (Paperwork Reduction Act) de 1995, ninguna persona est\u00e1 obligada a responder a una recopilaci\u00f3n de informaci\u00f3n a menos que esta exhiba un n\u00famero de control de la Oficina de Gesti\u00f3n y Presupuesto (Office of Management and Budget, OMB) v\u00e1lido. El n\u00famero de OMB v\u00e1lido para esta recolecci\u00f3n de informaci\u00f3n es 0938-1154. Se calcula que el tiempo que lleva completar esta recopilaci\u00f3n de informaci\u00f3n es de 40 minutos por respuesta, en promedio, incluido el tiempo para revisar las instrucciones, buscar recursos de datos existentes, reunir los datos necesarios y completar y revisar la recopilaci\u00f3n de informaci\u00f3n. Si tiene comentarios sobre el tiempo estimado para completarlo o sugerencias para mejorar este formulario, por favor escriba a: CMS, Attn: PRA Reports Clearance Officer, 7500 Security Boulevard, Baltimore, Maryland 21244-1850",
+                            "Vietnamese": "Theo \u0110\u1ea1o lu\u1eadt Gi\u1ea3m C\u00f4ng vi\u1ec7c Gi\u1ea5y t\u1edd n\u0103m 1995, kh\u00f4ng ng\u01b0\u1eddi n\u00e0o ph\u1ea3i tr\u1ea3 l\u1eddi m\u1ed9t b\u1ea3n thu th\u1eadp th\u00f4ng tin tr\u1eeb khi tr\u00ean b\u1ea3n \u0111\u00f3 c\u00f3 m\u1ed9t s\u1ed1 ki\u1ec3m so\u00e1t OMB h\u1ee3p l\u1ec7. S\u1ed1 OMB h\u1ee3p l\u1ec7 cho vi\u1ec7c thu th\u1eadp th\u00f4ng tin n\u00e0y l\u00e0 0938-1154. Th\u1eddi gian c\u1ea7n thi\u1ebft \u0111\u1ec3 ho\u00e0n th\u00e0nh vi\u1ec7c thu th\u1eadp th\u00f4ng tin n\u00e0y \u0111\u01b0\u1ee3c \u01b0\u1edbc t\u00ednh trung b\u00ecnh l\u00e0 40 ph\u00fat cho m\u1ed7i ph\u1ea3n h\u1ed3i, bao g\u1ed3m th\u1eddi gian xem x\u00e9t h\u01b0\u1edbng d\u1eabn, t\u00ecm ki\u1ebfm c\u00e1c ngu\u1ed3n d\u1eef li\u1ec7u hi\u1ec7n c\u00f3, thu th\u1eadp d\u1eef li\u1ec7u c\u1ea7n thi\u1ebft, ho\u00e0n th\u00e0nh v\u00e0 xem x\u00e9t vi\u1ec7c thu th\u1eadp th\u00f4ng tin. N\u1ebfu qu\u00fd v\u1ecb c\u00f3 b\u1ea5t k\u1ef3 nh\u1eadn x\u00e9t n\u00e0o v\u1ec1 t\u00ednh ch\u00ednh x\u00e1c c\u1ee7a \u01b0\u1edbc l\u01b0\u1ee3ng th\u1eddi gian ho\u1eb7c c\u00e1c g\u1ee3i \u00fd \u0111\u1ec3 c\u1ea3i thi\u1ec7n m\u1eabu n\u00e0y, vui l\u00f2ng g\u1eedi th\u01b0 t\u1edbi: CMS, Attn: PRA Reports Clearance Officer, 7500 Security Boulevard, Baltimore, Maryland 21244-1850"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Arial-normal",
+                        "fontSize": 7,
+                        "leading": 9,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 460,
+                    "x": 75,
+                    "y": 81
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 535,
+                    "x_start": 75,
+                    "y_end": 65,
+                    "y_start": 65
+                }
+            },
+            {
+                "line": {
+                    "stroke_color": "#000000",
+                    "stroke_width": 1,
+                    "x_end": 535,
+                    "x_start": 75,
+                    "y_end": 50,
+                    "y_start": 50
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Form CMS-10396 (Expires: 12/27)",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "CMS-10396 \u8868\u683c (\u5230\u671f\u65e5\u671f\uff1a12/27)",
+                            "Spanish": "Formulario de CMS-10396 (Vence: 12/27)",
+                            "Vietnamese": "Bi\u1ec3u m\u1eabu CMS-10396 (H\u1ebft h\u1ea1n: 12/27)"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Arial-normal",
+                        "fontSize": 7,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 150,
+                    "x": 75,
+                    "y": 35
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "Form Approved OMB No. 0938-1154",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u8868\u683c\u6279\u51c6 OMB \u7de8\u865f 0938-1154",
+                            "Spanish": "Formulario aprobado No. de OMB 0938-1154",
+                            "Vietnamese": "M\u1eabu \u0110\u01b0\u1ee3c Ph\u00ea Duy\u1ec7t s\u1ed1 OMB 0938-1154"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 7,
+                        "text_alignment": "right"
+                    },
+                    "width": 150,
+                    "x": 385,
+                    "y": 35
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "H8894_DSNP_5953832",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "H8894_DSNP_5953832_C_CH",
+                            "Spanish": "H8894_DSNP_5953832_SP",
+                            "Vietnamese": "H8894_DSNP_5953832_C_VI"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "left"
+                    },
+                    "width": 463,
+                    "x": 75,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 463,
+                    "x": 75,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText2",
+                        "spaceAfter": 28
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText2",
+                        "rightIndent": 200
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "{patient_full_name}, \u60a8\u597d\uff1a",
+                            "Spanish": "Estimada {patient_full_name},",
+                            "Vietnamese": "K\u00ednh g\u1eedi {patient_full_name},"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText2",
+                        "spaceBefore": 24
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Thank you for talking with me on {conversation_date}, about your health and medications. As a follow-up to our conversation, I have included two documents:",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u200b\u611f\u200b\u8b1d\u200b\u60a8\u200b\u65bc {cmr_date}, \u200b\u8207\u200b\u6211\u200b\u8a0e\u200b\u8ad6\u200b\u60a8\u200b\u7684\u200b\u5065\u200b\u5eb7\u200b\u548c\u200b\u85e5\u200b\u7269\u200b\u4e8b\u200b\u5b9c\u3002\u200b\u70ba\u200b\u4e86\u200b\u8ddf\u200b\u9032\u200b\u6211\u200b\u5011\u200b\u7684\u200b\u5c0d\u200b\u8a71\u200b\u5167\u200b\u5bb9\uff0c\u200b\u6211\u200b\u5728\u200b\u6b64\u200b\u9644\u200b\u4e0a\u200b\u5169\u200b\u4efd\u200b\u6587\u200b\u4ef6\uff1a",
+                            "Spanish": "Gracias por hablar conmigo el {cmr_date} sobre su salud y sus medicamentos. Como seguimiento de nuestra conversaci\u00f3n, he incluido dos documentos:",
+                            "Vietnamese": "C\u1ea3m \u01a1n qu\u00fd v\u1ecb v\u00ec \u0111\u00e3 n\u00f3i chuy\u1ec7n v\u1edbi t\u00f4i v\u00e0o {cmr_date}, v\u1ec1 s\u1ee9c kh\u1ecfe v\u00e0 thu\u1ed1c c\u1ee7a qu\u00fd v\u1ecb. \u0110\u1ec3 ti\u1ebfp n\u1ed1i cu\u1ed9c tr\u00f2 chuy\u1ec7n c\u1ee7a ch\u00fang ta, t\u00f4i \u0111\u00e3 g\u1eedi k\u00e8m theo hai t\u00e0i li\u1ec7u: "
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText2"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Your <b>Recommended To-Do List</b> has steps you should take to get the best results from your medications.",
+                        "Your <b>Medication List</b> will help you keep track of your medications and how to take them."
+                    ],
+                    "items_replacements": {
+                        "default": {
+                            "Chinese": [
+                                "\u60a8\u7684 <b>\u5efa\u8b70\u884c\u52d5\u6e05\u55ae</b>\u5176\u4e2d\u5217\u51fa\u60a8\u61c9\u63a1\u53d6\u7684\u884c\u52d5\uff0c\u4ee5\u4fbf\u900f\u904e\u60a8\u7684\u85e5\u7269\u5f97\u5230\u6700\u4f73\u6cbb\u7642\u6548\u679c\u3002",
+                                "\u60a8\u7684<b>\u85e5\u7269\u6e05\u55ae</b>\u9019\u6709\u52a9\u65bc\u8a18\u9304\u60a8\u7684\u85e5\u7269\u548c\u7528\u85e5\u65b9\u5f0f\u3002"
+                            ],
+                            "Spanish": [
+                                "Su <b>Lista de tareas recomendadas</b>  tiene medidas que usted deber\u00eda tomar para obtener los mejores resultados de sus medicamentos.",
+                                "Su <b>Lista de medicamentos</b> le ayudar\u00e1 a llevar un registro de sus medicamentos y de c\u00f3mo tomarlos."
+                            ],
+                            "Vietnamese": [
+                                "Danh <b>S\u00e1ch Vi\u1ec7c C\u1ea7n L\u00e0m \u0110\u01b0\u1ee3c \u0110\u1ec1 Xu\u1ea5t c\u1ee7a qu\u00fd v\u1ecb</b> c\u00f3 c\u00e1c b\u01b0\u1edbc m\u00e0 qu\u00fd v\u1ecb n\u00ean th\u1ef1c hi\u1ec7n \u0111\u1ec3 \u0111\u1ea1t \u0111\u01b0\u1ee3c k\u1ebft qu\u1ea3 t\u1ed1t nh\u1ea5t t\u1eeb thu\u1ed1c c\u1ee7a m\u00ecnh.",
+                                "Danh <b>S\u00e1ch Thu\u1ed1c c\u1ee7a qu\u00fd v</b>\u1ecb s\u1ebd gi\u00fap qu\u00fd v\u1ecb theo d\u00f5i c\u00e1c lo\u1ea1i thu\u1ed1c c\u1ee7a qu\u00fd v\u1ecb v\u00e0 c\u00e1ch d\u00f9ng thu\u1ed1c"
+                            ]
+                        }
+                    },
+                    "list_attributes": {
+                        "bulletFontSize": 12,
+                        "bulletFormat": "%s.",
+                        "bulletType": "1",
+                        "leftIndent": 24
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText2"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "hide_condition": "report_text_wrapping_is_cjk",
+                    "string": "If you want to talk about these documents, please call IEHP's Medication Therapy Management team at <b>{hotline_phone}</b> (TTY users call <b>711</b>) {hotline_hours}.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5982\u679c\u60a8\u60f3\u8a0e\u8ad6\u9019\u4e9b\u6587\u4ef6\uff0c\u8acb\u65bc{hotline_hours}\u4e4b\u9593\u81f4\u96fb <b>{hotline_phone}</b> (TTY \u4f7f\u7528\u8005\u8acb\u81f4\u96fb <b>711</b>) \u8207 IEHP \u7684\u85e5\u7269\u6cbb\u7642\u7ba1\u7406\u5718\u968a\u806f\u7d61\u3002",
+                            "Spanish": "Si desea hablar sobre estos documentos, llame al Equipo de Administraci\u00f3n de la Terapia con Medicamentos de IEHP (<i>Medication Therapy Management team</i>) al <b>{hotline_phone} </b> (los usuarios de TTY deben llamar al <b>711</b>), de {hotline_hours}.",
+                            "Vietnamese": "N\u1ebfu qu\u00fd v\u1ecb mu\u1ed1n trao \u0111\u1ed5i v\u1ec1 nh\u1eefng t\u00e0i li\u1ec7u n\u00e0y, vui l\u00f2ng g\u1ecdi cho Nh\u00f3m Qu\u1ea3n l\u00fd Tr\u1ecb li\u1ec7u Thu\u1ed1c c\u1ee7a IEHP  theo s\u1ed1 <b>{hotline_phone}</b> (Ng\u01b0\u1eddi d\u00f9ng TTY g\u1ecdi <b>711</b>) {hotline_hours}."
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText2"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "display_condition": "report_text_wrapping_is_cjk",
+                    "string": "",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u5982\u679c\u60a8\u60f3\u8a0e\u8ad6\u9019\u4e9b\u6587\u4ef6\uff0c\u8acb\u65bc{hotline_hours}\u4e4b\u9593\u81f4\u96fb <b>{hotline_phone}</b> (TTY \u4f7f\u7528\u8005\u8acb\u81f4\u96fb <b>711</b>) \u8207 IEHP \u7684\u85e5\u7269\u6cbb\u7642\u7ba1\u7406\u5718\u968a\u806f\u7d61\u3002"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "parent_style": "ParagraphText",
+                        "wordWrap": "CJK"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "I look forward to working with you and your doctors to make sure your medications work well for you.",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u6211\u671f\u5f85\u80fd\u8207\u60a8\u548c\u60a8\u7684\u91ab\u751f\u5408\u4f5c\uff0c\u4ee5\u78ba\u4fdd\u60a8\u7684\u85e5\u7269\u5c0d\u60a8\u6709\u6548\u3002",
+                            "Spanish": "Espero trabajar junto a usted y sus m\u00e9dicos para asegurarnos de que sus medicamentos le funcionen adecuadamente.",
+                            "Vietnamese": "T\u00f4i r\u1ea5t mong \u0111\u01b0\u1ee3c l\u00e0m vi\u1ec7c v\u1edbi qu\u00fd v\u1ecb v\u00e0 b\u00e1c s\u0129 c\u1ee7a qu\u00fd v\u1ecb \u0111\u1ec3 b\u1ea3o \u0111\u1ea3m thu\u1ed1c c\u1ee7a qu\u00fd v\u1ecb c\u00f3 hi\u1ec7u nghi\u1ec7m. "
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText2"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "Sincerely,",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u656c\u795d\u5b89\u5eb7\u3002",
+                            "Spanish": "Atentamente,",
+                            "Vietnamese": "Tr\u00e2n tr\u1ecdng,"
+                        }
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText2",
+                        "spaceBefore": 24
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "keepWithNext": true,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "leading": 18,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_credentialed_name}<br/>{hotline_name}",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText2"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "x": 36,
+                    "y": 755
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "10 Vantage Point Dr, Ste 1,<br/>Rochester, NY 14624",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText2"
+                    },
+                    "width": 500,
+                    "x": 36,
+                    "y": 615
+                }
+            },
+            {
+                "text": {
+                    "height": 12,
+                    "string": "<b>Health and Wellness or Prevention Information.</b>",
+                    "string_replacements": {
+                        "default": {
+                            "Chinese": "\u200b<b>\u5065\u200b\u5eb7\u200b\u8207\u200b\u4fdd\u200b\u5065\u200b\u6216\u200b\u9810\u200b\u9632\u200b\u8cc7\u200b\u8a0a\u3002</b>",
+                            "Spanish": "<b>Informaci\u00f3n sobre Salud y Bienestar o Prevenci\u00f3n.</b>",
+                            "Vietnamese": "<b>Th\u00f4ng tin v\u1ec1 S\u1ee9c kh\u1ecfe v\u00e0 S\u1ed1ng kh\u1ecfe ho\u1eb7c Ph\u00f2ng ng\u1eeba.</b>"
+                        }
+                    },
+                    "text_style": {
+                        "fontName": "Arial-bold",
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 400,
+                    "x": 72,
+                    "y": 668
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontSize": 8,
+                        "parent_style": "ParagraphText",
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 325,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 155,
+                "left": 72,
+                "right": 72,
+                "top": 90
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Times-New-Roman-normal",
+                "show": true,
+                "skip_cover_page": true
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "FooterPlanText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "text_alignment": "left"
+                },
+                "ParagraphText": {
+                    "fontName": "Times-New-Roman-normal",
+                    "fontSize": 14,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                },
+                "ParagraphText2": {
+                    "fontName": "Arial-normal",
+                    "fontSize": 14,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-06T21:37:12"
+}

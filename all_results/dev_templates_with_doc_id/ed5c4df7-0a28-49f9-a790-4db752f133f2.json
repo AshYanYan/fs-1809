@@ -1,0 +1,427 @@
+{
+    "created": "2023-03-02T16:47:30Z",
+    "id": "ed5c4df7-0a28-49f9-a790-4db752f133f2",
+    "name": "PCP_ADH_QUAL_Prospect",
+    "program": "QUALITY",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "text": {
+                    "height": 10,
+                    "string": "<br/>Name: {patient_full_name}<br/>DOB: {patient_date_birth}",
+                    "string_replacements": {
+                        "priority_health": {
+                            "English": "(cont.)"
+                        }
+                    },
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 250,
+                    "x": 36,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "This communication contains confidential and protected health information. It is intended only for the use of the addressee. If you have received this communication in error, please notify the sender immediately and destroy all copies.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 65
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Helvetica-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "string_replacements": {
+                        "scan": {}
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Clinical Quality Program for Patient: <b>{patient_full_name} (DOB: {patient_date_birth})</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear Dr. {provider_full_name}:",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Our clinical care team member conduct ongoing monitoring of medication records to identify and inform you of patients with any potential gaps-in-care and/or medication nonadherence.<br/><br/><b>Action Requested</b><br/>Please review the information provided and indicate in the last column whether you plan to implement the recommendations and fax us the form at 1 (714) 560-7627. Please call [user.callback_number|pharmacist.phone|patient_org.hotlineInfo.English.phone] with any questions.",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "5%",
+                        "50%",
+                        "30%",
+                        "15%"
+                    ],
+                    "data_source": "provider_recommendations",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [
+                        {
+                            "paragraph": {
+                                "string": "",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Assessment",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Recommendation",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "string": "Accept? (Y/N)",
+                                "text_style": {
+                                    "parent_style": "TableHeaderText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_style": [
+                        {
+                            "VALIGN": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    "TOP"
+                                ]
+                            }
+                        },
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        },
+                        {
+                            "BACKGROUND": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    1
+                                ],
+                                "value": [
+                                    "#EDEDED"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "<b>ACTION TAKEN (please check all applicable):</b>",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "<b>If you would like Prospect Medical to send the following prescriptions on your behalf, please complete the following (the prescription will be under Prospect pharmacist\u2019s name due to Office Ally requirements):</b> <br/> &nbsp;&nbsp;&nbsp;&nbsp; <b>Medication Name & Strength:</b> ________________________ <b>Qty:</b> __________ <br/> &nbsp;&nbsp;&nbsp;&nbsp; <b>Sig:</b> _______________________________________ <b>Refill:</b> _________ <br/> &nbsp;&nbsp;&nbsp;&nbsp; Provider Name/NPI#: ________________________ <br/> &nbsp;&nbsp;&nbsp;&nbsp; Provider Signature: _______________________",
+                        "<b>I will E-Rx a new statin prescription to the patient\u2019s pharmacy</b> <br/> &nbsp;&nbsp;&nbsp;&nbsp; <b>Pharmacy Name/NPI:</b> _______________________________ &nbsp;&nbsp;&nbsp;&nbsp; <br/> &nbsp;&nbsp;&nbsp;&nbsp; Pharmacy Phone: _____________________<br/> &nbsp;&nbsp;&nbsp;&nbsp; Pharmacy Fax: ____________________",
+                        "<b>Patient has an exclusion to statin therapy</b> (document applicable code in your system and check box below):",
+                        [
+                            "Prediabetes (R73.03)",
+                            "Polycystic ovarian syndrome (E28.2)",
+                            "Myopathy or rhabdomyolysis (G72.0, G72.9, M62.82)",
+                            "ESRD (I12.0, I13.11, I13.2, N18.5, N18.6, N19, Z91.15, Z99.2)",
+                            "Liver disease (B18.2, K70.0, K70.31, K71.9, K74.0, etc.)",
+                            "Pregnancy or lactation"
+                        ]
+                    ],
+                    "list_attributes": {
+                        "bulletFontName": "Times-New-Roman-normal",
+                        "bulletType": "bullet",
+                        "start": "\u25a1"
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 70,
+                        "spaceAfter": 1.5,
+                        "spaceBefore": 1.5
+                    },
+                    "sub_list_attributes": {
+                        "bulletFontName": "Times-New-Roman-normal",
+                        "bulletType": "bullet",
+                        "start": "\u25a1"
+                    },
+                    "sub_list_item_attributes": {
+                        "leftIndent": 90,
+                        "spaceAfter": 1,
+                        "spaceBefore": 1
+                    },
+                    "text_style": {
+                        "leading": 20,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "table": {
+                    "column_widths": [
+                        "10%",
+                        "90%"
+                    ],
+                    "data_source": "table_items",
+                    "display_condition": "provider_summary",
+                    "row_template": [
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        },
+                        {
+                            "paragraph": {
+                                "text_style": {
+                                    "parent_style": "ParagraphText"
+                                }
+                            }
+                        }
+                    ],
+                    "table_alignment": "left",
+                    "table_header": [],
+                    "table_items": [
+                        [
+                            {
+                                "string": "<b>Note:</b>"
+                            },
+                            {
+                                "string": "{provider_summary}"
+                            }
+                        ]
+                    ],
+                    "table_style": [
+                        {
+                            "GRID": {
+                                "end": [
+                                    -1,
+                                    -1
+                                ],
+                                "start": [
+                                    0,
+                                    0
+                                ],
+                                "value": [
+                                    1,
+                                    "#BABABA"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Please leave any other comments here about the recommendations or important notes about the patient\u2019s health and <b>fax us the form at 1 (714) 560-7627. We appreciate working with you to provide high quality healthcare for our patients.</b>",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "signature": {
+                    "filename": "{pharmacist_signature}",
+                    "height": 50,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 18,
+                        "leading": 18,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_credentialed_name}<br/>{pharmacist_org_name} PHARMACY DEPARTMENT<br/>Phone: [user.callback_number|pharmacist.phone|patient_org.hotlineInfo.English.phone]",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "image": {
+                    "anchor": "ne",
+                    "filename": "{org_logo}",
+                    "height": 30,
+                    "x": 576,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 8,
+                        "text_alignment": "right"
+                    },
+                    "width": 200,
+                    "x": 376,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 72,
+                "left": 36,
+                "right": 36,
+                "top": 72
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Lato-normal",
+                "show": true,
+                "skip_cover_page": null
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 16,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 16,
+                    "spaceBefore": 12,
+                    "text_alignment": "left"
+                },
+                "TableHeaderText": {
+                    "fontName": "Lato-bold",
+                    "fontSize": 12,
+                    "leading": 14,
+                    "parent_style": "BodyText"
+                }
+            }
+        }
+    },
+    "updated": "2023-12-19T07:13:41"
+}

@@ -1,0 +1,338 @@
+{
+    "created": "2025-03-31T23:34:07Z",
+    "id": "1a8019d9-fdba-44c9-86e9-2d8aa24e3422",
+    "managed": false,
+    "name": "CL_HRHC_HMSA",
+    "program": "HRHC",
+    "renderer_version": "0.1",
+    "resourceType": "PdfTemplate",
+    "template_json": {
+        "content_page_template": [
+            {
+                "image": {
+                    "anchor": "nw",
+                    "height": 40,
+                    "storage": {
+                        "path": "org_logo/hmsa/2025-02-28/hmsa.png",
+                        "type": "s3"
+                    },
+                    "x": 72,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "height": 40,
+                    "storage": {
+                        "path": "org_logo/hmsa/2025-02-28/uhp_dkicp_combined.png",
+                        "type": "s3"
+                    },
+                    "x": 540,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 0,
+                    "string": "Enc.",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 12,
+                        "leading": 12,
+                        "spaceAfter": 12,
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 116
+                }
+            },
+            {
+                "text": {
+                    "height": 0,
+                    "string": "University Health Partners is an independent company providing Medication Therapy Management Program services on behalf of HMSA.",
+                    "text_style": {
+                        "fontName": "Lato-normal",
+                        "fontSize": 10,
+                        "leading": 12,
+                        "spaceAfter": 12,
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 98
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "storage": {
+                        "path": "assets/hmsa/2025-05-22/FS-3011/hmsa-blue-footer-content.png",
+                        "type": "s3"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 70
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "1300-910794",
+                    "text_style": {
+                        "parent_style": "DocIDText",
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 20
+                }
+            }
+        ],
+        "document_content": [
+            {
+                "pagebreak": {}
+            },
+            {
+                "paragraph": {
+                    "string": "{letter_date}",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceAfter": 18
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{patient_full_address}",
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Dear {patient_full_name},",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 18
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Thank you for talking with me on {cmr_date} about your health and medications.",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 12
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Enclosed with this letter is a Medication Action Plan and a Personal Medication List that we've completed for you. The action plan has steps you should take to help you get the best results from your medications. The medication list will help you keep track of your medications and use them the right way.<br/> <br/> Here's how to make the best use of the action plan and list:",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 12
+                    }
+                }
+            },
+            {
+                "list": {
+                    "items": [
+                        "Take them with you when you see your doctors, pharmacists, and other health care providers.",
+                        "Ask your doctors, pharmacists, and other health care providers to update the action plan and medication list at every visit.",
+                        "If you're admitted to the hospital, take your medication list with you.",
+                        "Give a copy of the action plan and medication list to your family or caregivers."
+                    ],
+                    "list_attributes": {
+                        "bulletFontSize": 14,
+                        "bulletType": "bullet",
+                        "leftIndent": 24,
+                        "spaceAfter": 12,
+                        "spaceBefore": 12
+                    },
+                    "list_item_attributes": {
+                        "leftIndent": 36
+                    },
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "If you have questions about this letter or any of the materials, call University Health Partners at {hotline_phone} {hotline_hours}. We look forward to working with you to help you be as healthy as possible.",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "Sincerely,",
+                    "text_style": {
+                        "parent_style": "ParagraphText",
+                        "spaceBefore": 18
+                    }
+                }
+            },
+            {
+                "signature": {
+                    "filename": "{pharmacist_signature}",
+                    "height": 45,
+                    "string": "{pharmacist_name}",
+                    "text_style": {
+                        "fontName": "Lucida-Handwriting-normal",
+                        "fontSize": 17,
+                        "leading": 17,
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            },
+            {
+                "paragraph": {
+                    "string": "{pharmacist_job_title}<br/>{pharmacist_credentialed_name}<br/>University Health Partners",
+                    "string_replacements": {},
+                    "text_style": {
+                        "parent_style": "ParagraphText"
+                    }
+                }
+            }
+        ],
+        "first_page_template": [
+            {
+                "text": {
+                    "height": 14,
+                    "string": "<font color = '#ffffff'>DriverPage</font>",
+                    "text_style": {
+                        "fontName": "Times-New-Roman-normal",
+                        "fontSize": 10,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 108,
+                    "x": 18,
+                    "y": 760
+                }
+            },
+            {
+                "image": {
+                    "anchor": "nw",
+                    "height": 40,
+                    "storage": {
+                        "path": "org_logo/hmsa/2025-02-28/hmsa.png",
+                        "type": "s3"
+                    },
+                    "x": 72,
+                    "y": 756
+                }
+            },
+            {
+                "image": {
+                    "anchor": "ne",
+                    "height": 40,
+                    "storage": {
+                        "path": "org_logo/hmsa/2025-02-28/uhp_dkicp_combined.png",
+                        "type": "s3"
+                    },
+                    "x": 540,
+                    "y": 756
+                }
+            },
+            {
+                "text": {
+                    "height": 100,
+                    "string": "{patient_mailing_address}",
+                    "text_style": {
+                        "fontSize": 12,
+                        "parent_style": "ParagraphText"
+                    },
+                    "width": 276,
+                    "x": 72,
+                    "y": 530
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "1300-910794",
+                    "text_style": {
+                        "parent_style": "DocIDText",
+                        "text_alignment": "left"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 20
+                }
+            },
+            {
+                "text": {
+                    "height": 10,
+                    "string": "{doc_id}",
+                    "text_style": {
+                        "parent_style": "DocIDText",
+                        "text_alignment": "right"
+                    },
+                    "width": 540,
+                    "x": 36,
+                    "y": 20
+                }
+            }
+        ],
+        "layout": {
+            "margin": {
+                "bottom": 122,
+                "left": 66,
+                "right": 66,
+                "top": 100
+            },
+            "orientation": null,
+            "pagination": {
+                "font_name": "Lato-normal",
+                "font_size": 10,
+                "show": true,
+                "skip_cover_page": true,
+                "y": 26
+            }
+        },
+        "localization": {
+            "date_formats": {}
+        },
+        "typography": {
+            "fonts": {},
+            "text_styles": {
+                "DocIDText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 8,
+                    "leading": 10,
+                    "parent_style": "BodyText",
+                    "text_alignment": "right"
+                },
+                "ParagraphText": {
+                    "fontName": "Lato-normal",
+                    "fontSize": 12,
+                    "leading": 12,
+                    "parent_style": "BodyText",
+                    "spaceAfter": 12,
+                    "text_alignment": "left"
+                }
+            }
+        }
+    },
+    "updated": "2025-05-22T23:55:57"
+}
